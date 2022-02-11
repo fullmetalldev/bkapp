@@ -7,7 +7,7 @@ import logo from "./imgs/logo.svg";
 import burger from "./imgs/burger.svg";
 import search from "./imgs/search.svg";
 
-const Header = () => {
+const Header = ({language, setLanguage}) => {
     return (
         <header className="header">
 
@@ -41,13 +41,14 @@ const Header = () => {
                         </div>
                         <div className="header__down-right">
                             <div className="header__down-search">
+                                <input type="text" placeholder="Введите" className="header__down-search-inp"/>
                                 <img src={search} className="header__down-search-svg" alt="search icon"/>
                                 <h2 className="header__down-search-title">Поиск</h2>
                             </div>
                             <div className="header__down-language">
-                                <span className="header__down-language_ru">RU</span>
-                                    <input className="header__down-language-checkbox" type="checkbox"/>
-                                <span className="header__down-language_eng">EN</span>
+                                <span className={language === 'ru' ? "header__down-language_ru activeLang" : "header__down-language_ru"}>RU</span>
+                                    <input className="header__down-language-checkbox" type="checkbox" onChange={(e)=> e.target.checked ? setLanguage('eng') : setLanguage('ru')}/>
+                                <span className={language === 'eng' ? "header__down-language_eng activeLang" : "header__down-language_eng"}>EN</span>
                             </div>
                             <div className="header__down-cart">
                                 <img src={bag} className="header__down-search-svg" alt="search icon"/>

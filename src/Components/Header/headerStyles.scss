@@ -126,9 +126,20 @@
       line-height: 24px;
       text-transform: uppercase;
       color: rgba(0, 0, 0, 0.25);
+      transition: 0.3s;
 
-
+      .activeLang{
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000;
+        transition: 0.3s;
+      }
       &-checkbox {
+        cursor: pointer;
         position: relative;
         -webkit-appearance: none;
         width: 50px;
@@ -141,7 +152,6 @@
 
         display: flex;
         align-items: center;
-        justify-content: flex-start;
         transition: 0.5s;
       }
 
@@ -152,13 +162,13 @@
         height: 20.69px;
         background: #569E28;
         border-radius: 50%;
+        left: 5px;
         transition: 0.5s;
       }
 
-      &-checkbox:checked {
-        justify-content: flex-end;
+      &-checkbox:checked::before {
+        left: 23px;
         transition: 0.5s;
-        animation: 0.5s linear left;
       }
     }
 
