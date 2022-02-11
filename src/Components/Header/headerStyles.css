@@ -59,14 +59,108 @@
 }
 .header__down {
   background-color: #FFFFFF;
-  padding: 19px 0;
   display: flex;
   align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 .header__down-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header__down-left {
+  display: flex;
+  column-gap: 50px;
+}
+.header__down-right {
+  display: flex;
+  column-gap: 60px;
+}
+.header__down-search {
+  display: flex;
+  column-gap: 12px;
+  padding: 18px 0;
+  position: relative;
+}
+.header__down-search-title {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.header__down-search:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: -30px;
+}
+.header__down-language {
+  display: flex;
+  align-items: center;
+  position: relative;
+  column-gap: 10px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.25);
+}
+.header__down-language-checkbox {
+  position: relative;
+  -webkit-appearance: none;
+  width: 50px;
+  height: 27.59px;
+  background: #FFFFFF;
+  border: 0.862069px solid #DDCBB5;
+  box-sizing: border-box;
+  border-radius: 86.2069px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: 0.5s;
+}
+.header__down-language-checkbox::before {
+  content: "";
+  position: absolute;
+  width: 20.69px;
+  height: 20.69px;
+  background: #569E28;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.header__down-language-checkbox:checked {
+  justify-content: flex-end;
+  transition: 0.5s;
+  animation: 0.5s linear left;
+}
+.header__down-language:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: -30px;
+}
+.header__down-cart {
+  display: flex;
+  align-items: center;
+  position: relative;
+  column-gap: 12px;
+}
+.header__down-cart:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: -30px;
 }
 
 /*# sourceMappingURL=headerStyles.css.map */

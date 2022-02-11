@@ -44,6 +44,15 @@ const Header = () => {
                                 <img src={search} className="header__down-search-svg" alt="search icon"/>
                                 <h2 className="header__down-search-title">Поиск</h2>
                             </div>
+                            <div className="header__down-language">
+                                <span className="header__down-language_ru">RU</span>
+                                    <input className="header__down-language-checkbox" type="checkbox"/>
+                                <span className="header__down-language_eng">EN</span>
+                            </div>
+                            <div className="header__down-cart">
+                                <img src={bag} className="header__down-search-svg" alt="search icon"/>
+                                <h2 className="header__down-search-title">Корзина</h2>
+                            </div>
                         </div>
                     </nav>
                 </div>
