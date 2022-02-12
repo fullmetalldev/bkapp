@@ -537,6 +537,7 @@
   font-size: 36px;
   line-height: 44px;
   color: #FFFFFF;
+  border: none;
 }
 .text__title {
   font-weight: bold;
