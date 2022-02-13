@@ -45,6 +45,13 @@
         column-gap: 12px;
         font-size: 20px;
         text-transform: uppercase;
+        & a {
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 24px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+        }
       }
 
       &_btn {

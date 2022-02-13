@@ -7,6 +7,7 @@ import bfrPrd1 from "./imgs/beforePrd2.png";
 import bfrPrd2 from "./imgs/beforePrd1.png";
 import back from "./imgs/BackGroundForm.png";
 import CatalogProducts from "./CatalogProducts/CatalogProducts";
+import CatalogBtns from "../../Components/CatalogBtns/CatalogBtns";
 
 const CatalogSection = () => {
 
@@ -23,15 +24,7 @@ const CatalogSection = () => {
                     <h4 className="sectionCatalog__info">Используем современные безопасные материалы и добавки,
                         высокотехнологичное оборудование для создания уникальных свойств изделий.
                     </h4>
-
-                    <div className="sectionCatalog__buttonsRow">
-                        <a href="#test" className="sectionCatalog__buttonsRow-transperentBtn">
-                            Скачать каталог
-                        </a>
-                        <button className="sectionCatalog__buttonsRow-greenBtn">
-                            Запросить прайс лист
-                        </button>
-                    </div>
+                    <CatalogBtns/>
 
                     <div className="sectionCatalog__complectsRow">
                         <div className="sectionCatalog__complectsRow-card">

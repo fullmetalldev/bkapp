@@ -24,7 +24,7 @@ const Header = ({language, setLanguage}) => {
                             </li>
                             <li className="header__up-right_call">
                                 <img src={call} alt="call"/>
-                                <span>+ 7 (383)-377-77-32</span>
+                                <a href="tel:+73833777732">+ 7 (383)-377-77-32</a>
                             </li>
                             <li className="header__up-right_btn">
                                 <button className="header__up-right_button">Заказать звонок</button>
