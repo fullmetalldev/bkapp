@@ -1,3 +1,212 @@
+.sectionCatalog__filterRow {
+  display: flex;
+  column-gap: 40px;
+  width: 100%;
+}
+.sectionCatalog__filterRow .arrow {
+  transition: 0.3s;
+}
+.sectionCatalog__filterRow-filter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 283px;
+  align-items: center;
+  border-bottom: 2px solid #CADBF1;
+  padding-bottom: 25px;
+  position: relative;
+}
+.sectionCatalog__filterRow-filter .titleFilter {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: "liga" off, "kern" off;
+  color: #000000;
+}
+.sectionCatalog__filterRow-checkbox {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #727272;
+  box-sizing: border-box;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.sectionCatalog__filterRow-checkRow {
+  z-index: 10;
+  left: 0;
+  bottom: -225%;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid #CADBF1;
+}
+.sectionCatalog__filterRow-checkRow .checkboxRow {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  padding: 15px;
+}
+.sectionCatalog__filterRow-checkRow .checkboxTitle {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  font-feature-settings: "liga" off, "kern" off;
+  color: #000000;
+}
 
+.sectionCatalog__filterRow-filter:hover {
+  cursor: pointer;
+}
+.sectionCatalog__filterRow-filter:hover .arrow {
+  transition: 0.3s;
+  transform: rotate(180deg);
+}
+.sectionCatalog__filterRow-filter:hover .sectionCatalog__filterRow-checkRow {
+  background-color: #FFFFFF;
+  display: flex;
+  animation: start linear 0.5s;
+}
+
+@keyframes start {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.sectionCatalog__afterFilterButtons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.sectionCatalog__afterFilterButtons-button {
+  border: none;
+  background-color: #DDCBB5;
+  padding: 18px 55px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+.sectionCatalog__afterFilterButtons-href {
+  font-family: Montserrat, sans-serif;
+  padding: 18px 26px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.sectionCatalog__productsRow {
+  display: flex;
+  column-gap: 40px;
+  row-gap: 40px;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+.sectionCatalog__productsRow-card {
+  padding: 33px 0;
+  align-items: center;
+  width: calc(25% - 30px);
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  background: rgba(221, 203, 181, 0.15);
+  border-radius: 1px;
+}
+.sectionCatalog__productsRow-card_name {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-feature-settings: "liga" off, "kern" off;
+  color: #000000;
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+.sectionCatalog__productsRow-card_ml {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: "liga" off, "kern" off;
+  color: #000000;
+  opacity: 0.5;
+}
+.sectionCatalog__productsRow-card_btn {
+  border: none;
+  padding: 14px 115px;
+  background: #DDCBB5;
+  border-radius: 1px;
+  margin-top: 14px;
+  margin-bottom: 20px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.sectionCatalog__productsRow-card_href {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  font-feature-settings: "liga" off, "kern" off;
+  color: #000000;
+}
+
+.sectionCatalog__pagesChange {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 40px;
+  margin: 70px 0;
+}
+.sectionCatalog__pagesChange-page {
+  font-family: Montserrat, sans-serif;
+  border: none;
+  background: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  position: relative;
+}
+.sectionCatalog__pagesChange .activePage:before {
+  z-index: -1;
+  content: "";
+  background: #DDCBB5;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /*# sourceMappingURL=catalogProducts.css.map */

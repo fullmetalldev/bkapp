@@ -158,5 +158,96 @@
   text-align: center;
   margin-bottom: 45px;
 }
+.sectionCatalog__form {
+  width: 100%;
+  background: #BBD0BD;
+  border-radius: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+.sectionCatalog__form-right img {
+  height: 100%;
+}
+.sectionCatalog__form-label {
+  display: flex;
+  column-gap: 25px;
+}
+.sectionCatalog__form-label input {
+  background: #FFFFFF;
+  border-radius: 1px;
+  border: none;
+  padding: 15px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.sectionCatalog__form-label input::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.sectionCatalog__form-title {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  text-transform: capitalize;
+  color: #3F3F3F;
+}
+.sectionCatalog__form-left {
+  padding: 78px 0 0 97px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.sectionCatalog__form-btnAndInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionCatalog__form-btnAndInfo .infoAndCheckbox {
+  display: flex;
+  column-gap: 10px;
+}
+.sectionCatalog__form-btnAndInfo .infoAndCheckbox_title {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #3F3F3F;
+}
+.sectionCatalog__form-btnAndInfo .infoAndCheckbox_checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.sectionCatalog__form-btnAndInfo_button {
+  border: none;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding: 15px 65px;
+  background: #569E28;
+  border-radius: 1px;
+}
+.sectionCatalog__infoTitle {
+  margin-top: 70px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.8);
+}
 
 /*# sourceMappingURL=catalog.css.map */

@@ -1,11 +1,13 @@
-.sectionCatalog{
+.sectionCatalog {
   padding: 40px 0;
-  &__row{
+
+  &__row {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-  &__whichSection{
+
+  &__whichSection {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -13,7 +15,8 @@
     line-height: 21px;
     color: #393939;
   }
-  &__title{
+
+  &__title {
     margin-top: 70px;
     font-family: Montserrat, sans-serif;
     font-style: normal;
@@ -22,7 +25,8 @@
     line-height: 59px;
     color: #45423F;
   }
-  &__info{
+
+  &__info {
     margin-top: 30px;
     font-family: Montserrat, sans-serif;
     font-style: normal;
@@ -31,10 +35,12 @@
     line-height: 26px;
     color: rgba(0, 0, 0, 0.8);
   }
-  &__buttonsRow{
+
+  &__buttonsRow {
     align-self: flex-end;
     margin-top: 50px;
-    &-transperentBtn{
+
+    &-transperentBtn {
       font-family: Montserrat, sans-serif;
       padding: 18px 26px;
       cursor: pointer;
@@ -45,7 +51,8 @@
       text-decoration-line: underline;
       color: #000000;
     }
-    &-greenBtn{
+
+    &-greenBtn {
       border: none;
       background-color: #569E28;
       padding: 18px 26px;
@@ -58,12 +65,14 @@
 
     }
   }
-  &__complectsRow{
+
+  &__complectsRow {
     display: flex;
     justify-content: center;
     column-gap: 40px;
     margin-top: 30px;
-    &-card{
+
+    &-card {
       user-select: none;
       width: 500px;
       height: 275px;
@@ -73,7 +82,8 @@
       justify-content: center;
       align-items: center;
       position: relative;
-      &_title{
+
+      &_title {
         position: absolute;
         width: 329px;
         display: flex;
@@ -93,11 +103,13 @@
       }
     }
   }
-  &__beforeProductsRow{
+
+  &__beforeProductsRow {
     display: flex;
     column-gap: 40px;
     margin-top: 40px;
-    &-card{
+
+    &-card {
       padding: 30px 40px;
       position: relative;
       background: rgba(221, 203, 181, 0.15);
@@ -107,13 +119,15 @@
       display: flex;
       flex-direction: column;
       row-gap: 20px;
-      img{
+
+      img {
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
       }
-      &_title{
+
+      &_title {
         font-family: Montserrat, sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -121,7 +135,8 @@
         line-height: 26px;
         color: #000000;
       }
-      &_ul{
+
+      &_ul {
         display: flex;
         column-gap: 50px;
         font-family: Roboto, sans-serif;
@@ -132,18 +147,21 @@
         color: #000000;
 
       }
-      &_left{
+
+      &_left {
         row-gap: 18px;
         display: flex;
         flex-direction: column;
       }
-      &_right{
+
+      &_right {
         row-gap: 18px;
         display: flex;
         flex-direction: column;
       }
     }
-    .sectionCatalog__beforeProductsRow-card_red{
+
+    .sectionCatalog__beforeProductsRow-card_red {
       font-family: Roboto, sans-serif;
       font-style: normal;
       font-weight: normal;
@@ -154,10 +172,119 @@
 
     }
   }
-  .section__title{
+
+  .section__title {
     width: 100%;
     margin-top: 70px;
     text-align: center;
     margin-bottom: 45px;
   }
+
+  &__form {
+    width: 100%;
+    background: #BBD0BD;
+    border-radius: 1px;
+    display: flex;
+    justify-content: space-between;
+
+    &-right {
+      img {
+        height: 100%;
+      }
+    }
+
+    &-label {
+      display: flex;
+      column-gap: 25px;
+
+      input {
+        background: #FFFFFF;
+        border-radius: 1px;
+        border: none;
+        padding: 15px;
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        color: rgba(0, 0, 0, 0.65);
+      }
+
+      input::placeholder {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        color: rgba(0, 0, 0, 0.65);
+      }
+    }
+
+    &-title {
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 65px;
+      text-transform: capitalize;
+      color: #3F3F3F;
+    }
+
+    &-left {
+      padding: 78px 0 0 97px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    &-btnAndInfo {
+      display: flex;
+      justify-content: space-between;
+
+      .infoAndCheckbox {
+        display: flex;
+        column-gap: 10px;
+
+        &_title {
+          font-family: Montserrat, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 26px;
+          color: #3F3F3F;
+        }
+
+        &_checkbox {
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+        }
+      }
+
+      &_button {
+        border: none;
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+
+        padding: 15px 65px;
+        background: #569E28;
+        border-radius: 1px;
+      }
+    }
+  }
+
+  &__infoTitle {
+    margin-top: 70px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.8);
+  }
 }
+
