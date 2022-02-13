@@ -35,13 +35,13 @@ const History = () => {
                             </div>
                         </div>
                         <div className="history__main-block_right">
-                            <img className="history__main-block_right-img" src={img} alt="image"/>
+                            <img className="history__main-block_right-img" src={img} alt="image1"/>
                         </div>
                     </section>
 
                     <section className="history__main-block">
                         <div className="history__main-block_right">
-                            <img className="history__main-block_right-img" src={img2} alt="image"/>
+                            <img className="history__main-block_right-img" src={img2} alt="image2"/>
                         </div>
                         <div className="history__main-block_left">
                             <div className="history__main-block_titleBlock">
@@ -94,7 +94,7 @@ const History = () => {
                         </div>
                     </div>
                     <div className="history__main-block_right">
-                        <img className="history__main-block_right-img" src={img3} alt="image"/>
+                        <img className="history__main-block_right-img" src={img3} alt="image3"/>
                     </div>
                 </section>
 

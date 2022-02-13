@@ -22,7 +22,7 @@ const CatalogSection = () => {
                     </h4>
 
                     <div className="sectionCatalog__buttonsRow">
-                        <a className="sectionCatalog__buttonsRow-transperentBtn">
+                        <a href="#test" className="sectionCatalog__buttonsRow-transperentBtn">
                             Скачать каталог
                         </a>
                         <button className="sectionCatalog__buttonsRow-greenBtn">
