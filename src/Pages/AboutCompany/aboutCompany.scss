@@ -1,3 +1,249 @@
 .aboutCompanyHome {
-  
+  padding: 130px 0 70px;
+  &__row {
+    margin: 70px 0;
+    display: flex;
+    column-gap: 50px;
+  }
+  &__card {
+    &_title {
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 44px;
+      color: rgba(0, 0, 0, 0.8);
+      margin: 0 0 40px;
+    }
+    &_subtitle {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 37px;
+      color: #000000;
+      &-margin {
+        margin: 20px 0 50px;
+      }
+    }
+    &_descr {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      color: rgba(0, 0, 0, 0.8);
+      position: relative;
+      padding: 0 0 0 30px;
+      &::before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: #569E28;
+        position: absolute;
+        transform: translateY(75%);
+        left: 0;
+        top: 0;
+        border-radius: 50%;
+      }
+      &-margin {
+        margin: 30px 0;
+      }
+    }
+  }
+
+  &__item {
+    background: rgba(202, 219, 241, 0.15);
+    border-radius: 1px;
+    padding: 30px 40px;
+    &_subtitle {
+      padding: 0 0 0 30px;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 40px;
+      color: rgba(0, 0, 0, 0.8);
+      border-left: 4px solid #569E28;
+    }
+  }
+}
+
+.aboutFacts {
+  padding: 0 0 70px;
+  & h2 {
+    text-align: center;
+  }
+  &__row {
+    margin: 40px 0 70px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  &__card {
+    width: calc((100% / 4) - 15px);
+    padding: 30px 30px 60px 30px;
+    background: rgba(202, 219, 241, 0.15);
+    border-radius: 1px;
+    &_title {
+      margin: 20px 0 0;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(0, 0, 0, 0.8);
+    }
+    &_img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #BBD0BD;
+      border-radius: 1.11323px;
+      width: 64px;
+      height: 64px;
+    }
+  }
+  &__subtitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0 0 30px;
+  }
+  &__descr {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+.cycle {
+  position: relative;
+  padding: 0 0 170px;
+  & h2 {
+    text-align: center;
+    margin: 0 0 150px;
+  }
+  &__img {
+    position: absolute;
+    top: 150px;
+    left: 0;
+  }
+  &__polygon {
+    width: 480px;
+    height: 480px;
+    margin: 0 auto;
+    border: 20px solid #CADBF195;
+    border-radius: 50%;
+    position: relative;
+    &_logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &_list {
+      width: 120px;
+      height: 120px;
+      position: relative;
+    }
+    &_card {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      &-img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+      }
+      &-item {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &-title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 34px;
+        color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+      }
+    }
+    & .first {
+      left: 50%;
+      top: 0;
+      transform: translate(-50%, -50%);
+      & p {
+        width: 317px;
+        left: 50%;
+        top: -20px;
+        transform: translate(-45%, -100%);
+      }
+    }
+    & .second {
+      left: 95%;
+      top: 25%;
+      transform: translate(-50%, -50%);
+      & p {
+        width: 297px;
+        right: -20px;
+        top: 50%;
+        transform: translate(100%, -50%);
+      }
+    }
+    & .third {
+      right: 95%;
+      top: 25%;
+      transform: translate(50%, -50%);
+      & p {
+        width: 221px;
+        left: -20px;
+        top: 50%;
+        transform: translate(-100%, -50%);
+      }
+    }
+    & .fourth {
+      right: 95%;
+      top: 75%;
+      transform: translate(50%, -50%);
+      & p {
+        width: 217px;
+        left: -20px;
+        top: 50%;
+        transform: translate(-100%, -50%);
+      }
+    }
+    & .fifth {
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 50%);
+      & p {
+        width: 547px;
+        left: 50%;
+        bottom: -20px;
+        transform: translate(-50%, 100%);
+      }
+    }
+    & .sixth {
+      left: 95%;
+      top: 75%;
+      transform: translate(-50%, -50%);
+      & p {
+        width: 254px;
+        right: -20px;
+        top: 50%;
+        transform: translate(100%, -50%);
+      }
+    }
+  }
+}
+
+.aboutCompany {
+  position: relative;
+  &__button {
+    position: absolute;
+    top: 700px;
+    right: 0;
+  }
+  &__bag {
+    position: absolute;
+    top: 1500px;
+    right: 0;
+  }
 }
