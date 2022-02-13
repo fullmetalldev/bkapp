@@ -6,6 +6,7 @@ import comp3 from "./imgs/complect3.png";
 import bfrPrd1 from "./imgs/beforePrd2.png";
 import bfrPrd2 from "./imgs/beforePrd1.png";
 import CatalogProducts from "./CatalogProducts/CatalogProducts";
+import CatalogBtns from "../../Components/CatalogBtns/CatalogBtns";
 
 const CatalogSection = () => {
     return (
@@ -20,15 +21,7 @@ const CatalogSection = () => {
                     <h4 className="sectionCatalog__info">Используем современные безопасные материалы и добавки,
                         высокотехнологичное оборудование для создания уникальных свойств изделий.
                     </h4>
-
-                    <div className="sectionCatalog__buttonsRow">
-                        <a href="#test" className="sectionCatalog__buttonsRow-transperentBtn">
-                            Скачать каталог
-                        </a>
-                        <button className="sectionCatalog__buttonsRow-greenBtn">
-                            Запросить прайс лист
-                        </button>
-                    </div>
+                    <CatalogBtns/>
 
                     <div className="sectionCatalog__complectsRow">
                         <div className="sectionCatalog__complectsRow-card">
@@ -67,7 +60,8 @@ const CatalogSection = () => {
                                     <span>Крепления для подоконника</span>
                                 </div>
                                 <div className="sectionCatalog__beforeProductsRow-card_right">
-                                    <span className="sectionCatalog__beforeProductsRow-card_red">Дренажные колпачки</span>
+                                    <span
+                                        className="sectionCatalog__beforeProductsRow-card_red">Дренажные колпачки</span>
                                     <span>Ручки балконные</span>
                                 </div>
                             </div>
@@ -75,7 +69,8 @@ const CatalogSection = () => {
 
                         </div>
                         <div className="sectionCatalog__beforeProductsRow-card">
-                            <h2 className="sectionCatalog__beforeProductsRow-card_title">Комплектующие для натяжных потолков
+                            <h2 className="sectionCatalog__beforeProductsRow-card_title">Комплектующие для натяжных
+                                потолков
                             </h2>
                             <div className="sectionCatalog__beforeProductsRow-card_ul">
                                 <div className="sectionCatalog__beforeProductsRow-card_left">

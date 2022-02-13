@@ -11,6 +11,7 @@ import Benefits from "./Pages/Benefits/Benefits";
 import Mission from "./Pages/Mission/Mission";
 import Polypropylene from "./Pages/Polypropylene/Polypropylene";
 import AboutCompany from "./Pages/AboutCompany/AboutCompany";
+import PlasticTableware from "./Pages/PlasticTableware/PlasticTableware";
 
 function App() {
 
@@ -23,11 +24,12 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/history" element={<History/>}/>
-                <Route path="/catalog" element={<CatalogSection/>}/>
+                <Route path="/catalog/accessories" element={<CatalogSection/>}/>
                 <Route path="/mission" element={<Mission/>}/>
                 <Route path="/benefits" element={<Benefits/>}/>
                 <Route path="/polypropylene" element={<Polypropylene/>}/>
                 <Route path="/about" element={<AboutCompany/>}/>
+                <Route path="/catalog/tableware" element={<PlasticTableware/>}/>
             </Routes>
             <Footer/>
         </div>

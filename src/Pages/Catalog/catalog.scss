@@ -32,7 +32,9 @@
     color: rgba(0, 0, 0, 0.8);
   }
   &__buttonsRow{
-    align-self: flex-end;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
     margin-top: 50px;
     &-transperentBtn{
       font-family: Montserrat, sans-serif;
