@@ -6,6 +6,7 @@ import Footer from "./Components/Footer/Footer";
 import History from "./Components/History/History";
 import Home from "./Components/Home/Home";
 import Scroll from "./Components/Scroll/Scroll";
+import CatalogSection from "./Components/Catalog/CatalogSection";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/history" element={<History/>}/>
+                <Route path="/catalog" element={<CatalogSection/>}/>
             </Routes>
             <Footer/>
         </div>
