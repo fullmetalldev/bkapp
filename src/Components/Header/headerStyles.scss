@@ -17,6 +17,7 @@
 
     &-title {
       font-size: 20px;
+      transition: 0.5s;
     }
 
     &-navbar {
@@ -93,6 +94,30 @@
       column-gap: 12px;
       padding: 18px 0;
       position: relative;
+      cursor: pointer;
+      transition: 0.5s;
+
+      &-inp {
+        display: none;
+        font-family: Roboto, sans-serif;
+        border: none;
+        outline: none;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        animation: linear 0.5s start;
+      }
+
+      &-inp::placeholder {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+      }
 
       &-title {
         font-family: Montserrat, sans-serif;
@@ -103,6 +128,19 @@
         color: #000000;
       }
     }
+
+    &-search:hover {
+      .header__down-search-inp {
+        display: flex;
+      }
+
+      .header__down-search-title {
+        font-size: 0;
+        transition: 0.5s;
+      }
+
+    }
+
 
     &-search:before {
       position: absolute;
@@ -118,7 +156,6 @@
       align-items: center;
       position: relative;
       column-gap: 10px;
-
       font-family: Montserrat, sans-serif;
       font-style: normal;
       font-weight: 300;
@@ -128,7 +165,7 @@
       color: rgba(0, 0, 0, 0.25);
       transition: 0.3s;
 
-      .activeLang{
+      .activeLang {
         font-family: Montserrat, sans-serif;
         font-style: normal;
         font-weight: 300;
@@ -138,6 +175,7 @@
         color: #000000;
         transition: 0.3s;
       }
+
       &-checkbox {
         cursor: pointer;
         position: relative;
@@ -198,4 +236,13 @@
     }
   }
 
+}
+
+@keyframes start {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100%;
+  }
 }

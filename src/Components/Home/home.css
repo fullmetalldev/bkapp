@@ -14,12 +14,12 @@
   display: flex;
 }
 .first-screen__left {
-  background-image: url("./imgs/firstscreen-left.svg");
+  background: url("./imgs/firstscreen-left.svg") center/cover;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .first-screen__right {
-  background-image: url("./imgs/firstscreen-right.svg");
+  background: url("./imgs/firstscreen-right.svg") center/cover;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -255,7 +255,7 @@
   background: #FFFFFF !important;
 }
 .sale__card {
-  background-image: url("./imgs/salebg.png");
+  background: url("./imgs/salebg.png") center/cover;
   padding: 88px 0;
 }
 .sale__title {
