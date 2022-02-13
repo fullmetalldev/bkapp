@@ -1,0 +1,79 @@
+.history {
+  padding: 40px 0;
+  position: relative;
+}
+.history__button {
+  position: absolute;
+  top: 650px;
+  right: 0;
+}
+.history__bag {
+  position: absolute;
+  top: 1400px;
+  right: 0;
+}
+.history__main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.history__main-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #393939;
+}
+.history__main-titleHistory {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #45423F;
+}
+.history__main-block {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  column-gap: 50px;
+  margin-bottom: 30px;
+}
+.history__main-block_right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.history__main-block_right img {
+  width: 100%;
+}
+.history__main-block_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  justify-content: center;
+}
+.history__main-block_titleBlock {
+  text-align: start;
+}
+.history__main-block_titleBlock-title {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #9D8675;
+}
+.history__main-block_titleBlock-info {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  color: #45423F;
+}
+
+/*# sourceMappingURL=historyStyle.css.map */

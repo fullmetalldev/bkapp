@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./headerStyles.css";
 import tg from "./imgs/telegram.svg";
 import call from "./imgs/call.svg";
@@ -8,6 +8,8 @@ import burger from "./imgs/burger.svg";
 import search from "./imgs/search.svg";
 
 const Header = ({language, setLanguage}) => {
+
+
     return (
         <header className="header">
 
@@ -46,9 +48,12 @@ const Header = ({language, setLanguage}) => {
                                 <h2 className="header__down-search-title">Поиск</h2>
                             </div>
                             <div className="header__down-language">
-                                <span className={language === 'ru' ? "header__down-language_ru activeLang" : "header__down-language_ru"}>RU</span>
-                                    <input className="header__down-language-checkbox" type="checkbox" onChange={(e)=> e.target.checked ? setLanguage('eng') : setLanguage('ru')}/>
-                                <span className={language === 'eng' ? "header__down-language_eng activeLang" : "header__down-language_eng"}>EN</span>
+                                <span
+                                    className={language === 'ru' ? "header__down-language_ru activeLang" : "header__down-language_ru"}>RU</span>
+                                <input className="header__down-language-checkbox" type="checkbox"
+                                       onChange={(e) => e.target.checked ? setLanguage('eng') : setLanguage('ru')}/>
+                                <span
+                                    className={language === 'eng' ? "header__down-language_eng activeLang" : "header__down-language_eng"}>EN</span>
                             </div>
                             <div className="header__down-cart">
                                 <img src={bag} className="header__down-search-svg" alt="search icon"/>

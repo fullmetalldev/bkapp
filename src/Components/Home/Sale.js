@@ -7,7 +7,6 @@ import { Autoplay, Pagination } from "swiper";
 const Sale = () => {
     return (
         <section className="sale">
-            <div className="container">
                 <Swiper
                     direction={"vertical"}
                     slidesPerView={1}
@@ -59,7 +58,6 @@ const Sale = () => {
                         </div>
                     </SwiperSlide>
                 </Swiper>
-            </div>
         </section>
     );
 };

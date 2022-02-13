@@ -1,4 +1,5 @@
 .benefits {
+  position: relative;
   padding: 130px 0 160px;
 }
 .benefits__title {
@@ -13,6 +14,16 @@
   display: flex;
   flex-wrap: wrap;
   column-gap: 40px;
+}
+.benefits__button {
+  position: absolute;
+  right: 0;
+  top: 300px;
+}
+.benefits__bag {
+  position: absolute;
+  right: 0;
+  top: 1085px;
 }
 
 /*# sourceMappingURL=benefits.css.map */

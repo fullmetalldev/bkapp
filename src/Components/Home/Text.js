@@ -3,7 +3,6 @@ import React from 'react';
 const Text = () => {
     return (
         <section className="text">
-            <button className="text__btn" type="button">Напишите нам</button>
             <div className="container">
                 <h2 className="text__title">Заголовок</h2>
                 <p className="text__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.

@@ -15,3 +15,9 @@
     color: #FFFFFF;
   }
 }
+
+@media (max-width: 1820px) {
+  .details__order {
+    display: none;
+  }
+}

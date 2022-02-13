@@ -1,5 +1,12 @@
 .details__bag {
-  width: 100%;
+  width: 104px;
+  height: 87px;
+}
+
+@media (max-width: 1820px) {
+  .details__bag {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=bag.css.map */

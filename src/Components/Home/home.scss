@@ -15,12 +15,12 @@
     display: flex;
   }
   &__left {
-    background-image: url("./imgs/firstscreen-left.svg");
+    background: url("./imgs/firstscreen-left.svg") center/cover;
     background-repeat: no-repeat;
     background-size: cover;
   }
   &__right {
-    background-image: url("./imgs/firstscreen-right.svg");
+    background: url("./imgs/firstscreen-right.svg") center/cover;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -259,8 +259,8 @@
     background: #FFFFFF !important;
   }
   &__card {
-    background-image: url('./imgs/salebg.png');
-    padding: 88px 15px;
+    background: url('./imgs/salebg.png') center/cover;
+    padding: 88px 0;
   }
   &__title {
     font-weight: bold;
@@ -554,20 +554,6 @@
 .text {
   padding: 0 0 150px;
   position: relative;
-  &__btn {
-    position: absolute;
-    right: 5.15625%;
-    bottom: 0;
-    background: #FF5555;
-    border-radius: 1px;
-    width: 17.91666666666667%;
-    padding: 20px 0;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 44px;
-    color: #FFFFFF;
-    border: none;
-  }
   &__title {
     font-weight: bold;
     font-size: 30px;
