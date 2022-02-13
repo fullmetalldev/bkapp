@@ -114,4 +114,27 @@
   column-gap: 8px;
 }
 
+.sectionBeforeFooter {
+  background-color: #FFFFFF;
+}
+.sectionBeforeFooter .headerContainer {
+  position: relative;
+}
+.sectionBeforeFooter__btnRow {
+  display: flex;
+  justify-content: flex-end;
+}
+.sectionBeforeFooter__button {
+  right: 0;
+  top: -130px;
+  background: #FF5555;
+  border-radius: 1px;
+  padding: 23px 27px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  border: none;
+}
+
 /*# sourceMappingURL=footer.css.map */

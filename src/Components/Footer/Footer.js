@@ -1,48 +1,26 @@
 import React from 'react';
-<<<<<<< HEAD
-import "./footerStyle.css"
-=======
 import Logo from './imgs/logo.svg';
 import './footer.scss';
 import Instagram from './imgs/instagram.png';
 import Phone from './imgs/phone.png';
 import Location from './imgs/location.png';
->>>>>>> 1f403e257be8db201e580a65d610f7bdaff088a6
+
 
 const Footer = () => {
     return (
-        <footer className="footer">
-<<<<<<< HEAD
-            <div className="container">
-                <section className="footer__row">
-
-                        <div className="footer__up">
-                            <div className="footer__up-left">
-                                <span className="footer__up-left_title">Если у вас есть предложения по нашему сервису, вы можете:</span>
-                                <button className="footer__up-left_btn">Написать директору</button>
-                            </div>
-                            <div className="footer__up-right">
-                                <span className="footer__up-right_title">Хотите быть в курсе наших новинок, то подпишитесь на наши обновления:</span>
-                            <form className="footer__up-right_down">
-                                <input className="footer__up-right_down-input" type="email" placeholder="Электронная почта"/>
-                                <button className="footer__up-right_down-button">Подписаться</button>
-                            </form>
-                            </div>
-                        </div>
-
-                        <div className="footer__middle">
-
-                        </div>
-
-                        <div className="footer__down">
-
-                        </div>
-
-                </section>
-            </div>
-
-=======
+        <>
+        <section className="sectionBeforeFooter">
             <div className="headerContainer">
+                <div className="sectionBeforeFooter__btnRow">
+                    <button className="sectionBeforeFooter__button" type="button">Напишите нам</button>
+                </div>
+            </div>
+        </section>
+
+        <footer className="footer">
+
+            <div className="headerContainer">
+
                 <div className="footer__row">
                     <div className="footer__left">
                         <p className="footer__descr">Если у вас есть предложения по нашему сервису, вы можете:</p>
@@ -62,10 +40,10 @@ const Footer = () => {
                 <div className="footer__bot">
                     <img src={Logo} alt="Logo"/>
                     <div className="footer__bot_left">
-                        <a href="#">Каталог комплектующих</a>
-                        <a href="#">Каталог посуды</a>
-                        <a href="#">Новости</a>
-                        <a href="#">Контакты</a>
+                        <a href="#test">Каталог комплектующих</a>
+                        <a href="#test">Каталог посуды</a>
+                        <a href="#test">Новости</a>
+                        <a href="#test">Контакты</a>
                     </div>
                     <div className="footer__bot_right">
                         <div className="footer__bot_right-row">
@@ -80,19 +58,20 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer__list">
-                    <a href="#">Производство изделий из пластмассы</a>
+                    <a href="#test">Производство изделий из пластмассы</a>
                     <div className="footer__list_item">
-                        <a href="#"><img src={Instagram} alt="Instagram"/></a>
-                        <a href="#">Комплектующие</a>
+                        <a href="#test"><img src={Instagram} alt="Instagram"/></a>
+                        <a href="#test">Комплектующие</a>
                     </div>
                     <div className="footer__list_item">
-                        <a href="#"><img src={Instagram} alt="Instagram"/></a>
-                        <a href="#">Посуда</a>
+                        <a href="#test"><img src={Instagram} alt="Instagram"/></a>
+                        <a href="#test">Посуда</a>
                     </div>
                 </div>
             </div>
->>>>>>> 1f403e257be8db201e580a65d610f7bdaff088a6
+
         </footer>
+        </>
     );
 };
 

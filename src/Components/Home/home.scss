@@ -270,13 +270,8 @@
     background: #FFFFFF !important;
   }
   &__card {
-<<<<<<< HEAD
     background: url('./imgs/salebg.png') center/cover;
     padding: 88px 0;
-=======
-    background-image: url('./imgs/salebg.png');
-    padding: 88px 15px;
->>>>>>> 1f403e257be8db201e580a65d610f7bdaff088a6
   }
   &__title {
     font-weight: bold;
@@ -569,20 +564,6 @@
 .text {
   padding: 0 0 150px;
   position: relative;
-  &__btn {
-    position: absolute;
-    right: 5.15625%;
-    bottom: 0;
-    background: #FF5555;
-    border-radius: 1px;
-    width: 17.91666666666667%;
-    padding: 20px 0;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 44px;
-    color: #FFFFFF;
-    border: none;
-  }
   &__title {
     font-weight: bold;
     font-size: 30px;
