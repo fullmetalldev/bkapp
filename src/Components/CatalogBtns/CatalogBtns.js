@@ -1,12 +1,13 @@
 import React from 'react';
+import "./CatalogBtns.css"
 
 const CatalogBtns = () => {
     return (
-        <div className="sectionCatalog__buttonsRow">
-            <a href="#test" className="sectionCatalog__buttonsRow-transperentBtn">
+        <div className="buttonsRow">
+            <a href="#test" className="buttonsRow-transperentBtn">
                 Скачать каталог
             </a>
-            <button className="sectionCatalog__buttonsRow-greenBtn">
+            <button className="buttonsRow-greenBtn">
                 Запросить прайс лист
             </button>
         </div>

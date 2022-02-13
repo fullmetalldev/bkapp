@@ -1,0 +1,30 @@
+.buttonsRow {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+.buttonsRow-transperentBtn {
+  font-family: Montserrat, sans-serif;
+  padding: 18px 26px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.buttonsRow-greenBtn {
+  border: none;
+  background-color: #569E28;
+  padding: 18px 26px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=CatalogBtns.css.map */

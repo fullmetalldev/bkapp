@@ -24,6 +24,7 @@ const CatalogSection = () => {
                     <h4 className="sectionCatalog__info">Используем современные безопасные материалы и добавки,
                         высокотехнологичное оборудование для создания уникальных свойств изделий.
                     </h4>
+
                     <CatalogBtns/>
 
                     <div className="sectionCatalog__complectsRow">

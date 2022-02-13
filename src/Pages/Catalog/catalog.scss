@@ -36,41 +36,6 @@
     color: rgba(0, 0, 0, 0.8);
   }
 
-  &__buttonsRow {
-    align-self: flex-end;
-
-    &__buttonsRow {
-      width: 100%;
-      display: flex;
-      justify-content: flex-end;
-      margin-top: 50px;
-
-      &-transperentBtn {
-        font-family: Montserrat, sans-serif;
-        padding: 18px 26px;
-        cursor: pointer;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 26px;
-        text-decoration-line: underline;
-        color: #000000;
-      }
-
-      &-greenBtn {
-        border: none;
-        background-color: #569E28;
-        padding: 18px 26px;
-        font-family: Montserrat, sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 26px;
-        color: #FFFFFF;
-
-      }
-    }
-  }
 
   &__complectsRow {
     display: flex;
