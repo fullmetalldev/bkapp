@@ -5,6 +5,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import History from "./Components/History/History";
 import Home from "./Components/Home/Home";
+import Scroll from "./Components/Scroll/Scroll";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     return (
         <div className="App">
             <Header language={language} setLanguage={setLanguage}/>
+            <Scroll/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/history" element={<History/>}/>
