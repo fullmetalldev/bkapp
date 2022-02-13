@@ -93,4 +93,71 @@
       }
     }
   }
+  &__beforeProductsRow{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 40px;
+    &-card{
+      padding: 30px 40px;
+      position: relative;
+      background: rgba(221, 203, 181, 0.15);
+      border-radius: 1px;
+      width: 770px;
+      height: 215px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      img{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &_title{
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        color: #000000;
+      }
+      &_ul{
+        display: flex;
+        column-gap: 50px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #000000;
+
+      }
+      &_left{
+        row-gap: 18px;
+        display: flex;
+        flex-direction: column;
+      }
+      &_right{
+        row-gap: 18px;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .sectionCatalog__beforeProductsRow-card_red{
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 26px;
+      text-decoration-line: underline;
+      color: #FF5555;
+
+    }
+  }
+  .section__title{
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
 }
