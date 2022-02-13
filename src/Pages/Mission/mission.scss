@@ -1,0 +1,50 @@
+.mission {
+  padding: 130px 0 70px;
+  position: relative;
+  &__button {
+    top: 200px;
+    right: 0;
+    position: absolute;
+  }
+  &__bag {
+    top: 700px;
+    right: 0;
+    position: absolute;
+  }
+  &__title {
+    margin: 70px 0 40px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #45423F;
+  }
+  &__row {
+    display: flex;
+    column-gap: 40px;
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc((100% / 3) - (80px / 3));
+    background: #BBD0BD;
+    border-radius: 1px;
+    padding: 15px 30px 30px;
+    &_title {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: #000000;
+      margin: 15px 0 20px;
+    }
+    &_subtitle {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.8);
+    }
+  }
+}

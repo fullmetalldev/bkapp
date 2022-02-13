@@ -3,8 +3,8 @@ import "./historyStyle.css";
 import img from "./imgs/card1.png"
 import img2 from "./imgs/card2.png"
 import img3 from "./imgs/card3.png"
-import Order from "../Details/Order/Order";
-import Bag from "../Details/Bag/Bag";
+import Order from "../../Components/Details/Order/Order";
+import Bag from "../../Components/Details/Bag/Bag";
 
 const History = () => {
     return (

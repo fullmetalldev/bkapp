@@ -7,7 +7,7 @@ import {Navigation} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import Bag from "../Details/Bag/Bag";
+import Bag from "../../Components/Details/Bag/Bag";
 
 const  Work = () => {
     return (

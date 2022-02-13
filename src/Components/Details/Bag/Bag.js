@@ -1,6 +1,6 @@
 import React from 'react';
 import './bag.scss';
-import Bag3 from '../../Home/imgs/bag3.png';
+import Bag3 from '../../../Pages/Home/imgs/bag3.png';
 
 const Bag = () => {
     return (
