@@ -3,6 +3,8 @@ import "./historyStyle.css";
 import img from "./imgs/card1.png"
 import img2 from "./imgs/card2.png"
 import img3 from "./imgs/card3.png"
+import Order from "../Details/Order/Order";
+import Bag from "../Details/Bag/Bag";
 
 const History = () => {
     return (
@@ -11,7 +13,6 @@ const History = () => {
                 <div className="history__main">
                     <h3 className="history__main-title">Главная / История компании</h3>
                     <h3 className="history__main-titleHistory">История компании</h3>
-
                     <section className="history__main-block">
                         <div className="history__main-block_left">
                             <div className="history__main-block_titleBlock">
@@ -26,8 +27,7 @@ const History = () => {
                             </div>
                             <div className="history__main-block_titleBlock">
                                 <h2 className="history__main-block_titleBlock-title">2019</h2>
-                                <span className="history__main-block_titleBlock-info">Создание портального фрезерного обрабатывающего центра.
-Ремонт и самостоятельное изготовление новых пресс-форм для увеличения ассортимента</span>
+                                <span className="history__main-block_titleBlock-info">Создание портального фрезерного обрабатывающего центра. Ремонт и самостоятельное изготовление новых пресс-форм для увеличения ассортимента</span>
                             </div>
                             <div className="history__main-block_titleBlock">
                                 <h2 className="history__main-block_titleBlock-title">2018</h2>
@@ -79,7 +79,8 @@ const History = () => {
                         </div>
                         <div className="history__main-block_titleBlock">
                             <h2 className="history__main-block_titleBlock-title">2012</h2>
-                            <span className="history__main-block_titleBlock-info">Увеличение ассортимента продукции.</span>
+                            <span
+                                className="history__main-block_titleBlock-info">Увеличение ассортимента продукции.</span>
                         </div>
                         <div className="history__main-block_titleBlock">
                             <h2 className="history__main-block_titleBlock-title">2011</h2>
@@ -97,6 +98,12 @@ const History = () => {
                     </div>
                 </section>
 
+            </div>
+            <div className="history__button">
+                <Order/>
+            </div>
+            <div className="history__bag">
+                <Bag/>
             </div>
         </main>
     );

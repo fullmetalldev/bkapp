@@ -1,5 +1,16 @@
 .history{
   padding: 40px 0;
+  position: relative;
+  &__button {
+    position: absolute;
+    top: 650px;
+    right: 0;
+  }
+  &__bag {
+    position: absolute;
+    top: 1400px;
+    right: 0;
+  }
   &__main{
     display: flex;
     flex-direction: column;

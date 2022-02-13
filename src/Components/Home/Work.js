@@ -3,17 +3,19 @@ import Production from './imgs/production.png';
 import Calendar from './imgs/calendar.png';
 import Price from './imgs/price.png';
 import Partner from './imgs/partner.png';
-import Bag from './imgs/bag3.png';
 import {Navigation} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
+import Bag from "../Details/Bag/Bag";
 
-const Work = () => {
+const  Work = () => {
     return (
         <section className="work">
             <div className="container">
-                <img className="work__img" src={Bag} alt="Bag"/>
+                <div className="work__img">
+                    <Bag/>
+                </div>
                 <h2 className="section__title work__title">Почему выгодно работать с нами</h2>
                 <div className="work__swiper">
                     <Swiper

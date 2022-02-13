@@ -102,20 +102,8 @@
   }
   &__btn {
     position: absolute;
-    top: 35%;
+    top: 13%;
     right: 0;
-    transform: rotate(-90deg) translate(50%, 75%);
-    text-align: center;
-    background: #569E28;
-    border-radius: 1px;
-    border: none;
-    padding: 25px 0;
-    width: 11.82291666666667%;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    cursor: pointer;
   }
   &__title {
     font-weight: bold;
@@ -204,6 +192,7 @@
   }
   &__title {
     margin-bottom: 40px;
+    text-align: center;
   }
   &__row {
     display: flex;
@@ -424,6 +413,7 @@
   padding: 0 0 70px;
   &__title {
     margin-bottom: 40px;
+    text-align: center;
   }
   &__list {
     padding: 70px 0;

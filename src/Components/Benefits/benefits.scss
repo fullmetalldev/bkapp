@@ -1,0 +1,27 @@
+.benefits {
+  position: relative;
+  padding: 130px 0 160px;
+  &__title {
+    margin: 70px 0 40px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #45423F;
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+  }
+  &__button {
+    position: absolute;
+    right: 0;
+    top: 300px;
+  }
+  &__bag {
+    position: absolute;
+    right: 0;
+    top: 1085px;
+  }
+}

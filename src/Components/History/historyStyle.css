@@ -1,5 +1,16 @@
 .history {
   padding: 40px 0;
+  position: relative;
+}
+.history__button {
+  position: absolute;
+  top: 650px;
+  right: 0;
+}
+.history__bag {
+  position: absolute;
+  top: 1400px;
+  right: 0;
 }
 .history__main {
   display: flex;

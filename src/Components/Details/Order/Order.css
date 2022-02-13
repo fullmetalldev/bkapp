@@ -1,0 +1,25 @@
+.details__order {
+  background: #569E28;
+  border-radius: 1px;
+  border: none;
+  height: 227px;
+  width: 73px;
+  cursor: pointer;
+}
+.details__order p {
+  display: inline-block;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1820px) {
+  .details__order {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Order.css.map */
