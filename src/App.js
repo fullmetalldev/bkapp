@@ -29,6 +29,7 @@ function App() {
                 <Route path="/benefits" element={<Benefits/>}/>
                 <Route path="/polypropylene" element={<Polypropylene/>}/>
                 <Route path="/about" element={<AboutCompany/>}/>
+                <Route path="/catalog" element={<CatalogSection/>}/>
                 <Route path="/catalog/tableware" element={<PlasticTableware/>}/>
             </Routes>
             <Footer/>

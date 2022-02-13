@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./headerStyles.css";
 import tg from "./imgs/telegram.svg";
 import call from "./imgs/call.svg";
