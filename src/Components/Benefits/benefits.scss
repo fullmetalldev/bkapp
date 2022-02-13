@@ -1,0 +1,16 @@
+.benefits {
+  padding: 130px 0 160px;
+  &__title {
+    margin: 70px 0 40px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #45423F;
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+  }
+}

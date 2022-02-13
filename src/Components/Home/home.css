@@ -101,20 +101,8 @@
 }
 .about__btn {
   position: absolute;
-  top: 35%;
+  top: 13%;
   right: 0;
-  transform: rotate(-90deg) translate(50%, 75%);
-  text-align: center;
-  background: #569E28;
-  border-radius: 1px;
-  border: none;
-  padding: 25px 0;
-  width: 11.8229166667%;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: #FFFFFF;
-  cursor: pointer;
 }
 .about__title {
   font-weight: bold;
@@ -203,6 +191,7 @@
 }
 .work__title {
   margin-bottom: 40px;
+  text-align: center;
 }
 .work__row {
   display: flex;
@@ -421,6 +410,7 @@
 }
 .news__title {
   margin-bottom: 40px;
+  text-align: center;
 }
 .news__list {
   padding: 70px 0;

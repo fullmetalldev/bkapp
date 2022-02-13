@@ -1,0 +1,18 @@
+.benefits {
+  padding: 130px 0 160px;
+}
+.benefits__title {
+  margin: 70px 0 40px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #45423F;
+}
+.benefits__row {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+}
+
+/*# sourceMappingURL=benefits.css.map */
