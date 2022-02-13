@@ -120,4 +120,18 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
+.polypropylene {
+  position: relative;
+}
+.polypropylene__button {
+  position: absolute;
+  top: 700px;
+  right: 0;
+}
+.polypropylene__bag {
+  position: absolute;
+  top: 1500px;
+  right: 0;
+}
+
 /*# sourceMappingURL=polypropylene.css.map */
