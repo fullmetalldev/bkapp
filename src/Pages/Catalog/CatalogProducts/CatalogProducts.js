@@ -5,6 +5,10 @@ import product1 from "./imgs/product1.png";
 import product2 from "./imgs/product2.png";
 import product3 from "./imgs/product3.png";
 import product4 from "./imgs/product4.png";
+import {Navigation} from "swiper";
+import {Swiper, SwiperSlide} from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
 
 const CatalogProducts = () => {
 
