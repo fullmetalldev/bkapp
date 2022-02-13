@@ -6,11 +6,10 @@ import Footer from "./Components/Footer/Footer";
 import History from "./Components/History/History";
 import Home from "./Components/Home/Home";
 import Scroll from "./Components/Scroll/Scroll";
-<<<<<<< HEAD
 import CatalogSection from "./Components/Catalog/CatalogSection";
-=======
 import Benefits from "./Components/Benefits/Benefits";
->>>>>>> 0cc5668f69e328a1a5a3bca59d9371607352a53c
+import Mission from "./Components/Mission/Mission";
+import Polypropylene from "./Components/Polypropylene/Polypropylene";
 
 function App() {
 
@@ -23,11 +22,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/history" element={<History/>}/>
-<<<<<<< HEAD
                 <Route path="/catalog" element={<CatalogSection/>}/>
-=======
+                <Route path="/mission" element={<Mission/>}/>
                 <Route path="/benefits" element={<Benefits/>}/>
->>>>>>> 0cc5668f69e328a1a5a3bca59d9371607352a53c
+                <Route path="/polypropylene" element={<Polypropylene/>}/>
             </Routes>
             <Footer/>
         </div>
