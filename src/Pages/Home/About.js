@@ -1,7 +1,7 @@
 import React from 'react';
 import AboutImg from './imgs/aboutimg.png';
 import Leaves from './imgs/leaves.svg';
-import Order from "../Details/Order/Order";
+import Order from "../../Components/Details/Order/Order";
 
 const About = () => {
     return (

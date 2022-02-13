@@ -8,8 +8,8 @@ import Guarantee from "../Benefits/img/garantee.png";
 import Delivery from "../Benefits/img/delivery.png";
 import Full from "../Benefits/img/full.png";
 import Time from "../Benefits/img/time.png";
-import Order from "../Details/Order/Order";
-import Bag from "../Details/Bag/Bag";
+import Order from "../../Components/Details/Order/Order";
+import Bag from "../../Components/Details/Bag/Bag";
 
 const Benefits = () => {
     return (

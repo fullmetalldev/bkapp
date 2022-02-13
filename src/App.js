@@ -3,13 +3,14 @@ import React, {useState} from "react";
 import {Routes, Route} from "react-router-dom"
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
-import History from "./Components/History/History";
-import Home from "./Components/Home/Home";
+import History from "./Pages/History/History";
+import Home from "./Pages/Home/Home";
 import Scroll from "./Components/Scroll/Scroll";
-import CatalogSection from "./Components/Catalog/CatalogSection";
-import Benefits from "./Components/Benefits/Benefits";
-import Mission from "./Components/Mission/Mission";
-import Polypropylene from "./Components/Polypropylene/Polypropylene";
+import CatalogSection from "./Pages/Catalog/CatalogSection";
+import Benefits from "./Pages/Benefits/Benefits";
+import Mission from "./Pages/Mission/Mission";
+import Polypropylene from "./Pages/Polypropylene/Polypropylene";
+import AboutCompany from "./Pages/AboutCompany/AboutCompany";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/mission" element={<Mission/>}/>
                 <Route path="/benefits" element={<Benefits/>}/>
                 <Route path="/polypropylene" element={<Polypropylene/>}/>
+                <Route path="/about" element={<AboutCompany/>}/>
             </Routes>
             <Footer/>
         </div>

@@ -3,8 +3,8 @@ import PolypropyleneHome from "./polypropyleneHome";
 import './polypropylene.scss';
 import Environment from "./Environment";
 import PolypropyleneSubtitle from "./polypropyleneSubtitle";
-import Order from "../Details/Order/Order";
-import Bag from "../Details/Bag/Bag";
+import Order from "../../Components/Details/Order/Order";
+import Bag from "../../Components/Details/Bag/Bag";
 
 const Polypropylene = () => {
     return (

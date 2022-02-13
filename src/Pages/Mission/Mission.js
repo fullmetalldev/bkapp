@@ -3,8 +3,8 @@ import './mission.scss';
 import Quality from './img/quality.png';
 import Partner from './img/partner.png';
 import Innovation from './img/innovation.png';
-import Order from "../Details/Order/Order";
-import Bag from "../Details/Bag/Bag";
+import Order from "../../Components/Details/Order/Order";
+import Bag from "../../Components/Details/Bag/Bag";
 
 const Mission = () => {
     return (
