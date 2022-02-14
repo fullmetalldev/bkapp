@@ -45,6 +45,7 @@
         column-gap: 12px;
         font-size: 20px;
         text-transform: uppercase;
+
         & a {
           font-weight: bold;
           font-size: 20px;
@@ -79,6 +80,10 @@
     display: flex;
     align-items: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+
+    &-BurgerButton {
+      cursor: pointer;
+    }
 
     &-navbar {
       display: flex;
@@ -246,10 +251,10 @@
 }
 
 @keyframes start {
-  0%{
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 100%;
   }
 }

@@ -12,14 +12,17 @@ import Mission from "./Pages/Mission/Mission";
 import Polypropylene from "./Pages/Polypropylene/Polypropylene";
 import AboutCompany from "./Pages/AboutCompany/AboutCompany";
 import PlasticTableware from "./Pages/PlasticTableware/PlasticTableware";
+import BurgerMenu from "./Components/BurgerMenu/BurgerMenu";
 
 function App() {
 
     const [language, setLanguage] = useState('ru');
+    const [burgerMenu, setBurgerMenu] = useState(false);
 
     return (
         <div className="App">
-            <Header language={language} setLanguage={setLanguage}/>
+            <Header burgerMenu={burgerMenu} setBurgerMenu={setBurgerMenu} language={language} setLanguage={setLanguage}/>
+            {burgerMenu ? <BurgerMenu/> : ""}
             <Scroll/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
@@ -29,7 +32,6 @@ function App() {
                 <Route path="/benefits" element={<Benefits/>}/>
                 <Route path="/polypropylene" element={<Polypropylene/>}/>
                 <Route path="/about" element={<AboutCompany/>}/>
-                <Route path="/catalog" element={<CatalogSection/>}/>
                 <Route path="/catalog/tableware" element={<PlasticTableware/>}/>
             </Routes>
             <Footer/>
