@@ -71,6 +71,9 @@
   align-items: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
+.header__down-cart {
+  cursor: pointer;
+}
 .header__down-BurgerButton {
   cursor: pointer;
 }

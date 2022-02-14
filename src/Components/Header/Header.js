@@ -7,7 +7,7 @@ import logo from "./imgs/logo.svg";
 import burger from "./imgs/burger.svg";
 import search from "./imgs/search.svg";
 
-const Header = ({language, setLanguage, setBurgerMenu, burgerMenu}) => {
+const Header = ({cartScreen, setCartScreen, language, setLanguage, setBurgerMenu, burgerMenu}) => {
 
 
     return (
@@ -55,7 +55,7 @@ const Header = ({language, setLanguage, setBurgerMenu, burgerMenu}) => {
                                 <span
                                     className={language === 'eng' ? "header__down-language_eng activeLang" : "header__down-language_eng"}>EN</span>
                             </div>
-                            <div className="header__down-cart">
+                            <div className="header__down-cart" onClick={()=> setCartScreen(!cartScreen)}>
                                 <img src={bag} className="header__down-search-svg" alt="search icon"/>
                                 <h2 className="header__down-search-title">Корзина</h2>
                             </div>
