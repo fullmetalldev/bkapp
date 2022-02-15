@@ -70,10 +70,10 @@
 .sectionCatalog__filterRow-filter:hover .sectionCatalog__filterRow-checkRow {
   background-color: #FFFFFF;
   display: flex;
-  animation: start linear 0.5s;
+  animation: startfilter linear 0.5s;
 }
 
-@keyframes start {
+@keyframes startfilter {
   0% {
     opacity: 0;
   }

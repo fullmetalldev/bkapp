@@ -36,6 +36,54 @@
   padding: 20px;
   align-items: center;
 }
+.cartScreen__item-sumInfo {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 17px;
+}
+.cartScreen__item-function {
+  justify-content: space-between;
+  padding: 17px;
+  display: flex;
+  align-items: center;
+  width: 184px;
+  height: 60px;
+  background: #FFFFFF;
+  border: 1px solid #DDCBB5;
+  box-sizing: border-box;
+}
+.cartScreen__item-numberInfo {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 17px;
+}
+.cartScreen__item-price {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  font-feature-settings: "liga" off, "kern" off;
+  color: #3E3E3E;
+}
+.cartScreen__item-name {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 22px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  font-feature-settings: "liga" off, "kern" off;
+  color: #9D8675;
+}
 .cartScreen__item img {
   width: 120px;
   height: 120px;
@@ -64,6 +112,62 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.cartScreen__form {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cartScreen__form-inputs {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+.cartScreen__form-inputs input {
+  padding: 17px 30px;
+  width: 360px;
+  height: 60px;
+  border: 1px solid #DDCBB5;
+  box-sizing: border-box;
+  border-radius: 1px;
+}
+.cartScreen__form-inputs input::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #727272;
+  opacity: 0.5;
+}
+.cartScreen__form-sumAndBtn {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+.cartScreen__form-sumAndBtn_btn {
+  border: none;
+  padding: 17px 90px;
+  background: #569E28;
+  border-radius: 1px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.cartScreen__form-sumAndBtn_summ {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  font-feature-settings: "liga" off, "kern" off;
+  color: #3E3E3E;
 }
 
 @keyframes startCart {

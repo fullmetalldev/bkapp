@@ -35,7 +35,63 @@
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-    img{
+
+    &-sumInfo {
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      color: #727272;
+      margin-bottom: 17px;
+    }
+
+    &-function {
+      justify-content: space-between;
+      padding: 17px;
+      display: flex;
+      align-items: center;
+      width: 184px;
+      height: 60px;
+      background: #FFFFFF;
+      border: 1px solid #DDCBB5;
+      box-sizing: border-box;
+    }
+
+    &-numberInfo {
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      color: #727272;
+      margin-bottom: 17px;
+
+    }
+
+    &-price {
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      font-feature-settings: 'liga' off, 'kern' off;
+      color: #3E3E3E;
+
+    }
+
+    &-name {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 22px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      font-feature-settings: 'liga' off, 'kern' off;
+      color: #9D8675;
+    }
+
+    img {
       width: 120px;
       height: 120px;
       border: 1px solid #DDCBB5;
@@ -70,6 +126,70 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  &__form {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-inputs {
+      display: flex;
+      column-gap: 40px;
+      align-items: center;
+
+      input {
+        padding: 17px 30px;
+        width: 360px;
+        height: 60px;
+        border: 1px solid #DDCBB5;
+        box-sizing: border-box;
+        border-radius: 1px;
+      }
+
+      input::placeholder {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #727272;
+        opacity: 0.5;
+      }
+    }
+
+    &-sumAndBtn {
+      display: flex;
+      column-gap: 40px;
+      align-items: center;
+      &_btn {
+        border: none;
+        padding: 17px 90px;
+        background: #569E28;
+        border-radius: 1px;
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+
+      &_summ {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: right;
+        font-feature-settings: 'liga' off, 'kern' off;
+        color: #3E3E3E;
+      }
+
+    }
+
   }
 }
 
