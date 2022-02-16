@@ -1,5 +1,6 @@
 .plasticTablewareHome {
   padding: 130px 0 55px;
+
   &__subtitle {
     font-weight: 500;
     font-size: 18px;
@@ -7,11 +8,13 @@
     color: rgba(0, 0, 0, 0.8);
     margin: 30px 0 50px;
   }
+
   &__row {
-    margin: 30px 0 0 ;
+    margin: 30px 0 0;
     display: flex;
     column-gap: 40px;
   }
+
   &__card {
     width: calc((100% / 4) - 30px);
     height: 275px;
@@ -20,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     &_title {
       font-weight: 500;
       font-size: 18px;
@@ -33,15 +37,19 @@
       border-radius: 1px;
     }
   }
+
   & .first {
     background-image: url("./img/containers.png");
   }
+
   & .second {
     background-image: url("./img/tools.png");
   }
+
   & .third {
     background-image: url("./img/sous.png");
   }
+
   & .fourth {
     background-image: url("./img/item.png");
   }
@@ -49,28 +57,35 @@
 
 .plasticTablewareCatalog {
   padding: 0 0 70px;
+
   .swiper {
     width: 100%;
+
     & img {
       display: block;
       margin: 0 auto;
       width: 222px;
     }
+
     .swiper-button-prev {
       background: transparent;
+
       &::after {
         font-size: 20px;
         color: black;
       }
     }
+
     .swiper-button-next {
       background: transparent;
+
       &::after {
         font-size: 20px;
         color: black;
       }
     }
   }
+
   &__title {
     font-weight: bold;
     font-size: 48px;
@@ -79,22 +94,77 @@
     color: #45423F;
     margin: 0 0 40px;
   }
+
   &__row {
     display: flex;
     column-gap: 40px;
   }
+
   &__catalog {
     width: calc((100% / 4 * 3) - 10px);
   }
+
   &__sort {
     width: calc((100% / 4) - 30px);
+
+    &_filter {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #DDCBB520;
+      padding-bottom: 20px;
+      position: relative;
+
+      &-title {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        font-feature-settings: 'liga' off, 'kern' off;
+        color: #000000;
+
+      }
+    }
+
+    &-div {
+      display: flex;
+      flex-direction: column;
+      background: #FFFFFF;
+      border: 1px solid #DDCBB5;
+      box-sizing: border-box;
+      border-radius: 1px;
+    }
+
+    &_filterDiv {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      padding: 20px 30px;
+    }
+
+    &_title {
+      padding: 9px 29px;
+      background: #DDCBB5;
+      border-radius: 1px;
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 60px;
+      text-align: center;
+      color: #3F3F3F;
+    }
   }
+
   &__list {
     padding: 0 0 70px;
     display: flex;
     row-gap: 40px;
     flex-wrap: wrap;
     column-gap: 40px;
+
     &_item {
       display: flex;
       flex-direction: column;
@@ -103,6 +173,7 @@
       background: #F1F6FB;
       border-radius: 1px;
       padding: 33px 23px 30px;
+
       &-title {
         font-weight: 500;
         font-size: 18px;
@@ -111,6 +182,7 @@
         color: #000000;
         margin: 24px 0 14px;
       }
+
       &-subtitle {
         font-weight: 500;
         font-size: 16px;
@@ -119,6 +191,7 @@
         color: #000000;
         opacity: 0.5;
       }
+
       &-btn {
         background: #CADBF1;
         border-radius: 1px;
@@ -131,6 +204,7 @@
         color: rgba(0, 0, 0, 0.7);
         margin: 14px 0 20px;
       }
+
       &-more {
         font-weight: 300;
         font-size: 16px;
@@ -140,10 +214,12 @@
       }
     }
   }
+
   &__pages {
     display: flex;
     justify-content: center;
     padding: 0 0 70px;
+
     &_btn {
       border: none;
       background: none;
@@ -154,11 +230,13 @@
       border-radius: 50%;
       padding: 13px 20px;
     }
+
     & .active {
       background: #CADBF1;
       padding: 13px 20px;
     }
   }
+
   &__subtitle {
     font-weight: 500;
     font-size: 18px;
