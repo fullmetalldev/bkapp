@@ -16,6 +16,7 @@ import BurgerMenu from "./Components/BurgerMenu/BurgerMenu";
 import CartScreen from "./Pages/CartScreen/CartScreen";
 import PlasticTablewareProduct from "./Pages/PlasticTablewareProduct/PlasticTablewareProduct";
 import Investors from "./Pages/Investors/Investors";
+import Contacts from "./Pages/Contacts/Contacts";
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
                 <Route path="/benefits" element={<Benefits/>}/>
                 <Route path="/polypropylene" element={<Polypropylene/>}/>
                 <Route path="/about" element={<AboutCompany/>}/>
+                <Route path="/contacts" element={<Contacts/>}/>
                 <Route path="/investors" element={<Investors/>}/>
                 <Route path="/catalog/tableware" element={<PlasticTableware/>}/>
                 <Route path="/catalog/tableware/product" element={<PlasticTablewareProduct/>}/>
