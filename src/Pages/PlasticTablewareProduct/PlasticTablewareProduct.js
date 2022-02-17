@@ -56,28 +56,28 @@ const PlasticTablewareProduct = () => {
                                     data-fancybox="gallery"
                                     data-src="https://lipsum.app/id/2/1024x768"
                                 >
-                                    <img src={ProductImg}/>
+                                    <img src={ProductImg} alt="product img"/>
                                 </a>
                             </div>
                             <div className="tablewareProduct__gallery_row">
                                 <div className="tablewareProduct__gallery_card">
                                     <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1024x768">
-                                        <img src="https://lipsum.app/id/3/200x150"/>
+                                        <img alt="product img" src="https://lipsum.app/id/3/200x150"/>
                                     </a>
                                 </div>
                                 <div className="tablewareProduct__gallery_card">
                                     <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1024x768">
-                                        <img src="https://lipsum.app/id/3/200x150"/>
+                                        <img alt="product img" src="https://lipsum.app/id/3/200x150"/>
                                     </a>
                                 </div>
                                 <div className="tablewareProduct__gallery_card">
                                     <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1024x768">
-                                        <img src="https://lipsum.app/id/3/200x150"/>
+                                        <img alt="product img" src="https://lipsum.app/id/3/200x150"/>
                                     </a>
                                 </div>
                                 <div className="tablewareProduct__gallery_card">
                                     <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1024x768">
-                                        <img src="https://lipsum.app/id/3/200x150"/>
+                                        <img alt="product img" src="https://lipsum.app/id/3/200x150"/>
                                     </a>
                                 </div>
                             </div>
@@ -195,7 +195,9 @@ const PlasticTablewareProduct = () => {
                             <p>Создаем уникальную упаковку по вашему заказу</p>
                         </div>
                     </div>
+
                     <OrderForm/>
+
                     <div className="tablewareProduct__text">
                         <p>Завод БК производит контейнер Плошка объемом 360 мл. Диаметр Плошки 112 мм.</p>
                         <br/>

@@ -1,0 +1,140 @@
+.investors {
+  background-color: #FFFFFF;
+  padding: 40px 0;
+}
+.investors__route {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #393939;
+  margin-bottom: 70px;
+}
+.investors__row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.investors__info {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 30px;
+}
+.investors__btn {
+  margin-top: 30px;
+  padding: 18px 71px;
+  background: #569E28;
+  border-radius: 1px;
+  border: none;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.investors__hrefs {
+  margin-top: 82px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.investors__hrefs-href {
+  transition: 0.3s;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  border-bottom: 4px solid #DDCBB5;
+  padding-bottom: 30px;
+  width: 20%;
+}
+.investors .activeHref {
+  transition: 0.3s;
+  color: #9D8675;
+  border-bottom: 4px solid #9D8675;
+}
+.investors__pages {
+  width: 100%;
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.investors__pages-documentCard {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  column-gap: 18px;
+  margin-right: 40px;
+}
+.investors__pages-documentCard span {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.investors__pages_textCard {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 30px;
+}
+.investors__pages_textCard-up {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.investors__pages_textCard-down {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.investors__pages-title {
+  margin-top: 10px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #9D8675;
+}
+.investors__pages-chapter {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.investors__pages_right {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.investors__pages_left {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=investors.css.map */

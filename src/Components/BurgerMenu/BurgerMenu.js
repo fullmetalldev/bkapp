@@ -39,7 +39,7 @@ const BurgerMenu = () => {
                         <ul className="BurgerMain__row-column">
                             <a className="upper">Назвать раздел</a>
                             <span className="BurgerMain__row-line"> </span>
-                            <a className="lower">Инвесторам</a>
+                            <a href="/investors" className="lower">Инвесторам</a>
                             <a className="lower">Поставщикам</a>
                             <a className="lower">Контрактное производство</a>
                             <a className="upper">Спец предложения</a>

@@ -1,0 +1,155 @@
+.investors {
+  background-color: #FFFFFF;
+  padding: 40px 0;
+
+  &__route {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #393939;
+    margin-bottom: 70px;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__info {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 30px;
+  }
+
+  &__btn {
+    margin-top: 30px;
+    padding: 18px 71px;
+    background: #569E28;
+    border-radius: 1px;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+
+  &__hrefs {
+    margin-top: 82px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+    &-href {
+      transition: 0.3s;
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.8);
+      border-bottom: 4px solid #DDCBB5;
+      padding-bottom: 30px;
+      width: 20%;
+    }
+  }
+
+  .activeHref {
+    transition: 0.3s;
+    color: #9D8675;
+    border-bottom: 4px solid #9D8675;
+  }
+
+  &__pages {
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+
+    &-documentCard{
+      display: flex;
+      align-items: flex-start;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      column-gap: 18px;
+      margin-right: 40px;
+      span{
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.8);
+      }
+    }
+
+    &_textCard {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      margin-top: 30px;
+
+      &-up {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(0, 0, 0, 0.8);
+      }
+
+      &-down {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgba(0, 0, 0, 0.8);
+      }
+    }
+
+    &-title {
+      margin-top: 10px;
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 30px;
+      color: #9D8675;
+    }
+
+    &-chapter {
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      color: rgba(0, 0, 0, 0.8);
+    }
+
+    &_right {
+      width: 50%;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    &_left {
+      width: 50%;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+
+}
