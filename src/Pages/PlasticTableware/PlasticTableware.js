@@ -2,13 +2,13 @@ import React from 'react';
 import CatalogBtns from "../../Components/CatalogBtns/CatalogBtns";
 import './plasticTableware.scss';
 import Supnica from './img/supnicapng.png';
-import Containers from './img/containers.png';
 import Containers222 from './img/containers222.png';
 import Sousnica from './img/sousnica.png';
 import {Navigation} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
+import {NavLink} from "react-router-dom";
 
 const PlasticTableware = () => {
     return (
@@ -68,10 +68,12 @@ const PlasticTableware = () => {
                                             <img src={Sousnica} alt="Supnica"/>
                                         </SwiperSlide>
                                     </Swiper>
-                                    <h4 className="plasticTablewareCatalog__list_item-title">Контейнер «Супница»</h4>
+                                    <h4 className="plasticTablewareCatalog__list_item-title">Контейнер
+                                        «Супница»</h4>
                                     <p className="plasticTablewareCatalog__list_item-subtitle">500 мл</p>
-                                    <button className="plasticTablewareCatalog__list_item-btn">Заказать</button>
-                                    <div className="plasticTablewareCatalog__list_item-more">Смотреть подробнее</div>
+                                    <NavLink className="plasticTablewareCatalog__list_item-btn" to="/catalog/tableware/product">Заказать</NavLink>
+                                    <div className="plasticTablewareCatalog__list_item-more">Смотреть подробнее
+                                    </div>
                                 </div>
                                 <div className="plasticTablewareCatalog__list_item">
                                     <Swiper
