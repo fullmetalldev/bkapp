@@ -90,6 +90,50 @@
 .plasticTablewareCatalog__sort {
   width: calc(25% - 30px);
 }
+.plasticTablewareCatalog__sort_filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #DDCBB520;
+  padding-bottom: 20px;
+  position: relative;
+}
+.plasticTablewareCatalog__sort_filter-title {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: "liga" off, "kern" off;
+  color: #000000;
+}
+.plasticTablewareCatalog__sort-div {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 1px solid #DDCBB5;
+  box-sizing: border-box;
+  border-radius: 1px;
+}
+.plasticTablewareCatalog__sort_filterDiv {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 20px 30px;
+}
+.plasticTablewareCatalog__sort_title {
+  padding: 9px 29px;
+  background: #DDCBB5;
+  border-radius: 1px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+  color: #3F3F3F;
+}
 .plasticTablewareCatalog__list {
   padding: 0 0 70px;
   display: flex;

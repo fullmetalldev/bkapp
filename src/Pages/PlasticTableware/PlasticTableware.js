@@ -9,6 +9,7 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import {NavLink} from "react-router-dom";
+import arrow from "./img/arrowDown.png";
 
 const PlasticTableware = () => {
     return (
@@ -39,7 +40,29 @@ const PlasticTableware = () => {
                 <div className="container">
                     <div className="plasticTablewareCatalog__row">
                         <div className="plasticTablewareCatalog__sort">
-                            <h3 className="plasticTablewareCatalog__sort_title">Подбор по параметрам</h3>
+                            <div className="plasticTablewareCatalog__sort-div">
+                                <div className="plasticTablewareCatalog__sort_title">Подбор по параметрам</div>
+                                <div className="plasticTablewareCatalog__sort_filterDiv">
+                                    <div className="plasticTablewareCatalog__sort_filter">
+                                        <h2 className="plasticTablewareCatalog__sort_filter-title">Объем</h2>
+                                        <img src={arrow} alt="arrow"/>
+
+                                    </div>
+                                    <div className="plasticTablewareCatalog__sort_filter">
+                                        <h2 className="plasticTablewareCatalog__sort_filter-title">Диаметр</h2>
+                                        <img src={arrow} alt="arrow"/>
+                                    </div>
+                                    <div className="plasticTablewareCatalog__sort_filter">
+                                        <h2 className="plasticTablewareCatalog__sort_filter-title">Материал</h2>
+                                        <img src={arrow} alt="arrow"/>
+                                    </div>
+                                    <div className="plasticTablewareCatalog__sort_filter">
+                                        <h2 className="plasticTablewareCatalog__sort_filter-title">Цвет</h2>
+                                        <img src={arrow} alt="arrow"/>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                         <div className="plasticTablewareCatalog__catalog">
                             <h2 className="plasticTablewareCatalog__title">Наши товары</h2>
@@ -71,7 +94,8 @@ const PlasticTableware = () => {
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер
                                         «Супница»</h4>
                                     <p className="plasticTablewareCatalog__list_item-subtitle">500 мл</p>
-                                    <NavLink className="plasticTablewareCatalog__list_item-btn" to="/catalog/tableware/product">Заказать</NavLink>
+                                    <NavLink className="plasticTablewareCatalog__list_item-btn"
+                                             to="/catalog/tableware/product">Заказать</NavLink>
                                     <div className="plasticTablewareCatalog__list_item-more">Смотреть подробнее
                                     </div>
                                 </div>
