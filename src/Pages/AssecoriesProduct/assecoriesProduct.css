@@ -1,0 +1,154 @@
+.buttonsRow-greenBtn {
+  background: #DDCBB5;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
+
+.buttonsRow {
+  width: auto;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+.assecoriesProduct {
+  padding: 130px 0 70px;
+}
+.assecoriesProduct__top {
+  margin: 0 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.assecoriesProduct__row {
+  display: flex;
+  column-gap: 40px;
+  margin: 0 0 70px;
+}
+.assecoriesProduct__row .tablewareProduct__gallery {
+  margin: 0;
+}
+.assecoriesProduct__row .tablewareProduct__gallery_descr {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 50px 0 0;
+}
+.assecoriesProduct__sort {
+  width: 22.8%;
+}
+.assecoriesProduct__sort_top {
+  border: 2px solid #F5F7FB;
+  margin: 0 0 30px;
+}
+.assecoriesProduct__sort_top .active {
+  background: #CADBF1;
+  border-radius: 1px;
+}
+.assecoriesProduct__sort_top p:not(:last-child) {
+  border-bottom: 2px solid #F5F7FB;
+}
+.assecoriesProduct__sort_top p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  font-feature-settings: "liga" off, "kern" off;
+  color: #3E3E3E;
+  padding: 30px;
+}
+.assecoriesProduct__sort_bot {
+  border: 2px solid #F5F7FB;
+}
+.assecoriesProduct__sort_bot h3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+  color: #3F3F3F;
+  background: #CADBF1;
+  border-radius: 1px;
+  padding: 9px 65px;
+}
+.assecoriesProduct__sort_bot-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.assecoriesProduct__sort_bot-form input {
+  width: 100%;
+  padding: 18px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  border: 2px solid #F5F7FB;
+  border-radius: 2px;
+  margin: 0 0 15px;
+}
+.assecoriesProduct__sort_bot-form button {
+  background: #CADBF1;
+  border-radius: 1px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  border: none;
+  padding: 15px 0;
+}
+.assecoriesProduct__right {
+  display: flex;
+  border: 1px solid #ECD9C6;
+}
+.assecoriesProduct__right_btn {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  background: #569E28;
+  border-radius: 1px;
+  padding: 18px 0;
+  width: 100%;
+  margin: 30px 0 0;
+}
+.assecoriesProduct__right li {
+  padding: 25px 20px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  font-feature-settings: "liga" off, "kern" off;
+}
+.assecoriesProduct__right li:not(:last-child) {
+  border-bottom: 1px solid #ECD9C6;
+}
+.assecoriesProduct__right_list {
+  width: 100%;
+  background: rgba(221, 203, 181, 0.15);
+  border-radius: 1px;
+}
+.assecoriesProduct__right_list li {
+  color: #9D8675;
+  border-right: 1px solid #ECD9C6;
+}
+.assecoriesProduct__right_stats {
+  width: 100%;
+}
+.assecoriesProduct .tablewareProduct__cards_item {
+  background: rgba(221, 203, 181, 0.15);
+}
+
+/*# sourceMappingURL=assecoriesProduct.css.map */
