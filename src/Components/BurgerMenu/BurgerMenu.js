@@ -28,7 +28,7 @@ const BurgerMenu = () => {
                             <a href="/about" className="upper">О компании</a>
                             <span className="BurgerMain__row-line"> </span>
                             <a href="/history" className="lower">История компании</a>
-                            <a className="lower">Наша команда</a>
+                            <a href="/team" className="lower">Наша команда</a>
                             <a href="/mission" className="lower">Миссия и ценности</a>
                             <a href="/benefits" className="lower">Наши преимущества</a>
                             <a href="/polypropylene" className="lower">Преимущества полипропилена</a>
