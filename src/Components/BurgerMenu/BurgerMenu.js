@@ -41,7 +41,7 @@ const BurgerMenu = () => {
                             <span className="BurgerMain__row-line"> </span>
                             <a href="/investors" className="lower">Инвесторам</a>
                             <a className="lower">Поставщикам</a>
-                            <a className="lower">Контрактное производство</a>
+                            <a href="/production" className="lower">Контрактное производство</a>
                             <a className="upper">Спец предложения</a>
                             <a className="lower">Новости</a>
                             <a href="/delivery" className="lower">Оплата и доставка</a>

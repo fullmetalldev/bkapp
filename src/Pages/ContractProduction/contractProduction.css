@@ -1,0 +1,125 @@
+.contractProduction {
+  background: #FFFFFF;
+  padding: 40px 0;
+}
+.contractProduction__route {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #393939;
+}
+.contractProduction__row {
+  display: flex;
+  flex-direction: column;
+}
+.contractProduction .section__title {
+  margin: 70px 0;
+}
+.contractProduction__twoBlocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contractProduction__twoBlocks-left {
+  padding: 50px;
+  width: 50%;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 50px;
+  color: #000000;
+}
+.contractProduction__twoBlocks-right {
+  width: 50%;
+}
+.contractProduction__twoBlocks-right img {
+  width: 100%;
+}
+.contractProduction__orderForm {
+  width: 100%;
+  background: #BBD0BD;
+  border-radius: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+.contractProduction__orderForm_inputs {
+  display: flex;
+  column-gap: 25px;
+}
+.contractProduction__orderForm_inputs button {
+  padding: 15px 65px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.8);
+  background: #569E28;
+  border-radius: 1px;
+  border: none;
+}
+.contractProduction__orderForm_inputs input {
+  border: none;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.65);
+  padding: 15px;
+}
+.contractProduction__orderForm_inputs input::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.contractProduction__orderForm_left {
+  padding: 50px 90px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.contractProduction__orderForm_left h2 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.contractProduction__orderForm_left h4 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.contractProduction__orderForm_checkbox {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.contractProduction__orderForm_checkbox input {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 1px;
+}
+.contractProduction__orderForm_checkbox span {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=contractProduction.css.map */

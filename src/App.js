@@ -18,6 +18,7 @@ import PlasticTablewareProduct from "./Pages/PlasticTablewareProduct/PlasticTabl
 import Investors from "./Pages/Investors/Investors";
 import Contacts from "./Pages/Contacts/Contacts";
 import DeliveryAndPay from "./Pages/DeliveryAndPay/DeliveryAndPay";
+import ContractProduction from "./Pages/ContractProduction/ContractProduction";
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
                 <Route path="/contacts" element={<Contacts/>}/>
                 <Route path="/delivery" element={<DeliveryAndPay/>}/>
                 <Route path="/investors" element={<Investors/>}/>
+                <Route path="/production" element={<ContractProduction/>}/>
                 <Route path="/catalog/tableware" element={<PlasticTableware/>}/>
                 <Route path="/catalog/tableware/product" element={<PlasticTablewareProduct/>}/>
             </Routes>
