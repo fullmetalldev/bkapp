@@ -1,0 +1,48 @@
+@media (max-width: 1800px) {
+  .header__up {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .header__down {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .footer {
+    padding: 40px 10px 30px;
+  }
+
+  .sectionCatalog__row {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 1600px) {
+  .sectionCatalog__form {
+    flex-flow: wrap row;
+  }
+
+  .sectionCatalog__complectsRow {
+    flex-flow: wrap row;
+    row-gap: 30px;
+  }
+
+  .sectionCatalog__beforeProductsRow {
+    flex-flow: wrap row;
+    justify-content: center;
+    row-gap: 30px;
+  }
+
+  .sectionCatalog__filterRow {
+    flex-flow: row wrap;
+    row-gap: 20px;
+    justify-content: center;
+  }
+
+  .sectionCatalog__filterRow-filter {
+    width: calc(50% - 40px);
+  }
+}
+
+/*# sourceMappingURL=CatalogAdaptive.css.map */

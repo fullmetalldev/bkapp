@@ -1,5 +1,6 @@
 import React from 'react';
 import "./BurgerStyle.css"
+import "./BurgerAdaptive.css";
 
 const BurgerMenu = () => {
     return (
