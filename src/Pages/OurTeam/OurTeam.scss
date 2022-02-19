@@ -1,0 +1,71 @@
+.ourTeam {
+  padding: 40px 0;
+  background: #FFFFFF;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+
+  &__route {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #393939;
+
+  }
+
+  .section__title {
+    margin: 70px 0;
+  }
+
+  &__cardsRow {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 40px;
+    column-gap: 70px;
+
+    &_card {
+      width: calc(33.3% - 47px);
+      display: flex;
+      flex-flow: column;
+      background: rgba(202, 219, 241, 0.15);
+      border-radius: 4px;
+      img{
+        width: 100%;
+      }
+
+      &-name {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        color: #000000;
+
+      }
+
+      &-about{
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #3E3E3E;
+
+      }
+
+      &-line {
+        width: 87px;
+        border: 2px solid #CADBF1;
+      }
+
+      &-info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 40px 50px;
+      }
+    }
+  }
+
+}
