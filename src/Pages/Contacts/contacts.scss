@@ -1,0 +1,138 @@
+.contacts {
+  padding: 40px;
+  background-color: #FFFFFF;
+
+  &__route {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #393939;
+  }
+
+  .section__title {
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+
+  &__infoRow {
+    display: flex;
+    margin-top: 30px;
+    column-gap: 20px;
+    align-items: center;
+
+    span {
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      color: rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  &__columns {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    &_column {
+      width: 33.3%;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      row-gap: 30px;
+
+      &-title {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.8);
+      }
+
+      &-whatsapp {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+      }
+
+      &-btn {
+        background: #DDCBB5;
+        border-radius: 1px;
+        font-family: Montserrat, sans-serif;
+        border: none;
+        padding: 12px 55px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.7);
+
+
+      }
+
+      &-row {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+
+        a {
+          font-family: Montserrat, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 26px;
+          color: rgba(0, 0, 0, 0.8);
+          cursor: pointer;
+        }
+
+        span {
+          font-family: Montserrat, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 26px;
+          color: rgba(0, 0, 0, 0.8);
+        }
+      }
+    }
+  }
+
+  &__map{
+    margin-top: 100px;
+    display: flex;
+    background: #BCD0BD;
+    margin-bottom: 70px;
+    &-left{
+      width: 60%;
+    }
+    &-right{
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 28px;
+      width: 40%;
+      h2{
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 59px;
+      }
+
+      span{
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+
+}

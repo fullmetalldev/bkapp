@@ -39,13 +39,13 @@ const BurgerMenu = () => {
                         <ul className="BurgerMain__row-column">
                             <a className="upper">Назвать раздел</a>
                             <span className="BurgerMain__row-line"> </span>
-                            <a className="lower">Инвесторам</a>
+                            <a href="/investors" className="lower">Инвесторам</a>
                             <a className="lower">Поставщикам</a>
-                            <a className="lower">Контрактное производство</a>
+                            <a href="/production" className="lower">Контрактное производство</a>
                             <a className="upper">Спец предложения</a>
                             <a className="lower">Новости</a>
-                            <a className="lower">Оплата и доставка</a>
-                            <a className="lower">Контакты</a>
+                            <a href="/delivery" className="lower">Оплата и доставка</a>
+                            <a href="/contacts" className="lower">Контакты</a>
                         </ul>
                     </div>
                 </div>

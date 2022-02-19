@@ -18,6 +18,7 @@ const CartScreen = ({setCartScreen}) => {
                             fill="#9D8675"/>
                     </svg>
                 </div>
+
                 <div className="cartScreen__itemsRow">
 
                     <div className="cartScreen__item">
@@ -253,8 +254,8 @@ const CartScreen = ({setCartScreen}) => {
 
                 <form className="cartScreen__form">
                     <label className="cartScreen__form-inputs">
-                        <input type="text" placeholder="Ваше имя"/>
-                        <input type="number" placeholder="Ваш телефон"/>
+                        <input type="text" placeholder="Ваше имя" required/>
+                        <input type="number" placeholder="Ваш телефон" required/>
                     </label>
                     <label className="cartScreen__form-sumAndBtn">
                         <span className="cartScreen__form-sumAndBtn_summ">Итого: 1 880 руб.</span>

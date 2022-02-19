@@ -1,0 +1,98 @@
+.DeliveryPay {
+  background-color: #FFFFFF;
+  padding: 40px 0;
+
+  &__route {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #393939;
+  }
+
+  &__titleRow {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 70px;
+  }
+
+  &__info {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    span {
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      color: rgba(0, 0, 0, 0.8);
+
+    }
+
+  }
+
+  &__deliveryInfo {
+    margin-top: 50px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  &__circleTitle {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 30px;
+    align-items: center;
+    span {
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      color: rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  &__beforePayMethods{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  &__payMethod{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-bottom: 30px;
+    &-bold{
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 26px;
+      color: rgba(0, 0, 0, 0.8);
+    }
+    &-light{
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      color: rgba(0, 0, 0, 0.8);
+    }
+  }
+
+}
