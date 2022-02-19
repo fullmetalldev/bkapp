@@ -4,6 +4,7 @@
   width: 100%;
 
 
+
   .arrow {
     transition: 0.3s;
   }
@@ -138,6 +139,34 @@
 
   justify-content: center;
   width: 100%;
+
+  .swiper {
+    width: 100%;
+
+    & img {
+      display: block;
+      margin: 0 auto;
+      width: 222px;
+    }
+
+    .swiper-button-prev {
+      background: transparent;
+
+      &::after {
+        font-size: 20px;
+        color: black;
+      }
+    }
+
+    .swiper-button-next {
+      background: transparent;
+
+      &::after {
+        font-size: 20px;
+        color: black;
+      }
+    }
+  }
 
   &-card {
     padding: 33px 0;
