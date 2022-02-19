@@ -1,0 +1,123 @@
+.Vacancy {
+  background-color: #FFFFFF;
+  padding: 40px;
+}
+.Vacancy .section__title {
+  margin: 70px 0 50px 0;
+}
+.Vacancy__row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Vacancy__route {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #393939;
+}
+.Vacancy__twoBlocks {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 70px;
+}
+.Vacancy__twoBlocks_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 50px;
+  align-items: flex-start;
+  padding-right: 50px;
+}
+.Vacancy__twoBlocks_left-info {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.Vacancy__twoBlocks_left-btn {
+  border: none;
+  padding: 18px 53px;
+  background-color: #569E28;
+  border-radius: 1px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.Vacancy__twoBlocks_right {
+  width: 50%;
+}
+.Vacancy__twoBlocks_right img {
+  width: 100%;
+}
+.Vacancy__card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.Vacancy__card .arrow {
+  transition: 0.3s;
+}
+.Vacancy__card .rotate {
+  transition: 0.3s;
+  transform: rotate(180deg);
+}
+.Vacancy__card-block {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #DDCBB5;
+  padding: 27px 30px;
+}
+.Vacancy__card-block h2 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  color: #3F3F3F;
+}
+.Vacancy__card_vacancyInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 30px;
+  padding: 50px 30px;
+}
+.Vacancy__card_vacancyInfo-city {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.Vacancy__card_vacancyInfo-point {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.Vacancy__card_vacancyInfo-contacts .email {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.Vacancy__card_vacancyInfo-aboutBoss {
+  display: flex;
+  flex-direction: column;
+}
+.Vacancy__card_vacancyInfo-aboutBoss a {
+  color: black;
+}
+
+/*# sourceMappingURL=Vacancy.css.map */

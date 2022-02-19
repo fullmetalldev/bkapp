@@ -20,6 +20,7 @@ import Contacts from "./Pages/Contacts/Contacts";
 import DeliveryAndPay from "./Pages/DeliveryAndPay/DeliveryAndPay";
 import ContractProduction from "./Pages/ContractProduction/ContractProduction";
 import OurTeam from "./Pages/OurTeam/OurTeam";
+import Vacancy from "./Pages/Vacancy/Vacancy";
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
                 <Route path="/delivery" element={<DeliveryAndPay/>}/>
                 <Route path="/investors" element={<Investors/>}/>
                 <Route path="/team" element={<OurTeam/>}/>
+                <Route path="/vacancy" element={<Vacancy/>}/>
                 <Route path="/production" element={<ContractProduction/>}/>
                 <Route path="/catalog/tableware" element={<PlasticTableware/>}/>
                 <Route path="/catalog/tableware/product" element={<PlasticTablewareProduct/>}/>
