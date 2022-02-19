@@ -8,7 +8,10 @@ import burger from "./imgs/burger.svg";
 import search from "./imgs/search.svg";
 
 const Header = ({cartScreen, setCartScreen, language, setLanguage, setBurgerMenu, burgerMenu}) => {
-
+    const tegBody = document.querySelector("body");
+    const noScroll = () => {
+        tegBody.style.overflow = "hidden"
+    };
 
     return (
         <header className="header">
@@ -38,7 +41,8 @@ const Header = ({cartScreen, setCartScreen, language, setLanguage, setBurgerMenu
                 <div className="headerContainer">
                     <nav className="header__down-navbar">
                         <div className="header__down-left">
-                            <img className="header__down-BurgerButton" onClick={()=> setBurgerMenu(!burgerMenu)} src={burger} alt="burger button"/>
+                            <img className="header__down-BurgerButton" onClick={() => setBurgerMenu(!burgerMenu)}
+                                 src={burger} alt="burger button"/>
                             <img src={logo} alt="website logo"/>
                         </div>
                         <div className="header__down-right">
@@ -55,7 +59,10 @@ const Header = ({cartScreen, setCartScreen, language, setLanguage, setBurgerMenu
                                 <span
                                     className={language === 'eng' ? "header__down-language_eng activeLang" : "header__down-language_eng"}>EN</span>
                             </div>
-                            <div className="header__down-cart" onClick={()=> setCartScreen(!cartScreen)}>
+                            <div className="header__down-cart" onClick={() => {
+                                setCartScreen(!cartScreen);
+                                noScroll()
+                            }}>
                                 <img src={bag} className="header__down-search-svg" alt="search icon"/>
                                 <h2 className="header__down-search-title">Корзина</h2>
                             </div>

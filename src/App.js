@@ -21,6 +21,7 @@ import Contacts from "./Pages/Contacts/Contacts";
 import DeliveryAndPay from "./Pages/DeliveryAndPay/DeliveryAndPay";
 import ContractProduction from "./Pages/ContractProduction/ContractProduction";
 import OurTeam from "./Pages/OurTeam/OurTeam";
+import Geograpgy from "./Pages/Geography/Geograpgy";
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
                 <Route path="/catalog/tableware" element={<PlasticTableware/>}/>
                 <Route path="/catalog/tableware/product" element={<PlasticTablewareProduct/>}/>
                 <Route path="/catalog/assecories/product" element={<AssecoriesProduct/>}/>
+                <Route path="/geography" element={<Geograpgy/>}/>
             </Routes>
             <Footer/>
         </div>

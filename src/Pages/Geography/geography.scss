@@ -1,0 +1,10 @@
+.geography {
+  padding: 130px 0 70px;
+  &__img {
+    margin: 70px 0 0;
+    width: 100%;
+    & img {
+      width: 100%;
+    }
+  }
+}
