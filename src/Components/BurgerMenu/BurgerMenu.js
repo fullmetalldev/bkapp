@@ -45,6 +45,7 @@ const BurgerMenu = () => {
                             <a className="upper">Спец предложения</a>
                             <a className="lower">Новости</a>
                             <a href="/delivery" className="lower">Оплата и доставка</a>
+                            <a href="/vacancy" className="lower">Вакансии</a>
                             <a href="/contacts" className="lower">Контакты</a>
                         </ul>
                     </div>

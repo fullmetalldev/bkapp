@@ -22,6 +22,7 @@ import DeliveryAndPay from "./Pages/DeliveryAndPay/DeliveryAndPay";
 import ContractProduction from "./Pages/ContractProduction/ContractProduction";
 import OurTeam from "./Pages/OurTeam/OurTeam";
 import Geograpgy from "./Pages/Geography/Geograpgy";
+import Vacancy from "./Pages/Vacancy/Vacancy";
 
 function App() {
 
@@ -31,7 +32,8 @@ function App() {
 
     return (
         <div className="App">
-            <Header cartScreen={cartScreen} setCartScreen={setCartScreen} burgerMenu={burgerMenu} setBurgerMenu={setBurgerMenu} language={language} setLanguage={setLanguage}/>
+            <Header cartScreen={cartScreen} setCartScreen={setCartScreen} burgerMenu={burgerMenu}
+                    setBurgerMenu={setBurgerMenu} language={language} setLanguage={setLanguage}/>
             {burgerMenu ? <BurgerMenu/> : ""}
             {cartScreen ? <CartScreen setCartScreen={setCartScreen}/> : ""}
             <Scroll/>
@@ -47,6 +49,7 @@ function App() {
                 <Route path="/delivery" element={<DeliveryAndPay/>}/>
                 <Route path="/investors" element={<Investors/>}/>
                 <Route path="/team" element={<OurTeam/>}/>
+                <Route path="/vacancy" element={<Vacancy/>}/>
                 <Route path="/production" element={<ContractProduction/>}/>
                 <Route path="/catalog/tableware" element={<PlasticTableware/>}/>
                 <Route path="/catalog/tableware/product" element={<PlasticTablewareProduct/>}/>

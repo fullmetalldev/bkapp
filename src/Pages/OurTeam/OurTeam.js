@@ -7,7 +7,6 @@ import card4 from "./cards/card4.png"
 import card5 from "./cards/card5.png"
 import card6 from "./cards/card6.png"
 
-console.log(140 / 3)
 
 const OurTeam = () => {
     return (

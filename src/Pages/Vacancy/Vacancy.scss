@@ -1,0 +1,145 @@
+.Vacancy {
+  background-color: #FFFFFF;
+  padding: 40px;
+
+  .section__title {
+    margin: 70px 0 50px 0;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__route {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #393939;
+  }
+
+  &__twoBlocks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 70px;
+
+    &_left {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 50px;
+      align-items: flex-start;
+      padding-right: 50px;
+
+      &-info {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        color: rgba(0, 0, 0, 0.8);
+
+      }
+
+      &-btn {
+        border: none;
+        padding: 18px 53px;
+        background-color: #569E28;
+        border-radius: 1px;
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+      }
+    }
+
+    &_right {
+      width: 50%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &__card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    .arrow{
+      transition: 0.3s;
+    }
+    .rotate{
+      transition: 0.3s;
+      transform: rotate(180deg);
+    }
+
+    &-block {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      background: #DDCBB5;
+      padding: 27px 30px;
+
+      h2 {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        color: #3F3F3F;
+      }
+    }
+
+    &_vacancyInfo {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      row-gap: 30px;
+      padding: 50px 30px;
+
+      &-city {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.8);
+      }
+
+      &-point{
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+      }
+
+      &-contacts{
+        .email{
+          font-weight: bolder;
+          text-decoration: underline;
+        }
+      }
+
+      &-aboutBoss{
+        display: flex;
+        flex-direction: column;
+        a{
+          color: black;
+        }
+      }
+
+    }
+
+  }
+
+}
