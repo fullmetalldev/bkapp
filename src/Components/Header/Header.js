@@ -6,6 +6,7 @@ import bag from "./imgs/bag.svg";
 import logo from "./imgs/logo.svg";
 import burger from "./imgs/burger.svg";
 import search from "./imgs/search.svg";
+import "./HeaderAdaptive.css";
 
 const Header = ({cartScreen, setCartScreen, language, setLanguage, setBurgerMenu, burgerMenu}) => {
     const tegBody = document.querySelector("body");
@@ -43,7 +44,7 @@ const Header = ({cartScreen, setCartScreen, language, setLanguage, setBurgerMenu
                         <div className="header__down-left">
                             <img className="header__down-BurgerButton" onClick={() => setBurgerMenu(!burgerMenu)}
                                  src={burger} alt="burger button"/>
-                            <img src={logo} alt="website logo"/>
+                            <img className="header__down-LogoType" src={logo} alt="website logo"/>
                         </div>
                         <div className="header__down-right">
                             <div className="header__down-search">

@@ -567,10 +567,6 @@
 }
 
 @media (max-width: 1400px) {
-  .container {
-    max-width: 1200px;
-  }
-
   .first-screen__card_title {
     font-size: 48px;
   }
