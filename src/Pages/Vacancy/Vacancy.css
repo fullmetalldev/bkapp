@@ -20,12 +20,12 @@
 }
 .Vacancy__twoBlocks {
   display: flex;
-  justify-content: space-between;
   width: 100%;
+  justify-content: space-between;
   margin-bottom: 70px;
 }
 .Vacancy__twoBlocks_left {
-  width: 50%;
+  width: 746px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,7 +54,7 @@
   color: #FFFFFF;
 }
 .Vacancy__twoBlocks_right {
-  width: 50%;
+  width: 746px;
 }
 .Vacancy__twoBlocks_right img {
   width: 100%;
