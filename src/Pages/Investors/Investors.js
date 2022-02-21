@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import "./investors.css";
 import Obligation from "./InvestorComponents/Obligation/Obligation";
 import EmissionDocument from "./InvestorComponents/EmissionDocuments/EmissionDocument";
+import "./investorsAdaptive.css"
 
 const Investors = () => {
 
