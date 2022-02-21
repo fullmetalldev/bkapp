@@ -192,3 +192,35 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .assecoriesProduct {
+    &__row {
+      column-gap: 30px;
+    }
+    &__sort {
+      &_top {
+        p {
+          font-size: 15px;
+        }
+      }
+      &_bot {
+        h3 {
+          font-size: 20px;
+        }
+      }
+    }
+    &__right {
+      &_stats {
+        li {
+          padding: 10px;
+        }
+      }
+      &_list {
+        li {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

@@ -395,16 +395,51 @@
   .tablewareProduct__list_item .box {
     width: auto;
     height: auto;
-    padding: 5px;
+    padding: 15px;
+  }
+  .tablewareProduct__list_item .box svg {
+    width: 50px;
+    height: 40px;
   }
   .tablewareProduct__list_item p {
     font-size: 16px;
+  }
+  .tablewareProduct__cards_title {
+    font-size: 36px;
   }
   .tablewareProduct__cards_item {
     padding: 25px 15px;
   }
   .tablewareProduct__cards_item a {
     text-align: center;
+  }
+  .tablewareProduct__cards_item button {
+    padding: 10px 0;
+  }
+  .tablewareProduct__cards_item img {
+    width: 120px;
+    height: 120px;
+  }
+  .tablewareProduct__cards_item-img .swiper-button-next {
+    transform: translate(0, 75%);
+    right: 10px;
+    width: auto;
+    height: auto;
+  }
+  .tablewareProduct__cards_item-img .swiper-button-next::after {
+    font-size: 17px;
+  }
+  .tablewareProduct__cards_item-img .swiper-button-prev {
+    transform: translate(0, 75%);
+    left: 10px;
+    width: auto;
+    height: auto;
+  }
+  .tablewareProduct__cards_item-img .swiper-button-prev::after {
+    font-size: 17px;
+  }
+  .tablewareProduct__text p {
+    font-size: 17px;
   }
 }
 

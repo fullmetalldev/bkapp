@@ -178,5 +178,22 @@
     width: 23.5%;
   }
 }
+@media (max-width: 1200px) {
+  .assecoriesProduct__row {
+    column-gap: 30px;
+  }
+  .assecoriesProduct__sort_top p {
+    font-size: 15px;
+  }
+  .assecoriesProduct__sort_bot h3 {
+    font-size: 20px;
+  }
+  .assecoriesProduct__right_stats li {
+    padding: 10px;
+  }
+  .assecoriesProduct__right_list li {
+    padding: 10px;
+  }
+}
 
 /*# sourceMappingURL=assecoriesProduct.css.map */
