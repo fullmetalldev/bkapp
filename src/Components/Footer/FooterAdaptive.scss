@@ -19,6 +19,7 @@
     justify-content: center;
     flex-wrap: wrap;
   }
+
 }
 
 @media (max-width: 700px) {
@@ -29,5 +30,14 @@
   .footer__list{
     flex-flow: wrap row;
     justify-content: center;
+  }
+}
+@media (max-width: 550px) {
+  .footer__form{
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer__form input{
+    width: 100%;
   }
 }
