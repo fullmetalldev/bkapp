@@ -8,6 +8,7 @@ import bfrPrd2 from "./imgs/beforePrd1.png";
 import CatalogProducts from "./CatalogProducts/CatalogProducts";
 import CatalogBtns from "../../Components/CatalogBtns/CatalogBtns";
 import OrderForm from "../../Components/OrderForm/OrderForm";
+import "./CatalogAdaptive.scss";
 
 const CatalogSection = () => {
 

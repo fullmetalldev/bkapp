@@ -212,4 +212,63 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
+@media (max-width: 1400px) {
+  .plasticTablewareHome .container {
+    max-width: 1200px;
+  }
+
+  .plasticTablewareCatalog .container {
+    max-width: 1200px;
+  }
+  .plasticTablewareCatalog__sort_title {
+    font-size: 22px;
+    padding: 9px 6px;
+  }
+  .plasticTablewareCatalog__title {
+    font-size: 42px;
+  }
+  .plasticTablewareCatalog__list_item-btn {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .plasticTablewareHome .container {
+    max-width: 992px;
+  }
+  .plasticTablewareHome__row {
+    flex-wrap: wrap;
+  }
+  .plasticTablewareHome__card {
+    width: calc(25% - 30px);
+    background-size: 100%;
+    height: auto;
+    padding: 40px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .plasticTablewareHome__card_title {
+    width: 100%;
+  }
+
+  .plasticTablewareCatalog .container {
+    max-width: 992px;
+  }
+  .plasticTablewareCatalog__row {
+    column-gap: 30px;
+  }
+  .plasticTablewareCatalog__sort {
+    width: 23.5%;
+  }
+  .plasticTablewareCatalog__sort_title {
+    font-size: 16px;
+  }
+  .plasticTablewareCatalog__catalog {
+    width: 76%;
+  }
+  .plasticTablewareCatalog__list_item {
+    padding: 25px 15px 30px;
+  }
+}
+
 /*# sourceMappingURL=plasticTableware.css.map */

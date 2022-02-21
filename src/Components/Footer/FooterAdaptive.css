@@ -1,0 +1,19 @@
+@media (max-width: 1400px) {
+  .footer__row {
+    flex-flow: row wrap;
+    row-gap: 30px;
+  }
+
+  .footer__bot {
+    flex-flow: row wrap;
+    row-gap: 20px;
+    justify-content: center;
+    column-gap: 20px;
+  }
+
+  .footer__list {
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=FooterAdaptive.css.map */

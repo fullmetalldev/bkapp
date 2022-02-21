@@ -82,13 +82,13 @@ const AssecoriesProduct = () => {
                         </div>
                         <p className="tablewareProduct__gallery_descr">
                             Завод БК производит контейнер Плошка объемом 360 мл. Диаметр Плошки 112 мм.
-                            <br/>
+                            <br/><br/>
                             Контейнер Плошка 360 мл - один из самых востребованных объемов пластиковых одноразовых
                             контейнеров и одноразовой пластиковой посуды. Он достаточно универсален и используется для
                             самых различных целей.
                         </p>
                     </div>
-                    <div>
+                    <div className="assecoriesProduct__char">
                         <div className="assecoriesProduct__right">
                             <ul className="assecoriesProduct__right_list">
                                 <li>Диаметр</li>

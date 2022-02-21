@@ -1,0 +1,18 @@
+@media (max-width: 1600px) {
+  .contractProduction__orderForm_img {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .contractProduction__orderForm_inputs {
+    display: flex;
+    flex-flow: column;
+    row-gap: 30px;
+  }
+
+  .contractProduction__orderForm_left {
+    padding: 20px 40px;
+  }
+}
+
+/*# sourceMappingURL=ContractProdAdaptive.css.map */

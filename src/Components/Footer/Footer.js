@@ -4,7 +4,7 @@ import './footer.scss';
 import Instagram from './imgs/instagram.png';
 import Phone from './imgs/phone.png';
 import Location from './imgs/location.png';
-
+import "./FooterAdaptive.css";
 
 const Footer = () => {
     return (

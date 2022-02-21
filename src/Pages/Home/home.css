@@ -567,54 +567,156 @@
 }
 
 @media (max-width: 1400px) {
-  .container {
+  .homeMain .container {
     max-width: 1200px;
   }
-
-  .first-screen__card_title {
+  .homeMain .first-screen__card_title {
     font-size: 48px;
   }
-  .first-screen__card_subtitle {
+  .homeMain .first-screen__card_subtitle {
     font-size: 24px;
   }
-  .first-screen__card_content {
+  .homeMain .first-screen__card_content {
     width: 500px;
     height: 450px;
   }
-  .first-screen__card_btns .btn {
+  .homeMain .first-screen__card_btns .btn {
     padding: 15px 25px;
   }
-
-  .about__title {
+  .homeMain .about__title {
     font-size: 42px;
     padding: 0 0 25px;
     margin: 0 0 40px;
   }
-  .about__subtitle {
+  .homeMain .about__subtitle {
     font-size: 20px;
     margin: 0 0 40px;
   }
-  .about__more {
+  .homeMain .about__more {
     font-size: 20px;
   }
-
-  .work__row {
+  .homeMain .work__row {
     column-gap: 40px;
   }
-  .work__card {
+  .homeMain .work__swiper {
+    padding: 0 60px;
+  }
+  .homeMain .work__card {
     width: calc(50% - 20px);
     column-gap: 30px;
     align-items: center;
     padding: 15px;
   }
-  .work__card_title {
+  .homeMain .work__card_title {
     font-size: 22px;
   }
-  .work__card_subtitle {
+  .homeMain .work__card_subtitle {
     font-size: 20px;
   }
-  .work__card_img img {
+  .homeMain .work__card_img {
+    padding: 0 30px;
+    width: 150px;
+    height: 130px;
+  }
+  .homeMain .work__card_img img {
+    width: 94px;
+    height: 64px;
+  }
+  .homeMain .sale__title {
+    font-size: 82px;
+  }
+  .homeMain .sale__subtitle {
+    font-size: 42px;
+  }
+  .homeMain .sale__btn {
+    font-size: 36px;
+  }
+  .homeMain .catalog__title {
+    font-size: 42px;
+  }
+}
+@media (max-width: 1200px) {
+  .homeMain .container {
+    max-width: 992px;
+  }
+  .homeMain .first-screen__card_title {
+    font-size: 42px;
+  }
+  .homeMain .first-screen__card_subtitle {
+    font-size: 22px;
+  }
+  .homeMain .first-screen__card_item {
+    padding: 35px 0;
+  }
+  .homeMain .first-screen__card_content {
+    width: 450px;
+    height: 400px;
+  }
+  .homeMain .first-screen__card_btns .btn {
+    font-size: 17px;
+    padding: 12px 20px;
+  }
+  .homeMain .about__title {
+    font-size: 36px;
+  }
+  .homeMain .about__subtitle {
+    font-size: 19px;
+  }
+  .homeMain .about__content {
     width: 100%;
+    margin: 0 0 50px;
+  }
+  .homeMain .about__img {
+    position: static;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .homeMain .work__swiper {
+    padding: 0 30px;
+  }
+  .homeMain .work__row {
+    column-gap: 20px;
+  }
+  .homeMain .work__card {
+    width: calc(50% - 10px);
+    column-gap: 20px;
+  }
+  .homeMain .work__card_title {
+    font-size: 20px;
+  }
+  .homeMain .work__card_img {
+    width: 120px;
+    height: 100px;
+  }
+  .homeMain .sale__title {
+    font-size: 75px;
+  }
+  .homeMain .sale__subtitle {
+    font-size: 36px;
+  }
+  .homeMain .sale__btn {
+    font-size: 32px;
+    padding: 19px 30px 21px;
+  }
+  .homeMain .catalog__title {
+    font-size: 36px;
+  }
+  .homeMain .news__list {
+    padding: 70px 0 0;
+  }
+  .homeMain .news__card_title {
+    font-size: 28px;
+  }
+  .homeMain .news__card_subtitle {
+    font-size: 18px;
+  }
+  .homeMain .news__more {
+    font-size: 20px;
+  }
+  .homeMain .news__more img {
+    width: 32px;
+    height: 32px;
   }
 }
 

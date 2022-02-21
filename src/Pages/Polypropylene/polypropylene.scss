@@ -1,11 +1,13 @@
 .polypropyleneHome {
-  padding: 130px 0 70px ;
+  padding: 130px 0 70px;
   position: relative;
+
   &__img {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   &__comment {
     margin: 30px 0 40px;
     font-weight: 500;
@@ -13,12 +15,14 @@
     line-height: 26px;
     color: rgba(0, 0, 0, 0.8);
   }
+
   &__row {
     display: flex;
     flex-wrap: wrap;
     column-gap: 40px;
     row-gap: 30px;
   }
+
   &__card {
     position: relative;
     display: flex;
@@ -26,20 +30,24 @@
     justify-content: center;
     width: calc(50% - 20px);
     padding: 0 30px;
+
     & .quotes_first {
       position: absolute;
       top: 50px;
       left: 0;
     }
+
     & .quotes_second {
       position: absolute;
       right: 0;
       top: 170px;
     }
+
     &_row {
       display: flex;
       align-items: center;
       column-gap: 40px;
+
       & p {
         font-weight: 500;
         font-size: 18px;
@@ -53,15 +61,18 @@
 .environment {
   padding: 0 0 70px;
   position: relative;
+
   &__image {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   &__row {
     display: flex;
     align-items: center;
     column-gap: 50px;
+
     & p {
       padding: 0 0 0 30px;
       font-weight: 500;
@@ -69,6 +80,7 @@
       line-height: 29px;
       color: rgba(0, 0, 0, 0.8);
       position: relative;
+
       &::before {
         content: '';
         width: 10px;
@@ -82,6 +94,7 @@
       }
     }
   }
+
   &__title {
     font-weight: bold;
     font-size: 36px;
@@ -89,6 +102,7 @@
     color: #45423F;
     margin: 0 0 50px;
   }
+
   &__subtitle {
     margin: 30px 0;
   }
@@ -96,15 +110,18 @@
 
 .polypropyleneSubtitle {
   padding: 0 0 70px;
+
   &__second {
     margin: 70px 0;
   }
+
   &__title {
     font-weight: bold;
     font-size: 36px;
     line-height: 44px;
     color: #45423F;
   }
+
   &__subtitle {
     font-weight: bold;
     font-size: 24px;
@@ -112,6 +129,7 @@
     color: rgba(0, 0, 0, 0.8);
     margin: 40px 0 30px;
   }
+
   &__descr {
     font-weight: 500;
     font-size: 24px;
@@ -122,14 +140,193 @@
 
 .polypropylene {
   position: relative;
+
   &__button {
     position: absolute;
     top: 700px;
     right: 0;
   }
+
   &__bag {
     position: absolute;
     top: 1500px;
     right: 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  .polypropyleneHome {
+    .container {
+      max-width: 1200px;
+    }
+
+    &__img {
+      width: 260px;
+      height: 240px;
+    }
+
+    .work {
+      &__row {
+        column-gap: 40px;
+      }
+
+      &__swiper {
+        padding: 0 60px;
+      }
+
+      &__card {
+        width: calc(50% - 20px);
+        column-gap: 30px;
+        align-items: center;
+        padding: 15px;
+
+        &_title {
+          font-size: 22px;
+        }
+
+        &_subtitle {
+          font-size: 20px;
+        }
+
+        &_img {
+          padding: 0 30px;
+          width: 150px;
+          height: 130px;
+
+          & img {
+            width: 94px;
+            height: 64px;
+          }
+        }
+      }
+    }
+
+    &__card {
+      &_row {
+        & img {
+          width: 170px;
+          height: 75px;
+        }
+
+        & p {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+
+  .environment {
+    .container {
+      max-width: 1200px;
+    }
+
+    &__image {
+      top: -50px;
+      width: 250px;
+      height: 150px;
+    }
+
+    &__img {
+      & img {
+        width: 550px;
+        height: 520px;
+      }
+    }
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__row {
+      column-gap: 40px;
+
+      & p {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .polypropyleneSubtitle {
+    .container {
+      max-width: 1200px;
+    }
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__subtitle {
+      font-size: 22px;
+    }
+
+    &__descr {
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .polypropyleneHome {
+    padding: 130px 0 130px;
+    .container {
+      max-width: 992px;
+    }
+    &__img {
+      width: 200px;
+      height: 180px;
+    }
+    &__row {
+      column-gap: 20px;
+    }
+    .work {
+      &__row {
+        column-gap: 20px;
+      }
+      &__card {
+        width: calc(50% - 10px);
+        column-gap: 20px;
+        &_title {
+          font-size: 20px;
+        }
+        &_img {
+          width: 120px;
+          height: 100px;
+        }
+      }
+    }
+    &__card {
+      padding: 0 15px 0 30px;
+      &_row {
+        column-gap: 20px;
+        & img {
+          width: 132px;
+          height: 65px;
+        }
+      }
+    }
+  }
+
+  .environment {
+    .container {
+      max-width: 992px;
+    }
+    &__image {
+      transform: translateY(-100%);
+      top: 20px;
+    }
+    &__title {
+      font-size: 30px;
+    }
+    &__img {
+      width: 50%;
+      height: auto;
+      & img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    &__content {
+      width: 50%;
+    }
   }
 }

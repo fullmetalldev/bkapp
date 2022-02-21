@@ -9,7 +9,6 @@ const About = () => {
             <div className="container">
                 <div className="about__box">
                     <img className="about__leaves" src={Leaves} alt="Leaves"/>
-                    <img className="about__img" src={AboutImg} alt="AboutImg"/>
                     <div className="about__btn">
                         <Order/>
                     </div>
@@ -28,6 +27,7 @@ const About = () => {
                         </p>
                         <p className="about__more">Читать подробнее</p>
                     </div>
+                    <img className="about__img" src={AboutImg} alt="AboutImg"/>
                 </div>
             </div>
         </section>

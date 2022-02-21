@@ -48,3 +48,41 @@
     }
   }
 }
+
+@media (max-width: 1400px) {
+  .mission {
+    .container {
+      max-width: 1200px;
+    }
+    &__title {
+      font-size: 42px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .mission {
+    .container {
+      max-width: 992px;
+    }
+    &__title {
+      font-size: 36px;
+    }
+    &__card {
+      padding: 15px 20px 25px;
+      & img {
+        width: 120px;
+        height: 120px;
+        margin: 0 0 15px;
+      }
+      &_title {
+        height: 58px;
+      }
+    }
+    &__card {
+      & img:not(:nth-child(2)) {
+        margin: 0;
+      }
+    }
+  }
+}

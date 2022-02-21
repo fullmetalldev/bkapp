@@ -11,7 +11,7 @@ import Text from "./Text";
 
 const Home = () => {
     return (
-        <main>
+        <main className="homeMain">
             <FirstScreen/>
             <About/>
             <Work/>

@@ -134,4 +134,144 @@
   right: 0;
 }
 
+@media (max-width: 1400px) {
+  .polypropyleneHome .container {
+    max-width: 1200px;
+  }
+  .polypropyleneHome__img {
+    width: 260px;
+    height: 240px;
+  }
+  .polypropyleneHome .work__row {
+    column-gap: 40px;
+  }
+  .polypropyleneHome .work__swiper {
+    padding: 0 60px;
+  }
+  .polypropyleneHome .work__card {
+    width: calc(50% - 20px);
+    column-gap: 30px;
+    align-items: center;
+    padding: 15px;
+  }
+  .polypropyleneHome .work__card_title {
+    font-size: 22px;
+  }
+  .polypropyleneHome .work__card_subtitle {
+    font-size: 20px;
+  }
+  .polypropyleneHome .work__card_img {
+    padding: 0 30px;
+    width: 150px;
+    height: 130px;
+  }
+  .polypropyleneHome .work__card_img img {
+    width: 94px;
+    height: 64px;
+  }
+  .polypropyleneHome__card_row img {
+    width: 170px;
+    height: 75px;
+  }
+  .polypropyleneHome__card_row p {
+    font-size: 17px;
+  }
+
+  .environment .container {
+    max-width: 1200px;
+  }
+  .environment__image {
+    top: -50px;
+    width: 250px;
+    height: 150px;
+  }
+  .environment__img img {
+    width: 550px;
+    height: 520px;
+  }
+  .environment__title {
+    font-size: 32px;
+  }
+  .environment__row {
+    column-gap: 40px;
+  }
+  .environment__row p {
+    font-size: 22px;
+  }
+
+  .polypropyleneSubtitle .container {
+    max-width: 1200px;
+  }
+  .polypropyleneSubtitle__title {
+    font-size: 32px;
+  }
+  .polypropyleneSubtitle__subtitle {
+    font-size: 22px;
+  }
+  .polypropyleneSubtitle__descr {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1200px) {
+  .polypropyleneHome {
+    padding: 130px 0 130px;
+  }
+  .polypropyleneHome .container {
+    max-width: 992px;
+  }
+  .polypropyleneHome__img {
+    width: 200px;
+    height: 180px;
+  }
+  .polypropyleneHome__row {
+    column-gap: 20px;
+  }
+  .polypropyleneHome .work__row {
+    column-gap: 20px;
+  }
+  .polypropyleneHome .work__card {
+    width: calc(50% - 10px);
+    column-gap: 20px;
+  }
+  .polypropyleneHome .work__card_title {
+    font-size: 20px;
+  }
+  .polypropyleneHome .work__card_img {
+    width: 120px;
+    height: 100px;
+  }
+  .polypropyleneHome__card {
+    padding: 0 15px 0 30px;
+  }
+  .polypropyleneHome__card_row {
+    column-gap: 20px;
+  }
+  .polypropyleneHome__card_row img {
+    width: 132px;
+    height: 65px;
+  }
+
+  .environment .container {
+    max-width: 992px;
+  }
+  .environment__image {
+    transform: translateY(-100%);
+    top: 20px;
+  }
+  .environment__title {
+    font-size: 30px;
+  }
+  .environment__img {
+    width: 50%;
+    height: auto;
+  }
+  .environment__img img {
+    width: 100%;
+    height: auto;
+  }
+  .environment__content {
+    width: 50%;
+  }
+}
+
 /*# sourceMappingURL=polypropylene.css.map */

@@ -2,6 +2,7 @@ import React from 'react';
 import "./contractProduction.css";
 import image from "./imgs/img.png";
 import order from "./imgs/orderRight.png";
+import "./ContractProdAdaptive.css";
 
 const ContractProduction = () => {
     return (
@@ -21,7 +22,7 @@ const ContractProduction = () => {
                             клиента на наших мощностях. Готовы рассмотреть размещение ваших пресс-форм на нашей
                             производственной площадке.
                         </div>
-                        <div className="contractProduction__twoBlocks-left">
+                        <div className="contractProduction__twoBlocks-right">
                             <img src={image} alt="card image"/>
                         </div>
                     </div>
