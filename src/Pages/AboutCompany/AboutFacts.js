@@ -56,7 +56,9 @@ const AboutFacts = () => {
                         <p className="aboutFacts__card_title">Проводим маркетинговые исследования рынка..</p>
                     </div>
                     <div className="aboutFacts__card">
-                        <img src={Box} alt="Box"/>
+                        <div className="aboutFacts__card_img">
+                            <img src={Box} alt="Box"/>
+                        </div>
                         <p className="aboutFacts__card_title">Постоянно расширяем ассортимент товаров и услуг.</p>
                     </div>
                     <div className="aboutFacts__card">

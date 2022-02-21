@@ -27,4 +27,63 @@
   top: 1085px;
 }
 
+@media (max-width: 1400px) {
+  .benefits .container {
+    max-width: 1200px;
+  }
+  .benefits__title {
+    font-size: 42px;
+  }
+  .benefits .work__row {
+    column-gap: 40px;
+  }
+  .benefits .work__swiper {
+    padding: 0 60px;
+  }
+  .benefits .work__card {
+    width: calc(50% - 20px);
+    column-gap: 30px;
+    align-items: center;
+    padding: 15px;
+  }
+  .benefits .work__card_title {
+    font-size: 22px;
+  }
+  .benefits .work__card_subtitle {
+    font-size: 20px;
+  }
+  .benefits .work__card_img {
+    padding: 0 30px;
+    width: 150px;
+    height: 130px;
+  }
+  .benefits .work__card_img img {
+    width: 94px;
+    height: 64px;
+  }
+}
+@media (max-width: 1200px) {
+  .benefits .container {
+    max-width: 992px;
+  }
+  .benefits__title {
+    font-size: 36px;
+  }
+  .benefits__row {
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .benefits .work__card {
+    width: calc(50% - 10px);
+    column-gap: 20px;
+  }
+  .benefits .work__card_title {
+    font-size: 20px;
+  }
+  .benefits .work__card_img {
+    width: 120px;
+    height: 100px;
+  }
+}
+
 /*# sourceMappingURL=benefits.css.map */

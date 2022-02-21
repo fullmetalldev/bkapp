@@ -18,29 +18,37 @@
     flex: 1;
     margin: 92px 0 0;
     width: 100%;
+
     &_main {
       width: 100%;
+
       & img {
         width: 100%;
       }
     }
+
     &_row {
       width: 100%;
       margin: 20px 0 0;
       display: flex;
       column-gap: 25px;
     }
+
     & a {
       cursor: pointer;
     }
+
     &_card {
     }
+
     &_row {
       margin: 20px 0 0;
       width: 100%;
+
       & a {
         width: 100%;
       }
+
       & img {
         width: 100%;
       }
@@ -371,6 +379,123 @@
         text-decoration-line: underline;
         font-feature-settings: 'liga' off, 'kern' off;
         color: #000000;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .tablewareProduct {
+    .container {
+      max-width: 1200px;
+    }
+
+    &__list {
+      &_item {
+        padding: 23px;
+
+        .box {
+          padding: 20px;
+          width: 120px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+
+    &__cards {
+      &_title {
+        font-size: 42px;
+      }
+      .swiper-button-prev {
+        width: 52px;
+        height: 52px;
+
+        &::after {
+          font-size: 22px;
+        }
+      }
+
+      .swiper-button-next {
+        width: 52px;
+        height: 52px;
+
+        &::after {
+          font-size: 22px;
+        }
+      }
+
+      &_item {
+        &-img {
+          .swiper-button-next {
+
+            &::after {
+              font-size: 18px;
+            }
+          }
+          .swiper-button-prev {
+
+            &::after {
+              font-size: 18px;
+            }
+          }
+        }
+        img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .tablewareProduct {
+    .container {
+      max-width: 992px;
+    }
+    &__row {
+      column-gap: 15px;
+      flex-wrap: wrap;
+      .box {
+        width: 23.5%;
+      }
+    }
+    &__sort {
+      width: 23.5%;
+    }
+    &__gallery {
+      width: 50%;
+    }
+    &__descr {
+      & li {
+        padding: 15px 15px 20px;
+      }
+    }
+    &__list {
+      &_item {
+        padding: 17px;
+        column-gap: 15px;
+        .box {
+          width: auto;
+          height: auto;
+          padding: 5px;
+          & svg {
+          }
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+    &__cards {
+      &_item {
+        padding: 25px 15px;
+        a {
+          text-align: center;
+        }
       }
     }
   }

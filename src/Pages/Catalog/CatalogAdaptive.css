@@ -20,7 +20,26 @@
 }
 @media (max-width: 1600px) {
   .sectionCatalog__form {
-    flex-flow: wrap row;
+    justify-content: center;
+  }
+
+  .sectionCatalog__form-btnAndInfo {
+    flex-flow: column;
+    row-gap: 30px;
+  }
+
+  .sectionCatalog__form-label {
+    flex-flow: column;
+    row-gap: 20px;
+  }
+
+  .sectionCatalog__form-right {
+    width: 50%;
+    padding: 50px;
+  }
+  .sectionCatalog__form-left {
+    padding: 50px;
+    width: 50%;
   }
 
   .sectionCatalog__complectsRow {
@@ -42,6 +61,25 @@
 
   .sectionCatalog__filterRow-filter {
     width: calc(50% - 40px);
+  }
+}
+@media (max-width: 1100px) {
+  .sectionCatalog__form-right {
+    display: none;
+  }
+  .sectionCatalog__form-left {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .sectionCatalog__filterRow-filter {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .sectionCatalog__beforeProductsRow-card {
+    width: 100%;
+    justify-content: center;
   }
 }
 

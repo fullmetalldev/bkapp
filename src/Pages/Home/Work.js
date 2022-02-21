@@ -68,7 +68,7 @@ const  Work = () => {
                                         <img src={Partner} alt="Production"/>
                                     </div>
                                     <div className="work__card_content">
-                                        <h3 className="work__card_title">Долгосрочное сотруднисество</h3>
+                                        <h3 className="work__card_title">Долгосрочное сотрудничество</h3>
                                         <p className="work__card_subtitle">Хотим, чтобы наши клиенты увеличивали
                                             объемы продаж, получали больше прибыли и росли вместе с нами.</p>
                                     </div>

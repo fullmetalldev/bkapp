@@ -126,7 +126,6 @@
 .sectionCatalog__productsRow .swiper img {
   display: block;
   margin: 0 auto;
-  width: 222px;
 }
 .sectionCatalog__productsRow .swiper .swiper-button-prev {
   background: transparent;
@@ -145,7 +144,7 @@
 .sectionCatalog__productsRow-card {
   padding: 33px 0;
   align-items: center;
-  width: calc(25% - 30px);
+  width: 365px;
   flex-direction: column;
   display: flex;
   justify-content: center;

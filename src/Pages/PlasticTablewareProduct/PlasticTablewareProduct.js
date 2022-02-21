@@ -82,7 +82,7 @@ const PlasticTablewareProduct = () => {
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div className="box">
                             <button className="tablewareProduct__descr_btn" type="button">Заказать товар</button>
                             <div className="tablewareProduct__descr">
                                 <ul className="tablewareProduct__descr_name">

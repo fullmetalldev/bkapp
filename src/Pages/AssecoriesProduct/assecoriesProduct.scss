@@ -159,3 +159,36 @@
     background: rgba(221, 203, 181, 0.15);
   }
 }
+
+@media (max-width: 1400px) {
+  .assecoriesProduct {
+    .container {
+      max-width: 1200px;
+    }
+    &__sort {
+      width: 23.5%;
+      &_bot {
+        width: 100%;
+        h3 {
+          padding: 10px 0;
+          font-size: 22px;
+        }
+      }
+      &_top {
+        width: 100%;
+        p {
+          padding: 15px;
+        }
+      }
+    }
+    &__gallery {
+      width: 49.5%;
+      &_descr {
+
+      }
+    }
+    &__char {
+      width: 23.5%;
+    }
+  }
+}

@@ -26,3 +26,71 @@
     top: 1085px;
   }
 }
+
+@media (max-width: 1400px) {
+  .benefits {
+    .container {
+      max-width: 1200px;
+    }
+    &__title {
+      font-size: 42px;
+    }
+    .work {
+      &__row {
+        column-gap: 40px;
+      }
+      &__swiper {
+        padding: 0 60px;
+      }
+      &__card {
+        width: calc(50% - 20px);
+        column-gap: 30px;
+        align-items: center;
+        padding: 15px;
+        &_title {
+          font-size: 22px;
+        }
+        &_subtitle {
+          font-size: 20px;
+        }
+        &_img {
+          padding: 0 30px;
+          width: 150px;
+          height: 130px;
+          & img {
+            width: 94px;
+            height: 64px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .benefits {
+    .container {
+      max-width: 992px;
+    }
+    &__title {
+      font-size: 36px;
+    }
+    &__row {
+      column-gap: 20px;
+      row-gap: 20px;
+    }
+    .work {
+      &__card {
+        width: calc(50% - 10px);
+        column-gap: 20px;
+        &_title {
+          font-size: 20px;
+        }
+        &_img {
+          width: 120px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}
