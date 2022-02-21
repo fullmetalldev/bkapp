@@ -22,7 +22,7 @@
   column-gap: 70px;
 }
 .ourTeam__cardsRow_card {
-  width: calc(33.3% - 47px);
+  width: 480px;
   display: flex;
   flex-flow: column;
   background: rgba(202, 219, 241, 0.15);
