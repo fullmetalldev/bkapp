@@ -139,8 +139,12 @@
   display: flex;
   justify-content: space-between;
 }
+.sectionCatalog__form-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .sectionCatalog__form-right img {
-  height: 100%;
   width: 100%;
 }
 .sectionCatalog__form-label {

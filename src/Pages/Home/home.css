@@ -583,59 +583,59 @@
   .homeMain .first-screen__card_btns .btn {
     padding: 15px 25px;
   }
-  .homeMain .about__title {
+  .homeMain .first-screen .about__title {
     font-size: 42px;
     padding: 0 0 25px;
     margin: 0 0 40px;
   }
-  .homeMain .about__subtitle {
+  .homeMain .first-screen .about__subtitle {
     font-size: 20px;
     margin: 0 0 40px;
   }
-  .homeMain .about__more {
+  .homeMain .first-screen .about__more {
     font-size: 20px;
   }
-  .homeMain .work__row {
+  .homeMain .first-screen .work__row {
     column-gap: 40px;
   }
-  .homeMain .work__swiper {
+  .homeMain .first-screen .work__swiper {
     padding: 0 60px;
   }
-  .homeMain .work__card {
+  .homeMain .first-screen .work__card {
     width: calc(50% - 20px);
     column-gap: 30px;
     align-items: center;
     padding: 15px;
   }
-  .homeMain .work__card_title {
+  .homeMain .first-screen .work__card_title {
     font-size: 22px;
   }
-  .homeMain .work__card_subtitle {
+  .homeMain .first-screen .work__card_subtitle {
     font-size: 20px;
   }
-  .homeMain .work__card_img {
+  .homeMain .first-screen .work__card_img {
     padding: 0 30px;
     width: 150px;
     height: 130px;
   }
-  .homeMain .work__card_img img {
+  .homeMain .first-screen .work__card_img img {
     width: 94px;
     height: 64px;
   }
-  .homeMain .sale__title {
+  .homeMain .first-screen .sale__title {
     font-size: 82px;
   }
-  .homeMain .sale__subtitle {
+  .homeMain .first-screen .sale__subtitle {
     font-size: 42px;
   }
-  .homeMain .sale__btn {
+  .homeMain .first-screen .sale__btn {
     font-size: 36px;
   }
-  .homeMain .catalog__title {
+  .homeMain .first-screen .catalog__title {
     font-size: 42px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1400px) and (max-width: 1200px) {
   .homeMain .container {
     max-width: 992px;
   }
