@@ -63,7 +63,9 @@
 }
 
 @media (max-width: 1100px) {
-
+  .sectionCatalog__title{
+    margin-top: 40px;
+  }
   .sectionCatalog__form {
     &-right {
       display: none;

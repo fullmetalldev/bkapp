@@ -1,20 +1,58 @@
 @media (max-width: 1800px) {
 
-  .BurgerMain__background{
+  .BurgerMain__background {
     padding: 20px;
   }
 
 }
 
 @media (max-width: 1600px) {
-  .BurgerMain__row-column{
+  .BurgerMain__row-column {
     row-gap: 20px;
   }
-  .BurgerMain__row-column .upper{
+  .BurgerMain__row-column .upper {
     font-size: 24px;
   }
-  .BurgerMain__row-column .lower{
+  .BurgerMain__row-column .lower {
     font-size: 20px;
   }
 }
 
+@media (max-width: 1000px) {
+  .BurgerMain__row {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .BurgerMain__row-column {
+    width: 50%;
+    row-gap: 10px;
+  }
+  .BurgerMain__background {
+    height: auto;
+  }
+
+
+}
+
+@media (max-width: 500px) {
+  .BurgerMain__row-column .upper{
+    font-size: 20px;
+  }
+  .BurgerMain__row-column .lower{
+    font-size: 16px;
+  }
+  .BurgerMain__row-column {
+    width: 100%;
+  }
+  .BurgerMain__btn{
+    font-size: 32px;
+    padding: 24px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .BurgerMain__btn{
+    font-size: 24px;
+    padding: 18px 0;
+  }
+}
