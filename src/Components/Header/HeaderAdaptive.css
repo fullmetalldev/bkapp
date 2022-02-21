@@ -156,6 +156,14 @@
   }
 }
 @media (max-width: 550px) {
+  .header__down-right {
+    column-gap: 3px;
+  }
+
+  .header__down-search:hover img {
+    display: none;
+  }
+
   .header__down-search:hover .header__down-search-inp {
     width: 100%;
   }
@@ -173,6 +181,21 @@
 }
 .header__down-search:focus .header__down-cart {
   display: none;
+}
+
+@media (max-width: 375px) {
+  .header__down-cart {
+    column-gap: 5px;
+  }
+
+  .header__down {
+    padding-right: 3px;
+    padding-left: 3px;
+  }
+
+  .header__down-language {
+    column-gap: 3px;
+  }
 }
 
 /*# sourceMappingURL=HeaderAdaptive.css.map */

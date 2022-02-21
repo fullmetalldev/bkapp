@@ -33,6 +33,10 @@
   }
 }
 @media (max-width: 550px) {
+  .footer__bot_right-row {
+    align-items: center;
+  }
+
   .footer__form {
     flex-direction: column;
     width: 100%;
@@ -40,6 +44,39 @@
 
   .footer__form input {
     width: 100%;
+  }
+
+  .sectionBeforeFooter__button {
+    font-size: 24px;
+    padding: 10px 20px;
+  }
+
+  .footer__btn {
+    padding: 10px 20px;
+  }
+
+  .footer__bot_right {
+    text-align: center;
+  }
+
+  .footer__row {
+    row-gap: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .footer__list a {
+    font-size: 16px;
+  }
+
+  .sectionCatalog__infoTitle {
+    margin-top: 30px !important;
+  }
+
+  .footer__bot_right p {
+    font-size: 16px;
+  }
+  .footer__bot_right a {
+    font-size: 16px;
   }
 }
 
