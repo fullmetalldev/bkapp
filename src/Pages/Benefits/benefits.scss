@@ -94,3 +94,24 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .benefits {
+    .container {
+      max-width: 768px;
+    }
+    &__title {
+      font-size: 32px;
+      line-height: 45px;
+      margin: 70px 0 30px;
+    }
+    &__row {
+      justify-content: center;
+    }
+    .work {
+      &__card {
+        width: 70%;
+      }
+    }
+  }
+}

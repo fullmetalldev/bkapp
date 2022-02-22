@@ -28,3 +28,14 @@
     color: #FFFFFF;
   }
 }
+
+@media (max-width: 996px) {
+  .buttonsRow-transperentBtn {
+    font-size: 17px;
+    padding: 17px 23px;
+  }
+  .buttonsRow-greenBtn {
+    font-size: 17px;
+    padding: 17px 23px;
+  }
+}

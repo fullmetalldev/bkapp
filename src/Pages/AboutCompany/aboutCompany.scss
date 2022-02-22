@@ -347,16 +347,20 @@
     .container {
       max-width: 1200px;
     }
+
     .section__title {
       font-size: 41px;
     }
+
     &__img {
       width: 250px;
       height: 150px;
     }
+
     &__polygon_card-title {
       font-size: 22px;
     }
+
     &__polygon .fifth p {
       width: 501px;
     }
@@ -368,15 +372,18 @@
     .container {
       max-width: 992px;
     }
+
     &__row {
       align-items: center;
       margin: 50px 0;
     }
+
     &__card {
       &_subtitle {
         font-size: 24px;
       }
     }
+
     &__item {
       &_subtitle {
         font-size: 21px;
@@ -388,6 +395,7 @@
     .container {
       max-width: 992px;
     }
+
     &__card {
       width: calc((100% / 3) - (40px / 3));
     }
@@ -397,28 +405,152 @@
     .container {
       max-width: 992px;
     }
+
     &__polygon {
       width: 400px;
       height: 400px;
+
       & .first p {
         width: 255px;
       }
+
       & .fifth p {
         width: 460px;
       }
+
       &_card {
         width: 100px;
         height: 100px;
+
         &-title {
           font-size: 20px;
         }
       }
+
       &_list {
         width: 100px;
         height: 100px;
       }
+
       &_logo {
         width: 180px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .aboutCompany {
+    .container {
+      max-width: 768px;
+    }
+  }
+  .aboutFacts {
+    &__row {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &__card {
+      width: 40%;
+    }
+  }
+
+  .aboutCompanyHome {
+    &__row {
+      flex-direction: column;
+      row-gap: 30px;
+    }
+
+    &__card {
+      width: 100%;
+      &_title {
+        font-size: 28px;
+      }
+      &_subtitle {
+        font-size: 22px;
+      }
+      &_descr {
+        font-size: 20px;
+      }
+    }
+
+    &__item {
+      &_subtitle {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .cycle {
+    &__img {
+      width: 200px;
+      height: 120px;
+    }
+    .section__title {
+      font-size: 32px;
+      line-height: 45px;
+    }
+
+    &__polygon {
+      margin: 0 auto;
+      width: 320px;
+      height: 320px;
+
+      &_list {
+        width: 80px;
+        height: 80px;
+      }
+
+      &_logo {
+        width: 120px;
+      }
+
+      &_card {
+        &-title {
+          font-size: 17px;
+          line-height: 25px;
+        }
+        &-item {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          & img {
+            width: 50px;
+            height: 40px;
+          }
+        }
+      }
+      .second {
+        left: 100%;
+        p {
+          right: -5px;
+          width: 197px;
+        }
+      }
+      .third {
+        right: 100%;
+      }
+      .third p {
+        transform: translate(0);
+        left: -170px;
+      }
+      .fourth {
+        right: 100%;
+      }
+      .fourth p {
+        transform: translate(0);
+        left: -170px;
+      }
+      .fifth {
+        transform: translate(-50%, 65%);
+      }
+      .fifth p {
+        width: 420px;
+      }
+      .sixth {
+        left: 100%;
       }
     }
   }

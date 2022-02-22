@@ -1,17 +1,19 @@
-.buttonsRow-greenBtn {
-  background: #DDCBB5;
-  color: rgba(0, 0, 0, 0.8);
-  font-weight: 500;
-}
-
-.buttonsRow {
-  width: auto;
-  margin: 0;
-  justify-content: flex-start;
-}
 
 .assecoriesProduct {
   padding: 130px 0 70px;
+
+  .buttonsRow-greenBtn {
+    background: #DDCBB5;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+  }
+
+  .buttonsRow {
+    width: auto;
+    margin: 0;
+    justify-content: flex-start;
+  }
+
 
   &__top {
     margin: 0 0 30px;
@@ -24,8 +26,10 @@
     display: flex;
     column-gap: 40px;
     margin: 0 0 70px;
+
     .tablewareProduct__gallery {
       margin: 0;
+
       &_descr {
         font-family: Montserrat, sans-serif;
         font-style: normal;
@@ -68,6 +72,7 @@
 
     &_bot {
       border: 2px solid #F5F7FB;
+
       h3 {
         font-family: Montserrat, sans-serif;
         font-weight: bold;
@@ -79,10 +84,12 @@
         border-radius: 1px;
         padding: 9px 65px;
       }
+
       &-form {
         display: flex;
         flex-direction: column;
         padding: 20px;
+
         & input {
           width: 100%;
           padding: 18px;
@@ -95,6 +102,7 @@
           border-radius: 2px;
           margin: 0 0 15px;
         }
+
         & button {
           background: #CADBF1;
           border-radius: 1px;
@@ -115,6 +123,7 @@
   &__right {
     display: flex;
     border: 1px solid #ECD9C6;
+
     &_btn {
       font-family: Montserrat, sans-serif;
       font-style: normal;
@@ -130,6 +139,7 @@
       width: 100%;
       margin: 30px 0 0;
     }
+
     & li {
       padding: 25px 20px;
       font-family: Montserrat, sans-serif;
@@ -139,22 +149,27 @@
       line-height: 20px;
       font-feature-settings: 'liga' off, 'kern' off;
     }
+
     & li:not(:last-child) {
       border-bottom: 1px solid #ECD9C6;
     }
+
     &_list {
       width: 100%;
       background: rgba(221, 203, 181, 0.15);
       border-radius: 1px;
+
       & li {
         color: #9D8675;
         border-right: 1px solid #ECD9C6;
       }
     }
+
     &_stats {
       width: 100%;
     }
   }
+
   .tablewareProduct__cards_item {
     background: rgba(221, 203, 181, 0.15);
   }
@@ -165,28 +180,36 @@
     .container {
       max-width: 1200px;
     }
+
     &__sort {
       width: 23.5%;
+
       &_bot {
         width: 100%;
+
         h3 {
           padding: 10px 0;
           font-size: 22px;
         }
       }
+
       &_top {
         width: 100%;
+
         p {
           padding: 15px;
         }
       }
     }
+
     &__gallery {
       width: 49.5%;
+
       &_descr {
 
       }
     }
+
     &__char {
       width: 23.5%;
     }
@@ -198,27 +221,99 @@
     &__row {
       column-gap: 30px;
     }
+
     &__sort {
       &_top {
         p {
           font-size: 15px;
         }
       }
+
       &_bot {
         h3 {
           font-size: 20px;
         }
       }
     }
+
     &__right {
       &_stats {
         li {
           padding: 10px;
         }
       }
+
       &_list {
         li {
           padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .assecoriesProduct {
+    .container {
+      max-width: 768px;
+    }
+    &__top {
+      h2 {
+        font-size: 22px;
+      }
+    }
+    &__row {
+      column-gap: 10px;
+      margin: 0;
+      .tablewareProduct__gallery {
+        &_descr {
+          font-size: 16px;
+        }
+      }
+    }
+    &__sort {
+      margin: 0 0 20px;
+      &_top {
+        p {
+          padding: 10px;
+          font-size: 14px;
+        }
+      }
+      &_bot {
+        h3 {
+          font-size: 18px;
+          line-height: 40px;
+        }
+        &-form {
+          padding: 10px;
+          & button {
+            padding: 5px 0;
+          }
+        }
+      }
+    }
+    &__char {
+      width: 28.5%;
+    }
+    &__right {
+      &_btn {
+        margin: 20px 0 0;
+        font-size: 16px;
+        padding: 16px 0;
+      }
+      &_list {
+        li {
+          font-size: 14px;
+          padding: 5px;
+        }
+      }
+      &_stats {
+        li {
+          font-size: 14px;
+          padding: 5px;
+          &:last-child, &:nth-child(6) {
+            height: 51px;
+          }
         }
       }
     }

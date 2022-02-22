@@ -597,78 +597,77 @@
           }
         }
       }
+    }
+    .about {
+      &__title {
+        font-size: 42px;
+        padding: 0 0 25px;
+        margin: 0 0 40px;
+      }
 
-      .about {
-        &__title {
-          font-size: 42px;
-          padding: 0 0 25px;
-          margin: 0 0 40px;
+      &__subtitle {
+        font-size: 20px;
+        margin: 0 0 40px;
+      }
+
+      &__more {
+        font-size: 20px;
+      }
+    }
+
+    .work {
+      &__row {
+        column-gap: 40px;
+      }
+
+      &__swiper {
+        padding: 0 60px;
+      }
+
+      &__card {
+        width: calc(50% - 20px);
+        column-gap: 30px;
+        align-items: center;
+        padding: 15px;
+
+        &_title {
+          font-size: 22px;
         }
 
-        &__subtitle {
+        &_subtitle {
           font-size: 20px;
-          margin: 0 0 40px;
         }
 
-        &__more {
-          font-size: 20px;
-        }
-      }
+        &_img {
+          padding: 0 30px;
+          width: 150px;
+          height: 130px;
 
-      .work {
-        &__row {
-          column-gap: 40px;
-        }
-
-        &__swiper {
-          padding: 0 60px;
-        }
-
-        &__card {
-          width: calc(50% - 20px);
-          column-gap: 30px;
-          align-items: center;
-          padding: 15px;
-
-          &_title {
-            font-size: 22px;
-          }
-
-          &_subtitle {
-            font-size: 20px;
-          }
-
-          &_img {
-            padding: 0 30px;
-            width: 150px;
-            height: 130px;
-
-            & img {
-              width: 94px;
-              height: 64px;
-            }
+          & img {
+            width: 94px;
+            height: 64px;
           }
         }
       }
+    }
 
-      .sale {
-        &__title {
-          font-size: 82px;
-        }
-
-        &__subtitle {
-          font-size: 42px;
-        }
-
-        &__btn {
-          font-size: 36px;
-        }
+    .sale {
+      &__title {
+        font-size: 82px;
       }
 
-      .catalog {
-        &__title {
-          font-size: 42px;
-        }
+      &__subtitle {
+        font-size: 42px;
+      }
+
+      &__btn {
+        font-size: 36px;
+      }
+    }
+
+    .catalog {
+      &__title {
+        font-size: 42px;
       }
     }
   }
@@ -797,6 +796,69 @@
             height: 32px;
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .homeMain {
+    .container {
+      max-width: 768px;
+    }
+    .first-screen {
+      .swiper-pagination {
+        display: none;
+      }
+      &__card {
+        &_title {
+          font-size: 36px;
+        }
+        &_subtitle {
+          font-size: 19px;
+        }
+        &_content {
+          width: 350px;
+          height: 300px;
+          padding: 10px;
+        }
+        &_btns {
+          .btn {
+            font-size: 16px;
+            padding: 12px 13px;
+          }
+        }
+      }
+    }
+
+    .about {
+      &__content {
+        padding: 120px 0 0;
+      }
+      &__title {
+        font-size: 36px;
+      }
+    }
+
+    .work {
+      &__row {
+        justify-content: center;
+      }
+      &__card {
+        width: 70%;
+      }
+    }
+
+    .sale {
+      &__title {
+        font-size: 65px;
+      }
+      &__subtitle {
+        font-size: 32px;
+      }
+      &__btn {
+        font-size: 28px;
+        padding: 17px 25px 19px;
       }
     }
   }

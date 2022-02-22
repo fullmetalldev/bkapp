@@ -34,5 +34,10 @@ button {
     font-size: 36px;
   }
 }
+@media (max-width: 992px) {
+  .section__title {
+    font-size: 32px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

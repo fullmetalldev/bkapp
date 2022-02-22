@@ -351,5 +351,104 @@
     width: 180px;
   }
 }
+@media (max-width: 992px) {
+  .aboutCompany .container {
+    max-width: 768px;
+  }
+
+  .aboutFacts__row {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .aboutFacts__card {
+    width: 40%;
+  }
+
+  .aboutCompanyHome__row {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .aboutCompanyHome__card {
+    width: 100%;
+  }
+  .aboutCompanyHome__card_title {
+    font-size: 28px;
+  }
+  .aboutCompanyHome__card_subtitle {
+    font-size: 22px;
+  }
+  .aboutCompanyHome__card_descr {
+    font-size: 20px;
+  }
+  .aboutCompanyHome__item_subtitle {
+    font-size: 20px;
+  }
+
+  .cycle__img {
+    width: 200px;
+    height: 120px;
+  }
+  .cycle .section__title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .cycle__polygon {
+    margin: 0 auto;
+    width: 320px;
+    height: 320px;
+  }
+  .cycle__polygon_list {
+    width: 80px;
+    height: 80px;
+  }
+  .cycle__polygon_logo {
+    width: 120px;
+  }
+  .cycle__polygon_card-title {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .cycle__polygon_card-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cycle__polygon_card-item img {
+    width: 50px;
+    height: 40px;
+  }
+  .cycle__polygon .second {
+    left: 100%;
+  }
+  .cycle__polygon .second p {
+    right: -5px;
+    width: 197px;
+  }
+  .cycle__polygon .third {
+    right: 100%;
+  }
+  .cycle__polygon .third p {
+    transform: translate(0);
+    left: -170px;
+  }
+  .cycle__polygon .fourth {
+    right: 100%;
+  }
+  .cycle__polygon .fourth p {
+    transform: translate(0);
+    left: -170px;
+  }
+  .cycle__polygon .fifth {
+    transform: translate(-50%, 65%);
+  }
+  .cycle__polygon .fifth p {
+    width: 420px;
+  }
+  .cycle__polygon .sixth {
+    left: 100%;
+  }
+}
 
 /*# sourceMappingURL=aboutCompany.css.map */

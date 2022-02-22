@@ -848,6 +848,625 @@ const PlasticTablewareProduct = () => {
                             </Swiper>
                         </div>
                     </div>
+                    <div className="tablewareProduct__cards adaptive">
+                        <div className="tablewareProduct__cards_card">
+                            <h2 className="tablewareProduct__cards_title">Ранее вы смотрели</h2>
+                            <Swiper
+                                slidesPerView={3}
+                                spaceBetween={40}
+                                slidesPerGroup={1}
+                                loop={true}
+                                loopFillGroupWithBlank={true}
+                                pagination={{
+                                    clickable: false,
+                                }}
+                                navigation={true}
+                                modules={[Navigation]}
+                                className="mySwiper"
+                            >
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+                                        <h3>Крепление верх-низ</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+
+                                        <h3>Крепление верх-низ</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+
+                                        <h3>Крепление верх-низ</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+
+                                        <h3>Крепление верх-низ</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+
+                                        <h3>Крепление верх-низ</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+
+                                        <h3>Крепление верх-низ</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+
+                                        <h3>Крепление верх-низ</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={0}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+
+                                        <h3>Крепление верх-низ</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
+                        <div className="tablewareProduct__cards_card margin">
+                            <h2 className="tablewareProduct__cards_title">С этим товаром покупают</h2>
+                            <Swiper
+                                slidesPerView={3}
+                                spaceBetween={40}
+                                slidesPerGroup={1}
+                                loop={true}
+                                loopFillGroupWithBlank={true}
+                                pagination={{
+                                    clickable: false,
+                                }}
+                                navigation={true}
+                                modules={[Navigation]}
+                                className="mySwiper"
+                            >
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+                                        <h3>Мост Винтек 532</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+                                        <h3>Мост Винтек 532</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+                                        <h3>Мост Винтек 532</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+                                        <h3>Мост Винтек 532</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+                                        <h3>Мост Винтек 532</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+                                        <h3>Мост Винтек 532</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+                                        <h3>Мост Винтек 532</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="tablewareProduct__cards_item">
+                                        <div className="tablewareProduct__cards_item-img">
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={40}
+                                                slidesPerGroup={1}
+                                                loop={true}
+                                                loopFillGroupWithBlank={true}
+                                                pagination={{
+                                                    clickable: false,
+                                                }}
+                                                navigation={true}
+                                                modules={[Navigation]}
+                                                className="mySwiper"
+                                            >
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <img src={Item1} alt="Item1"/>
+                                                </SwiperSlide>
+                                            </Swiper>
+                                        </div>
+                                        <h3>Мост Винтек 532</h3>
+                                        <p>360 мл</p>
+                                        <button>Заказать</button>
+                                        <a href="#">Смотреть подробнее</a>
+                                    </div>
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
+                    </div>
                 </div>
             </section>
         </>

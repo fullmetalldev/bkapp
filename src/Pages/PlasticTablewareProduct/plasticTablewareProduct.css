@@ -1,6 +1,9 @@
 .tablewareProduct {
   padding: 130px 0 70px;
 }
+.tablewareProduct .adaptive {
+  display: none;
+}
 .tablewareProduct__row {
   display: flex;
   column-gap: 40px;
@@ -440,6 +443,98 @@
   }
   .tablewareProduct__text p {
     font-size: 17px;
+  }
+}
+@media (max-width: 996px) {
+  .tablewareProduct .container {
+    max-width: 768px;
+  }
+  .tablewareProduct__row {
+    column-gap: 10px;
+  }
+  .tablewareProduct__sort_title {
+    font-size: 22px;
+    height: 50px;
+    margin: 0 0 20px;
+  }
+  .tablewareProduct__sort_item {
+    padding: 10px;
+  }
+  .tablewareProduct__sort_item p {
+    font-size: 15px;
+  }
+  .tablewareProduct__sort_btn {
+    margin: 20px 0;
+    font-size: 16px;
+    padding: 16px 0;
+  }
+  .tablewareProduct__sort_download {
+    font-size: 16px;
+  }
+  .tablewareProduct__gallery {
+    margin: 70px 0 0;
+    width: 45%;
+  }
+  .tablewareProduct__gallery_row {
+    column-gap: 10px;
+    margin: 10px 0 0;
+  }
+  .tablewareProduct .box {
+    width: 28.5%;
+  }
+  .tablewareProduct__descr_name li {
+    font-size: 14px;
+    padding: 10px 10px 15px;
+  }
+  .tablewareProduct__descr_stats li {
+    font-size: 14px;
+    padding: 10px 10px 15px;
+  }
+  .tablewareProduct__descr_btn {
+    font-size: 16px;
+    padding: 12px 0;
+    margin: 0 0 20px;
+  }
+  .tablewareProduct__list {
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .tablewareProduct__list_item {
+    width: 50%;
+  }
+  .tablewareProduct__list_item .box {
+    width: 80px;
+    height: 74px;
+  }
+  .tablewareProduct__cards {
+    display: none;
+  }
+  .tablewareProduct__cards_title {
+    font-size: 32px;
+  }
+  .tablewareProduct__cards_card .swiper-button-next {
+    width: 40px;
+    height: 40px;
+  }
+  .tablewareProduct__cards_card .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+  }
+  .tablewareProduct__cards_item-img .swiper-button-next {
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    transform: translate(0, 50%);
+  }
+  .tablewareProduct__cards_item-img .swiper-button-prev {
+    top: 50%;
+    transform: translate(0, 50%);
+    width: 20px;
+    height: 20px;
+  }
+  .tablewareProduct .adaptive {
+    display: block;
   }
 }
 

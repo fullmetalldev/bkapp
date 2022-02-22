@@ -270,5 +270,39 @@
     padding: 25px 15px 30px;
   }
 }
+@media (max-width: 992px) {
+  .plasticTablewareHome .container {
+    max-width: 768px;
+  }
+  .plasticTablewareHome__subtitle {
+    font-size: 17px;
+  }
+  .plasticTablewareHome__card {
+    padding: 0;
+  }
+  .plasticTablewareHome__card_title {
+    font-size: 13px;
+  }
+
+  .plasticTablewareCatalog .container {
+    max-width: 768px;
+  }
+  .plasticTablewareCatalog__title {
+    font-size: 32px;
+    margin: 0 0 30px;
+  }
+  .plasticTablewareCatalog__catalog {
+    width: 70%;
+  }
+  .plasticTablewareCatalog__sort {
+    width: 30%;
+  }
+  .plasticTablewareCatalog__list {
+    justify-content: center;
+  }
+  .plasticTablewareCatalog__list_item {
+    width: 40%;
+  }
+}
 
 /*# sourceMappingURL=plasticTableware.css.map */

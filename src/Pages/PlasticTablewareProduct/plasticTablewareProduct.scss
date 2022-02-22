@@ -1,6 +1,8 @@
 .tablewareProduct {
   padding: 130px 0 70px;
-
+  .adaptive {
+    display: none;
+  }
   &__row {
     display: flex;
     column-gap: 40px;
@@ -556,6 +558,126 @@
       p {
         font-size: 17px;
       }
+    }
+  }
+}
+
+@media (max-width: 996px) {
+  .tablewareProduct {
+    .container {
+      max-width: 768px;
+    }
+    &__row {
+      column-gap: 10px;
+    }
+    &__sort {
+      &_title {
+        font-size: 22px;
+        height: 50px;
+        margin: 0 0 20px;
+      }
+      &_item {
+        padding: 10px;
+        p {
+          font-size: 15px;
+        }
+      }
+      &_btn {
+        margin: 20px 0;
+        font-size: 16px;
+        padding: 16px 0;
+      }
+      &_download {
+        font-size: 16px;
+      }
+    }
+    &__gallery {
+      margin: 70px 0 0;
+      width: 45%;
+      &_row {
+        column-gap: 10px;
+        margin: 10px 0 0;
+      }
+    }
+    .box {
+      width: 28.5%;
+    }
+    &__descr {
+      &_name {
+        li {
+          font-size: 14px;
+          padding: 10px 10px 15px;
+        }
+      }
+      &_stats {
+        li {
+          font-size: 14px;
+          padding: 10px 10px 15px;
+        }
+      }
+      &_btn {
+        font-size: 16px;
+        padding: 12px 0;
+        margin: 0 0 20px;
+      }
+    }
+    &__list {
+      justify-content: center;
+      flex-wrap: wrap;
+      row-gap: 30px;
+      &_item {
+        width: 50%;
+        .box {
+          width: 80px;
+          height: 74px;
+        }
+      }
+    }
+    &__cards {
+      display: none;
+      &_title {
+        font-size: 32px;
+      }
+      &_card {
+        .swiper-button-next {
+          width: 40px;
+          height: 40px;
+          &::after {
+
+          }
+        }
+        .swiper-button-prev {
+          width: 40px;
+          height: 40px;
+          &::after {
+
+          }
+        }
+      }
+      &_item {
+        &-img {
+          .swiper-button-next {
+            width: 20px;
+            height: 20px;
+            top: 50%;
+            transform: translate(0, 50%);
+            &::after {
+            }
+          }
+          .swiper-button-prev {
+            top: 50%;
+            transform: translate(0, 50%);
+            width: 20px;
+            height: 20px;
+            &::after {
+
+            }
+          }
+        }
+      }
+    }
+    .adaptive {
+      display: block;
     }
   }
 }

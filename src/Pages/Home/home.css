@@ -583,55 +583,55 @@
   .homeMain .first-screen__card_btns .btn {
     padding: 15px 25px;
   }
-  .homeMain .first-screen .about__title {
+  .homeMain .about__title {
     font-size: 42px;
     padding: 0 0 25px;
     margin: 0 0 40px;
   }
-  .homeMain .first-screen .about__subtitle {
+  .homeMain .about__subtitle {
     font-size: 20px;
     margin: 0 0 40px;
   }
-  .homeMain .first-screen .about__more {
+  .homeMain .about__more {
     font-size: 20px;
   }
-  .homeMain .first-screen .work__row {
+  .homeMain .work__row {
     column-gap: 40px;
   }
-  .homeMain .first-screen .work__swiper {
+  .homeMain .work__swiper {
     padding: 0 60px;
   }
-  .homeMain .first-screen .work__card {
+  .homeMain .work__card {
     width: calc(50% - 20px);
     column-gap: 30px;
     align-items: center;
     padding: 15px;
   }
-  .homeMain .first-screen .work__card_title {
+  .homeMain .work__card_title {
     font-size: 22px;
   }
-  .homeMain .first-screen .work__card_subtitle {
+  .homeMain .work__card_subtitle {
     font-size: 20px;
   }
-  .homeMain .first-screen .work__card_img {
+  .homeMain .work__card_img {
     padding: 0 30px;
     width: 150px;
     height: 130px;
   }
-  .homeMain .first-screen .work__card_img img {
+  .homeMain .work__card_img img {
     width: 94px;
     height: 64px;
   }
-  .homeMain .first-screen .sale__title {
+  .homeMain .sale__title {
     font-size: 82px;
   }
-  .homeMain .first-screen .sale__subtitle {
+  .homeMain .sale__subtitle {
     font-size: 42px;
   }
-  .homeMain .first-screen .sale__btn {
+  .homeMain .sale__btn {
     font-size: 36px;
   }
-  .homeMain .first-screen .catalog__title {
+  .homeMain .catalog__title {
     font-size: 42px;
   }
 }
@@ -717,6 +717,51 @@
   .homeMain .news__more img {
     width: 32px;
     height: 32px;
+  }
+}
+@media (max-width: 992px) {
+  .homeMain .container {
+    max-width: 768px;
+  }
+  .homeMain .first-screen .swiper-pagination {
+    display: none;
+  }
+  .homeMain .first-screen__card_title {
+    font-size: 36px;
+  }
+  .homeMain .first-screen__card_subtitle {
+    font-size: 19px;
+  }
+  .homeMain .first-screen__card_content {
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+  }
+  .homeMain .first-screen__card_btns .btn {
+    font-size: 16px;
+    padding: 12px 13px;
+  }
+  .homeMain .about__content {
+    padding: 120px 0 0;
+  }
+  .homeMain .about__title {
+    font-size: 36px;
+  }
+  .homeMain .work__row {
+    justify-content: center;
+  }
+  .homeMain .work__card {
+    width: 70%;
+  }
+  .homeMain .sale__title {
+    font-size: 65px;
+  }
+  .homeMain .sale__subtitle {
+    font-size: 32px;
+  }
+  .homeMain .sale__btn {
+    font-size: 28px;
+    padding: 17px 25px 19px;
   }
 }
 
