@@ -546,7 +546,7 @@
 }
 @media (max-width: 576px) {
   .aboutCompany {
-    padding: 0 20px;
+    padding: 50px 20px;
   }
   .aboutCompany .aboutCompanyHome__card_subtitle {
     line-height: 25px;

@@ -9,7 +9,7 @@ const BurgerMenu = ({form, setForm}) => {
                 <div className="headerContainer">
                     <div className="BurgerMain__row">
                         <ul className="BurgerMain__row-column">
-                            <a href="/catalog/accessories" className="upper">Каталог комплектующих</a>
+                            <a to="/catalog/accessories" className="upper">Каталог комплектующих</a>
                             <span className="BurgerMain__row-line"> </span>
                             <a className="lower">Комплектующие для стеклопакетов</a>
                             <a className="lower">Комплектующие для москитных сеток</a>
