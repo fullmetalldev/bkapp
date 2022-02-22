@@ -115,3 +115,51 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .benefits {
+    .container {
+      max-width: 576px;
+    }
+    &__title {
+      font-size: 22px;
+      line-height: 130%;
+      margin: 40px 0 20px;
+    }
+    .work__card {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .benefits {
+    padding: 50px 20px;
+    &__title {
+      font-size: 20px;
+    }
+    .work__card {
+      width: 100%;
+      &_title {
+        font-size: 18px;
+        line-height: 130%;
+      }
+      &_subtitle {
+        font-size: 16px;
+        line-height: 130%;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .benefits {
+    padding: 50px 10px;
+    .work__card {
+      &_img {
+        width: 100px;
+        height: 80px;
+      }
+    }
+  }
+}

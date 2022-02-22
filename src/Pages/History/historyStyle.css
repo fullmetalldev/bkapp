@@ -1,5 +1,5 @@
 .history {
-  padding: 40px 0;
+  padding: 40px 10px;
   position: relative;
 }
 .history__button {
@@ -36,12 +36,12 @@
 .history__main-block {
   display: flex;
   justify-content: space-between;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   column-gap: 50px;
   margin-bottom: 30px;
 }
 .history__main-block_right {
-  width: 50%;
+  width: 765px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@
   width: 100%;
 }
 .history__main-block_left {
-  width: 50%;
+  width: 765px;
   display: flex;
   flex-direction: column;
   row-gap: 50px;

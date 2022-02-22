@@ -20,7 +20,7 @@ const  Work = () => {
                 <div className="work__swiper">
                     <Swiper
                         slidesPerView={1}
-                        spaceBetween={0}
+                        spaceBetween={250}
                         slidesPerGroup={1}
                         loop={true}
                         loopFillGroupWithBlank={true}

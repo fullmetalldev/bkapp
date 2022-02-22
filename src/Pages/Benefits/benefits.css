@@ -101,5 +101,46 @@
     width: 70%;
   }
 }
+@media (max-width: 768px) {
+  .benefits .container {
+    max-width: 576px;
+  }
+  .benefits__title {
+    font-size: 22px;
+    line-height: 130%;
+    margin: 40px 0 20px;
+  }
+  .benefits .work__card {
+    width: 80%;
+  }
+}
+@media (max-width: 576px) {
+  .benefits {
+    padding: 50px 20px;
+  }
+  .benefits__title {
+    font-size: 20px;
+  }
+  .benefits .work__card {
+    width: 100%;
+  }
+  .benefits .work__card_title {
+    font-size: 18px;
+    line-height: 130%;
+  }
+  .benefits .work__card_subtitle {
+    font-size: 16px;
+    line-height: 130%;
+  }
+}
+@media (max-width: 425px) {
+  .benefits {
+    padding: 50px 10px;
+  }
+  .benefits .work__card_img {
+    width: 100px;
+    height: 80px;
+  }
+}
 
 /*# sourceMappingURL=benefits.css.map */

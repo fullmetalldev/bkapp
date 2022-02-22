@@ -1,0 +1,152 @@
+@media (max-width: 1800px) {
+  .cartScreen__form-sumAndBtn_summ {
+    text-align: center;
+  }
+
+  .cartScreen {
+    padding: 30px;
+  }
+
+  .cartScreen__form {
+    flex-flow: wrap row;
+    row-gap: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .cartScreen__itemsRow {
+    margin-top: 30px;
+  }
+
+  .cartScreen__item img {
+    width: 100px;
+    height: 100px;
+  }
+  .cartScreen__item-function {
+    width: 140px;
+  }
+  .cartScreen__item-name {
+    font-size: 16px;
+  }
+  .cartScreen__item-numberInfo {
+    font-size: 16px;
+  }
+  .cartScreen__item-sumInfo {
+    font-size: 16px;
+  }
+  .cartScreen__item-price {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  .cartScreen__itemsRow {
+    margin-top: 0;
+  }
+
+  .cartScreen-title {
+    font-size: 42px;
+  }
+
+  .cartScreen__form-inputs {
+    width: 100%;
+  }
+
+  .cartScreen__form-inputs input {
+    width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .cartScreen__form {
+    row-gap: 10px;
+  }
+
+  .cartScreen-title {
+    font-size: 28px;
+  }
+
+  .cartScreen__item-numberInfo {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .cartScreen__item-function {
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+  .cartScreen__item-name {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .cartScreen__item-sumInfo {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .cartScreen__item-price {
+    font-size: 14px;
+  }
+}
+@media (max-width: 700px) {
+  .cartScreen__form-inputs {
+    column-gap: 10px;
+  }
+  .cartScreen__form-inputs input {
+    height: auto;
+  }
+
+  .cartScreen__item {
+    flex-flow: row wrap;
+  }
+
+  .cartScreen__form-sumAndBtn {
+    column-gap: 10px;
+  }
+  .cartScreen__form-sumAndBtn_summ {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .cartScreen__form-sumAndBtn_btn {
+    padding: 10px 40px;
+  }
+}
+@media (max-width: 550px) {
+  .cartScreen__item {
+    justify-content: flex-start;
+    column-gap: 10px;
+  }
+
+  .cartScreen__item-numberInfo {
+    margin-bottom: 0;
+  }
+
+  .cartScreen__item-name {
+    margin-bottom: 0;
+  }
+
+  .cartScreen__item-sumInfo {
+    margin-bottom: 0;
+  }
+
+  .cartScreen__item {
+    padding: 10px;
+  }
+
+  .cartScreen__item img {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 425px) {
+  .cartScreen {
+    padding: 10px;
+  }
+
+  .cartScreen__form-inputs input {
+    padding: 10px;
+  }
+
+  .cartScreen__item-remove {
+    align-self: flex-end;
+  }
+}
+
+/*# sourceMappingURL=CartScreenAdaptive.css.map */

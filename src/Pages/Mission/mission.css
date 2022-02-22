@@ -89,5 +89,34 @@
     line-height: 45px;
   }
 }
+@media (max-width: 768px) {
+  .mission .container {
+    max-width: 576px;
+  }
+  .mission__title {
+    margin: 40px 0 20px;
+    font-size: 22px;
+    line-height: 130%;
+  }
+  .mission__row {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .mission__card {
+    width: 60%;
+  }
+}
+@media (max-width: 576px) {
+  .mission {
+    padding: 50px 20px;
+  }
+  .mission__title {
+    font-size: 20px;
+  }
+  .mission__card {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=mission.css.map */

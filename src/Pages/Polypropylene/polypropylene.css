@@ -328,5 +328,97 @@
     margin: 0 0 50px;
   }
 }
+@media (max-width: 768px) {
+  .polypropylene .container {
+    max-width: 576px;
+  }
+
+  .polypropyleneHome__img {
+    width: 100px;
+    height: 80px;
+  }
+  .polypropyleneHome__comment {
+    margin: 20px 0 30px;
+  }
+
+  .environment__content {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .polypropylene {
+    padding: 0 20px 0;
+  }
+  .polypropylene .work__card {
+    width: 100%;
+  }
+  .polypropylene .environment__image {
+    width: 120px;
+    height: 80px;
+  }
+  .polypropylene .environment__title {
+    font-size: 24px;
+    margin: 0 0 30px;
+  }
+  .polypropylene .environment__row p {
+    font-size: 20px;
+  }
+  .polypropylene .environment__img {
+    width: 100%;
+  }
+  .polypropylene .polypropyleneSubtitle__title {
+    font-size: 24px;
+  }
+  .polypropylene .polypropyleneSubtitle__subtitle {
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 30px;
+  }
+  .polypropylene .polypropyleneSubtitle__descr {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 425px) {
+  .polypropylene {
+    padding: 0 10px;
+  }
+  .polypropylene .polypropyleneHome__img {
+    display: none;
+  }
+  .polypropylene .polypropyleneHome .work__card_img {
+    width: 100px;
+    height: 80px;
+  }
+  .polypropylene .polypropyleneHome .work__card_img img {
+    width: 80px;
+  }
+  .polypropylene .polypropyleneHome__card {
+    width: 100%;
+  }
+  .polypropylene .polypropyleneHome__card_row p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .polypropylene .environment__title {
+    line-height: 30px;
+    font-size: 22px;
+  }
+  .polypropylene .environment__row p {
+    font-size: 18px;
+  }
+  .polypropylene .polypropyleneSubtitle__title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .polypropylene .polypropyleneSubtitle__subtitle {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .polypropylene .polypropyleneSubtitle__descr {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
 
 /*# sourceMappingURL=polypropylene.css.map */

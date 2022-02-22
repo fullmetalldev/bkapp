@@ -2,7 +2,7 @@ import React from 'react';
 import "./BurgerStyle.css"
 import "./BurgerAdaptive.css";
 
-const BurgerMenu = () => {
+const BurgerMenu = ({form, setForm}) => {
     return (
         <div className="BurgerMain">
             <div className="BurgerMain__background">
@@ -52,7 +52,7 @@ const BurgerMenu = () => {
                     </div>
                 </div>
             </div>
-            <button className="BurgerMain__btn">Заказать образец</button>
+            <a onClick={()=> setForm(!form)} className="BurgerMain__btn">Заказать образец</a>
         </div>
     );
 };

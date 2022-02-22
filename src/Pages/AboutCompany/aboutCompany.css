@@ -450,5 +450,193 @@
     left: 100%;
   }
 }
+@media (max-width: 768px) {
+  .aboutCompany .container {
+    max-width: 576px;
+  }
+
+  .aboutCompanyHome__row {
+    margin: 30px 0 0;
+  }
+  .aboutCompanyHome__card_title {
+    font-size: 22px;
+    margin: 0 0 20px;
+  }
+  .aboutCompanyHome__card_descr {
+    font-size: 18px;
+  }
+  .aboutCompanyHome__img {
+    width: 80%;
+  }
+  .aboutCompanyHome__item {
+    margin: 20px 0 0;
+    padding: 20px;
+  }
+  .aboutCompanyHome__item_subtitle {
+    font-size: 18px;
+    line-height: 170%;
+  }
+
+  .aboutFacts__card {
+    width: calc(50% - 10px);
+  }
+  .aboutFacts__subtitle {
+    font-size: 18px;
+    line-height: 170%;
+  }
+  .aboutFacts__descr {
+    font-size: 16px;
+    line-height: 170%;
+  }
+
+  .cycle .section__title {
+    font-size: 28px;
+  }
+  .cycle__img {
+    display: none;
+  }
+  .cycle__polygon {
+    width: 250px;
+    height: 250px;
+  }
+  .cycle__polygon .first p {
+    width: 200px;
+  }
+  .cycle__polygon .second p {
+    width: auto;
+    right: -10px;
+    transform: translate(100%, -50%);
+  }
+  .cycle__polygon .third p {
+    width: 130px;
+    left: -20px;
+    transform: translate(-100%);
+  }
+  .cycle__polygon .fourth p {
+    transform: translate(-100%);
+    width: 130px;
+    left: -20px;
+  }
+  .cycle__polygon .fifth p {
+    width: 340px;
+  }
+  .cycle__polygon .sixth p {
+    width: auto;
+    right: -10px;
+    transform: translate(100%, -50%);
+  }
+  .cycle__polygon_logo {
+    width: 80px;
+  }
+  .cycle__polygon_card {
+    width: 60px;
+    height: 60px;
+  }
+  .cycle__polygon_card-item img {
+    width: 40px;
+    height: 30px;
+  }
+  .cycle__polygon_card-title {
+    font-size: 14px;
+  }
+  .cycle__polygon_list {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 576px) {
+  .aboutCompany {
+    padding: 0 20px;
+  }
+  .aboutCompany .aboutCompanyHome__card_subtitle {
+    line-height: 25px;
+    font-size: 20px;
+  }
+  .aboutCompany .aboutCompanyHome__card_descr {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .aboutCompany .aboutFacts__row {
+    flex-direction: column;
+  }
+  .aboutCompany .aboutFacts__card {
+    width: 100%;
+  }
+  .aboutCompany .cycle h2 {
+    margin: 0 0 100px;
+  }
+  .aboutCompany .cycle__polygon {
+    width: 200px;
+    height: 200px;
+  }
+  .aboutCompany .cycle__polygon .first p {
+    width: 170px;
+    top: -10px;
+  }
+  .aboutCompany .cycle__polygon .second p {
+    width: 110px;
+    right: -5px;
+  }
+  .aboutCompany .cycle__polygon .third p {
+    width: 120px;
+    left: -5px;
+    transform: translate(-100%, -50%);
+  }
+  .aboutCompany .cycle__polygon .fourth p {
+    width: 118px;
+    left: -5px;
+    transform: translate(-100%, -50%);
+  }
+  .aboutCompany .cycle__polygon .fifth p {
+    width: 300px;
+    bottom: -10px;
+  }
+  .aboutCompany .cycle__polygon_logo {
+    width: 50px;
+  }
+  .aboutCompany .cycle__polygon_list {
+    width: 40px;
+    height: 40px;
+  }
+  .aboutCompany .cycle__polygon_card {
+    width: 40px;
+    height: 40px;
+  }
+  .aboutCompany .cycle__polygon_card-item {
+    width: 40px;
+    height: 40px;
+  }
+  .aboutCompany .cycle__polygon_card-item img {
+    width: 30px;
+    height: 30px;
+  }
+  .aboutCompany .cycle__polygon_card-title {
+    font-size: 13px;
+  }
+}
+@media (max-width: 425px) {
+  .aboutCompany {
+    padding: 0 10px;
+  }
+  .aboutCompany .aboutCompanyHome__card_subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .aboutCompany .aboutCompanyHome__item_subtitle {
+    font-size: 16px;
+  }
+  .aboutCompany .cycle .section__title {
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0 0 70px;
+  }
+  .aboutCompany .cycle__polygon {
+    width: 250px;
+    height: 250px;
+  }
+  .aboutCompany .cycle__polygon_card-title {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=aboutCompany.css.map */

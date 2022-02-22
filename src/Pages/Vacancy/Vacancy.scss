@@ -23,12 +23,12 @@
 
   &__twoBlocks {
     display: flex;
-    justify-content: space-between;
     width: 100%;
+    justify-content: space-between;
     margin-bottom: 70px;
 
     &_left {
-      width: 50%;
+      width: 746px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -61,7 +61,7 @@
     }
 
     &_right {
-      width: 50%;
+      width: 746px;
 
       img {
         width: 100%;

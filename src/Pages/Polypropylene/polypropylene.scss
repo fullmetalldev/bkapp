@@ -399,21 +399,146 @@
     .container {
       max-width: 768px;
     }
+
     &__image {
       width: 200px;
       height: 125px;
       top: 0;
     }
+
     &__row {
       justify-content: center;
       flex-direction: column-reverse;
     }
+
     &__img {
       width: 70%;
     }
+
     &__content {
       width: 70%;
       margin: 0 0 50px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .polypropylene {
+    .container {
+      max-width: 576px;
+    }
+  }
+  .polypropyleneHome {
+    &__img {
+      width: 100px;
+      height: 80px;
+    }
+
+    &__comment {
+      margin: 20px 0 30px;
+    }
+  }
+
+  .environment {
+    &__content {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .polypropylene {
+    padding: 0 20px 0;
+    .work__card {
+      width: 100%;
+    }
+    .environment {
+      &__image {
+        width: 120px;
+        height: 80px;
+      }
+      &__title {
+        font-size: 24px;
+        margin: 0 0 30px;
+      }
+      &__row {
+        p {
+          font-size: 20px;
+        }
+      }
+      &__img {
+        width: 100%;
+      }
+    }
+    .polypropyleneSubtitle {
+      &__title {
+        font-size: 24px;
+      }
+      &__subtitle {
+        font-size: 20px;
+        margin: 20px 0;
+        line-height: 30px;
+      }
+      &__descr {
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .polypropylene {
+    padding: 0 10px;
+    .polypropyleneHome {
+      &__img {
+        display: none;
+      }
+      .work__card {
+        &_img {
+          width: 100px;
+          height: 80px;
+          & img {
+            width: 80px;
+          }
+        }
+      }
+      &__card {
+        width: 100%;
+        &_row {
+          p {
+            font-size: 16px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+
+    .environment {
+      &__title {
+        line-height: 30px;
+        font-size: 22px;
+      }
+      &__row {
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .polypropyleneSubtitle {
+      &__title {
+        font-size: 22px;
+        line-height: 30px;
+      }
+      &__subtitle {
+        font-size: 18px;
+        line-height: 25px;
+      }
+      &__descr {
+        font-size: 16px;
+        line-height: 20px;
+      }
     }
   }
 }

@@ -1,0 +1,112 @@
+.formBack {
+  background: url("back.png") center/cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formBack .form {
+  font-family: Montserrat, sans-serif;
+  position: relative;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+}
+.formBack .form h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.formBack .form_inp {
+  width: 500px;
+  padding: 20px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.65);
+  outline: none;
+}
+.formBack .form_inp::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.formBack .form .checkbox {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.formBack .form .checkbox input {
+  width: 20px;
+  height: 20px;
+}
+.formBack .form .checkbox span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+.formBack .form_button {
+  padding: 19px 63px;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  background: #AB937F;
+  border-radius: 1px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.formBack-layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(202, 219, 241, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+@media (max-width: 600px) {
+  .formBack .form h2 {
+    font-size: 38px;
+  }
+
+  .formBack .form_inp {
+    width: 400px;
+  }
+
+  .formBack .form .checkbox span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .formBack .form h2 {
+    font-size: 32px;
+  }
+
+  .formBack .form_inp {
+    width: 300px;
+  }
+
+  .formBack .form .checkbox span {
+    font-size: 9px;
+    font-weight: bold;
+    line-height: normal;
+  }
+}
+
+/*# sourceMappingURL=FormStyles.css.map */

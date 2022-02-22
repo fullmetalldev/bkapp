@@ -5,6 +5,7 @@ import img2 from "./imgs/card2.png"
 import img3 from "./imgs/card3.png"
 import Order from "../../Components/Details/Order/Order";
 import Bag from "../../Components/Details/Bag/Bag";
+import "./HistoryAdaptive.css";
 
 const History = () => {
     return (
@@ -39,7 +40,7 @@ const History = () => {
                         </div>
                     </section>
 
-                    <section className="history__main-block">
+                    <section className="history__main-block history__main-block2">
                         <div className="history__main-block_right">
                             <img className="history__main-block_right-img" src={img2} alt="image2"/>
                         </div>

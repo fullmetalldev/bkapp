@@ -1,5 +1,6 @@
 import React from 'react';
 import "./DeliveryPay.css"
+import "./DeliveryPayAdaptive.css"
 
 const DeliveryAndPay = () => {
     return (

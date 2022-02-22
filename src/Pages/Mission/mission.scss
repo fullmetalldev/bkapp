@@ -99,3 +99,37 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .mission {
+    .container {
+      max-width: 576px;
+    }
+    &__title {
+      margin: 40px 0 20px;
+      font-size: 22px;
+      line-height: 130%;
+    }
+    &__row {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 30px;
+    }
+    &__card {
+      width: 60%;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .mission {
+    padding: 50px 20px;
+    &__title {
+      font-size: 20px;
+    }
+    &__card {
+      width: 100%;
+    }
+  }
+}
+

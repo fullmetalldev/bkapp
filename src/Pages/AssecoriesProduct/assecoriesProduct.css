@@ -244,5 +244,35 @@
     height: 51px;
   }
 }
+@media (max-width: 768px) {
+  .assecoriesProduct .container {
+    max-width: 576px;
+  }
+  .assecoriesProduct__top {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .assecoriesProduct__top h2 {
+    font-size: 20px;
+  }
+  .assecoriesProduct__row {
+    flex-direction: column;
+  }
+  .assecoriesProduct__sort {
+    width: 100%;
+  }
+  .assecoriesProduct__char {
+    margin: 30px 0 0;
+    width: 100%;
+  }
+  .assecoriesProduct__right_stats li {
+    height: auto !important;
+  }
+}
+@media (max-width: 576px) {
+  .assecoriesProduct {
+    padding: 50px 20px;
+  }
+}
 
 /*# sourceMappingURL=assecoriesProduct.css.map */

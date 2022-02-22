@@ -23,20 +23,23 @@ import ContractProduction from "./Pages/ContractProduction/ContractProduction";
 import OurTeam from "./Pages/OurTeam/OurTeam";
 import Geograpgy from "./Pages/Geography/Geograpgy";
 import Vacancy from "./Pages/Vacancy/Vacancy";
+import Form from "./Pages/Form/Form";
 
 function App() {
 
     const [language, setLanguage] = useState('ru');
     const [burgerMenu, setBurgerMenu] = useState(false);
     const [cartScreen, setCartScreen] = useState(false);
+    const [form, setForm] = useState(false);
 
     return (
         <div className="App">
             <Header cartScreen={cartScreen} setCartScreen={setCartScreen} burgerMenu={burgerMenu}
                     setBurgerMenu={setBurgerMenu} language={language} setLanguage={setLanguage}/>
-            {burgerMenu ? <BurgerMenu/> : ""}
+            {burgerMenu ? <BurgerMenu form={form} setForm={setForm}/> : ""}
             {cartScreen ? <CartScreen setCartScreen={setCartScreen}/> : ""}
             <Scroll/>
+            {form ? <Form/> : ""}
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/history" element={<History/>}/>

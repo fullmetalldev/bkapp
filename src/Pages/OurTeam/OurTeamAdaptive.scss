@@ -1,0 +1,21 @@
+@media (max-width: 1600px) {
+  .ourTeam {
+    padding: 40px 10px;
+  }
+  .ourTeam__cardsRow {
+    justify-content: center;
+    &_card {
+      width: 320px;
+    }
+  }
+
+}
+
+@media (max-width: 900px) {
+  .ourTeam .section__title{
+    margin: 30px 0;
+  }
+  .ourTeam__cardsRow_card-info{
+    padding: 20px;
+  }
+}

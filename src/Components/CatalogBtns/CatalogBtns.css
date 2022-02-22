@@ -38,5 +38,16 @@
     padding: 17px 23px;
   }
 }
+@media (max-width: 768px) {
+  .buttonsRow-transperentBtn {
+    font-size: 16px;
+    padding: 13px 18px;
+  }
+
+  .buttonsRow-greenBtn {
+    font-size: 16px;
+    padding: 13px 18px;
+  }
+}
 
 /*# sourceMappingURL=CatalogBtns.css.map */

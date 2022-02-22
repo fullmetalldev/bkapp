@@ -6,8 +6,8 @@ import Work from "./Work";
 import Sale from "./Sale";
 import Catalog from "./Catalog";
 import News from "./News";
-import Project from "./Project";
 import Text from "./Text";
+import OrderForm from "../../Components/OrderForm/OrderForm";
 
 const Home = () => {
     return (
@@ -18,7 +18,7 @@ const Home = () => {
             <Sale/>
             <Catalog/>
             <News/>
-            <Project/>
+            <OrderForm/>
             <Text/>
         </main>
     );

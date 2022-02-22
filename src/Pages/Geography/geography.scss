@@ -33,7 +33,17 @@
 @media (max-width: 768px) {
   .geography {
     .container {
-      max-width: 425px;
+      max-width: 576px;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .geography {
+    &__img {
+      margin: 40px 0 0;
+    }
+    .container {
+      max-width: 375px;
     }
   }
 }

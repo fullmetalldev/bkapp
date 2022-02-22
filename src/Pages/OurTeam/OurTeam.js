@@ -1,5 +1,6 @@
 import React from 'react';
 import "./OurTeam.css";
+import "./OurTeamAdaptive.css";
 import card1 from "./cards/card1.png"
 import card2 from "./cards/card2.png"
 import card3 from "./cards/card3.png"

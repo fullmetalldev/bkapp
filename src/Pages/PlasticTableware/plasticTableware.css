@@ -304,5 +304,79 @@
     width: 40%;
   }
 }
+@media (max-width: 768px) {
+  .plasticTablewareHome .container {
+    max-width: 576px;
+  }
+  .plasticTablewareHome__subtitle {
+    margin: 20px 0 30px;
+  }
+  .plasticTablewareHome__row {
+    row-gap: 30px;
+    justify-content: center;
+  }
+  .plasticTablewareHome__card {
+    padding: 30px 0;
+    width: 40%;
+  }
+
+  .plasticTablewareCatalog .container {
+    max-width: 576px;
+  }
+  .plasticTablewareCatalog__row {
+    flex-direction: column;
+  }
+  .plasticTablewareCatalog__sort {
+    width: 100%;
+  }
+  .plasticTablewareCatalog__catalog {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .plasticTablewareHome {
+    padding: 50px 20px 0;
+  }
+
+  .plasticTablewareCatalog {
+    padding: 50px 20px;
+  }
+  .plasticTablewareCatalog__catalog {
+    padding: 50px 0 0;
+  }
+  .plasticTablewareCatalog__subtitle {
+    font-size: 16px;
+  }
+  .plasticTablewareCatalog__list {
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+  .plasticTablewareCatalog__list_item {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .plasticTablewareHome .section__title {
+    font-size: 22px;
+  }
+  .plasticTablewareHome__subtitle {
+    font-size: 16px;
+  }
+  .plasticTablewareHome .buttonsRow {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .plasticTablewareHome .buttonsRow a {
+    width: 80%;
+    text-align: center;
+  }
+  .plasticTablewareHome .buttonsRow button {
+    width: 80%;
+  }
+  .plasticTablewareHome__card {
+    width: 60%;
+  }
+}
 
 /*# sourceMappingURL=plasticTableware.css.map */

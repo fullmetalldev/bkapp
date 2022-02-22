@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import back from "./imgs/background.png";
 import "./Vacancy.css"
 import arrow from "./imgs/arrow.png";
+import "./VacancyAdaptive.css"
 
 const Vacancy = () => {
 

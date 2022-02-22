@@ -1,6 +1,7 @@
 import React from 'react';
 import "./CartScreen.css";
 import card from "./cardImg.png";
+import "./CartScreenAdaptive.css"
 
 const CartScreen = ({setCartScreen}) => {
     const tegBody = document.querySelector("body");
