@@ -9,6 +9,13 @@
   }
 }
 
+@media (max-width: 1600px) {
+  .geography {
+    .container {
+      max-width: 1400px;
+    }
+  }
+}
 @media (max-width: 1400px) {
   .geography {
     .container {

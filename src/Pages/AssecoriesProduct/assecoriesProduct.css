@@ -149,6 +149,18 @@
   background: rgba(221, 203, 181, 0.15);
 }
 
+@media (max-width: 1600px) {
+  .assecoriesProduct .container {
+    max-width: 1400px;
+  }
+  .assecoriesProduct__sort_bot {
+    width: 100%;
+  }
+  .assecoriesProduct__sort_bot h3 {
+    width: 100%;
+    padding: 9px 0;
+  }
+}
 @media (max-width: 1400px) {
   .assecoriesProduct .container {
     max-width: 1200px;

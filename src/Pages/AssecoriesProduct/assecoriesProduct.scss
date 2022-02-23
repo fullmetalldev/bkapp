@@ -175,6 +175,23 @@
   }
 }
 
+@media (max-width: 1600px) {
+  .assecoriesProduct {
+    .container {
+      max-width: 1400px;
+    }
+    &__sort {
+      &_bot {
+        width: 100%;
+        & h3 {
+          width: 100%;
+          padding: 9px 0;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1400px) {
   .assecoriesProduct {
     .container {

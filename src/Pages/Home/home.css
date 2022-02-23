@@ -291,6 +291,9 @@
 .catalog {
   padding: 0 0 70px;
 }
+.catalog .adaptive {
+  display: none;
+}
 .catalog .tableware {
   padding: 0 70px 70px;
   position: relative;
@@ -470,7 +473,7 @@
 }
 
 .text {
-  padding: 0 0 70px;
+  padding: 100px 0 70px;
   position: relative;
 }
 .text__title {
@@ -488,6 +491,76 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
+@media (max-width: 1600px) {
+  .homeMain .container {
+    max-width: 1400px;
+  }
+  .homeMain .first-screen__card_content {
+    height: 450px;
+  }
+  .homeMain .first-screen__card_title {
+    font-size: 50px;
+  }
+  .homeMain .first-screen__card_subtitle {
+    font-size: 25px;
+  }
+  .homeMain .about__title {
+    font-size: 44px;
+    line-height: 130%;
+  }
+  .homeMain .about__subtitle {
+    font-size: 21px;
+  }
+  .homeMain .about__more {
+    font-size: 21px;
+  }
+  .homeMain .work__swiper {
+    padding: 0 50px;
+  }
+  .homeMain .work .swiper-button-prev {
+    left: 0;
+    transform: translate(-100%, -50%);
+  }
+  .homeMain .work .swiper-button-next {
+    right: 0;
+    transform: translate(100%, -50%);
+  }
+  .homeMain .sale__card {
+    padding: 70px 0;
+  }
+  .homeMain .sale__title {
+    font-size: 72px;
+    line-height: 90px;
+    margin: 0 0 15px;
+  }
+  .homeMain .sale__subtitle {
+    font-size: 41px;
+    line-height: 50px;
+  }
+  .homeMain .sale__btn {
+    font-size: 32px;
+    padding: 18px 35px 19px;
+  }
+  .homeMain .catalog__title {
+    font-size: 40px;
+  }
+  .homeMain .catalog__card {
+    margin: 0 30px;
+  }
+  .homeMain .news__card_title {
+    font-size: 28px;
+  }
+  .homeMain .news__card_subtitle {
+    font-size: 19px;
+  }
+  .homeMain .news__card_more {
+    font-size: 21px;
+  }
+  .homeMain .news__more img {
+    width: 30px;
+    height: 30px;
+  }
+}
 @media (max-width: 1400px) {
   .homeMain .container {
     max-width: 1200px;
@@ -552,9 +625,6 @@
   }
   .homeMain .sale__btn {
     font-size: 36px;
-  }
-  .homeMain .catalog__title {
-    font-size: 42px;
   }
 }
 @media (max-width: 1200px) {
@@ -623,6 +693,9 @@
   }
   .homeMain .catalog__title {
     font-size: 36px;
+  }
+  .homeMain .catalog__card {
+    margin: 0;
   }
   .homeMain .news__list {
     padding: 70px 0 0;
