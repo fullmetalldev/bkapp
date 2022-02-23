@@ -38,12 +38,12 @@
 }
 
 
-
 @media (max-width: 600px) {
-  .Vacancy .section__title{
+  .Vacancy .section__title {
     margin: 10px 0;
   }
   .Vacancy__twoBlocks_left {
+    padding-right: 0;
     &-info {
       font-size: 22px;
     }
@@ -51,16 +51,41 @@
 }
 
 @media (max-width: 500px) {
-  .Vacancy__twoBlocks_left-info{
+  .Vacancy__twoBlocks_left-info {
     font-size: 18px;
     line-height: 30px;
   }
-  .Vacancy__twoBlocks_left-btn{
+  .Vacancy__twoBlocks_left-btn {
     padding: 10px 30px;
   }
 
-  .Vacancy__card_vacancyInfo{
+  .Vacancy__card_vacancyInfo {
     row-gap: 10px;
     padding: 10px;
   }
+}
+
+@media (max-width: 425px) {
+  .Vacancy__card {
+    &-block {
+      padding: 15px 25px;
+      align-items: center;
+    }
+    h2 {
+      font-size: 20px;
+    }
+
+    .circleDiv {
+      width: 10px !important;
+      height: 10px !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg{
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
+
 }

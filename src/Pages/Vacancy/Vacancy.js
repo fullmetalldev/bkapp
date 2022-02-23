@@ -46,89 +46,110 @@ const Vacancy = () => {
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
+
                                 <span>Разработка ПД разделов КМ, КЖ, КР промышленных зданий и сооружений</span>
                             </div>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Расчёт конструкций</span>
                             </div>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Высшее профильное образование (ПГС)</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Навыки проектирования железобетонных и металлических конструкций промышленных зданий и сооружений</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Навык работы в программе SCAD</span>
                             </div>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Условия:</h4>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Официальное трудоустройство</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Возможности профессионального и карьерного роста</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>График работы: пн-пт с 8-30 до 17-30</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Место работы: Такой то район, ул. Такая то, 29</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Заработная плата: 00 000 руб</span>
                             </div>
 
@@ -162,89 +183,109 @@ const Vacancy = () => {
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Разработка ПД разделов КМ, КЖ, КР промышленных зданий и сооружений</span>
                             </div>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Расчёт конструкций</span>
                             </div>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Высшее профильное образование (ПГС)</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Навыки проектирования железобетонных и металлических конструкций промышленных зданий и сооружений</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Навык работы в программе SCAD</span>
                             </div>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Условия:</h4>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Официальное трудоустройство</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Возможности профессионального и карьерного роста</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>График работы: пн-пт с 8-30 до 17-30</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Место работы: Такой то район, ул. Такая то, 29</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Заработная плата: 00 000 руб</span>
                             </div>
 
@@ -278,89 +319,109 @@ const Vacancy = () => {
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Разработка ПД разделов КМ, КЖ, КР промышленных зданий и сооружений</span>
                             </div>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Расчёт конструкций</span>
                             </div>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Высшее профильное образование (ПГС)</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Навыки проектирования железобетонных и металлических конструкций промышленных зданий и сооружений</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Навык работы в программе SCAD</span>
                             </div>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Условия:</h4>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Официальное трудоустройство</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Возможности профессионального и карьерного роста</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>График работы: пн-пт с 8-30 до 17-30</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Место работы: Такой то район, ул. Такая то, 29</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Заработная плата: 00 000 руб</span>
                             </div>
 
@@ -394,89 +455,109 @@ const Vacancy = () => {
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Разработка ПД разделов КМ, КЖ, КР промышленных зданий и сооружений</span>
                             </div>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Расчёт конструкций</span>
                             </div>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Высшее профильное образование (ПГС)</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Навыки проектирования железобетонных и металлических конструкций промышленных зданий и сооружений</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Навык работы в программе SCAD</span>
                             </div>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Условия:</h4>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Официальное трудоустройство</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Возможности профессионального и карьерного роста</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>График работы: пн-пт с 8-30 до 17-30</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Место работы: Такой то район, ул. Такая то, 29</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Заработная плата: 00 000 руб</span>
                             </div>
 
@@ -510,89 +591,108 @@ const Vacancy = () => {
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Разработка ПД разделов КМ, КЖ, КР промышленных зданий и сооружений</span>
                             </div>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
-                                <span>Расчёт конструкций</span>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>                                <span>Расчёт конструкций</span>
                             </div>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Высшее профильное образование (ПГС)</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Навыки проектирования железобетонных и металлических конструкций промышленных зданий и сооружений</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Навык работы в программе SCAD</span>
                             </div>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Условия:</h4>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Официальное трудоустройство</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Возможности профессионального и карьерного роста</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>График работы: пн-пт с 8-30 до 17-30</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Место работы: Такой то район, ул. Такая то, 29</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Заработная плата: 00 000 руб</span>
                             </div>
 
@@ -626,89 +726,109 @@ const Vacancy = () => {
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Разработка ПД разделов КМ, КЖ, КР промышленных зданий и сооружений</span>
                             </div>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Расчёт конструкций</span>
                             </div>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
 
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Высшее профильное образование (ПГС)</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Навыки проектирования железобетонных и металлических конструкций промышленных зданий и сооружений</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Навык работы в программе SCAD</span>
                             </div>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Условия:</h4>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Официальное трудоустройство</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Возможности профессионального и карьерного роста</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>График работы: пн-пт с 8-30 до 17-30</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Место работы: Такой то район, ул. Такая то, 29</span>
                             </div>
                             <div className="Vacancy__card_vacancyInfo-point">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
-                                    <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
-                                </svg>
+                                <div className="circleDiv">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="8" fill="#AB937F" fill-opacity="0.25"/>
+                                        <circle cx="8" cy="8" r="5" fill="#DDCBB5"/>
+                                    </svg>
+                                </div>
                                 <span>Заработная плата: 00 000 руб</span>
                             </div>
 

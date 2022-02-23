@@ -36,6 +36,9 @@
     margin: 10px 0;
   }
 
+  .Vacancy__twoBlocks_left {
+    padding-right: 0;
+  }
   .Vacancy__twoBlocks_left-info {
     font-size: 22px;
   }
@@ -53,6 +56,26 @@
   .Vacancy__card_vacancyInfo {
     row-gap: 10px;
     padding: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .Vacancy__card-block {
+    padding: 15px 25px;
+    align-items: center;
+  }
+  .Vacancy__card h2 {
+    font-size: 20px;
+  }
+  .Vacancy__card .circleDiv {
+    width: 10px !important;
+    height: 10px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Vacancy__card .circleDiv svg {
+    width: 10px;
+    height: 10px;
   }
 }
 
