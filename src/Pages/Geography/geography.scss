@@ -1,49 +1,38 @@
 .geography {
-  padding: 130px 0 70px;
+  padding: 130px 10px 70px;
+
   &__img {
     margin: 70px 0 0;
     width: 100%;
+
     & img {
       width: 100%;
     }
   }
 }
 
-@media (max-width: 1400px) {
+
+@media (max-width: 1300px) {
   .geography {
-    .container {
-      max-width: 1200px;
-    }
+    padding: 80px 10px 70px;
   }
 }
-@media (max-width: 1200px) {
+
+@media (max-width: 1024px) {
   .geography {
-    .container {
-      max-width: 996px;
-    }
-  }
-}
-@media (max-width: 996px) {
-  .geography {
-    .container {
-      max-width: 768px;
-    }
-  }
-}
-@media (max-width: 768px) {
-  .geography {
-    .container {
-      max-width: 576px;
-    }
-  }
-}
-@media (max-width: 576px) {
-  .geography {
+    padding: 50px 10px 70px;
+
     &__img {
-      margin: 40px 0 0;
+      margin-top: 50px;
     }
-    .container {
-      max-width: 375px;
+  }
+}
+
+@media (max-width: 800px) {
+  .geography{
+    padding: 30px 10px 70px;
+    &__img{
+      margin-top: 30px;
     }
   }
 }
