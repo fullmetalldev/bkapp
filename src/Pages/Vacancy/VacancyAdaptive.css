@@ -4,14 +4,13 @@
   }
 
   .Vacancy__twoBlocks {
-    flex-direction: column;
     row-gap: 10px;
   }
   .Vacancy__twoBlocks_left {
-    width: 100%;
+    width: 50%;
   }
   .Vacancy__twoBlocks_right {
-    width: 100%;
+    width: 50%;
   }
 }
 @media (max-width: 1200px) {
@@ -21,6 +20,13 @@
 
   .Vacancy .section__title {
     margin: 30px 0;
+  }
+
+  .Vacancy__twoBlocks_left {
+    row-gap: 20px;
+  }
+  .Vacancy__twoBlocks_left-info {
+    font-size: 24px;
   }
 }
 @media (max-width: 800px) {
@@ -32,7 +38,20 @@
     row-gap: 20px;
   }
   .Vacancy__twoBlocks_left-info {
-    font-size: 26px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 768px) {
+  .Vacancy__twoBlocks {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+  .Vacancy__twoBlocks_left {
+    width: 100%;
+  }
+  .Vacancy__twoBlocks_right {
+    width: 80%;
   }
 }
 @media (max-width: 600px) {
@@ -40,6 +59,9 @@
     margin: 10px 0;
   }
 
+  .Vacancy__twoBlocks_left {
+    padding-right: 0;
+  }
   .Vacancy__twoBlocks_left-info {
     font-size: 22px;
   }
@@ -57,6 +79,26 @@
   .Vacancy__card_vacancyInfo {
     row-gap: 10px;
     padding: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .Vacancy__card-block {
+    padding: 15px 25px;
+    align-items: center;
+  }
+  .Vacancy__card h2 {
+    font-size: 20px;
+  }
+  .Vacancy__card .circleDiv {
+    width: 10px !important;
+    height: 10px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Vacancy__card .circleDiv svg {
+    width: 10px;
+    height: 10px;
   }
 }
 

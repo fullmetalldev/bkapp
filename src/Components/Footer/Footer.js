@@ -40,10 +40,10 @@ const Footer = () => {
                 <div className="footer__bot">
                     <img src={Logo} alt="Logo"/>
                     <div className="footer__bot_left">
-                        <a href="#test">Каталог комплектующих</a>
-                        <a href="#test">Каталог посуды</a>
-                        <a href="#test">Новости</a>
-                        <a href="#test">Контакты</a>
+                        <a href="/catalog/accessories">Каталог комплектующих</a>
+                        <a href="/catalog/tableware">Каталог посуды</a>
+                        <a href="/history">Новости</a>
+                        <a href="/contacts">Контакты</a>
                     </div>
                     <div className="footer__bot_right">
                         <div className="footer__bot_right-row">

@@ -13,11 +13,50 @@
   border: none;
   transition: 0.2s;
   transform: scale(0);
+
   &_visible {
     transform: scale(1);
   }
+
   &:hover {
     background: #9D8675;
     transition: 0.3s;
+  }
+}
+
+@media (max-width: 1200px) {
+  .scroll {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 996px) {
+  .scroll {
+    width: 45px;
+    height: 45px;
+
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll {
+    width: 35px;
+    height: 35px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll {
+    display: none;
   }
 }
