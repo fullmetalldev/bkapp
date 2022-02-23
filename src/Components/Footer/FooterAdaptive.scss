@@ -1,3 +1,20 @@
+@media (max-width: 1600px) {
+  .footer {
+    &__bot {
+      column-gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 30px;
+      &_left {
+        column-gap: 15px;
+      }
+    }
+    &__list {
+      justify-content: center;
+    }
+  }
+}
+
 @media (max-width: 1400px) {
   .footer__row {
     flex-flow: row wrap;

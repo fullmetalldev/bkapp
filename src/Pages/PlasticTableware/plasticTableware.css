@@ -1,5 +1,5 @@
 .plasticTablewareHome {
-  padding: 130px 0 55px;
+  padding: 40px 10px 55px;
 }
 .plasticTablewareHome__subtitle {
   font-weight: 500;
@@ -92,11 +92,50 @@
 }
 .plasticTablewareCatalog__sort_filter {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   border-bottom: 2px solid #DDCBB520;
   padding-bottom: 20px;
   position: relative;
+}
+.plasticTablewareCatalog__sort_filter .arrowAndInfo {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.plasticTablewareCatalog__sort_filter .arrowAndInfo .arrow {
+  transition: 0.3s;
+}
+.plasticTablewareCatalog__sort_filter-filters {
+  z-index: 20;
+  position: absolute;
+  width: 100%;
+  bottom: -225%;
+  background: #FFFFFF;
+  border: 1px solid #99ACC5;
+  box-sizing: border-box;
+  display: none;
+  flex-direction: column;
+  padding: 15px;
+  row-gap: 20px;
+  animation: startfilter linear 0.3s;
+}
+.plasticTablewareCatalog__sort_filter-filters .checkbox__title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  font-feature-settings: "liga" off, "kern" off;
+  color: #000000;
+}
+.plasticTablewareCatalog__sort_filter-filters .checkbox {
+  width: 20px;
+  height: 20px;
+}
+.plasticTablewareCatalog__sort_filter-filters div {
+  display: flex;
+  column-gap: 10px;
 }
 .plasticTablewareCatalog__sort_filter-title {
   font-family: Montserrat, sans-serif;
@@ -107,6 +146,13 @@
   text-align: center;
   font-feature-settings: "liga" off, "kern" off;
   color: #000000;
+}
+.plasticTablewareCatalog__sort_filter:hover .plasticTablewareCatalog__sort_filter-filters {
+  display: flex !important;
+}
+.plasticTablewareCatalog__sort_filter:hover .arrow {
+  transition: 0.3s;
+  transform: rotate(180deg);
 }
 .plasticTablewareCatalog__sort-div {
   display: flex;

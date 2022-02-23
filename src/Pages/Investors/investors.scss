@@ -48,6 +48,7 @@
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+    user-select: none;
 
     &-href {
       transition: 0.3s;

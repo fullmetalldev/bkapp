@@ -1,14 +1,15 @@
 .geography {
-  padding: 130px 0 70px;
+  padding: 40px 10px 70px;
+
   &__img {
     margin: 70px 0 0;
     width: 100%;
+
     & img {
       width: 100%;
     }
   }
 }
-
 @media (max-width: 1600px) {
   .geography {
     .container {
@@ -46,11 +47,8 @@
 }
 @media (max-width: 576px) {
   .geography {
-    &__img {
-      margin: 40px 0 0;
-    }
     .container {
-      max-width: 375px;
+      max-width: 425px;
     }
   }
 }

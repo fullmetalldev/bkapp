@@ -2,8 +2,27 @@
   .investors {
     padding: 40px 10px;
   }
+  .investors .container {
+    max-width: 1400px;
+  }
 }
 @media (max-width: 800px) {
+  .href1 {
+    width: 15%;
+  }
+
+  .href2 {
+    width: 15%;
+  }
+
+  .href3 {
+    width: 25%;
+  }
+
+  .href4 {
+    width: 25%;
+  }
+
   .investors__pages-documentCard span {
     font-size: 16px;
     line-height: normal;
@@ -33,7 +52,7 @@
   }
 
   .investors__hrefs-href {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media (max-width: 600px) {
@@ -46,12 +65,6 @@
   }
   .investors__pages-documentCard span {
     font-size: 14px;
-  }
-
-  .investors__hrefs-href {
-    font-size: 10px;
-    line-height: normal;
-    font-weight: bold;
   }
 
   .investors__pages {
@@ -69,6 +82,11 @@
   }
 }
 @media (max-width: 500px) {
+  .investors__hrefs-href {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
   .investors__info {
     font-size: 14px;
   }
@@ -88,15 +106,6 @@
   .investors__btn {
     font-size: 16px;
     padding: 18px 30px;
-  }
-
-  .investors__hrefs-href {
-    font-size: 8px;
-  }
-}
-@media (max-width: 375px) {
-  .investors__hrefs-href {
-    font-size: 7px;
   }
 }
 

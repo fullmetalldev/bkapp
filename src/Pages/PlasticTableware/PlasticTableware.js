@@ -16,6 +16,7 @@ const PlasticTableware = () => {
         <main>
             <section className="plasticTablewareHome">
                 <div className="container">
+                    <p className="section__navi">Главная / Каталог комплектующих</p>
                     <h1 className="section__title">Каталог пластиковой посуды</h1>
                     <p className="plasticTablewareHome__subtitle">Используем современные безопасные материалы и добавки,
                         высокотехнологичное оборудование для создания уникальных свойств изделий.</p>
@@ -43,23 +44,80 @@ const PlasticTableware = () => {
                             <div className="plasticTablewareCatalog__sort-div">
                                 <div className="plasticTablewareCatalog__sort_title">Подбор по параметрам</div>
                                 <div className="plasticTablewareCatalog__sort_filterDiv">
-                                    <div className="plasticTablewareCatalog__sort_filter">
-                                        <h2 className="plasticTablewareCatalog__sort_filter-title">Объем</h2>
-                                        <img src={arrow} alt="arrow"/>
 
-                                    </div>
                                     <div className="plasticTablewareCatalog__sort_filter">
-                                        <h2 className="plasticTablewareCatalog__sort_filter-title">Диаметр</h2>
-                                        <img src={arrow} alt="arrow"/>
+                                        <div className="arrowAndInfo">
+                                            <h2 className="plasticTablewareCatalog__sort_filter-title">Объем</h2>
+                                            <img className="arrow" src={arrow} alt="arrow"/>
+                                        </div>
+
+                                        <div className="plasticTablewareCatalog__sort_filter-filters">
+                                            <div>
+                                                <input className="checkbox" type="checkbox"/>
+                                                <span className="checkbox__title">Белый</span>
+                                            </div>
+                                            <div>
+                                                <input className="checkbox" type="checkbox"/>
+                                                <span className="checkbox__title">Прозрачный</span>
+                                            </div>
+                                        </div>
                                     </div>
+
                                     <div className="plasticTablewareCatalog__sort_filter">
-                                        <h2 className="plasticTablewareCatalog__sort_filter-title">Материал</h2>
-                                        <img src={arrow} alt="arrow"/>
+                                        <div className="arrowAndInfo">
+                                            <h2 className="plasticTablewareCatalog__sort_filter-title">Диаметр</h2>
+                                            <img className="arrow" src={arrow} alt="arrow"/>
+                                        </div>
+
+                                        <div className="plasticTablewareCatalog__sort_filter-filters">
+                                            <div>
+                                                <input className="checkbox" type="checkbox"/>
+                                                <span className="checkbox__title">Белый</span>
+                                            </div>
+                                            <div>
+                                                <input className="checkbox" type="checkbox"/>
+                                                <span className="checkbox__title">Прозрачный</span>
+                                            </div>
+                                        </div>
                                     </div>
+
                                     <div className="plasticTablewareCatalog__sort_filter">
-                                        <h2 className="plasticTablewareCatalog__sort_filter-title">Цвет</h2>
-                                        <img src={arrow} alt="arrow"/>
+                                        <div className="arrowAndInfo">
+                                            <h2 className="plasticTablewareCatalog__sort_filter-title">Материал</h2>
+                                            <img className="arrow" src={arrow} alt="arrow"/>
+                                        </div>
+
+                                        <div className="plasticTablewareCatalog__sort_filter-filters">
+                                            <div>
+                                                <input className="checkbox" type="checkbox"/>
+                                                <span className="checkbox__title">Белый</span>
+                                            </div>
+                                            <div>
+                                                <input className="checkbox" type="checkbox"/>
+                                                <span className="checkbox__title">Прозрачный</span>
+                                            </div>
+                                        </div>
                                     </div>
+
+                                    <div className="plasticTablewareCatalog__sort_filter">
+                                        <div className="arrowAndInfo">
+                                            <h2 className="plasticTablewareCatalog__sort_filter-title">Цвет</h2>
+                                            <img className="arrow" src={arrow} alt="arrow"/>
+                                        </div>
+
+                                        <div className="plasticTablewareCatalog__sort_filter-filters">
+                                            <div>
+                                                <input className="checkbox" type="checkbox"/>
+                                                <span className="checkbox__title">Белый</span>
+                                            </div>
+                                            <div>
+                                                <input className="checkbox" type="checkbox"/>
+                                                <span className="checkbox__title">Прозрачный</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
                             </div>
 

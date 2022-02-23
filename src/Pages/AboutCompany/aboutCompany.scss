@@ -1,5 +1,5 @@
 .aboutCompanyHome {
-  padding: 130px 0 70px;
+  padding: 40px 0 70px;
 
   &__row {
     margin: 70px 0;
@@ -397,6 +397,7 @@
 
 @media (max-width: 1200px) {
   .aboutCompanyHome {
+    padding: 100px 0 70px;
     .container {
       max-width: 992px;
     }
@@ -468,6 +469,9 @@
 }
 
 @media (max-width: 992px) {
+  .aboutCompanyHome{
+    padding: 70px 0;
+  }
   .aboutCompany {
     .container {
       max-width: 768px;
@@ -601,6 +605,9 @@
 }
 
 @media (max-width: 768px) {
+  .aboutCompanyHome{
+    padding: 30px 0 30px;
+  }
   .aboutCompany {
     .container {
       max-width: 576px;
@@ -728,7 +735,7 @@
 
 @media (max-width: 576px) {
   .aboutCompany {
-    padding: 50px 20px;
+    padding: 20px 20px;
 
     .aboutCompanyHome {
       &__card {

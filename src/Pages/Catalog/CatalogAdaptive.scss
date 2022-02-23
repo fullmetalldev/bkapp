@@ -10,9 +10,14 @@
 }
 
 @media (max-width: 1600px) {
-  .sectionCatalog__productsRow-card {
+  .sectionCatalog {
+    .container {
+      max-width: 1400px;
+    }
+  }
+  .sectionCatalog__complectsRow-card {
     padding: 10px;
-    width: 250px;
+    width: 30%;
 
     &_btn {
       width: 100%;
@@ -45,6 +50,7 @@
     }
   }
   .sectionCatalog__complectsRow {
+    margin: 30px auto 0;
     flex-flow: wrap row;
     row-gap: 30px;
   }

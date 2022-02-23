@@ -2,6 +2,9 @@
   .ourTeam {
     padding: 40px 10px;
   }
+  .ourTeam .container {
+    max-width: 1400px;
+  }
 
   .ourTeam__cardsRow {
     justify-content: center;

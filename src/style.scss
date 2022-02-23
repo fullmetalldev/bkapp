@@ -23,6 +23,16 @@ button {
   color: rgba(0, 0, 0, 0.8);
 }
 
+.section__navi {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #393939;
+  margin: 0 0 70px;
+}
+
 @media (max-width: 1800px) {
   .section__title {
     font-size: 44px;

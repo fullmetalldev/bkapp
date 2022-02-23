@@ -1,6 +1,9 @@
 @media (max-width: 1600px) {
   .ourTeam {
     padding: 40px 10px;
+    .container {
+      max-width: 1400px;
+    }
   }
   .ourTeam__cardsRow {
     justify-content: center;

@@ -1,4 +1,9 @@
 @media (max-width: 1600px) {
+  .Vacancy {
+    .container {
+      max-width: 1400px;
+    }
+  }
   .Vacancy__twoBlocks {
     flex-direction: column;
     row-gap: 10px;

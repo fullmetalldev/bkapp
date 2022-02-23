@@ -13,6 +13,7 @@ const AssecoriesProduct = () => {
     return (
         <section className="assecoriesProduct">
             <div className="container">
+                <p className="section__navi">Главная / Каталог комплектующих / Комплектующие для натяжных потолков / Клин монтажный, разрезной</p>
                 <h1 className="section__title">Клин монтажный, разрезной (168х37х22)</h1>
                 <p className="tablewareProduct__subtitle">Используем современные безопасные материалы и добавки,
                     высокотехнологичное оборудование для создания уникальных свойств изделий.

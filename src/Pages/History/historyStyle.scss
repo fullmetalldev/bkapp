@@ -34,11 +34,12 @@
     &-block{
       display: flex;
       justify-content: space-between;
+      align-items: center;
       flex-flow: row wrap;
       column-gap: 50px;
       margin-bottom: 30px;
       &_right{
-        width: 765px;
+        width: calc(50% - 25px);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -47,7 +48,7 @@
         }
       }
       &_left{
-        width: 765px;
+        width: calc(50% - 25px);
         display: flex;
         flex-direction: column;
         row-gap: 50px;

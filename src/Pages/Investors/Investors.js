@@ -23,11 +23,11 @@ const Investors = () => {
                         Смотреть презентацию
                     </button>
                     <div className="investors__hrefs">
-                        <h3 onClick={()=> setPage('obligation')} className={`investors__hrefs-href ${page === "obligation" ? "activeHref" : ""}`}>Облигации</h3>
-                        <h3 className="investors__hrefs-href">Общие сведения</h3>
-                        <h3 className="investors__hrefs-href">Регистрационные документы</h3>
-                        <h3 onClick={()=> setPage("documentsEmission")} className={`investors__hrefs-href ${page === "documentsEmission" ? "activeHref" : ""}`}>Эмиссионные документы</h3>
-                        <h3 className="investors__hrefs-href">Сообщения</h3>
+                        <h3 onClick={()=> setPage('obligation')} className={`investors__hrefs-href href1 ${page === "obligation" ? "activeHref" : ""}`}>Облигации</h3>
+                        <h3 className="investors__hrefs-href href2">Общие сведения</h3>
+                        <h3 className="investors__hrefs-href href3">Регистрационные документы</h3>
+                        <h3 onClick={()=> setPage("documentsEmission")} className={`investors__hrefs-href href4 ${page === "documentsEmission" ? "activeHref" : ""}`}>Эмиссионные документы</h3>
+                        <h3 className="investors__hrefs-href href5">Сообщения</h3>
                     </div>
 
                     {page === "obligation" ? <Obligation/> : ""}

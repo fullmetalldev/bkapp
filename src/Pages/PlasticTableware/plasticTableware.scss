@@ -1,5 +1,5 @@
 .plasticTablewareHome {
-  padding: 130px 0 55px;
+  padding: 40px 10px 55px;
 
   &__subtitle {
     font-weight: 500;
@@ -109,11 +109,50 @@
 
     &_filter {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
+      justify-content: center;
+      flex-direction: column;
       border-bottom: 2px solid #DDCBB520;
       padding-bottom: 20px;
       position: relative;
+      .arrowAndInfo{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        .arrow{
+          transition: 0.3s;
+        }
+      }
+      &-filters{
+        z-index: 20;
+        position: absolute;
+        width: 100%;
+        bottom: -225%;
+        background: #FFFFFF;
+        border: 1px solid #99ACC5;
+        box-sizing: border-box;
+        display: none;
+        flex-direction: column;
+        padding: 15px;
+        row-gap: 20px;
+        animation: startfilter linear 0.3s;
+        .checkbox__title{
+          font-family: Roboto, sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 16px;
+          font-feature-settings: 'liga' off, 'kern' off;
+          color: #000000;
+        }
+        .checkbox{
+          width: 20px;
+          height: 20px;
+        }
+        div{
+          display: flex;
+          column-gap: 10px;
+        }
+      }
 
       &-title {
         font-family: Montserrat, sans-serif;
@@ -127,7 +166,15 @@
 
       }
     }
-
+    &_filter:hover{
+      .plasticTablewareCatalog__sort_filter-filters{
+        display: flex !important;
+      }
+      .arrow{
+        transition: 0.3s;
+        transform: rotate(180deg);
+      }
+    }
     &-div {
       display: flex;
       flex-direction: column;

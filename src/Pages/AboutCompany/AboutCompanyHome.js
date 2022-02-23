@@ -5,6 +5,7 @@ const AboutCompanyHome = () => {
     return (
         <section className="aboutCompanyHome">
             <div className="container">
+                <p className="section__navi">Главная / О компании</p>
                 <h1 className="section__title">О КОМПАНИИ</h1>
                 <div className="aboutCompanyHome__row">
                     <div className="aboutCompanyHome__card">

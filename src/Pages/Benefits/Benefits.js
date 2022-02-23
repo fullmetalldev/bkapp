@@ -22,6 +22,7 @@ const Benefits = () => {
                     <Bag/>
                 </div>
                 <div className="container">
+                    <p className="section__navi">Главная / Преимущества</p>
                     <h1 className="section__title">Преимущества</h1>
                     <h2 className="benefits__title">Наша цель – выпускать высококачественные товары,
                         чтобы наши клиенты зарабатывали еще больше!</h2>

@@ -1,4 +1,8 @@
 @media (max-width: 1600px) {
+  .history .container {
+    max-width: 1400px;
+  }
+
   .history__main-block_left {
     row-gap: 42px;
   }

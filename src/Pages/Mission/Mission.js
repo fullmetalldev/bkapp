@@ -17,6 +17,7 @@ const Mission = () => {
                     <Bag/>
                 </div>
                 <div className="container">
+                    <p className="section__navi">Главная / Миссия</p>
                     <h1 className="section__title">Миссия</h1>
                     <h2 className="mission__title">Мы создаем современные безопасные товары, <br/>
                         улучшающие жизнь людей.
