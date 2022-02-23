@@ -63,5 +63,15 @@
     padding: 0;
   }
 }
+@media (max-width: 550px) {
+  .contractProduction__orderForm_checkbox span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .contractProduction__orderForm_checkbox span {
+    font-size: 12px;
+  }
+}
 
 /*# sourceMappingURL=ContractProdAdaptive.css.map */
