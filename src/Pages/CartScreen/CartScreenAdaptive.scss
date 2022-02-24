@@ -99,6 +99,9 @@
 }
 
 @media (max-width: 700px) {
+  .cartScreen__itemsRow{
+    max-height: 325px;
+  }
   .cartScreen__form-inputs {
     column-gap: 10px;
 
@@ -147,6 +150,14 @@
 }
 
 @media (max-width: 425px) {
+  .cartScreen__form-sumAndBtn{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .cartScreen__form-sumAndBtn_btn{
+    font-size: 14px;
+    padding: 8px 20px;
+  }
   .cartScreen{
     padding: 10px;
   }

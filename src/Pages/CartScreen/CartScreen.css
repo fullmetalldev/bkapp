@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: start linear 0.6s;
+  animation: startCartBack linear 0.6s;
   cursor: pointer;
 }
 
@@ -188,6 +188,14 @@
   100% {
     left: 0;
     top: 0;
+  }
+}
+@keyframes startCartBack {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
   }
 }
 
