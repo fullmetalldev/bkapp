@@ -12,19 +12,19 @@ const BurgerMenu = ({form, setForm}) => {
                         <ul className="BurgerMain__row-column">
                             <NavLink to="/catalog/accessories" className="upper">Каталог комплектующих</NavLink>
                             <span className="BurgerMain__row-line"> </span>
-                            <NavLink className="lower">Комплектующие для стеклопакетов</NavLink>
-                            <NavLink className="lower">Комплектующие для москитных сеток</NavLink>
-                            <NavLink className="lower">Комплектующие для окон ПВХ</NavLink>
-                            <NavLink className="lower">Комплектующие для натяжных потолков</NavLink>
+                            <NavLink to="" className="lower">Комплектующие для стеклопакетов</NavLink>
+                            <NavLink to="" className="lower">Комплектующие для москитных сеток</NavLink>
+                            <NavLink to="" className="lower">Комплектующие для окон ПВХ</NavLink>
+                            <NavLink to="" className="lower">Комплектующие для натяжных потолков</NavLink>
                             <NavLink to="/catalog/assecories/product" className="lower">Другие комплектующие</NavLink>
                         </ul>
                         <ul className="BurgerMain__row-column">
                             <NavLink to="/catalog/tableware" className="upper">Каталог посуды</NavLink>
                             <span className="BurgerMain__row-line"> </span>
                             <NavLink to="/catalog/tableware/product" className="lower">Пластиковые контейнеры</NavLink>
-                            <NavLink className="lower">Соусник одноразовый</NavLink>
-                            <NavLink className="lower">Столовые приборы</NavLink>
-                            <NavLink className="lower">Укупорка</NavLink>
+                            <NavLink to="" className="lower">Соусник одноразовый</NavLink>
+                            <NavLink to="" className="lower">Столовые приборы</NavLink>
+                            <NavLink to="" className="lower">Укупорка</NavLink>
                         </ul>
                         <ul className="BurgerMain__row-column">
                             <NavLink to="/about" className="upper">О компании</NavLink>
@@ -34,18 +34,18 @@ const BurgerMenu = ({form, setForm}) => {
                             <NavLink to="/mission" className="lower">Миссия и ценности</NavLink>
                             <NavLink to="/benefits" className="lower">Наши преимущества</NavLink>
                             <NavLink to="/polypropylene" className="lower">Преимущества полипропилена</NavLink>
-                            <NavLink className="lower">Наши лицензии</NavLink>
-                            <NavLink className="lower">Наши награды</NavLink>
+                            <NavLink to="" className="lower">Наши лицензии</NavLink>
+                            <NavLink to="" className="lower">Наши награды</NavLink>
                             <NavLink to="/geography" className="lower">География продаж</NavLink>
                         </ul>
                         <ul className="BurgerMain__row-column">
-                            <NavLink className="upper">Назвать раздел</NavLink>
+                            <NavLink to="" className="upper">Назвать раздел</NavLink>
                             <span className="BurgerMain__row-line"> </span>
                             <NavLink to="/investors" className="lower">Инвесторам</NavLink>
-                            <NavLink className="lower">Поставщикам</NavLink>
+                            <NavLink to="" className="lower">Поставщикам</NavLink>
                             <NavLink to="/production" className="lower">Контрактное производство</NavLink>
-                            <NavLink className="upper">Спец предложения</NavLink>
-                            <NavLink className="lower">Новости</NavLink>
+                            <NavLink to="" className="upper">Спец предложения</NavLink>
+                            <NavLink to="" className="lower">Новости</NavLink>
                             <NavLink to="/delivery" className="lower">Оплата и доставка</NavLink>
                             <NavLink to="/vacancy" className="lower">Вакансии</NavLink>
                             <NavLink to="/contacts" className="lower">Контакты</NavLink>
