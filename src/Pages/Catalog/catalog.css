@@ -88,6 +88,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  z-index: -1;
 }
 .sectionCatalog__beforeProductsRow-card_title {
   font-family: Montserrat, sans-serif;
@@ -100,12 +101,19 @@
 .sectionCatalog__beforeProductsRow-card_ul {
   display: flex;
   column-gap: 50px;
+}
+.sectionCatalog__beforeProductsRow-card_ul span {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
   color: #000000;
+  transition: 0.3s;
+}
+.sectionCatalog__beforeProductsRow-card_ul span:hover {
+  cursor: pointer;
+  color: #FF5555;
 }
 .sectionCatalog__beforeProductsRow-card_left {
   row-gap: 18px;
@@ -116,15 +124,6 @@
   row-gap: 18px;
   display: flex;
   flex-direction: column;
-}
-.sectionCatalog__beforeProductsRow .sectionCatalog__beforeProductsRow-card_red {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 26px;
-  text-decoration-line: underline;
-  color: #FF5555;
 }
 .sectionCatalog .section__title {
   width: 100%;

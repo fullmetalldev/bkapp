@@ -33,6 +33,15 @@
   padding: 7px 0;
   column-gap: 28px;
 }
+.header__up-right a {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.header__up-right a:hover {
+  color: #3E3E3E;
+}
 .header__up-right_telegram {
   display: flex;
   align-items: flex-end;
@@ -45,13 +54,6 @@
   column-gap: 12px;
   font-size: 20px;
   text-transform: uppercase;
-}
-.header__up-right_call a {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #FFFFFF;
 }
 .header__up-right_btn {
   display: flex;
