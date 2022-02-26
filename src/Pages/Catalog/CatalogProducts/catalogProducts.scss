@@ -227,6 +227,11 @@
       text-decoration-line: underline;
       font-feature-settings: 'liga' off, 'kern' off;
       color: #000000;
+      cursor: pointer;
+    }
+    &_href:hover{
+      color: #FF5555;
+      transition: 0.3s;
     }
   }
 }
