@@ -17,7 +17,7 @@ const OrderForm = () => {
                     </label>
                     <div className="sectionCatalog__form-btnAndInfo">
                         <div className="infoAndCheckbox">
-                            <input className="infoAndCheckbox_checkbox" type="checkbox"/>
+                            <input className="infoAndCheckbox_checkbox" type="checkbox" checked={true}/>
                             <h4 className="infoAndCheckbox_title">Ваши данные защищены и используются
                                 только <br/> для связи с вами</h4>
                         </div>

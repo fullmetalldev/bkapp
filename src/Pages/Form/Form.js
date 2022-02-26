@@ -1,15 +1,21 @@
 import React from 'react';
 import "./FormStyles.css";
 
-const Form = () => {
+const Form = ({form, setForm}) => {
     return (
-        <div className="formBack">
+        <>
+        <div className="formBlackLayer" onClick={()=> setForm(!form)}>
 
+        </div>
+
+        <div className="formBack">
             <div className="formBack-layer">
 
             </div>
 
             <form className="form">
+
+
 
                 <h2>Напишите нам</h2>
 
@@ -17,7 +23,7 @@ const Form = () => {
                 <input className="form_inp" type="text" placeholder="Имя"/>
 
                 <div className="checkbox">
-                    <input type="checkbox"/>
+                    <input type="checkbox" checked={true}/>
                     <span>Ваши данные защищены и используются только для <br/> связи с вами</span>
                 </div>
 
@@ -26,6 +32,7 @@ const Form = () => {
             </form>
 
         </div>
+        </>
     );
 };
 

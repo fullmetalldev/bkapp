@@ -1,17 +1,19 @@
 .formBack {
   background: url("back.png") center/cover;
-  width: 100vw;
-  height: 100vh;
+  width: 1206px;
+  height: 656px;
   position: fixed;
   z-index: 1000;
-  left: 0;
-  top: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: startForm 0.5s linear;
 
   .form {
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     position: relative;
     z-index: 1001;
     display: flex;
@@ -24,7 +26,6 @@
       font-weight: bold;
       font-size: 48px;
       line-height: 65px;
-      text-transform: capitalize;
       color: #000000;
     }
 
@@ -88,29 +89,116 @@
   }
 }
 
+.formBlackLayer{
+  cursor: pointer;
+  width: 100vw;
+  height: 100vh;
+  background: #00000080;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  animation: startFormBlackLayer 0.5s linear;
+}
+
+@keyframes startForm {
+  0%{
+    top: -100%;
+  }
+  100%{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+@keyframes startFormBlackLayer {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100%;
+  }
+
+}
+
+@media (max-width: 1400px) {
+  .formBack{
+    padding: 100px 180px;
+    width: auto;
+    height: auto;
+    br{
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .formBack{
+    padding: 50px 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  .formBack{
+    padding: 20px 50px;
+  }
+}
 
 @media (max-width: 600px) {
-  .formBack .form h2{
-    font-size: 38px;
+  .formBack .form_button{
+    font-size: 22px;
+    padding: 19px 50px;
+  }
+  .formBack .form{
+    row-gap: 20px;
+  }
+  .formBack .form_inp::placeholder{
+    font-size: 18px;
   }
   .formBack .form_inp{
-    width: 400px;
+    font-size: 18px;
+  }
+  .formBack .form h2{
+    font-size: 32px;
+  }
+  .formBack .form_inp{
+    width: 350px;
   }
   .formBack .form .checkbox span{
     font-size: 14px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .formBack .form h2{
     font-size: 32px;
   }
   .formBack .form_inp{
-    width: 300px;
+    width: 280px;
   }
   .formBack .form .checkbox span{
     font-size: 9px;
-    font-weight: bold;
     line-height: normal;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .formBack .form h2{
+    line-height: 36px;
+  }
+  .formBack{
+    padding: 20px 20px;
+  }
+  .formBack .form_inp{
+    padding: 15px 28px;
+  }
+  .formBack .form h2{
+    font-size: 26px;
+  }
+  .formBack .form_inp{
+    width: 260px;
   }
 }

@@ -39,7 +39,7 @@ function App() {
             {burgerMenu ? <BurgerMenu form={form} setForm={setForm}/> : ""}
             {cartScreen ? <CartScreen setCartScreen={setCartScreen}/> : ""}
             <Scroll/>
-            {form ? <Form/> : ""}
+            {form ? <Form form={form} setForm={setForm}/> : ""}
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/history" element={<History/>}/>
