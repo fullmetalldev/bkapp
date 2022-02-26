@@ -7,6 +7,7 @@ import logo from "./imgs/logo.svg";
 import burger from "./imgs/burger.svg";
 import search from "./imgs/search.svg";
 import "./HeaderAdaptive.css";
+import {NavLink} from "react-router-dom";
 
 const Header = ({cartScreen, setCartScreen, language, setLanguage, setBurgerMenu, burgerMenu}) => {
     const tegBody = document.querySelector("body");
@@ -28,7 +29,7 @@ const Header = ({cartScreen, setCartScreen, language, setLanguage, setBurgerMenu
                             </li>
                             <li className="header__up-right_call">
                                 <img src={call} alt="call"/>
-                                <a href="tel:+73833777732">+ 7 (383)-377-77-32</a>
+                                <NavLink to="tel:+73833777732">+ 7 (383)-377-77-32</NavLink>
                             </li>
                             <li className="header__up-right_btn">
                                 <button className="header__up-right_button">Заказать звонок</button>
@@ -44,7 +45,10 @@ const Header = ({cartScreen, setCartScreen, language, setLanguage, setBurgerMenu
                         <div className="header__down-left">
                             <img className="header__down-BurgerButton" onClick={() => setBurgerMenu(!burgerMenu)}
                                  src={burger} alt="burger button"/>
-                            <img className="header__down-LogoType" src={logo} alt="website logo"/>
+                            <NavLink to="/">
+                                <img className="header__down-LogoType" src={logo} alt="website logo"/>
+                            </NavLink>
+
                         </div>
                         <div className="header__down-right">
                             <div className="header__down-search">

@@ -2,6 +2,9 @@
   background: #CADBF1;
   padding: 40px 0 30px;
 }
+.footer a {
+  cursor: pointer;
+}
 .footer__row {
   display: flex;
   justify-content: space-between;

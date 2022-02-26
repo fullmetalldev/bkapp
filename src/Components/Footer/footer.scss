@@ -1,6 +1,9 @@
 .footer {
   background: #CADBF1;
   padding: 40px 0 30px;
+  a{
+    cursor: pointer;
+  }
 
   &__row {
     display: flex;

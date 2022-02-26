@@ -12,6 +12,9 @@
   font-weight: bold;
   color: #FFFFFF;
 }
+.header a {
+  cursor: pointer;
+}
 .header__up {
   background-color: #9D8675;
 }

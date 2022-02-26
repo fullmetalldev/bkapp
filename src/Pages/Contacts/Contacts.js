@@ -69,7 +69,7 @@ const Contacts = () => {
 
                             <div className="contacts__columns_column-whatsapp">
                                 <img src={whats} alt="call"/>
-                                <span>Написать в WhatsApp</span>
+                                <a href="">Написать в WhatsApp</a>
                             </div>
                         </div>
                         <div className="contacts__columns_column">
@@ -92,7 +92,7 @@ const Contacts = () => {
 
                             <div className="contacts__columns_column-whatsapp">
                                 <img src={whats} alt="whats"/>
-                                <span>Написать в WhatsApp</span>
+                                <a href="">Написать в WhatsApp</a>
                             </div>
                         </div>
                         <div className="contacts__columns_column">
@@ -115,7 +115,7 @@ const Contacts = () => {
 
                             <div className="contacts__columns_column-whatsapp">
                                 <img src={whats} alt="whatsapp"/>
-                                <span>Написать в WhatsApp</span>
+                                <a href="">Написать в WhatsApp</a>
                             </div>
                         </div>
                     </div>

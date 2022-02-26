@@ -51,8 +51,17 @@
 }
 .contacts__columns_column-whatsapp {
   display: flex;
-  column-gap: 20px;
+  column-gap: 10px;
   align-items: center;
+}
+.contacts__columns_column-whatsapp a {
+  font-family: Montserrat, sans-serif;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
 }
 .contacts__columns_column-btn {
   background: #DDCBB5;

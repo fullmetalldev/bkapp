@@ -1,6 +1,7 @@
 import React from 'react';
 import "./BurgerStyle.css"
 import "./BurgerAdaptive.css";
+import {NavLink} from "react-router-dom";
 
 const BurgerMenu = ({form, setForm}) => {
     return (
@@ -9,45 +10,45 @@ const BurgerMenu = ({form, setForm}) => {
                 <div className="headerContainer">
                     <div className="BurgerMain__row">
                         <ul className="BurgerMain__row-column">
-                            <a href="/catalog/accessories" className="upper">Каталог комплектующих</a>
+                            <NavLink to="/catalog/accessories" className="upper">Каталог комплектующих</NavLink>
                             <span className="BurgerMain__row-line"> </span>
-                            <a className="lower">Комплектующие для стеклопакетов</a>
-                            <a className="lower">Комплектующие для москитных сеток</a>
-                            <a className="lower">Комплектующие для окон ПВХ</a>
-                            <a className="lower">Комплектующие для натяжных потолков</a>
-                            <a href="/catalog/assecories/product" className="lower">Другие комплектующие</a>
+                            <NavLink className="lower">Комплектующие для стеклопакетов</NavLink>
+                            <NavLink className="lower">Комплектующие для москитных сеток</NavLink>
+                            <NavLink className="lower">Комплектующие для окон ПВХ</NavLink>
+                            <NavLink className="lower">Комплектующие для натяжных потолков</NavLink>
+                            <NavLink to="/catalog/assecories/product" className="lower">Другие комплектующие</NavLink>
                         </ul>
                         <ul className="BurgerMain__row-column">
-                            <a href="/catalog/tableware" className="upper">Каталог посуды</a>
+                            <NavLink to="/catalog/tableware" className="upper">Каталог посуды</NavLink>
                             <span className="BurgerMain__row-line"> </span>
-                            <a href="/catalog/tableware/product" className="lower">Пластиковые контейнеры</a>
-                            <a className="lower">Соусник одноразовый</a>
-                            <a className="lower">Столовые приборы</a>
-                            <a className="lower">Укупорка</a>
+                            <NavLink to="/catalog/tableware/product" className="lower">Пластиковые контейнеры</NavLink>
+                            <NavLink className="lower">Соусник одноразовый</NavLink>
+                            <NavLink className="lower">Столовые приборы</NavLink>
+                            <NavLink className="lower">Укупорка</NavLink>
                         </ul>
                         <ul className="BurgerMain__row-column">
-                            <a href="/about" className="upper">О компании</a>
+                            <NavLink to="/about" className="upper">О компании</NavLink>
                             <span className="BurgerMain__row-line"> </span>
-                            <a href="/history" className="lower">История компании</a>
-                            <a href="/team" className="lower">Наша команда</a>
-                            <a href="/mission" className="lower">Миссия и ценности</a>
-                            <a href="/benefits" className="lower">Наши преимущества</a>
-                            <a href="/polypropylene" className="lower">Преимущества полипропилена</a>
-                            <a className="lower">Наши лицензии</a>
-                            <a className="lower">Наши награды</a>
-                            <a href="/geography" className="lower">География продаж</a>
+                            <NavLink to="/history" className="lower">История компании</NavLink>
+                            <NavLink to="/team" className="lower">Наша команда</NavLink>
+                            <NavLink to="/mission" className="lower">Миссия и ценности</NavLink>
+                            <NavLink to="/benefits" className="lower">Наши преимущества</NavLink>
+                            <NavLink to="/polypropylene" className="lower">Преимущества полипропилена</NavLink>
+                            <NavLink className="lower">Наши лицензии</NavLink>
+                            <NavLink className="lower">Наши награды</NavLink>
+                            <NavLink to="/geography" className="lower">География продаж</NavLink>
                         </ul>
                         <ul className="BurgerMain__row-column">
-                            <a className="upper">Назвать раздел</a>
+                            <NavLink className="upper">Назвать раздел</NavLink>
                             <span className="BurgerMain__row-line"> </span>
-                            <a href="/investors" className="lower">Инвесторам</a>
-                            <a className="lower">Поставщикам</a>
-                            <a href="/production" className="lower">Контрактное производство</a>
-                            <a className="upper">Спец предложения</a>
-                            <a className="lower">Новости</a>
-                            <a href="/delivery" className="lower">Оплата и доставка</a>
-                            <a href="/vacancy" className="lower">Вакансии</a>
-                            <a href="/contacts" className="lower">Контакты</a>
+                            <NavLink to="/investors" className="lower">Инвесторам</NavLink>
+                            <NavLink className="lower">Поставщикам</NavLink>
+                            <NavLink to="/production" className="lower">Контрактное производство</NavLink>
+                            <NavLink className="upper">Спец предложения</NavLink>
+                            <NavLink className="lower">Новости</NavLink>
+                            <NavLink to="/delivery" className="lower">Оплата и доставка</NavLink>
+                            <NavLink to="/vacancy" className="lower">Вакансии</NavLink>
+                            <NavLink to="/contacts" className="lower">Контакты</NavLink>
                         </ul>
                     </div>
                 </div>

@@ -5,6 +5,7 @@ import Instagram from './imgs/instagram.png';
 import Phone from './imgs/phone.png';
 import Location from './imgs/location.png';
 import "./FooterAdaptive.css";
+import {NavLink} from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -38,12 +39,15 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer__bot">
-                    <img src={Logo} alt="Logo"/>
+                    <NavLink to="/">
+                        <img src={Logo} alt="Logo"/>
+                    </NavLink>
+
                     <div className="footer__bot_left">
-                        <a href="/catalog/accessories">Каталог комплектующих</a>
-                        <a href="/catalog/tableware">Каталог посуды</a>
-                        <a href="/history">Новости</a>
-                        <a href="/contacts">Контакты</a>
+                        <NavLink to="/catalog/accessories">Каталог комплектующих</NavLink>
+                        <NavLink to="/catalog/tableware">Каталог посуды</NavLink>
+                        <NavLink to="/history">Новости</NavLink>
+                        <NavLink to="/contacts">Контакты</NavLink>
                     </div>
                     <div className="footer__bot_right">
                         <div className="footer__bot_right-row">
@@ -58,14 +62,14 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer__list">
-                    <a href="#test">Производство изделий из пластмассы</a>
+                    <NavLink to="">Производство изделий из пластмассы</NavLink>
                     <div className="footer__list_item">
-                        <a href="#test"><img src={Instagram} alt="Instagram"/></a>
-                        <a href="#test">Комплектующие</a>
+                        <NavLink to=""><img src={Instagram} alt="Instagram"/></NavLink>
+                        <NavLink to="">Комплектующие</NavLink>
                     </div>
                     <div className="footer__list_item">
-                        <a href="#test"><img src={Instagram} alt="Instagram"/></a>
-                        <a href="#test">Посуда</a>
+                        <NavLink to=""><img src={Instagram} alt="Instagram"/></NavLink>
+                        <NavLink to="">Посуда</NavLink>
                     </div>
                 </div>
             </div>
