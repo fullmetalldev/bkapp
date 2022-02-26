@@ -39,10 +39,12 @@
         font-weight: bold;
         font-size: 20px;
         line-height: 24px;
+        transition: 0.3s;
         color: #FFFFFF;
       }
       a:hover{
         color: #3E3E3E;
+        transition: 0.3s;
       }
 
       &_telegram {
@@ -63,6 +65,7 @@
       &_btn {
         display: flex;
         align-items: center;
+        transition: 0.3s;
       }
 
       &_button {
@@ -76,6 +79,11 @@
         font-size: 16px;
         line-height: 20px;
         color: #FFFFFF;
+      }
+      &_button:hover{
+        color: #3E3E3E;
+        border: #3E3E3E 1px solid;
+        transition: 0.3s;
       }
     }
   }

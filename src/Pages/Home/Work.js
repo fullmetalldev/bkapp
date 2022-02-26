@@ -3,6 +3,10 @@ import Production from './imgs/production.png';
 import Calendar from './imgs/calendar.png';
 import Price from './imgs/price.png';
 import Partner from './imgs/partner.png';
+import def from './imgs/def.png';
+import time from './imgs/time.png';
+import full from './imgs/full.png';
+import delivery from './imgs/delivery.png';
 import {Navigation} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
@@ -79,42 +83,48 @@ const  Work = () => {
                             <div className="work__row">
                                 <div className="work__card">
                                     <div className="work__card_img">
-                                        <img src={Production} alt="Production"/>
+                                        <img src={def} alt="Production"/>
                                     </div>
                                     <div className="work__card_content">
-                                        <h3 className="work__card_title">Собственное производство</h3>
-                                        <p className="work__card_subtitle">Всю продукцию мы производим на собственных
-                                            производственных площадках.</p>
+                                        <h3 className="work__card_title">Гарантия высокого качества</h3>
+                                        <p className="work__card_subtitle">Уделяем внимание качеству производства и
+                                            совершенствованию технологии. Маркируем наши товары специальным символом снежинкой.
+                                        </p>
                                     </div>
                                 </div>
                                 <div className="work__card">
                                     <div className="work__card_img">
-                                        <img src={Production} alt="Production"/>
+                                        <img src={delivery} alt="Production"/>
                                     </div>
                                     <div className="work__card_content">
-                                        <h3 className="work__card_title">Собственное производство</h3>
-                                        <p className="work__card_subtitle">Всю продукцию мы производим на собственных
-                                            производственных площадках.</p>
+                                        <h3 className="work__card_title">Бесперебойные поставки</h3>
+                                        <p className="work__card_subtitle">Мы грамотно планируем производственный
+                                            процесс так, чтобы отгрузка осуществлялась
+                                            точно в срок. </p>
                                     </div>
                                 </div>
                                 <div className="work__card">
                                     <div className="work__card_img">
-                                        <img src={Production} alt="Production"/>
+                                        <img src={full} alt="Production"/>
                                     </div>
                                     <div className="work__card_content">
-                                        <h3 className="work__card_title">Собственное производство</h3>
-                                        <p className="work__card_subtitle">Всю продукцию мы производим на собственных
-                                            производственных площадках.</p>
+                                        <h3 className="work__card_title">Полнота продуктовой линейки</h3>
+                                        <p className="work__card_subtitle">Производим более 90 позиций комплектующих
+                                            для сборки стеклопакетов. Постоянно вводим
+                                            новые изделия одноразовой посуды.
+                                        </p>
                                     </div>
                                 </div>
                                 <div className="work__card">
                                     <div className="work__card_img">
-                                        <img src={Production} alt="Production"/>
+                                        <img src={time} alt="Production"/>
                                     </div>
                                     <div className="work__card_content">
-                                        <h3 className="work__card_title">Собственное производство</h3>
-                                        <p className="work__card_subtitle">Всю продукцию мы производим на собственных
-                                            производственных площадках.</p>
+                                        <h3 className="work__card_title">Оперативное выполнение заказов</h3>
+                                        <p className="work__card_subtitle">производственный цикл занимает около суток.
+                                            Производство работает круглосуточно
+                                            без перерывов и выходных.
+                                        </p>
                                     </div>
                                 </div>
                             </div>

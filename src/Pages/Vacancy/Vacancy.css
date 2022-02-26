@@ -115,6 +115,7 @@
 .Vacancy__card_vacancyInfo-aboutBoss {
   display: flex;
   flex-direction: column;
+  row-gap: 10px;
 }
 .Vacancy__card_vacancyInfo-aboutBoss a {
   color: black;

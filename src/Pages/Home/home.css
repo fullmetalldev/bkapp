@@ -448,9 +448,15 @@
 .news__card_more {
   font-weight: bold;
   font-size: 22px;
+  cursor: pointer;
   line-height: 28px;
   text-decoration-line: underline;
   color: rgba(0, 0, 0, 0.65);
+  transition: 0.3s;
+}
+.news__card_more:hover {
+  color: #FF5555;
+  transition: 0.3s;
 }
 .news .margin {
   margin: 50px 0 70px;
@@ -470,6 +476,10 @@
 }
 .news__more img, .news__more p {
   cursor: pointer;
+}
+.news__more:hover p {
+  color: #FF5555;
+  transition: 0.3s;
 }
 
 .text {

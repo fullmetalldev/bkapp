@@ -338,6 +338,7 @@
 
 .catalog {
   padding: 0 0 70px;
+
   .adaptive {
     display: none;
   }
@@ -517,9 +518,17 @@
     &_more {
       font-weight: bold;
       font-size: 22px;
+      cursor: pointer;
       line-height: 28px;
       text-decoration-line: underline;
       color: rgba(0, 0, 0, 0.65);
+      transition: 0.3s;
+
+    }
+
+    &_more:hover {
+      color: #FF5555;
+      transition: 0.3s;
     }
   }
 
@@ -543,6 +552,12 @@
 
     & img, p {
       cursor: pointer;
+    }
+  }
+  &__more:hover{
+    p{
+      color: #FF5555;
+      transition: 0.3s;
     }
   }
 }
@@ -574,14 +589,17 @@
     .container {
       max-width: 1400px;
     }
+
     .first-screen {
       &__card {
         &_content {
           height: 450px;
         }
+
         &_title {
           font-size: 50px;
         }
+
         &_subtitle {
           font-size: 25px;
         }
@@ -593,9 +611,11 @@
         font-size: 44px;
         line-height: 130%;
       }
+
       &__subtitle {
         font-size: 21px;
       }
+
       &__more {
         font-size: 21px;
       }
@@ -605,10 +625,12 @@
       &__swiper {
         padding: 0 50px;
       }
+
       .swiper-button-prev {
         left: 0;
         transform: translate(-100%, -50%);
       }
+
       .swiper-button-next {
         right: 0;
         transform: translate(100%, -50%);
@@ -619,15 +641,18 @@
       &__card {
         padding: 70px 0;
       }
+
       &__title {
         font-size: 72px;
         line-height: 90px;
         margin: 0 0 15px;
       }
+
       &__subtitle {
         font-size: 41px;
         line-height: 50px;
       }
+
       &__btn {
         font-size: 32px;
         padding: 18px 35px 19px;
@@ -638,6 +663,7 @@
       &__title {
         font-size: 40px;
       }
+
       &__card {
         margin: 0 30px;
       }
@@ -648,13 +674,16 @@
         &_title {
           font-size: 28px;
         }
+
         &_subtitle {
           font-size: 19px;
         }
+
         &_more {
           font-size: 21px;
         }
       }
+
       &__more {
         img {
           width: 30px;
@@ -864,6 +893,7 @@
       &__title {
         font-size: 36px;
       }
+
       &__card {
         margin: 0;
       }
@@ -1087,12 +1117,15 @@
     .work {
 
       padding: 0 20px 150px !important;
+
       &__card {
         width: 100%;
       }
+
       .swiper-button-prev {
         display: none;
       }
+
       .swiper-button-next {
         display: none;
       }
@@ -1151,23 +1184,28 @@
     section:not(:nth-child(4)) {
       padding: 25px 10px;
     }
+
     .first-screen {
       &__card {
         padding: 0 20px;
       }
+
       &__card {
         &_content {
           width: 100%;
         }
+
         &_title {
           font-size: 28px;
           line-height: 50px;
           margin: 0;
         }
+
         &_subtitle {
           font-size: 17px;
           margin: 0 0 30px;
         }
+
         &_btns {
           .btn {
             font-size: 14px;
@@ -1181,10 +1219,12 @@
       &__title {
         font-size: 24px;
       }
+
       &__subtitle {
         font-size: 16px;
         line-height: 30px;
       }
+
       &__more {
         font-size: 17px;
       }
@@ -1194,18 +1234,23 @@
       &__title {
         font-size: 26px;
       }
+
       &__row {
         width: 100%;
       }
+
       &__card {
         flex-direction: column-reverse;
+
         &_title {
           text-align: center;
+
           &::before {
             left: 50%;
             transform: translate(-50%);
           }
         }
+
         &_subtitle {
           font-size: 17px;
           margin: 0 0 10px;
