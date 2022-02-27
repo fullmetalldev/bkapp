@@ -181,17 +181,34 @@
       display: none;
     }
   }
+  .thanks {
+    width: 860px;
+    height: 651px;
+  }
 }
 
 @media (max-width: 1000px) {
   .formBack{
     padding: 50px 100px;
   }
+  .thanks {
+    width: 700px;
+    height: 551px;
+    h2 {
+    }
+    p {
+      width: auto;
+    }
+  }
 }
 
 @media (max-width: 700px) {
   .formBack{
     padding: 20px 50px;
+  }
+  .thanks {
+    width: 600px;
+    height: 491px;
   }
 }
 
@@ -218,6 +235,14 @@
   .formBack .form .checkbox span{
     font-size: 14px;
   }
+  .thanks {
+    width: 450px;
+    height: 451px;
+    p {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
 }
 
 @media (max-width: 500px) {
@@ -230,6 +255,16 @@
   .formBack .form .checkbox span{
     font-size: 9px;
     line-height: normal;
+  }
+  .thanks {
+    width: 380px;
+    height: 421px;
+    h2 {
+      font-size: 42px;
+    }
+    p {
+      margin: 10px 0 0;
+    }
   }
 }
 
@@ -249,5 +284,17 @@
   }
   .formBack .form_inp{
     width: 260px;
+  }
+  .thanks {
+    width: 300px;
+    height: 372px;
+    h2 {
+      font-size: 36px;
+      line-height: 45px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 25px;
+    }
   }
 }
