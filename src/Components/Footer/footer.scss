@@ -138,16 +138,10 @@
 
 .sectionBeforeFooter{
   background-color: #FFFFFF;
-  .headerContainer {
-    position: relative;
-  }
-  &__btnRow{
-    display: flex;
-    justify-content: flex-end;
-  }
+  display: flex;
+  justify-content: flex-end;
   &__button {
-    right: 0;
-    top: -130px;
+    margin: 0 7% 0 0;
     background: #FF5555;
     border-radius: 1px;
     padding: 23px 27px;

@@ -98,10 +98,12 @@
 .Vacancy__card_vacancyInfo-city {
   font-family: Montserrat, sans-serif;
   font-style: normal;
-  font-weight: bold;
   font-size: 18px;
   line-height: 28px;
   color: rgba(0, 0, 0, 0.8);
+}
+.Vacancy__card_vacancyInfo-city .light {
+  font-weight: normal;
 }
 .Vacancy__card_vacancyInfo-point {
   display: flex;
@@ -119,6 +121,14 @@
 }
 .Vacancy__card_vacancyInfo-aboutBoss a {
   color: black;
+}
+.Vacancy__card_vacancyInfo-about {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.Vacancy__card_vacancyInfo-about span {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=Vacancy.css.map */

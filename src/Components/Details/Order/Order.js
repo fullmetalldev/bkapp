@@ -4,9 +4,11 @@ import './Order.scss';
 
 const Order = () => {
     return (
-        <button className="details__order">
-            <p>Заказать образцы</p>
-        </button>
+        <div className="details-box order">
+            <button className="details__order">
+                <p>Заказать образцы</p>
+            </button>
+        </div>
     );
 };
 

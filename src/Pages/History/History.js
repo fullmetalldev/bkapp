@@ -3,8 +3,6 @@ import "./historyStyle.css";
 import img from "./imgs/card1.png"
 import img2 from "./imgs/card2.png"
 import img3 from "./imgs/card3.png"
-import Order from "../../Components/Details/Order/Order";
-import Bag from "../../Components/Details/Bag/Bag";
 import "./HistoryAdaptive.css";
 
 const History = () => {
@@ -98,13 +96,6 @@ const History = () => {
                         <img className="history__main-block_right-img" src={img3} alt="image3"/>
                     </div>
                 </section>
-
-            </div>
-            <div className="history__button">
-                <Order/>
-            </div>
-            <div className="history__bag">
-                <Bag/>
             </div>
         </main>
     );

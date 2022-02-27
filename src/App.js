@@ -24,6 +24,8 @@ import OurTeam from "./Pages/OurTeam/OurTeam";
 import Geograpgy from "./Pages/Geography/Geograpgy";
 import Vacancy from "./Pages/Vacancy/Vacancy";
 import Form from "./Pages/Form/Form";
+import Bag from "./Components/Details/Bag/Bag";
+import Order from "./Components/Details/Order/Order";
 
 function App() {
 
@@ -39,6 +41,8 @@ function App() {
             {burgerMenu ? <BurgerMenu form={form} setForm={setForm}/> : ""}
             {cartScreen ? <CartScreen setCartScreen={setCartScreen}/> : ""}
             <Scroll/>
+            <Order/>
+            <Bag/>
             {form ? <Form form={form} setForm={setForm}/> : ""}
             <Routes>
                 <Route path="/" element={<Home/>}/>

@@ -1,7 +1,6 @@
 import React from 'react';
 import AboutImg from './imgs/aboutimg.png';
 import Leaves from './imgs/leaves.svg';
-import Order from "../../Components/Details/Order/Order";
 
 const About = () => {
     return (
@@ -9,9 +8,6 @@ const About = () => {
             <div className="container">
                 <div className="about__box">
                     <img className="about__leaves" src={Leaves} alt="Leaves"/>
-                    <div className="about__btn">
-                        <Order/>
-                    </div>
                     <div className="about__content">
                         <h2 className="about__title">Завод по производству пластиковых изделий БК
                         </h2>

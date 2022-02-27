@@ -530,11 +530,9 @@
   }
   .homeMain .work .swiper-button-prev {
     left: 0;
-    transform: translate(-100%, -50%);
   }
   .homeMain .work .swiper-button-next {
     right: 0;
-    transform: translate(100%, -50%);
   }
   .homeMain .sale__card {
     padding: 70px 0;

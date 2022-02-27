@@ -3,19 +3,11 @@ import './mission.scss';
 import Quality from './img/quality.png';
 import Partner from './img/partner.png';
 import Innovation from './img/innovation.png';
-import Order from "../../Components/Details/Order/Order";
-import Bag from "../../Components/Details/Bag/Bag";
 
 const Mission = () => {
     return (
         <main>
             <section className="mission">
-                <div className="mission__button">
-                    <Order/>
-                </div>
-                <div className="mission__bag">
-                    <Bag/>
-                </div>
                 <div className="container">
                     <p className="section__navi">Главная / Миссия</p>
                     <h1 className="section__title">Миссия</h1>

@@ -36,11 +36,11 @@ const Vacancy = () => {
                         </div>
                         <div className="Vacancy__card_vacancyInfo" style={{display: vacPage === 1 ? "flex" : "none"}}>
                             <h4 className="Vacancy__card_vacancyInfo-city">
-                                <span className="bold">Город:</span>
+                                <span className="bold">Город: </span>
                                 <span className="light">Новосибирск</span>
                             </h4>
 
-                            <span className="Vacancy__card_vacancyInfo-about"> Компания ООО “ООО”, осуществляющий деятельность в области проектирования объектов федеральной значимости - авиационная промышленность,
+                            <span className="Vacancy__card_vacancyInfo-about"> <span>Компания ООО “ООО”</span>, осуществляющий деятельность в области проектирования объектов федеральной значимости - авиационная промышленность,
                                 <span>приглашает на работу ведущего инженера-конструктора.</span></span>
 
                             <h4 className="Vacancy__card_vacancyInfo-punct">Обязанности:</h4>
@@ -173,7 +173,7 @@ const Vacancy = () => {
                         </div>
                         <div className="Vacancy__card_vacancyInfo" style={{display: vacPage === 2 ? "flex" : "none"}}>
                             <h4 className="Vacancy__card_vacancyInfo-city">
-                                <span className="bold">Город:</span>
+                                <span className="bold">Город: </span>
                                 <span className="light">Новосибирск</span>
                             </h4>
 
@@ -309,7 +309,7 @@ const Vacancy = () => {
                         </div>
                         <div className="Vacancy__card_vacancyInfo" style={{display: vacPage === 3 ? "flex" : "none"}}>
                             <h4 className="Vacancy__card_vacancyInfo-city">
-                                <span className="bold">Город:</span>
+                                <span className="bold">Город: </span>
                                 <span className="light">Новосибирск</span>
                             </h4>
 
@@ -445,7 +445,7 @@ const Vacancy = () => {
                         </div>
                         <div className="Vacancy__card_vacancyInfo" style={{display: vacPage === 4 ? "flex" : "none"}}>
                             <h4 className="Vacancy__card_vacancyInfo-city">
-                                <span className="bold">Город:</span>
+                                <span className="bold">Город: </span>
                                 <span className="light">Новосибирск</span>
                             </h4>
 
@@ -581,7 +581,7 @@ const Vacancy = () => {
                         </div>
                         <div className="Vacancy__card_vacancyInfo" style={{display: vacPage === 5 ? "flex" : "none"}}>
                             <h4 className="Vacancy__card_vacancyInfo-city">
-                                <span className="bold">Город:</span>
+                                <span className="bold">Город: </span>
                                 <span className="light">Новосибирск</span>
                             </h4>
 
@@ -716,7 +716,7 @@ const Vacancy = () => {
                         </div>
                         <div className="Vacancy__card_vacancyInfo" style={{display: vacPage === 6 ? "flex" : "none"}}>
                             <h4 className="Vacancy__card_vacancyInfo-city">
-                                <span className="bold">Город:</span>
+                                <span className="bold">Город: </span>
                                 <span className="light">Новосибирск</span>
                             </h4>
 

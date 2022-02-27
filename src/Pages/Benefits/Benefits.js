@@ -8,19 +8,11 @@ import Guarantee from "../Benefits/img/garantee.png";
 import Delivery from "../Benefits/img/delivery.png";
 import Full from "../Benefits/img/full.png";
 import Time from "../Benefits/img/time.png";
-import Order from "../../Components/Details/Order/Order";
-import Bag from "../../Components/Details/Bag/Bag";
 
 const Benefits = () => {
     return (
         <main>
             <section className="benefits">
-                <div className="benefits__button">
-                    <Order/>
-                </div>
-                <div className="benefits__bag">
-                    <Bag/>
-                </div>
                 <div className="container">
                     <p className="section__navi">Главная / Преимущества</p>
                     <h1 className="section__title">Преимущества</h1>

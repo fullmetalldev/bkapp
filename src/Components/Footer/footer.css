@@ -119,17 +119,11 @@
 
 .sectionBeforeFooter {
   background-color: #FFFFFF;
-}
-.sectionBeforeFooter .headerContainer {
-  position: relative;
-}
-.sectionBeforeFooter__btnRow {
   display: flex;
   justify-content: flex-end;
 }
 .sectionBeforeFooter__button {
-  right: 0;
-  top: -130px;
+  margin: 0 7% 0 0;
   background: #FF5555;
   border-radius: 1px;
   padding: 23px 27px;

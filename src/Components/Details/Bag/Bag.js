@@ -4,7 +4,9 @@ import Bag3 from '../../../Pages/Home/imgs/bag3.png';
 
 const Bag = () => {
     return (
-        <img className="details__bag" src={Bag3} alt="Bag"/>
+        <div className="details-box bag">
+            <img className="details__bag" src={Bag3} alt="Bag"/>
+        </div>
     );
 };
 
