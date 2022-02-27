@@ -108,6 +108,7 @@
     width: calc((100% / 4) - 30px);
 
     &_filter {
+      cursor: pointer;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -162,7 +163,7 @@
 
       }
     }
-    &_filter:hover{
+    &_filterActive{
       .plasticTablewareCatalog__sort_filter-filters{
         display: flex !important;
       }

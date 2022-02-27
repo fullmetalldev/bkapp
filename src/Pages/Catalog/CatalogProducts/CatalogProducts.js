@@ -17,6 +17,11 @@ const CatalogProducts = () => {
 
     const [pageNum, setPageNum] = useState('1');
 
+    const [filter1, setFilter1] = useState(false);
+    const [filter2, setFilter2] = useState(false);
+    const [filter3, setFilter3] = useState(false);
+    const [filter4, setFilter4] = useState(false);
+
     const page = (event) => {
         document.querySelectorAll('.sectionCatalog__pagesChange-page').forEach((element) => {
             element.classList.remove('activePage')
@@ -31,9 +36,13 @@ const CatalogProducts = () => {
             <h2 className="section__title">Наши товары</h2>
             <div className="sectionCatalog__filterRow">
                 <div className="sectionCatalog__filterRow-filter">
-                    <span className="titleFilter">Объем</span>
-                    <img className="arrow" src={arrow} alt="arrow"/>
-                    <div className="sectionCatalog__filterRow-checkRow">
+                    <div className="filterjustify" onClick={() => setFilter1(!filter1)}>
+                        <span className="titleFilter">Объем</span>
+                        <img className={filter1 ? "arrow arrowActive" : "arrow"} src={arrow} alt="arrow"/>
+                    </div>
+
+                    <div
+                        className={filter1 ? "sectionCatalog__filterRow-checkRow sectionCatalog__filterRow-checkRowActive" : "sectionCatalog__filterRow-checkRow"}>
                         <div className="checkboxRow">
                             <input className="sectionCatalog__filterRow-checkbox" type="checkbox"/>
                             <h4 className="checkboxTitle">Прозрачный</h4>
@@ -45,9 +54,13 @@ const CatalogProducts = () => {
                     </div>
                 </div>
                 <div className="sectionCatalog__filterRow-filter">
-                    <span className="titleFilter">Цвет</span>
-                    <img className="arrow" src={arrow} alt="arrow"/>
-                    <div className="sectionCatalog__filterRow-checkRow">
+                    <div className="filterjustify" onClick={() => setFilter2(!filter2)}>
+                        <span className="titleFilter">Цвет</span>
+                        <img className={filter2 ? "arrow arrowActive" : "arrow"} src={arrow} alt="arrow"/>
+                    </div>
+
+                    <div
+                        className={filter2 ? "sectionCatalog__filterRow-checkRow sectionCatalog__filterRow-checkRowActive" : "sectionCatalog__filterRow-checkRow"}>
                         <div className="checkboxRow">
                             <input className="sectionCatalog__filterRow-checkbox" type="checkbox"/>
                             <h4 className="checkboxTitle">Прозрачный</h4>
@@ -60,9 +73,13 @@ const CatalogProducts = () => {
                 </div>
 
                 <div className="sectionCatalog__filterRow-filter">
-                    <span className="titleFilter">Диаметр</span>
-                    <img className="arrow" src={arrow} alt="arrow"/>
-                    <div className="sectionCatalog__filterRow-checkRow">
+                    <div className="filterjustify" onClick={() => setFilter3(!filter3)}>
+                        <span className="titleFilter">Диаметр</span>
+                        <img className={filter3 ? "arrow arrowActive" : "arrow"} src={arrow} alt="arrow"/>
+                    </div>
+
+                    <div
+                        className={filter3 ? "sectionCatalog__filterRow-checkRow sectionCatalog__filterRow-checkRowActive" : "sectionCatalog__filterRow-checkRow"}>
                         <div className="checkboxRow">
                             <input className="sectionCatalog__filterRow-checkbox" type="checkbox"/>
                             <h4 className="checkboxTitle">Прозрачный</h4>
@@ -75,9 +92,13 @@ const CatalogProducts = () => {
                 </div>
 
                 <div className="sectionCatalog__filterRow-filter">
-                    <span className="titleFilter">Материал</span>
-                    <img className="arrow" src={arrow} alt="arrow"/>
-                    <div className="sectionCatalog__filterRow-checkRow">
+                    <div className="filterjustify" onClick={() => setFilter4(!filter4)}>
+                        <span className="titleFilter">Материал</span>
+                        <img className={filter4 ? "arrow arrowActive" : "arrow"} src={arrow} alt="arrow"/>
+                    </div>
+
+                    <div
+                        className={filter4 ? "sectionCatalog__filterRow-checkRow sectionCatalog__filterRow-checkRowActive" : "sectionCatalog__filterRow-checkRow"}>
                         <div className="checkboxRow">
                             <input className="sectionCatalog__filterRow-checkbox" type="checkbox"/>
                             <h4 className="checkboxTitle">Прозрачный</h4>

@@ -91,6 +91,7 @@
   width: calc(25% - 30px);
 }
 .plasticTablewareCatalog__sort_filter {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -143,10 +144,10 @@
   font-feature-settings: "liga" off, "kern" off;
   color: #000000;
 }
-.plasticTablewareCatalog__sort_filter:hover .plasticTablewareCatalog__sort_filter-filters {
+.plasticTablewareCatalog__sort_filterActive .plasticTablewareCatalog__sort_filter-filters {
   display: flex !important;
 }
-.plasticTablewareCatalog__sort_filter:hover .arrow {
+.plasticTablewareCatalog__sort_filterActive .arrow {
   transition: 0.3s;
   transform: rotate(180deg);
 }

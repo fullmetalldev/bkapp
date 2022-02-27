@@ -60,17 +60,24 @@
   color: #000000;
 }
 
-.sectionCatalog__filterRow-filter:hover {
+.sectionCatalog__filterRow-filter {
   cursor: pointer;
 }
-.sectionCatalog__filterRow-filter:hover .arrow {
-  transition: 0.3s;
-  transform: rotate(180deg);
+.sectionCatalog__filterRow-filter .filterjustify {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
-.sectionCatalog__filterRow-filter:hover .sectionCatalog__filterRow-checkRow {
+
+.sectionCatalog__filterRow-checkRowActive {
   background-color: #FFFFFF;
   display: flex;
   animation: startfilter linear 0.5s;
+}
+.sectionCatalog__filterRow .arrowActive {
+  transition: 0.3s;
+  transform: rotate(180deg);
 }
 
 @keyframes startfilter {
