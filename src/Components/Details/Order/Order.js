@@ -2,10 +2,10 @@ import React from 'react';
 import './Order.scss';
 
 
-const Order = () => {
+const Order = ({form, setForm}) => {
     return (
         <div className="details-box order">
-            <button className="details__order">
+            <button onClick={()=> setForm(!form)} className="details__order">
                 <p>Заказать образцы</p>
             </button>
         </div>

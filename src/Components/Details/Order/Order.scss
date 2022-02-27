@@ -25,7 +25,24 @@
   top: 19%;
 }
 .bag {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 87px;
+  height: 87px;
   bottom: 19%;
+  background-color: #9D8675;
+  &__count{
+    margin-top: 12px;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
 }
 @media (max-width: 1600px) {
   .details {

@@ -10,7 +10,7 @@ const History = () => {
         <main className="history">
             <div className="container">
                 <div className="history__main">
-                    <h3 className="history__main-title">Главная / История компании</h3>
+                    <h3 className="history__main-title"><a className="navLink" href="/">Главная</a> / История компании</h3>
                     <h3 className="history__main-titleHistory">История компании</h3>
                     <section className="history__main-block">
                         <div className="history__main-block_left">

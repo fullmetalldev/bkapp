@@ -20,7 +20,7 @@ const CatalogSection = () => {
 
                 <section className="sectionCatalog__row">
 
-                    <h2 className="sectionCatalog__whichSection">Главная / Каталог комплектующих</h2>
+                    <h2 className="sectionCatalog__whichSection"><a className="navLink" href="/">Главная</a> / Каталог комплектующих</h2>
                     <h2 className="sectionCatalog__title">Каталог комплектующих</h2>
                     <h4 className="sectionCatalog__info">Используем современные безопасные материалы и добавки,
                         высокотехнологичное оборудование для создания уникальных свойств изделий.
@@ -57,7 +57,9 @@ const CatalogSection = () => {
                     <div className="sectionCatalog__beforeProductsRow">
 
                         <div className="sectionCatalog__beforeProductsRow-card">
-                            <h2 className="sectionCatalog__beforeProductsRow-card_title">Комплектующие для окон ПВХ</h2>
+                            <h2 className="sectionCatalog__beforeProductsRow-card_title">
+                                <a className="navLink" href="/">Комплектующие для окон ПВХ</a>
+                            </h2>
                             <div className="sectionCatalog__beforeProductsRow-card_ul">
                                 <div className="sectionCatalog__beforeProductsRow-card_left">
                                     <span>Фальцевые вкладыши</span>
@@ -74,8 +76,9 @@ const CatalogSection = () => {
 
                         </div>
                         <div className="sectionCatalog__beforeProductsRow-card">
-                            <h2 className="sectionCatalog__beforeProductsRow-card_title">Комплектующие для натяжных
-                                потолков
+                            <h2 className="sectionCatalog__beforeProductsRow-card_title">
+                                <a className="navLink" href="/catalog/assecories/product">Комплектующие для натяжных
+                                потолков</a>
                             </h2>
                             <div className="sectionCatalog__beforeProductsRow-card_ul">
                                 <div className="sectionCatalog__beforeProductsRow-card_left">

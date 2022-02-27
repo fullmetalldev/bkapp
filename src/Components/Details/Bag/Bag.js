@@ -1,11 +1,11 @@
 import React from 'react';
-import './bag.scss';
-import Bag3 from '../../../Pages/Home/imgs/bag3.png';
+import bag from "./bagimg.png";
 
-const Bag = () => {
+const Bag = ({cartScreen, setCartScreen}) => {
     return (
-        <div className="details-box bag">
-            <img className="details__bag" src={Bag3} alt="Bag"/>
+        <div onClick={()=> setCartScreen(!cartScreen)} className="details-box bag">
+            <img src={bag} alt="bag icon"/>
+            <span className="bag__count">4</span>
         </div>
     );
 };

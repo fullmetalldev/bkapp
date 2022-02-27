@@ -18,7 +18,7 @@ const OurTeam = () => {
                 <div className="ourTeam__row">
 
                     <h4 className="ourTeam__route">
-                        Главная / Наша команда
+                        <a className="navLink" href="/">Главная</a> / Наша команда
                     </h4>
 
                     <h2 className="section__title">Наша команда</h2>

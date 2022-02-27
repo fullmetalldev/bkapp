@@ -13,6 +13,20 @@ button {
   cursor: pointer;
 }
 
+.navLink {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  color: #393939;
+  transition: 0.3s;
+}
+
+.navLink:hover {
+  color: #FF5555;
+  transition: 0.3s;
+}
+
 .container {
   width: 100%;
   max-width: 1600px;

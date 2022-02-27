@@ -9,7 +9,7 @@ const Mission = () => {
         <main>
             <section className="mission">
                 <div className="container">
-                    <p className="section__navi">Главная / Миссия</p>
+                    <p className="section__navi"><a className="navLink" href="/">Главная</a> / Миссия</p>
                     <h1 className="section__title">Миссия</h1>
                     <h2 className="mission__title">Мы создаем современные безопасные товары, <br/>
                         улучшающие жизнь людей.

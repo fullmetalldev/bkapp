@@ -17,7 +17,7 @@ const Contacts = () => {
                 <div className="contacts__row">
 
                     <h2 className="contacts__route">
-                        Главная / Контакты
+                        <a className="navLink" href="/">Главная</a> / Контакты
                     </h2>
 
                     <h2 className="section__title">

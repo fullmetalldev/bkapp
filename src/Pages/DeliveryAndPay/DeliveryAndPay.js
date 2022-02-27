@@ -10,7 +10,7 @@ const DeliveryAndPay = () => {
 
                 <div className="DeliveryPay__row">
 
-                    <h4 className="DeliveryPay__route">Главная / Доставка и оплата</h4>
+                    <h4 className="DeliveryPay__route"><a className="navLink" href="/">Главная</a> / Доставка и оплата</h4>
 
                     <div className="DeliveryPay__titleRow">
                         <svg width="60" height="40" viewBox="0 0 60 40" fill="none" xmlns="http://www.w3.org/2000/svg">

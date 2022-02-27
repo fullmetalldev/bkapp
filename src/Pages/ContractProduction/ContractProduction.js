@@ -12,7 +12,7 @@ const ContractProduction = () => {
 
                 <div className="contractProduction__row">
 
-                    <h4 className="contractProduction__route">Главная / Контрактное производство</h4>
+                    <h4 className="contractProduction__route"><a className="navLink" href="/">Главная</a> / Контрактное производство</h4>
 
                     <h2 className="section__title">Контрактное производство</h2>
 

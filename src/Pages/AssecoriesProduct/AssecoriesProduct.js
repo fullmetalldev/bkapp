@@ -8,12 +8,13 @@ import {Navigation} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
+import potolok from "./potolok.png"
 
 const AssecoriesProduct = () => {
     return (
         <section className="assecoriesProduct">
             <div className="container">
-                <p className="section__navi">Главная / Каталог комплектующих / Комплектующие для натяжных потолков / Клин монтажный, разрезной</p>
+                <p className="section__navi"><a className="navLink" href="/">Главная</a> / <a className="navLink" href="/catalog/accessories">Каталог комплектующих</a> / <a className="navLink" href="/catalog/assecories/product">Комплектующие для натяжных потолков</a> / Клин монтажный, разрезной</p>
                 <h1 className="section__title">Клин монтажный, разрезной (168х37х22)</h1>
                 <p className="tablewareProduct__subtitle">Используем современные безопасные материалы и добавки,
                     высокотехнологичное оборудование для создания уникальных свойств изделий.
@@ -56,7 +57,7 @@ const AssecoriesProduct = () => {
                                 data-fancybox="gallery"
                                 data-src="https://lipsum.app/id/2/1024x768"
                             >
-                                <img src={ProductImg}/>
+                                <img src={potolok}/>
                             </a>
                         </div>
                         <div className="tablewareProduct__gallery_row">

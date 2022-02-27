@@ -13,7 +13,7 @@ const PolypropyleneHome = () => {
         <section className="polypropyleneHome">
             <img className="polypropyleneHome__img" src={Fork} alt="Fork"/>
             <div className="container">
-                <p className="section__navi">Главная / Преимущества полипропилена</p>
+                <p className="section__navi"><a className="navLink" href="/">Главная</a> / Преимущества полипропилена</p>
                 <h1 className="section__title">Преимущества полипропилена</h1>
                 <p className="polypropyleneHome__comment">В сравнении с полистиролом</p>
                 <div className="polypropyleneHome__row">
