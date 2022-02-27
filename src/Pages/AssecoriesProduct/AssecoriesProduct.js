@@ -21,7 +21,7 @@ const AssecoriesProduct = () => {
                 <div className="assecoriesProduct__top">
                     <h2>Каталог комплектующих</h2>
                     <div className="buttonsRow">
-                        <a href="#test" className="buttonsRow-transperentBtn">Скачать каталог</a>
+                        <a href="#test" className="buttonsRow-transperentBtn more__hover">Скачать каталог</a>
                         <button className="buttonsRow-greenBtn">Запросить прайс лист</button>
                     </div>
                 </div>
@@ -162,7 +162,7 @@ const AssecoriesProduct = () => {
                                     <h3>Крепление верх-низ</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -199,7 +199,7 @@ const AssecoriesProduct = () => {
                                     <h3>Крепление верх-низ</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -236,7 +236,7 @@ const AssecoriesProduct = () => {
                                     <h3>Крепление верх-низ</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -273,7 +273,7 @@ const AssecoriesProduct = () => {
                                     <h3>Крепление верх-низ</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -310,7 +310,7 @@ const AssecoriesProduct = () => {
                                     <h3>Крепление верх-низ</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -347,7 +347,7 @@ const AssecoriesProduct = () => {
                                     <h3>Крепление верх-низ</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -384,7 +384,7 @@ const AssecoriesProduct = () => {
                                     <h3>Крепление верх-низ</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -421,7 +421,7 @@ const AssecoriesProduct = () => {
                                     <h3>Крепление верх-низ</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                         </Swiper>
@@ -474,7 +474,7 @@ const AssecoriesProduct = () => {
                                     <h3>Мост Винтек 532</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -510,7 +510,7 @@ const AssecoriesProduct = () => {
                                     <h3>Мост Винтек 532</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -546,7 +546,7 @@ const AssecoriesProduct = () => {
                                     <h3>Мост Винтек 532</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -582,7 +582,7 @@ const AssecoriesProduct = () => {
                                     <h3>Мост Винтек 532</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -618,7 +618,7 @@ const AssecoriesProduct = () => {
                                     <h3>Мост Винтек 532</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -654,7 +654,7 @@ const AssecoriesProduct = () => {
                                     <h3>Мост Винтек 532</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -690,7 +690,7 @@ const AssecoriesProduct = () => {
                                     <h3>Мост Винтек 532</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -726,7 +726,7 @@ const AssecoriesProduct = () => {
                                     <h3>Мост Винтек 532</h3>
                                     <p>360 мл</p>
                                     <button>Заказать</button>
-                                    <a href="#">Смотреть подробнее</a>
+                                    <a href="#" className="more__hover">Смотреть подробнее</a>
                                 </div>
                             </SwiperSlide>
                         </Swiper>

@@ -12,7 +12,7 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-const  Work = () => {
+const Work = () => {
     return (
         <section className="work">
             <div className="container">
@@ -40,7 +40,8 @@ const  Work = () => {
                                     <div className="work__card_content">
                                         <h3 className="work__card_title">Собственное производство</h3>
                                         <p className="work__card_subtitle">Всю продукцию мы производим на собственных
-                                            производственных площадках.</p>
+                                            производственных площадках.
+                                        </p>
                                     </div>
                                 </div>
                                 <div className="work__card">
@@ -84,7 +85,8 @@ const  Work = () => {
                                     <div className="work__card_content">
                                         <h3 className="work__card_title">Гарантия высокого качества</h3>
                                         <p className="work__card_subtitle">Уделяем внимание качеству производства и
-                                            совершенствованию технологии. Маркируем наши товары специальным символом снежинкой.
+                                            совершенствованию технологии. Маркируем наши товары специальным символом
+                                            снежинкой.
                                         </p>
                                     </div>
                                 </div>
@@ -105,7 +107,7 @@ const  Work = () => {
                                     </div>
                                     <div className="work__card_content">
                                         <h3 className="work__card_title">Полнота продуктовой линейки</h3>
-                                        <p className="work__card_subtitle">Производим более 90 позиций комплектующих
+                                        <p className="work__card_subtitle">Производим более 90 позиций комплектующих
                                             для сборки стеклопакетов. Постоянно вводим
                                             новые изделия одноразовой посуды.
                                         </p>
@@ -117,7 +119,7 @@ const  Work = () => {
                                     </div>
                                     <div className="work__card_content">
                                         <h3 className="work__card_title">Оперативное выполнение заказов</h3>
-                                        <p className="work__card_subtitle">производственный цикл занимает около суток.
+                                        <p className="work__card_subtitle">Производственный цикл занимает около суток.
                                             Производство работает круглосуточно
                                             без перерывов и выходных.
                                         </p>

@@ -21,7 +21,7 @@ const About = () => {
                             собственных пресс-формах. <br/>
                             • Производство продукции из пластмассы на заказ на пресс-формах заказчиков.
                         </p>
-                        <a className="about__more">Читать подробнее</a>
+                        <a className="about__more more__hover">Читать подробнее</a>
                     </div>
                     <img className="about__img" src={AboutImg} alt="AboutImg"/>
                 </div>

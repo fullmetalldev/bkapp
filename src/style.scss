@@ -33,6 +33,12 @@ button {
   margin: 0 0 70px;
 }
 
+.more__hover:hover {
+  color: #FF5555;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
 @media (max-width: 1800px) {
   .section__title {
     font-size: 44px;

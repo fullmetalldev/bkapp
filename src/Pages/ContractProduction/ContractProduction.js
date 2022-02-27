@@ -41,7 +41,7 @@ const ContractProduction = () => {
                                 </button>
                             </label>
                             <div className="contractProduction__orderForm_checkbox">
-                                <input type="checkbox" required/>
+                                <input type="checkbox" checked/>
                                 <span>Ваши данные защищены и используются только для связи с вами</span>
                             </div>
                         </div>

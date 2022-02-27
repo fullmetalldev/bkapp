@@ -12,12 +12,12 @@ const OrderForm = () => {
                     </h2>
                     <label className="sectionCatalog__form-label">
                         <input placeholder="Ваше имя" type="text" required/>
-                        <input placeholder="Ваш телефон" type="number" required/>
+                        <input placeholder="Ваш телефон" type="tel" required/>
                         <input placeholder="Ваш e-mail" type="email" required/>
                     </label>
                     <div className="sectionCatalog__form-btnAndInfo">
                         <div className="infoAndCheckbox">
-                            <input className="infoAndCheckbox_checkbox" type="checkbox" checked={true}/>
+                            <input className="infoAndCheckbox_checkbox" type="checkbox" checked="checked"/>
                             <h4 className="infoAndCheckbox_title">Ваши данные защищены и используются
                                 только <br/> для связи с вами</h4>
                         </div>

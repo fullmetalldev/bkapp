@@ -35,9 +35,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer__bot">
-                        <NavLink to="/">
+                        <a href="/#header">
                             <img src={Logo} alt="Logo"/>
-                        </NavLink>
+                        </a>
 
                         <div className="footer__bot_left">
                             <NavLink to="/catalog/accessories">Каталог комплектующих</NavLink>

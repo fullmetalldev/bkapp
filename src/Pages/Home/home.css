@@ -474,12 +474,73 @@
   color: rgba(0, 0, 0, 0.55);
   padding: 0 0 8px;
 }
+.news__more p:hover {
+  color: #FF5555;
+  transition: 0.3s;
+}
 .news__more img, .news__more p {
   cursor: pointer;
 }
-.news__more:hover p {
-  color: #FF5555;
-  transition: 0.3s;
+
+.homeForm__box {
+  background: #BBD0BD;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.homeForm__content {
+  padding: 0 0 0 100px;
+}
+.homeForm__title {
+  font-size: 48px;
+  line-height: 65px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0 0 50px;
+}
+.homeForm .margin-form {
+  margin: 0 25px 0;
+}
+.homeForm__btn {
+  background: #569E28;
+  padding: 15px 25px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+}
+.homeForm__checkbox {
+  margin: 30px 0 0;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.homeForm__checkbox input {
+  width: 20px;
+  height: 20px;
+}
+.homeForm__checkbox p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.homeForm__input {
+  background: white;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  border: none;
+  width: 238px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.homeForm__input::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.65);
 }
 
 .text {
@@ -555,6 +616,23 @@
   }
   .homeMain .catalog__card {
     margin: 0 30px;
+  }
+  .homeMain .homeForm__content {
+    padding: 0 0 0 70px;
+  }
+  .homeMain .homeForm__title {
+    font-size: 42px;
+    line-height: 55px;
+  }
+  .homeMain .homeForm .margin-form {
+    margin: 0 20px;
+  }
+  .homeMain .homeForm__input {
+    width: 210px;
+  }
+  .homeMain .homeForm__btn {
+    padding: 14px 20px;
+    font-size: 22px;
   }
   .homeMain .news__card_title {
     font-size: 28px;
@@ -635,6 +713,28 @@
   .homeMain .sale__btn {
     font-size: 36px;
   }
+  .homeMain .homeForm img {
+    width: 39%;
+  }
+  .homeMain .homeForm__title {
+    font-size: 38px;
+    line-height: 50px;
+    margin: 0 0 30px;
+  }
+  .homeMain .homeForm__input {
+    padding: 5px;
+    font-size: 17px;
+  }
+  .homeMain .homeForm__input::placeholder {
+    font-size: 17px;
+  }
+  .homeMain .homeForm__btn {
+    font-size: 18px;
+    padding: 5px 18px;
+  }
+  .homeMain .homeForm__checkbox p {
+    font-size: 17px;
+  }
 }
 @media (max-width: 1200px) {
   .homeMain .container {
@@ -706,6 +806,33 @@
   .homeMain .catalog__card {
     margin: 0;
   }
+  .homeMain .homeForm__title {
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 20px;
+  }
+  .homeMain .homeForm__input {
+    width: 170px;
+  }
+  .homeMain .homeForm__btn {
+    font-size: 17px;
+    padding: 5px 0;
+    width: 170px;
+  }
+  .homeMain .homeForm .margin-form {
+    margin: 0 10px;
+  }
+  .homeMain .homeForm__checkbox {
+    margin: 20px 0 0;
+    column-gap: 5px;
+  }
+  .homeMain .homeForm__checkbox p {
+    font-size: 14px;
+  }
+  .homeMain .homeForm__checkbox input {
+    width: 15px;
+    height: 15px;
+  }
   .homeMain .news__list {
     padding: 70px 0 0;
   }
@@ -767,6 +894,41 @@
     font-size: 28px;
     padding: 17px 25px 19px;
   }
+  .homeMain .homeForm__content {
+    padding: 0 0 0 40px;
+  }
+  .homeMain .homeForm__title {
+    font-size: 26px;
+    line-height: 35px;
+    margin: 0 0 10px;
+  }
+  .homeMain .homeForm img {
+    width: 35%;
+  }
+  .homeMain .homeForm__input {
+    width: 195px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  .homeMain .homeForm__input::placeholder {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .homeMain .homeForm .margin-form {
+    margin: 0 0 0 10px;
+  }
+  .homeMain .homeForm__btn {
+    line-height: 20px;
+    font-size: 15px;
+    width: 400px;
+    margin: 10px 0 0;
+  }
+  .homeMain .homeForm__checkbox {
+    margin: 10px 0 0;
+  }
+  .homeMain .homeForm__checkbox p {
+    line-height: normal;
+  }
 }
 @media (max-width: 768px) {
   .homeMain .container {
@@ -807,6 +969,23 @@
   .homeMain .catalog .adaptive {
     margin-bottom: 10px;
     display: block;
+  }
+  .homeMain .homeForm__content {
+    padding: 0 0 0 30px;
+    width: 63%;
+  }
+  .homeMain .homeForm__title {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .homeMain .homeForm__btn {
+    width: 100%;
+  }
+  .homeMain .homeForm__input {
+    width: calc(50% - 5px);
+  }
+  .homeMain .homeForm img {
+    height: 148.6px;
   }
   .homeMain .news {
     padding: 0 0 30px;
@@ -894,6 +1073,23 @@
     font-size: 16px;
     padding: 15px;
   }
+  .homeMain .homeForm__box {
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 0 0 20px;
+  }
+  .homeMain .homeForm__title {
+    text-align: center;
+  }
+  .homeMain .homeForm__content {
+    padding: 20px 20px 0;
+    width: 100%;
+  }
+  .homeMain .homeForm img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 425px) {
   .homeMain section:not(:nth-child(4)) {
@@ -947,6 +1143,19 @@
   .homeMain .work__card_subtitle {
     font-size: 17px;
     margin: 0 0 10px;
+  }
+  .homeMain .homeForm__title {
+    font-size: 20px;
+    margin: 0 0 20px;
+  }
+  .homeMain .homeForm__checkbox {
+    margin: 20px 0 0;
+  }
+  .homeMain .homeForm__btn {
+    margin: 20px 0 0;
+  }
+  .homeMain .homeForm img {
+    width: 70%;
   }
   .homeMain .text__subtitle {
     font-size: 16px;

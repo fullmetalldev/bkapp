@@ -154,7 +154,7 @@ const PlasticTableware = () => {
                                     <p className="plasticTablewareCatalog__list_item-subtitle">500 мл</p>
                                     <NavLink className="plasticTablewareCatalog__list_item-btn"
                                              to="/catalog/tableware/product">Заказать</NavLink>
-                                    <div className="plasticTablewareCatalog__list_item-more">Смотреть подробнее
+                                    <div className="plasticTablewareCatalog__list_item-more more__hover">Смотреть подробнее
                                     </div>
                                 </div>
                                 <div className="plasticTablewareCatalog__list_item">
@@ -184,7 +184,7 @@ const PlasticTableware = () => {
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер круглый</h4>
                                     <p className="plasticTablewareCatalog__list_item-subtitle">125 мл</p>
                                     <button className="plasticTablewareCatalog__list_item-btn">Заказать</button>
-                                    <div className="plasticTablewareCatalog__list_item-more">Смотреть подробнее</div>
+                                    <div className="plasticTablewareCatalog__list_item-more more__hover">Смотреть подробнее</div>
                                 </div>
                                 <div className="plasticTablewareCatalog__list_item">
                                     <Swiper
@@ -213,7 +213,7 @@ const PlasticTableware = () => {
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер с крышкой</h4>
                                     <p className="plasticTablewareCatalog__list_item-subtitle">50 мл</p>
                                     <button className="plasticTablewareCatalog__list_item-btn">Заказать</button>
-                                    <div className="plasticTablewareCatalog__list_item-more">Смотреть подробнее</div>
+                                    <div className="plasticTablewareCatalog__list_item-more more__hover">Смотреть подробнее</div>
                                 </div>
                                 <div className="plasticTablewareCatalog__list_item">
                                     <Swiper
@@ -242,7 +242,7 @@ const PlasticTableware = () => {
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер «Супница»</h4>
                                     <p className="plasticTablewareCatalog__list_item-subtitle">500 мл</p>
                                     <button className="plasticTablewareCatalog__list_item-btn">Заказать</button>
-                                    <div className="plasticTablewareCatalog__list_item-more">Смотреть подробнее</div>
+                                    <div className="plasticTablewareCatalog__list_item-more more__hover">Смотреть подробнее</div>
                                 </div>
                                 <div className="plasticTablewareCatalog__list_item">
                                     <Swiper
@@ -271,7 +271,7 @@ const PlasticTableware = () => {
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер круглый</h4>
                                     <p className="plasticTablewareCatalog__list_item-subtitle">125 мл</p>
                                     <button className="plasticTablewareCatalog__list_item-btn">Заказать</button>
-                                    <div className="plasticTablewareCatalog__list_item-more">Смотреть подробнее</div>
+                                    <div className="plasticTablewareCatalog__list_item-more more__hover">Смотреть подробнее</div>
                                 </div>
                                 <div className="plasticTablewareCatalog__list_item">
                                     <Swiper
@@ -300,7 +300,7 @@ const PlasticTableware = () => {
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер с крышкой</h4>
                                     <p className="plasticTablewareCatalog__list_item-subtitle">50 мл</p>
                                     <button className="plasticTablewareCatalog__list_item-btn">Заказать</button>
-                                    <div className="plasticTablewareCatalog__list_item-more">Смотреть подробнее</div>
+                                    <div className="plasticTablewareCatalog__list_item-more more__hover">Смотреть подробнее</div>
                                 </div>
                                 <div className="plasticTablewareCatalog__list_item">
                                     <Swiper
@@ -329,7 +329,7 @@ const PlasticTableware = () => {
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер «Супница»</h4>
                                     <p className="plasticTablewareCatalog__list_item-subtitle">500 мл</p>
                                     <button className="plasticTablewareCatalog__list_item-btn">Заказать</button>
-                                    <div className="plasticTablewareCatalog__list_item-more">Смотреть подробнее</div>
+                                    <div className="plasticTablewareCatalog__list_item-more more__hover">Смотреть подробнее</div>
                                 </div>
                                 <div className="plasticTablewareCatalog__list_item">
                                     <Swiper
@@ -358,7 +358,7 @@ const PlasticTableware = () => {
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер круглый</h4>
                                     <p className="plasticTablewareCatalog__list_item-subtitle">125 мл</p>
                                     <button className="plasticTablewareCatalog__list_item-btn">Заказать</button>
-                                    <div className="plasticTablewareCatalog__list_item-more">Смотреть подробнее</div>
+                                    <div className="plasticTablewareCatalog__list_item-more more__hover">Смотреть подробнее</div>
                                 </div>
                                 <div className="plasticTablewareCatalog__list_item">
                                     <Swiper
@@ -387,7 +387,7 @@ const PlasticTableware = () => {
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер с крышкой</h4>
                                     <p className="plasticTablewareCatalog__list_item-subtitle">50 мл</p>
                                     <button className="plasticTablewareCatalog__list_item-btn">Заказать</button>
-                                    <div className="plasticTablewareCatalog__list_item-more">Смотреть подробнее</div>
+                                    <div className="plasticTablewareCatalog__list_item-more more__hover">Смотреть подробнее</div>
                                 </div>
                             </div>
                             <div className="plasticTablewareCatalog__pages">

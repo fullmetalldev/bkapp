@@ -255,6 +255,9 @@
         line-height: 19px;
         border-bottom: 1px solid black;
         color: #000000;
+        &:hover{
+          border-bottom: 1px solid #FF5555;
+        }
       }
     }
   }
@@ -302,6 +305,8 @@
     &__sort {
       &_title {
         font-size: 22px;
+        line-height: 35px;
+        padding: 9px 18px;
       }
     }
     &__title {

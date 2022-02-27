@@ -49,7 +49,7 @@ const PlasticTablewareProduct = () => {
                                 </li>
                             </ul>
                             <button className="tablewareProduct__sort_btn">Получить прайс-лист</button>
-                            <p className="tablewareProduct__sort_download">Скачать каталог</p>
+                            <p className="tablewareProduct__sort_download more__hover">Скачать каталог</p>
                         </div>
                         <div className="tablewareProduct__gallery">
                             <div className="tablewareProduct__gallery_main">
@@ -279,7 +279,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -316,7 +316,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -353,7 +353,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -390,7 +390,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -427,7 +427,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -464,7 +464,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -501,7 +501,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -538,7 +538,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                             </Swiper>
@@ -591,7 +591,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -627,7 +627,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -663,7 +663,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -699,7 +699,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -735,7 +735,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -771,7 +771,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -807,7 +807,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -843,7 +843,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                             </Swiper>
@@ -898,7 +898,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -935,7 +935,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -972,7 +972,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1009,7 +1009,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1046,7 +1046,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1083,7 +1083,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1120,7 +1120,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1157,7 +1157,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                             </Swiper>
@@ -1210,7 +1210,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1246,7 +1246,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1282,7 +1282,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1318,7 +1318,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1354,7 +1354,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1390,7 +1390,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1426,7 +1426,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1462,7 +1462,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                             </Swiper>
@@ -1517,7 +1517,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1554,7 +1554,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1591,7 +1591,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1628,7 +1628,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1665,7 +1665,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1702,7 +1702,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1739,7 +1739,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1776,7 +1776,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Крепление верх-низ</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                             </Swiper>
@@ -1829,7 +1829,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1865,7 +1865,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1901,7 +1901,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1937,7 +1937,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -1973,7 +1973,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -2009,7 +2009,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -2045,7 +2045,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -2081,7 +2081,7 @@ const PlasticTablewareProduct = () => {
                                         <h3>Мост Винтек 532</h3>
                                         <p>360 мл</p>
                                         <button>Заказать</button>
-                                        <a href="#">Смотреть подробнее</a>
+                                        <a href="#" className="more__hover">Смотреть подробнее</a>
                                     </div>
                                 </SwiperSlide>
                             </Swiper>

@@ -7,7 +7,7 @@ import Sale from "./Sale";
 import Catalog from "./Catalog";
 import News from "./News";
 import Text from "./Text";
-import OrderForm from "../../Components/OrderForm/OrderForm";
+import HomeForm from "./HomeForm";
 
 const Home = () => {
     return (
@@ -18,7 +18,7 @@ const Home = () => {
             <Sale/>
             <Catalog/>
             <News/>
-            <OrderForm/>
+            <HomeForm/>
             <Text/>
         </main>
     );
