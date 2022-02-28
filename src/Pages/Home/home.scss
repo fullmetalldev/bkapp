@@ -562,15 +562,28 @@
 }
 
 .homeForm {
+  .container{
+    width: 100%;
+  }
   &__box {
     background: #BBD0BD;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
   }
 
   &__content {
     padding: 0 0 0 100px;
+    form{
+      display: flex;
+      flex-direction: column;
+      .ForminputsAndBtn{
+        display: flex;
+        align-items: center;
+        column-gap: 25px;
+      }
+    }
   }
 
   &__title {
@@ -579,10 +592,6 @@
     text-transform: capitalize;
     color: #FFFFFF;
     margin: 0 0 50px;
-  }
-
-  .margin-form {
-    margin: 0 25px 0;
   }
 
   &__btn {
@@ -743,29 +752,6 @@
       }
     }
 
-    .homeForm {
-      &__content {
-        padding: 0 0 0 70px;
-      }
-
-      &__title {
-        font-size: 42px;
-        line-height: 55px;
-      }
-
-      .margin-form {
-        margin: 0 20px;
-      }
-
-      &__input {
-        width: 210px;
-      }
-
-      &__btn {
-        padding: 14px 20px;
-        font-size: 22px;
-      }
-    }
 
     .news {
       &__card {
@@ -888,35 +874,6 @@
       }
     }
 
-    .homeForm {
-      img {
-        width: 39%;
-      }
-
-      &__title {
-        font-size: 38px;
-        line-height: 50px;
-        margin: 0 0 30px;
-      }
-
-      &__input {
-        padding: 5px;
-        font-size: 17px;
-
-        &::placeholder {
-          font-size: 17px;
-        }
-      }
-
-      &__btn {
-        font-size: 18px;
-        padding: 5px 18px;
-      }
-
-      &__checkbox p {
-        font-size: 17px;
-      }
-    }
   }
 }
 
@@ -1029,41 +986,6 @@
       }
     }
 
-    .homeForm {
-      &__title {
-        font-size: 32px;
-        line-height: 40px;
-        margin: 0 0 20px;
-      }
-
-      &__input {
-        width: 170px;
-      }
-
-      &__btn {
-        font-size: 17px;
-        padding: 5px 0;
-        width: 170px;
-      }
-
-      .margin-form {
-        margin: 0 10px;
-      }
-
-      &__checkbox {
-        margin: 20px 0 0;
-        column-gap: 5px;
-
-        p {
-          font-size: 14px;
-        }
-
-        input {
-          width: 15px;
-          height: 15px;
-        }
-      }
-    }
 
     .news {
       &__list {
@@ -1093,13 +1015,13 @@
 }
 
 @media (max-width: 992px) {
-  .homeMain .catalog__title{
+  .homeMain .catalog__title {
     margin-top: 30px;
   }
-  .sale{
+  .sale {
     height: 400px;
   }
-  .sale .swiper{
+  .sale .swiper {
     height: 400px !important;
   }
   .homeMain {
@@ -1179,60 +1101,15 @@
       }
     }
 
-    .homeForm {
-      &__content {
-        padding: 0 0 0 40px;
-      }
-
-      &__title {
-        font-size: 26px;
-        line-height: 35px;
-        margin: 0 0 10px;
-      }
-
-      img {
-        width: 35%;
-      }
-
-      &__input {
-        width: 195px;
-        line-height: 20px;
-        font-size: 15px;
-
-        &::placeholder {
-          font-size: 15px;
-          line-height: 20px;
-        }
-      }
-
-      .margin-form {
-        margin: 0 0 0 10px;
-      }
-
-      &__btn {
-        line-height: 20px;
-        font-size: 15px;
-        width: 400px;
-        margin: 10px 0 0;
-      }
-
-      &__checkbox {
-        margin: 10px 0 0;
-
-        p {
-          line-height: normal;
-        }
-      }
-    }
   }
 }
 
 @media (max-width: 768px) {
 
-  .sale{
+  .sale {
     height: 300px;
   }
-  .sale .swiper{
+  .sale .swiper {
     height: 300px !important;
   }
 
@@ -1284,6 +1161,7 @@
 
       .swiper {
         height: 299px;
+
         .swiper-pagination-bullet {
           width: 10px;
           height: 10px;
@@ -1319,30 +1197,6 @@
       }
     }
 
-    .homeForm {
-      &__content {
-        padding: 0 0 0 30px;
-        width: 63%;
-
-      }
-
-      &__title {
-        font-size: 22px;
-        line-height: 25px;
-      }
-
-      &__btn {
-        width: 100%;
-      }
-
-      &__input {
-        width: calc(50% - 5px);
-      }
-
-      img {
-        height: 148.6px;
-      }
-    }
 
     .news {
       padding: 0 0 30px;
@@ -1426,9 +1280,11 @@
 
       .swiper {
         position: static;
+
         .swiper-pagination {
           z-index: 2;
         }
+
         .swiper-pagination-bullet {
           width: 8px;
           height: 8px;
@@ -1471,28 +1327,6 @@
       }
     }
 
-    .homeForm {
-      &__box {
-        flex-direction: column;
-        row-gap: 30px;
-        padding: 0 0 20px;
-      }
-
-      &__title {
-        text-align: center;
-      }
-
-      &__content {
-        padding: 20px 20px 0;
-        width: 100%;
-      }
-
-      img {
-        width: 60%;
-        display: block;
-        margin: 0 auto;
-      }
-    }
   }
 
 }
@@ -1576,24 +1410,6 @@
       }
     }
 
-    .homeForm {
-      &__title {
-        font-size: 20px;
-        margin: 0 0 20px;
-      }
-
-      &__checkbox {
-        margin: 20px 0 0;
-      }
-
-      &__btn {
-        margin: 20px 0 0;
-      }
-
-      img {
-        width: 70%;
-      }
-    }
 
     .sale {
       .swiper {
@@ -1607,5 +1423,70 @@
         line-height: 28px;
       }
     }
+  }
+}
+
+@media (max-width: 1600px) {
+  .homeForm .margin-form{
+    margin: 0;
+  }
+  .ForminputsAndBtn{
+    flex-flow: row wrap;
+    row-gap: 25px;
+  }
+  .homeForm__title{
+    margin-bottom: 30px;
+  }
+  .homeForm__content{
+    padding: 0 0 0 30px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .homeForm__content{
+    padding: 50px;
+  }
+  .homeForm{
+    img{
+      display: none;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .homeForm__checkbox p{
+    font-size: 16px;
+  }
+  .homeForm__btn{
+    font-size: 20px;
+  }
+  .homeForm__checkbox input{
+    width: auto;
+    height: auto;
+  }
+  .homeForm__title{
+    font-size: 32px;
+    line-height: normal;
+  }
+
+  .homeForm__input{
+    width: 100%;
+  }
+  .homeForm__btn{
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .homeForm__btn{
+    font-size: 18px;
+  }
+  .homeForm__title{
+    font-size: 28px;
+  }
+  .homeForm__checkbox p{
+    font-size: 14px;
+  }
+  .homeForm__content{
+    padding: 30px;
   }
 }
