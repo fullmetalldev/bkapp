@@ -29,10 +29,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 87px;
-  height: 87px;
+  width: 90px;
+  height: 75px;
   bottom: 19%;
   background-color: #9D8675;
+  .icon {
+    width: 60%;
+    height: 70%;
+  }
   &__count{
     margin-top: 12px;
     position: absolute;
@@ -103,6 +107,9 @@
       height: 55px;
     }
   }
+  .bag__count {
+    font-size: 20px;
+  }
 }
 @media (max-width: 768px) {
   .details {
@@ -118,6 +125,9 @@
       height: 50px;
     }
   }
+  .bag__count {
+    font-size: 18px;
+  }
 }
 @media (max-width: 576px) {
   .details {
@@ -132,6 +142,9 @@
       width: 55px;
       height: 45px;
     }
+  }
+  .bag__count {
+    font-size: 17px;
   }
 }
 @media (max-width: 425px) {
