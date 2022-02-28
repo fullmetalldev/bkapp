@@ -548,6 +548,7 @@
       text-decoration-line: underline;
       color: rgba(0, 0, 0, 0.55);
       padding: 0 0 8px;
+
       &:hover {
         color: #FF5555;
         transition: 0.3s;
@@ -567,9 +568,11 @@
     align-items: center;
     justify-content: space-between;
   }
+
   &__content {
     padding: 0 0 0 100px;
   }
+
   &__title {
     font-size: 48px;
     line-height: 65px;
@@ -577,9 +580,11 @@
     color: #FFFFFF;
     margin: 0 0 50px;
   }
+
   .margin-form {
     margin: 0 25px 0;
   }
+
   &__btn {
     background: #569E28;
     padding: 15px 25px;
@@ -589,15 +594,18 @@
     color: rgba(255, 255, 255, 0.8);
     border: none;
   }
+
   &__checkbox {
     margin: 30px 0 0;
     display: flex;
     align-items: center;
     column-gap: 10px;
+
     input {
       width: 20px;
       height: 20px;
     }
+
     p {
       font-weight: 500;
       font-size: 18px;
@@ -605,6 +613,7 @@
       color: #FFFFFF;
     }
   }
+
   &__input {
     background: white;
     padding: 15px;
@@ -614,6 +623,7 @@
     border: none;
     width: 238px;
     color: rgba(0, 0, 0, 0.65);
+
     &::placeholder {
       font-weight: 500;
       font-size: 18px;
@@ -698,6 +708,10 @@
     }
 
     .sale {
+      .swiper {
+        height: 431px;
+      }
+
       &__card {
         padding: 70px 0;
       }
@@ -733,16 +747,20 @@
       &__content {
         padding: 0 0 0 70px;
       }
+
       &__title {
         font-size: 42px;
         line-height: 55px;
       }
+
       .margin-form {
         margin: 0 20px;
       }
+
       &__input {
         width: 210px;
       }
+
       &__btn {
         padding: 14px 20px;
         font-size: 22px;
@@ -874,22 +892,27 @@
       img {
         width: 39%;
       }
+
       &__title {
         font-size: 38px;
         line-height: 50px;
         margin: 0 0 30px;
       }
+
       &__input {
         padding: 5px;
         font-size: 17px;
+
         &::placeholder {
           font-size: 17px;
         }
       }
+
       &__btn {
         font-size: 18px;
         padding: 5px 18px;
       }
+
       &__checkbox p {
         font-size: 17px;
       }
@@ -978,17 +1001,21 @@
     }
 
     .sale {
-      &__title {
-        font-size: 75px;
-      }
 
-      &__subtitle {
-        font-size: 36px;
-      }
 
-      &__btn {
-        font-size: 32px;
-        padding: 19px 30px 21px;
+      .sale {
+        &__title {
+          font-size: 65px;
+        }
+
+        &__subtitle {
+          font-size: 32px;
+        }
+
+        &__btn {
+          font-size: 28px;
+          padding: 17px 25px 19px;
+        }
       }
     }
 
@@ -1008,23 +1035,29 @@
         line-height: 40px;
         margin: 0 0 20px;
       }
+
       &__input {
         width: 170px;
       }
+
       &__btn {
         font-size: 17px;
         padding: 5px 0;
         width: 170px;
       }
+
       .margin-form {
         margin: 0 10px;
       }
+
       &__checkbox {
         margin: 20px 0 0;
         column-gap: 5px;
+
         p {
           font-size: 14px;
         }
+
         input {
           width: 15px;
           height: 15px;
@@ -1124,17 +1157,25 @@
     }
 
     .sale {
-      &__title {
-        font-size: 65px;
+      height: 420px;
+
+      .swiper {
+        height: 348px;
       }
 
-      &__subtitle {
-        font-size: 32px;
+      .sale__title {
+        font-size: 55px;
+        line-height: 60px;
+      }
+
+      .sale__subtitle {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 0 0 30px;
       }
 
       &__btn {
-        font-size: 28px;
-        padding: 17px 25px 19px;
+        line-height: 32px;
       }
     }
 
@@ -1142,34 +1183,42 @@
       &__content {
         padding: 0 0 0 40px;
       }
+
       &__title {
         font-size: 26px;
         line-height: 35px;
         margin: 0 0 10px;
       }
+
       img {
         width: 35%;
       }
+
       &__input {
         width: 195px;
         line-height: 20px;
         font-size: 15px;
+
         &::placeholder {
           font-size: 15px;
           line-height: 20px;
         }
       }
+
       .margin-form {
         margin: 0 0 0 10px;
       }
+
       &__btn {
         line-height: 20px;
         font-size: 15px;
         width: 400px;
         margin: 10px 0 0;
       }
+
       &__checkbox {
         margin: 10px 0 0;
+
         p {
           line-height: normal;
         }
@@ -1227,8 +1276,34 @@
     }
 
     .sale {
+      height: 350px;
+
       &__card {
         padding: 50px 0;
+      }
+
+      .swiper {
+        height: 299px;
+        .swiper-pagination-bullet {
+          width: 10px;
+          height: 10px;
+        }
+      }
+
+      .sale__title {
+        font-size: 48px;
+        line-height: 55px;
+      }
+
+      .sale__subtitle {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 0 0 30px;
+      }
+
+      &__btn {
+        line-height: 28px;
+        font-size: 24px;
       }
     }
 
@@ -1250,16 +1325,20 @@
         width: 63%;
 
       }
+
       &__title {
         font-size: 22px;
         line-height: 25px;
       }
+
       &__btn {
         width: 100%;
       }
+
       &__input {
         width: calc(50% - 5px);
       }
+
       img {
         height: 148.6px;
       }
@@ -1347,19 +1426,26 @@
 
       .swiper {
         position: static;
+        .swiper-pagination {
+          z-index: 2;
+        }
+        .swiper-pagination-bullet {
+          width: 8px;
+          height: 8px;
+        }
       }
 
-      &__title {
+      .sale__title {
         font-size: 48px;
         line-height: 130%;
       }
 
-      &__subtitle {
+      .sale__subtitle {
         font-size: 26px;
         line-height: 130%;
       }
 
-      &__btn {
+      .sale__btn {
         font-size: 22px;
         padding: 10px 20px;
         line-height: 130%;
@@ -1391,13 +1477,16 @@
         row-gap: 30px;
         padding: 0 0 20px;
       }
+
       &__title {
         text-align: center;
       }
+
       &__content {
         padding: 20px 20px 0;
         width: 100%;
       }
+
       img {
         width: 60%;
         display: block;
@@ -1492,14 +1581,23 @@
         font-size: 20px;
         margin: 0 0 20px;
       }
+
       &__checkbox {
         margin: 20px 0 0;
       }
+
       &__btn {
         margin: 20px 0 0;
       }
+
       img {
         width: 70%;
+      }
+    }
+
+    .sale {
+      .swiper {
+        height: 289.8px;
       }
     }
 

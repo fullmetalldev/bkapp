@@ -31,10 +31,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 87px;
-  height: 87px;
+  width: 90px;
+  height: 75px;
   bottom: 19%;
   background-color: #9D8675;
+}
+.bag .icon {
+  width: 60%;
+  height: 70%;
 }
 .bag__count {
   margin-top: 12px;
@@ -98,6 +102,10 @@
     width: 65px;
     height: 55px;
   }
+
+  .bag__count {
+    font-size: 20px;
+  }
 }
 @media (max-width: 768px) {
   .details__order {
@@ -111,6 +119,10 @@
     width: 60px;
     height: 50px;
   }
+
+  .bag__count {
+    font-size: 18px;
+  }
 }
 @media (max-width: 576px) {
   .details__order {
@@ -123,6 +135,10 @@
   .details__bag {
     width: 55px;
     height: 45px;
+  }
+
+  .bag__count {
+    font-size: 17px;
   }
 }
 @media (max-width: 425px) {

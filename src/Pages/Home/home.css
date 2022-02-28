@@ -595,6 +595,9 @@
   .homeMain .work .swiper-button-next {
     right: 0;
   }
+  .homeMain .sale .swiper {
+    height: 431px;
+  }
   .homeMain .sale__card {
     padding: 70px 0;
   }
@@ -790,15 +793,15 @@
     width: 120px;
     height: 100px;
   }
-  .homeMain .sale__title {
-    font-size: 75px;
+  .homeMain .sale .sale__title {
+    font-size: 65px;
   }
-  .homeMain .sale__subtitle {
-    font-size: 36px;
-  }
-  .homeMain .sale__btn {
+  .homeMain .sale .sale__subtitle {
     font-size: 32px;
-    padding: 19px 30px 21px;
+  }
+  .homeMain .sale .sale__btn {
+    font-size: 28px;
+    padding: 17px 25px 19px;
   }
   .homeMain .catalog__title {
     font-size: 36px;
@@ -896,15 +899,23 @@
   .homeMain .work__card {
     width: 70%;
   }
-  .homeMain .sale__title {
-    font-size: 65px;
+  .homeMain .sale {
+    height: 420px;
   }
-  .homeMain .sale__subtitle {
-    font-size: 32px;
+  .homeMain .sale .swiper {
+    height: 348px;
+  }
+  .homeMain .sale .sale__title {
+    font-size: 55px;
+    line-height: 60px;
+  }
+  .homeMain .sale .sale__subtitle {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 0 0 30px;
   }
   .homeMain .sale__btn {
-    font-size: 28px;
-    padding: 17px 25px 19px;
+    line-height: 32px;
   }
   .homeMain .homeForm__content {
     padding: 0 0 0 40px;
@@ -979,8 +990,31 @@
   .homeMain .about__img {
     width: 70%;
   }
+  .homeMain .sale {
+    height: 350px;
+  }
   .homeMain .sale__card {
     padding: 50px 0;
+  }
+  .homeMain .sale .swiper {
+    height: 299px;
+  }
+  .homeMain .sale .swiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  .homeMain .sale .sale__title {
+    font-size: 48px;
+    line-height: 55px;
+  }
+  .homeMain .sale .sale__subtitle {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 0 0 30px;
+  }
+  .homeMain .sale__btn {
+    line-height: 28px;
+    font-size: 24px;
   }
   .homeMain .catalog .tableware, .homeMain .catalog .accessories {
     display: none;
@@ -1067,15 +1101,22 @@
   .homeMain .sale .swiper {
     position: static;
   }
-  .homeMain .sale__title {
+  .homeMain .sale .swiper .swiper-pagination {
+    z-index: 2;
+  }
+  .homeMain .sale .swiper .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+  }
+  .homeMain .sale .sale__title {
     font-size: 48px;
     line-height: 130%;
   }
-  .homeMain .sale__subtitle {
+  .homeMain .sale .sale__subtitle {
     font-size: 26px;
     line-height: 130%;
   }
-  .homeMain .sale__btn {
+  .homeMain .sale .sale__btn {
     font-size: 22px;
     padding: 10px 20px;
     line-height: 130%;
@@ -1176,6 +1217,9 @@
   }
   .homeMain .homeForm img {
     width: 70%;
+  }
+  .homeMain .sale .swiper {
+    height: 289.8px;
   }
   .homeMain .text__subtitle {
     font-size: 16px;
