@@ -1060,6 +1060,15 @@
 }
 
 @media (max-width: 992px) {
+  .homeMain .catalog__title{
+    margin-top: 30px;
+  }
+  .sale{
+    height: 400px;
+  }
+  .sale .swiper{
+    height: 400px !important;
+  }
   .homeMain {
     .container {
       max-width: 768px;
@@ -1170,6 +1179,14 @@
 }
 
 @media (max-width: 768px) {
+
+  .sale{
+    height: 300px;
+  }
+  .sale .swiper{
+    height: 300px !important;
+  }
+
   .homeMain {
     .container {
       max-width: 576px;
