@@ -118,7 +118,7 @@
 }
 
 .sectionBeforeFooter {
-  background-color: #FFFFFF;
+  background-color: transparent;
   display: flex;
   justify-content: flex-end;
   position: sticky;
