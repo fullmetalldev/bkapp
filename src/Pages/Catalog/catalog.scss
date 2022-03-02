@@ -225,6 +225,9 @@
       .infoAndCheckbox {
         display: flex;
         column-gap: 10px;
+        .box {
+          cursor: pointer;
+        }
 
         &_title {
           font-family: Montserrat, sans-serif;

@@ -36,6 +36,9 @@
       font-size: 38px;
       margin: 50px 0 30px;
     }
+    .work__card_subtitle {
+      height: auto;
+    }
   }
 }
 
@@ -85,7 +88,9 @@
       max-width: 992px;
     }
     &__title {
-      font-size: 36px;
+      font-size: 32px;
+      line-height: 45px;
+      margin: 50px 0 40px;
     }
     &__row {
       column-gap: 20px;
@@ -133,10 +138,13 @@
     .container {
       max-width: 576px;
     }
+    &__row {
+      row-gap: 40px;
+    }
     &__title {
       font-size: 22px;
       line-height: 130%;
-      margin: 40px 0 20px;
+      margin: 40px 0 30px;
     }
     .work__card {
       width: 80%;

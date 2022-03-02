@@ -274,7 +274,7 @@
     }
 
     &_subtitle {
-      height: 90px;
+      height: 120px;
       font-size: 20px;
       line-height: 30px;
     }
@@ -562,15 +562,31 @@
 }
 
 .homeForm {
+  .container {
+    width: 100%;
+  }
+
   &__box {
     background: #BBD0BD;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
   }
 
   &__content {
     padding: 0 0 0 100px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      .ForminputsAndBtn {
+        display: flex;
+        align-items: center;
+        column-gap: 25px;
+      }
+    }
   }
 
   &__title {
@@ -579,10 +595,6 @@
     text-transform: capitalize;
     color: #FFFFFF;
     margin: 0 0 50px;
-  }
-
-  .margin-form {
-    margin: 0 25px 0;
   }
 
   &__btn {
@@ -705,6 +717,16 @@
       .swiper-button-next {
         right: 0;
       }
+      &__card {
+        padding: 20px 10px 20px 20px;
+        &_title {
+          margin: 0 0 5px;
+          padding: 0 0 10px;
+        }
+        &_subtitle {
+          font-size: 19px;
+        }
+      }
     }
 
     .sale {
@@ -743,29 +765,6 @@
       }
     }
 
-    .homeForm {
-      &__content {
-        padding: 0 0 0 70px;
-      }
-
-      &__title {
-        font-size: 42px;
-        line-height: 55px;
-      }
-
-      .margin-form {
-        margin: 0 20px;
-      }
-
-      &__input {
-        width: 210px;
-      }
-
-      &__btn {
-        padding: 14px 20px;
-        font-size: 22px;
-      }
-    }
 
     .news {
       &__card {
@@ -789,6 +788,13 @@
         }
       }
     }
+  }
+  .homeForm__btn {
+    width: calc((100% / 3) - (50px / 2));
+    padding: 15px 5px;
+  }
+  .homeForm__input {
+    width: calc((100% / 3) - (50px / 2));
   }
 }
 
@@ -849,22 +855,25 @@
 
       &__card {
         width: calc(50% - 20px);
-        column-gap: 30px;
+        column-gap: 20px;
         align-items: center;
         padding: 15px;
 
         &_title {
           font-size: 22px;
+          margin: 0 0 10px;
+          padding: 0 0 10px;
         }
 
         &_subtitle {
-          font-size: 20px;
+          font-size: 18px;
+          line-height: 22px;
         }
 
         &_img {
           padding: 0 30px;
-          width: 150px;
-          height: 130px;
+          width: 120px;
+          height: 110px;
 
           & img {
             width: 94px;
@@ -888,35 +897,6 @@
       }
     }
 
-    .homeForm {
-      img {
-        width: 39%;
-      }
-
-      &__title {
-        font-size: 38px;
-        line-height: 50px;
-        margin: 0 0 30px;
-      }
-
-      &__input {
-        padding: 5px;
-        font-size: 17px;
-
-        &::placeholder {
-          font-size: 17px;
-        }
-      }
-
-      &__btn {
-        font-size: 18px;
-        padding: 5px 18px;
-      }
-
-      &__checkbox p {
-        font-size: 17px;
-      }
-    }
   }
 }
 
@@ -992,10 +972,18 @@
         &_title {
           font-size: 20px;
         }
+        &_subtitle {
+          font-size: 17px;
+
+        }
 
         &_img {
-          width: 120px;
-          height: 100px;
+          width: 100px;
+          height: 90px;
+          img {
+            width: 80px;
+            height: 60px;
+          }
         }
       }
     }
@@ -1029,41 +1017,6 @@
       }
     }
 
-    .homeForm {
-      &__title {
-        font-size: 32px;
-        line-height: 40px;
-        margin: 0 0 20px;
-      }
-
-      &__input {
-        width: 170px;
-      }
-
-      &__btn {
-        font-size: 17px;
-        padding: 5px 0;
-        width: 170px;
-      }
-
-      .margin-form {
-        margin: 0 10px;
-      }
-
-      &__checkbox {
-        margin: 20px 0 0;
-        column-gap: 5px;
-
-        p {
-          font-size: 14px;
-        }
-
-        input {
-          width: 15px;
-          height: 15px;
-        }
-      }
-    }
 
     .news {
       &__list {
@@ -1093,6 +1046,15 @@
 }
 
 @media (max-width: 992px) {
+  .homeMain .catalog__title {
+    margin-top: 30px;
+  }
+  .sale {
+    height: 400px;
+  }
+  .sale .swiper {
+    height: 400px !important;
+  }
   .homeMain {
     .container {
       max-width: 768px;
@@ -1138,12 +1100,20 @@
     }
 
     .work {
+      &__swiper {
+        .swiper {
+          height: 1050px;
+        }
+      }
       &__row {
         justify-content: center;
       }
 
       &__card {
-        width: 70%;
+        width: 90%;
+        &_subtitle {
+          height: auto;
+        }
       }
     }
 
@@ -1170,55 +1140,18 @@
       }
     }
 
-    .homeForm {
-      &__content {
-        padding: 0 0 0 40px;
-      }
-
-      &__title {
-        font-size: 26px;
-        line-height: 35px;
-        margin: 0 0 10px;
-      }
-
-      img {
-        width: 35%;
-      }
-
-      &__input {
-        width: 195px;
-        line-height: 20px;
-        font-size: 15px;
-
-        &::placeholder {
-          font-size: 15px;
-          line-height: 20px;
-        }
-      }
-
-      .margin-form {
-        margin: 0 0 0 10px;
-      }
-
-      &__btn {
-        line-height: 20px;
-        font-size: 15px;
-        width: 400px;
-        margin: 10px 0 0;
-      }
-
-      &__checkbox {
-        margin: 10px 0 0;
-
-        p {
-          line-height: normal;
-        }
-      }
-    }
   }
 }
 
 @media (max-width: 768px) {
+
+  .sale {
+    height: 300px;
+  }
+  .sale .swiper {
+    height: 300px !important;
+  }
+
   .homeMain {
     .container {
       max-width: 576px;
@@ -1267,6 +1200,7 @@
 
       .swiper {
         height: 299px;
+
         .swiper-pagination-bullet {
           width: 10px;
           height: 10px;
@@ -1302,30 +1236,6 @@
       }
     }
 
-    .homeForm {
-      &__content {
-        padding: 0 0 0 30px;
-        width: 63%;
-
-      }
-
-      &__title {
-        font-size: 22px;
-        line-height: 25px;
-      }
-
-      &__btn {
-        width: 100%;
-      }
-
-      &__input {
-        width: calc(50% - 5px);
-      }
-
-      img {
-        height: 148.6px;
-      }
-    }
 
     .news {
       padding: 0 0 30px;
@@ -1387,10 +1297,20 @@
 
     .work {
 
-      padding: 0 20px 150px !important;
 
       &__card {
         width: 100%;
+        &_title {
+          font-size: 18px;
+          line-height: 25px;
+        }
+        &_subtitle {
+          font-size: 15px;
+          line-height: 19px;
+        }
+      }
+      .swiper {
+        height: 900px;
       }
 
       .swiper-button-prev {
@@ -1407,9 +1327,11 @@
 
       .swiper {
         position: static;
+
         .swiper-pagination {
           z-index: 2;
         }
+
         .swiper-pagination-bullet {
           width: 8px;
           height: 8px;
@@ -1452,28 +1374,6 @@
       }
     }
 
-    .homeForm {
-      &__box {
-        flex-direction: column;
-        row-gap: 30px;
-        padding: 0 0 20px;
-      }
-
-      &__title {
-        text-align: center;
-      }
-
-      &__content {
-        padding: 20px 20px 0;
-        width: 100%;
-      }
-
-      img {
-        width: 60%;
-        display: block;
-        margin: 0 auto;
-      }
-    }
   }
 
 }
@@ -1537,12 +1437,16 @@
       &__row {
         width: 100%;
       }
+      .swiper {
+        height: auto;
+      }
 
       &__card {
         flex-direction: column-reverse;
 
         &_title {
           text-align: center;
+          font-size: 17px;
 
           &::before {
             left: 50%;
@@ -1551,36 +1455,20 @@
         }
 
         &_subtitle {
-          font-size: 17px;
-          margin: 0 0 10px;
+          font-size: 16px;
+          margin: 0 0 20px;
         }
       }
     }
 
-    .homeForm {
-      &__title {
-        font-size: 20px;
-        margin: 0 0 20px;
-      }
-
-      &__checkbox {
-        margin: 20px 0 0;
-      }
-
-      &__btn {
-        margin: 20px 0 0;
-      }
-
-      img {
-        width: 70%;
-      }
-    }
 
     .sale {
       height: 269.8px;
+
       &__card {
         padding: 40px 15px;
       }
+
       .swiper {
         height: 269.8px;
       }
@@ -1589,10 +1477,12 @@
     .catalog {
       &__card {
         padding: 14px 0 15px;
+
         &_title {
           font-size: 14px;
           line-height: 18px;
         }
+
         &_btn {
           font-size: 14px;
           line-height: 16px;
@@ -1605,9 +1495,11 @@
       .margin {
         margin: 40px 0 30px;
       }
+
       &__list {
         padding: 30px 0 0;
       }
+
       &__card {
         img {
           width: 100%;
@@ -1619,6 +1511,7 @@
       &__title {
         margin: 0 0 25px;
       }
+
       &__subtitle {
         font-size: 16px;
         line-height: 28px;
@@ -1633,5 +1526,71 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 1600px) {
+  .homeForm .margin-form {
+    margin: 0;
+  }
+  .ForminputsAndBtn {
+    flex-flow: row wrap;
+    row-gap: 25px;
+  }
+  .homeForm__title {
+    margin-bottom: 30px;
+  }
+  .homeForm__content {
+    padding: 0 0 0 30px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .homeForm__content {
+    padding: 50px;
+  }
+  .homeForm {
+    img {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .homeForm__checkbox p {
+    font-size: 16px;
+  }
+  .homeForm__btn {
+    font-size: 20px;
+  }
+  .homeForm__checkbox input {
+    width: auto;
+    height: auto;
+  }
+  .homeForm__title {
+    font-size: 32px;
+    line-height: normal;
+  }
+
+  .homeForm__input {
+    width: 100%;
+  }
+  .homeForm__btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .homeForm__btn {
+    font-size: 18px;
+  }
+  .homeForm__title {
+    font-size: 28px;
+  }
+  .homeForm__checkbox p {
+    font-size: 14px;
+  }
+  .homeForm__content {
+    padding: 30px;
   }
 }

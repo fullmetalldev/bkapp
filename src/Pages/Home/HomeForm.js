@@ -9,17 +9,18 @@ const HomeForm = () => {
                     <div className="homeForm__content">
                         <h2 className="homeForm__title">Контрактное производство</h2>
                         <form>
-                            <label>
+                            <label className="ForminputsAndBtn">
                                 <input className="homeForm__input" placeholder="Телефон" type="text"/>
-                            </label>
-                            <label className="margin-form">
                                 <input className="homeForm__input" placeholder="Имя" type="text"/>
+                                <button className="homeForm__btn" type="submit">Обсудить проект</button>
                             </label>
-                            <button className="homeForm__btn" type="submit">Обсудить проект</button>
-                            <label className="homeForm__checkbox">
-                                <input type="checkbox" checked/>
+                            <div className="homeForm__checkbox box">
+                                <label className="control control--checkbox">
+                                    <input type="checkbox" disabled="disabled" checked="checked"/>
+                                    <div className="control__indicator"></div>
+                                </label>
                                 <p>Ваши данные защищены и используются только для связи с вами</p>
-                            </label>
+                            </div>
                         </form>
                     </div>
                     <img src={ProjectImg} alt="Form"/>

@@ -236,7 +236,7 @@
   left: 0;
 }
 .work__card_subtitle {
-  height: 90px;
+  height: 120px;
   font-size: 20px;
   line-height: 30px;
 }
@@ -482,6 +482,9 @@
   cursor: pointer;
 }
 
+.homeForm .container {
+  width: 100%;
+}
 .homeForm__box {
   background: #BBD0BD;
   display: flex;
@@ -491,15 +494,21 @@
 .homeForm__content {
   padding: 0 0 0 100px;
 }
+.homeForm__content form {
+  display: flex;
+  flex-direction: column;
+}
+.homeForm__content form .ForminputsAndBtn {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
 .homeForm__title {
   font-size: 48px;
   line-height: 65px;
   text-transform: capitalize;
   color: #FFFFFF;
   margin: 0 0 50px;
-}
-.homeForm .margin-form {
-  margin: 0 25px 0;
 }
 .homeForm__btn {
   background: #569E28;
@@ -595,6 +604,16 @@
   .homeMain .work .swiper-button-next {
     right: 0;
   }
+  .homeMain .work__card {
+    padding: 20px 10px 20px 20px;
+  }
+  .homeMain .work__card_title {
+    margin: 0 0 5px;
+    padding: 0 0 10px;
+  }
+  .homeMain .work__card_subtitle {
+    font-size: 19px;
+  }
   .homeMain .sale .swiper {
     height: 431px;
   }
@@ -620,23 +639,6 @@
   .homeMain .catalog__card {
     margin: 0 30px;
   }
-  .homeMain .homeForm__content {
-    padding: 0 0 0 70px;
-  }
-  .homeMain .homeForm__title {
-    font-size: 42px;
-    line-height: 55px;
-  }
-  .homeMain .homeForm .margin-form {
-    margin: 0 20px;
-  }
-  .homeMain .homeForm__input {
-    width: 210px;
-  }
-  .homeMain .homeForm__btn {
-    padding: 14px 20px;
-    font-size: 22px;
-  }
   .homeMain .news__card_title {
     font-size: 28px;
   }
@@ -649,6 +651,15 @@
   .homeMain .news__more img {
     width: 30px;
     height: 30px;
+  }
+
+  .homeForm__btn {
+    width: calc(33.3333333333% - 25px);
+    padding: 15px 5px;
+  }
+
+  .homeForm__input {
+    width: calc(33.3333333333% - 25px);
   }
 }
 @media (max-width: 1400px) {
@@ -688,20 +699,23 @@
   }
   .homeMain .work__card {
     width: calc(50% - 20px);
-    column-gap: 30px;
+    column-gap: 20px;
     align-items: center;
     padding: 15px;
   }
   .homeMain .work__card_title {
     font-size: 22px;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
   }
   .homeMain .work__card_subtitle {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 22px;
   }
   .homeMain .work__card_img {
     padding: 0 30px;
-    width: 150px;
-    height: 130px;
+    width: 120px;
+    height: 110px;
   }
   .homeMain .work__card_img img {
     width: 94px;
@@ -715,28 +729,6 @@
   }
   .homeMain .sale__btn {
     font-size: 36px;
-  }
-  .homeMain .homeForm img {
-    width: 39%;
-  }
-  .homeMain .homeForm__title {
-    font-size: 38px;
-    line-height: 50px;
-    margin: 0 0 30px;
-  }
-  .homeMain .homeForm__input {
-    padding: 5px;
-    font-size: 17px;
-  }
-  .homeMain .homeForm__input::placeholder {
-    font-size: 17px;
-  }
-  .homeMain .homeForm__btn {
-    font-size: 18px;
-    padding: 5px 18px;
-  }
-  .homeMain .homeForm__checkbox p {
-    font-size: 17px;
   }
 }
 @media (max-width: 1200px) {
@@ -789,9 +781,16 @@
   .homeMain .work__card_title {
     font-size: 20px;
   }
+  .homeMain .work__card_subtitle {
+    font-size: 17px;
+  }
   .homeMain .work__card_img {
-    width: 120px;
-    height: 100px;
+    width: 100px;
+    height: 90px;
+  }
+  .homeMain .work__card_img img {
+    width: 80px;
+    height: 60px;
   }
   .homeMain .sale .sale__title {
     font-size: 65px;
@@ -808,33 +807,6 @@
   }
   .homeMain .catalog__card {
     margin: 0;
-  }
-  .homeMain .homeForm__title {
-    font-size: 32px;
-    line-height: 40px;
-    margin: 0 0 20px;
-  }
-  .homeMain .homeForm__input {
-    width: 170px;
-  }
-  .homeMain .homeForm__btn {
-    font-size: 17px;
-    padding: 5px 0;
-    width: 170px;
-  }
-  .homeMain .homeForm .margin-form {
-    margin: 0 10px;
-  }
-  .homeMain .homeForm__checkbox {
-    margin: 20px 0 0;
-    column-gap: 5px;
-  }
-  .homeMain .homeForm__checkbox p {
-    font-size: 14px;
-  }
-  .homeMain .homeForm__checkbox input {
-    width: 15px;
-    height: 15px;
   }
   .homeMain .news__list {
     padding: 70px 0 0;
@@ -854,6 +826,18 @@
   }
 }
 @media (max-width: 992px) {
+  .homeMain .catalog__title {
+    margin-top: 30px;
+  }
+
+  .sale {
+    height: 400px;
+  }
+
+  .sale .swiper {
+    height: 400px !important;
+  }
+
   .homeMain .container {
     max-width: 768px;
   }
@@ -881,11 +865,17 @@
   .homeMain .about__title {
     font-size: 36px;
   }
+  .homeMain .work__swiper .swiper {
+    height: 1050px;
+  }
   .homeMain .work__row {
     justify-content: center;
   }
   .homeMain .work__card {
-    width: 70%;
+    width: 90%;
+  }
+  .homeMain .work__card_subtitle {
+    height: auto;
   }
   .homeMain .sale {
     height: 420px;
@@ -905,43 +895,16 @@
   .homeMain .sale__btn {
     line-height: 32px;
   }
-  .homeMain .homeForm__content {
-    padding: 0 0 0 40px;
-  }
-  .homeMain .homeForm__title {
-    font-size: 26px;
-    line-height: 35px;
-    margin: 0 0 10px;
-  }
-  .homeMain .homeForm img {
-    width: 35%;
-  }
-  .homeMain .homeForm__input {
-    width: 195px;
-    line-height: 20px;
-    font-size: 15px;
-  }
-  .homeMain .homeForm__input::placeholder {
-    font-size: 15px;
-    line-height: 20px;
-  }
-  .homeMain .homeForm .margin-form {
-    margin: 0 0 0 10px;
-  }
-  .homeMain .homeForm__btn {
-    line-height: 20px;
-    font-size: 15px;
-    width: 400px;
-    margin: 10px 0 0;
-  }
-  .homeMain .homeForm__checkbox {
-    margin: 10px 0 0;
-  }
-  .homeMain .homeForm__checkbox p {
-    line-height: normal;
-  }
 }
 @media (max-width: 768px) {
+  .sale {
+    height: 300px;
+  }
+
+  .sale .swiper {
+    height: 300px !important;
+  }
+
   .homeMain .container {
     max-width: 576px;
   }
@@ -1004,23 +967,6 @@
     margin-bottom: 10px;
     display: block;
   }
-  .homeMain .homeForm__content {
-    padding: 0 0 0 30px;
-    width: 63%;
-  }
-  .homeMain .homeForm__title {
-    font-size: 22px;
-    line-height: 25px;
-  }
-  .homeMain .homeForm__btn {
-    width: 100%;
-  }
-  .homeMain .homeForm__input {
-    width: calc(50% - 5px);
-  }
-  .homeMain .homeForm img {
-    height: 148.6px;
-  }
   .homeMain .news {
     padding: 0 0 30px;
   }
@@ -1061,11 +1007,19 @@
   .homeMain .work__card {
     width: 85%;
   }
-  .homeMain .work {
-    padding: 0 20px 150px !important;
-  }
   .homeMain .work__card {
     width: 100%;
+  }
+  .homeMain .work__card_title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .homeMain .work__card_subtitle {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .homeMain .work .swiper {
+    height: 900px;
   }
   .homeMain .sale {
     height: 300px;
@@ -1108,23 +1062,6 @@
     font-size: 16px;
     padding: 15px;
   }
-  .homeMain .homeForm__box {
-    flex-direction: column;
-    row-gap: 30px;
-    padding: 0 0 20px;
-  }
-  .homeMain .homeForm__title {
-    text-align: center;
-  }
-  .homeMain .homeForm__content {
-    padding: 20px 20px 0;
-    width: 100%;
-  }
-  .homeMain .homeForm img {
-    width: 60%;
-    display: block;
-    margin: 0 auto;
-  }
 }
 @media (max-width: 425px) {
   .homeMain section:not(:nth-child(4)) {
@@ -1165,32 +1102,23 @@
   .homeMain .work__row {
     width: 100%;
   }
+  .homeMain .work .swiper {
+    height: auto;
+  }
   .homeMain .work__card {
     flex-direction: column-reverse;
   }
   .homeMain .work__card_title {
     text-align: center;
+    font-size: 17px;
   }
   .homeMain .work__card_title::before {
     left: 50%;
     transform: translate(-50%);
   }
   .homeMain .work__card_subtitle {
-    font-size: 17px;
-    margin: 0 0 10px;
-  }
-  .homeMain .homeForm__title {
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 0 20px;
-  }
-  .homeMain .homeForm__checkbox {
-    margin: 20px 0 0;
-  }
-  .homeMain .homeForm__btn {
-    margin: 20px 0 0;
-  }
-  .homeMain .homeForm img {
-    width: 70%;
   }
   .homeMain .sale {
     height: 269.8px;
@@ -1232,6 +1160,77 @@
   .homeMain .homeForm__checkbox input {
     width: 20px;
     height: 20px;
+  }
+}
+@media (max-width: 1600px) {
+  .homeForm .margin-form {
+    margin: 0;
+  }
+
+  .ForminputsAndBtn {
+    flex-flow: row wrap;
+    row-gap: 25px;
+  }
+
+  .homeForm__title {
+    margin-bottom: 30px;
+  }
+
+  .homeForm__content {
+    padding: 0 0 0 30px;
+  }
+}
+@media (max-width: 1400px) {
+  .homeForm__content {
+    padding: 50px;
+  }
+
+  .homeForm img {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .homeForm__checkbox p {
+    font-size: 16px;
+  }
+
+  .homeForm__btn {
+    font-size: 20px;
+  }
+
+  .homeForm__checkbox input {
+    width: auto;
+    height: auto;
+  }
+
+  .homeForm__title {
+    font-size: 32px;
+    line-height: normal;
+  }
+
+  .homeForm__input {
+    width: 100%;
+  }
+
+  .homeForm__btn {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .homeForm__btn {
+    font-size: 18px;
+  }
+
+  .homeForm__title {
+    font-size: 28px;
+  }
+
+  .homeForm__checkbox p {
+    font-size: 14px;
+  }
+
+  .homeForm__content {
+    padding: 30px;
   }
 }
 

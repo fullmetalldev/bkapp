@@ -118,9 +118,12 @@
 }
 
 .sectionBeforeFooter {
-  background-color: #FFFFFF;
+  background-color: transparent;
   display: flex;
   justify-content: flex-end;
+  position: sticky;
+  bottom: 0;
+  z-index: 101;
 }
 .sectionBeforeFooter__button {
   margin: 0 7% 0 0;

@@ -1,5 +1,6 @@
 import React from 'react';
 import back from "../../Pages/Catalog/imgs/BackGroundForm.png";
+import './orderForm.scss';
 
 const OrderForm = () => {
     return (
@@ -17,7 +18,12 @@ const OrderForm = () => {
                     </label>
                     <div className="sectionCatalog__form-btnAndInfo">
                         <div className="infoAndCheckbox">
-                            <input className="infoAndCheckbox_checkbox" type="checkbox" checked="checked"/>
+                           <div className="box">
+                               <label className="control control--checkbox">
+                                   <input type="checkbox" disabled="disabled" checked="checked"/>
+                                   <div className="control__indicator"></div>
+                               </label>
+                           </div>
                             <h4 className="infoAndCheckbox_title">Ваши данные защищены и используются
                                 только <br/> для связи с вами</h4>
                         </div>

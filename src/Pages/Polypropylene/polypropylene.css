@@ -157,6 +157,9 @@
   .polypropylene .environment__content {
     width: 50%;
   }
+  .polypropylene .work__card_subtitle {
+    height: auto;
+  }
 }
 @media (max-width: 1400px) {
   .polypropyleneHome .container {
@@ -292,6 +295,10 @@
   .polypropylene .environment__content {
     width: 50%;
   }
+  .polypropylene .work__card_subtitle {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
 @media (max-width: 992px) {
   .polypropylene .polypropyleneHome .container {
@@ -361,6 +368,17 @@
   .polypropylene .environment__content {
     width: 100%;
   }
+  .polypropylene .work__card_subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .polypropylene .polypropyleneHome__card_row p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .polypropylene .polypropyleneHome__card .quotes_second {
+    right: 40px;
+  }
 }
 @media (max-width: 576px) {
   .polypropylene {
@@ -395,6 +413,24 @@
     font-size: 20px;
     line-height: 30px;
   }
+  .polypropylene .polypropyleneHome__row .work__card {
+    width: 100%;
+  }
+  .polypropylene .polypropyleneHome__row .work__card_img {
+    width: 90px;
+    height: 80px;
+  }
+  .polypropylene .polypropyleneHome__row .work__card_img img {
+    width: 70px;
+    height: 45px;
+  }
+  .polypropylene .polypropyleneHome__row .polypropyleneHome__card {
+    width: 100%;
+  }
+  .polypropylene .polypropyleneHome__row .polypropyleneHome__card_row img {
+    width: 90px;
+    height: 60px;
+  }
 }
 @media (max-width: 425px) {
   .polypropylene {
@@ -403,19 +439,22 @@
   .polypropylene .polypropyleneHome__img {
     display: none;
   }
-  .polypropylene .polypropyleneHome .work__card_img {
-    width: 100px;
-    height: 80px;
+  .polypropylene .polypropyleneHome .work__card_title {
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    font-size: 18px;
+    line-height: 22px;
   }
-  .polypropylene .polypropyleneHome .work__card_img img {
-    width: 80px;
+  .polypropylene .polypropyleneHome .work__card_subtitle {
+    font-size: 14px;
+    line-height: 17px;
   }
   .polypropylene .polypropyleneHome__card {
     width: 100%;
   }
   .polypropylene .polypropyleneHome__card_row p {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 17px;
   }
   .polypropylene .environment__title {
     line-height: 30px;
@@ -435,6 +474,11 @@
   .polypropylene .polypropyleneSubtitle__descr {
     font-size: 16px;
     line-height: 20px;
+  }
+
+  .polypropylene .polypropyleneHome__card .quotes_first, .polypropylene .polypropyleneHome__card .quotes_second {
+    width: 18px;
+    height: 13px;
   }
 }
 
