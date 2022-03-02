@@ -205,6 +205,7 @@
   width: calc(50% - 35px);
   padding: 30px 15px 30px 30px;
   display: flex;
+  align-items: center;
   column-gap: 40px;
 }
 .work__card_img {
@@ -238,7 +239,6 @@
   height: 90px;
   font-size: 20px;
   line-height: 30px;
-  overflow: auto;
 }
 
 .sale {
@@ -1067,12 +1067,6 @@
   .homeMain .work__card {
     width: 100%;
   }
-  .homeMain .work .swiper-button-prev {
-    display: none;
-  }
-  .homeMain .work .swiper-button-next {
-    display: none;
-  }
   .homeMain .sale {
     height: 300px;
     position: relative;
@@ -1198,12 +1192,46 @@
   .homeMain .homeForm img {
     width: 70%;
   }
+  .homeMain .sale {
+    height: 269.8px;
+  }
+  .homeMain .sale__card {
+    padding: 40px 15px;
+  }
   .homeMain .sale .swiper {
-    height: 289.8px;
+    height: 269.8px;
+  }
+  .homeMain .catalog__card {
+    padding: 14px 0 15px;
+  }
+  .homeMain .catalog__card_title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .homeMain .catalog__card_btn {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 15px 5px;
+  }
+  .homeMain .news .margin {
+    margin: 40px 0 30px;
+  }
+  .homeMain .news__list {
+    padding: 30px 0 0;
+  }
+  .homeMain .news__card img {
+    width: 100%;
+  }
+  .homeMain .text__title {
+    margin: 0 0 25px;
   }
   .homeMain .text__subtitle {
     font-size: 16px;
     line-height: 28px;
+  }
+  .homeMain .homeForm__checkbox input {
+    width: 20px;
+    height: 20px;
   }
 }
 

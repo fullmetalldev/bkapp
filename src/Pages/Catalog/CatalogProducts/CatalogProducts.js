@@ -2,16 +2,10 @@ import React, {useState} from 'react';
 import "./catalogProducts.css";
 import arrow from "./imgs/arrowDown.png"
 import product1 from "./imgs/product1.png";
-import product2 from "./imgs/product2.png";
-import product3 from "./imgs/product3.png";
-import product4 from "./imgs/product4.png";
 import {Navigation} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import Supnica from "../../PlasticTableware/img/supnicapng.png";
-import Containers222 from "../../PlasticTableware/img/containers222.png";
-import Sousnica from "../../PlasticTableware/img/sousnica.png";
 
 const CatalogProducts = () => {
 
@@ -113,8 +107,8 @@ const CatalogProducts = () => {
             </div>
 
             <div className="sectionCatalog__afterFilterButtons">
-                <a className="sectionCatalog__afterFilterButtons-href" href="#test">Сбросить параметры</a>
-                <button className="sectionCatalog__afterFilterButtons-button">
+                <a className="sectionCatalog__afterFilterButtons-href more__hover" href="#test">Сбросить параметры</a>
+                <button className="sectionCatalog__afterFilterButtons-button btn-hover">
                     Показать результат
                 </button>
             </div>
@@ -136,42 +130,19 @@ const CatalogProducts = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                    </Swiper>
-                    <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
-                    <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
-                    <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
-                </div>
-                <div className="sectionCatalog__productsRow-card">
-                    <Swiper
-                        slidesPerView={1}
-                        spaceBetween={40}
-                        slidesPerGroup={1}
-                        loop={true}
-                        loopFillGroupWithBlank={true}
-                        pagination={{
-                            clickable: false,
-                        }}
-                        navigation={true}
-                        modules={[Navigation]}
-                        className="mySwiper"
-                    >
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
@@ -194,42 +165,19 @@ const CatalogProducts = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                    </Swiper>
-                    <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
-                    <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
-                    <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
-                </div>
-                <div className="sectionCatalog__productsRow-card">
-                    <Swiper
-                        slidesPerView={1}
-                        spaceBetween={40}
-                        slidesPerGroup={1}
-                        loop={true}
-                        loopFillGroupWithBlank={true}
-                        pagination={{
-                            clickable: false,
-                        }}
-                        navigation={true}
-                        modules={[Navigation]}
-                        className="mySwiper"
-                    >
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
@@ -252,42 +200,19 @@ const CatalogProducts = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                    </Swiper>
-                    <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
-                    <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
-                    <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
-                </div>
-                <div className="sectionCatalog__productsRow-card">
-                    <Swiper
-                        slidesPerView={1}
-                        spaceBetween={40}
-                        slidesPerGroup={1}
-                        loop={true}
-                        loopFillGroupWithBlank={true}
-                        pagination={{
-                            clickable: false,
-                        }}
-                        navigation={true}
-                        modules={[Navigation]}
-                        className="mySwiper"
-                    >
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
@@ -310,42 +235,19 @@ const CatalogProducts = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                    </Swiper>
-                    <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
-                    <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
-                    <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
-                </div>
-                <div className="sectionCatalog__productsRow-card">
-                    <Swiper
-                        slidesPerView={1}
-                        spaceBetween={40}
-                        slidesPerGroup={1}
-                        loop={true}
-                        loopFillGroupWithBlank={true}
-                        pagination={{
-                            clickable: false,
-                        }}
-                        navigation={true}
-                        modules={[Navigation]}
-                        className="mySwiper"
-                    >
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
@@ -368,42 +270,19 @@ const CatalogProducts = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                    </Swiper>
-                    <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
-                    <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
-                    <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
-                </div>
-                <div className="sectionCatalog__productsRow-card">
-                    <Swiper
-                        slidesPerView={1}
-                        spaceBetween={40}
-                        slidesPerGroup={1}
-                        loop={true}
-                        loopFillGroupWithBlank={true}
-                        pagination={{
-                            clickable: false,
-                        }}
-                        navigation={true}
-                        modules={[Navigation]}
-                        className="mySwiper"
-                    >
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
@@ -426,13 +305,19 @@ const CatalogProducts = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
@@ -455,13 +340,194 @@ const CatalogProducts = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                    </Swiper>
+                    <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
+                    <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
+                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
+                </div>
+                <div className="sectionCatalog__productsRow-card">
+                    <Swiper
+                        slidesPerView={1}
+                        spaceBetween={40}
+                        slidesPerGroup={1}
+                        loop={true}
+                        loopFillGroupWithBlank={true}
+                        pagination={{
+                            clickable: false,
+                        }}
+                        navigation={true}
+                        modules={[Navigation]}
+                        className="mySwiper"
+                    >
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                    </Swiper>
+                    <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
+                    <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
+                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
+                </div>
+                <div className="sectionCatalog__productsRow-card">
+                    <Swiper
+                        slidesPerView={1}
+                        spaceBetween={40}
+                        slidesPerGroup={1}
+                        loop={true}
+                        loopFillGroupWithBlank={true}
+                        pagination={{
+                            clickable: false,
+                        }}
+                        navigation={true}
+                        modules={[Navigation]}
+                        className="mySwiper"
+                    >
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                    </Swiper>
+                    <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
+                    <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
+                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
+                </div>
+                <div className="sectionCatalog__productsRow-card">
+                    <Swiper
+                        slidesPerView={1}
+                        spaceBetween={40}
+                        slidesPerGroup={1}
+                        loop={true}
+                        loopFillGroupWithBlank={true}
+                        pagination={{
+                            clickable: false,
+                        }}
+                        navigation={true}
+                        modules={[Navigation]}
+                        className="mySwiper"
+                    >
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                    </Swiper>
+                    <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
+                    <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
+                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
+                </div>
+                <div className="sectionCatalog__productsRow-card">
+                    <Swiper
+                        slidesPerView={1}
+                        spaceBetween={40}
+                        slidesPerGroup={1}
+                        loop={true}
+                        loopFillGroupWithBlank={true}
+                        pagination={{
+                            clickable: false,
+                        }}
+                        navigation={true}
+                        modules={[Navigation]}
+                        className="mySwiper"
+                    >
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                    </Swiper>
+                    <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
+                    <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
+                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
+                </div>
+                <div className="sectionCatalog__productsRow-card">
+                    <Swiper
+                        slidesPerView={1}
+                        spaceBetween={40}
+                        slidesPerGroup={1}
+                        loop={true}
+                        loopFillGroupWithBlank={true}
+                        pagination={{
+                            clickable: false,
+                        }}
+                        navigation={true}
+                        modules={[Navigation]}
+                        className="mySwiper"
+                    >
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/catalog/assecories/product">
+                                <img className="sectionCatalog__productsRow-card_img" src={product1} alt="product1"/>
+                            </a>
                         </SwiperSlide>
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>

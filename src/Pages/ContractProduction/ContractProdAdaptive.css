@@ -72,6 +72,12 @@
   .contractProduction__orderForm_checkbox span {
     font-size: 12px;
   }
+
+  .contractProduction__twoBlocks-left {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 20px;
+  }
 }
 
 /*# sourceMappingURL=ContractProdAdaptive.css.map */

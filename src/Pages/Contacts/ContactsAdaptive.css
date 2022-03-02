@@ -61,9 +61,22 @@
   .contacts {
     padding: 20px 10px;
   }
+  .contacts__map {
+    flex-direction: column;
+    row-gap: 30px;
+    background: none;
+  }
 
   .contacts .section__title {
     margin: 10px 0;
+  }
+
+  .contacts__map-right {
+    background: #BCD0BD;
+  }
+
+  .contacts__columns {
+    row-gap: 60px;
   }
 }
 

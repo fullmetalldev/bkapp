@@ -16,23 +16,28 @@ const Form = ({form, setForm}) => {
                     <div className="formBack-layer">
 
                     </div>
-
-                    <form className="form">
-
-
-                        <h2>Напишите нам</h2>
-
-                        <input className="form_inp" type="number" placeholder="Телефон"/>
-                        <input className="form_inp" type="text" placeholder="Имя"/>
-
-                        <div className="checkbox">
-                            <input type="checkbox" checked={true}/>
-                            <span>Ваши данные защищены и используются только для <br/> связи с вами</span>
+                    <div className="form-back-pos">
+                        <div onClick={() => setForm(!form)} className="form-close">
+                            X
                         </div>
 
-                        <button onClick={() => contentHandler()} className="form_button">Отправить</button>
+                        <form className="form">
 
-                    </form>
+
+                            <h2>Напишите нам</h2>
+
+                            <input className="form_inp" type="number" placeholder="Телефон"/>
+                            <input className="form_inp" type="text" placeholder="Имя"/>
+
+                            <div className="checkbox">
+                                <input type="checkbox" checked={true}/>
+                                <span>Ваши данные защищены и используются только для <br/> связи с вами</span>
+                            </div>
+
+                            <button onClick={() => contentHandler()} className="form_button">Отправить</button>
+
+                        </form>
+                    </div>
 
                 </div>
                 : <div className="thanks">

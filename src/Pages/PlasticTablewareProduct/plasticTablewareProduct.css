@@ -86,6 +86,10 @@
   line-height: 20px;
   font-feature-settings: "liga" off, "kern" off;
   color: #000000;
+  cursor: pointer;
+}
+.tablewareProduct__sort_item img {
+  cursor: pointer;
 }
 .tablewareProduct__sort .active {
   background: #DDCBB5;
@@ -137,6 +141,9 @@
 .tablewareProduct__descr_stats {
   border-top: 1px solid #F5F7FB;
   border-right: 1px solid #F5F7FB;
+}
+.tablewareProduct__descr_stats li {
+  cursor: pointer;
 }
 .tablewareProduct__descr_name {
   background: #CADBF126;
@@ -605,6 +612,12 @@
   .tablewareProduct .adaptive {
     display: none;
   }
+  .tablewareProduct .adaptive2 .swiper-button-prev {
+    display: flex;
+  }
+  .tablewareProduct .adaptive2 .swiper-button-next {
+    display: flex;
+  }
   .tablewareProduct__sort {
     margin: 0 0 30px;
   }
@@ -614,7 +627,7 @@
     row-gap: 20px;
   }
   .tablewareProduct__category_item {
-    width: 48%;
+    width: auto;
     font-size: 15px;
   }
   .tablewareProduct__list_item {

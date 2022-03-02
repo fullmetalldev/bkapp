@@ -237,117 +237,112 @@
   }
 }
 @media (max-width: 1200px) {
-  .polypropyleneHome {
-    padding: 130px 0 130px;
-  }
-  .polypropyleneHome .container {
+  .polypropylene .polypropyleneHome .container {
     max-width: 992px;
   }
-  .polypropyleneHome__img {
+  .polypropylene .polypropyleneHome__img {
     width: 200px;
     height: 180px;
   }
-  .polypropyleneHome__row {
+  .polypropylene .polypropyleneHome__row {
     column-gap: 20px;
   }
-  .polypropyleneHome .work__row {
+  .polypropylene .polypropyleneHome .work__row {
     column-gap: 20px;
   }
-  .polypropyleneHome .work__card {
+  .polypropylene .polypropyleneHome .work__card {
     width: calc(50% - 10px);
     column-gap: 20px;
   }
-  .polypropyleneHome .work__card_title {
+  .polypropylene .polypropyleneHome .work__card_title {
     font-size: 20px;
   }
-  .polypropyleneHome .work__card_img {
+  .polypropylene .polypropyleneHome .work__card_img {
     width: 120px;
     height: 100px;
   }
-  .polypropyleneHome__card {
+  .polypropylene .polypropyleneHome__card {
     padding: 0 15px 0 30px;
   }
-  .polypropyleneHome__card_row {
+  .polypropylene .polypropyleneHome__card_row {
     column-gap: 20px;
   }
-  .polypropyleneHome__card_row img {
+  .polypropylene .polypropyleneHome__card_row img {
     width: 132px;
     height: 65px;
   }
-
-  .environment .container {
+  .polypropylene .environment .container {
     max-width: 992px;
   }
-  .environment__image {
+  .polypropylene .environment__image {
     transform: translateY(-100%);
     top: 20px;
   }
-  .environment__title {
+  .polypropylene .environment__title {
     font-size: 30px;
   }
-  .environment__img {
+  .polypropylene .environment__img {
     width: 50%;
     height: auto;
   }
-  .environment__img img {
+  .polypropylene .environment__img img {
     width: 100%;
     height: auto;
   }
-  .environment__content {
+  .polypropylene .environment__content {
     width: 50%;
   }
 }
 @media (max-width: 992px) {
-  .polypropyleneHome .container {
+  .polypropylene .polypropyleneHome .container {
     max-width: 768px;
   }
-  .polypropyleneHome__card {
+  .polypropylene .polypropyleneHome__card {
     width: 70%;
     padding: 15px;
   }
-  .polypropyleneHome__card_row p {
+  .polypropylene .polypropyleneHome__card_row p {
     font-size: 19px;
   }
-  .polypropyleneHome__card_row img {
+  .polypropylene .polypropyleneHome__card_row img {
     width: 120px;
     height: 60px;
   }
-  .polypropyleneHome__card .quotes_first {
+  .polypropylene .polypropyleneHome__card .quotes_first {
     left: 23%;
     top: 0;
   }
-  .polypropyleneHome__card .quotes_second {
+  .polypropylene .polypropyleneHome__card .quotes_second {
     top: auto;
     right: 0;
     bottom: 15px;
   }
-  .polypropyleneHome__img {
+  .polypropylene .polypropyleneHome__img {
     width: 150px;
     height: 130px;
   }
-  .polypropyleneHome__row {
+  .polypropylene .polypropyleneHome__row {
     justify-content: center;
   }
-  .polypropyleneHome__row .work__card {
+  .polypropylene .polypropyleneHome__row .work__card {
     width: 70%;
   }
-
-  .environment .container {
+  .polypropylene .environment .container {
     max-width: 768px;
   }
-  .environment__image {
+  .polypropylene .environment__image {
     width: 200px;
     height: 125px;
     top: 0;
   }
-  .environment__row {
+  .polypropylene .environment__row {
     justify-content: center;
     flex-direction: column-reverse;
   }
-  .environment__img {
+  .polypropylene .environment__img {
     width: 70%;
   }
-  .environment__content {
+  .polypropylene .environment__content {
     width: 70%;
     margin: 0 0 50px;
   }
@@ -356,16 +351,14 @@
   .polypropylene .container {
     max-width: 576px;
   }
-
-  .polypropyleneHome__img {
+  .polypropylene .polypropyleneHome__img {
     width: 100px;
     height: 80px;
   }
-  .polypropyleneHome__comment {
+  .polypropylene .polypropyleneHome__comment {
     margin: 20px 0 30px;
   }
-
-  .environment__content {
+  .polypropylene .environment__content {
     width: 100%;
   }
 }

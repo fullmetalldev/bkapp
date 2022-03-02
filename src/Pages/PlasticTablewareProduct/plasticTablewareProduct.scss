@@ -102,6 +102,10 @@
         line-height: 20px;
         font-feature-settings: 'liga' off, 'kern' off;
         color: #000000;
+        cursor: pointer;
+      }
+      & img {
+        cursor: pointer;
       }
     }
 
@@ -162,6 +166,9 @@
     &_stats {
       border-top: 1px solid #F5F7FB;
       border-right: 1px solid #F5F7FB;
+      li {
+        cursor: pointer;
+      }
     }
 
     &_name {
@@ -754,8 +761,17 @@
         display: none;
       }
     }
+
     .adaptive {
       display: none;
+    }
+    .adaptive2 {
+      .swiper-button-prev {
+        display: flex;
+      }
+      .swiper-button-next {
+        display: flex;
+      }
     }
     &__sort {
       margin: 0 0 30px;
@@ -765,7 +781,7 @@
       justify-content: center;
       row-gap: 20px;
       &_item {
-        width: 48%;
+        width: auto;
         font-size: 15px;
       }
     }

@@ -68,8 +68,21 @@
   }
   .contacts{
     padding: 20px 10px;
+    &__map {
+      flex-direction: column;
+      row-gap: 30px;
+      background: none;
+    }
   }
   .contacts .section__title{
     margin: 10px 0;
+  }
+  .contacts__map-left {
+  }
+  .contacts__map-right {
+    background: #BCD0BD;
+  }
+  .contacts__columns {
+    row-gap: 60px;
   }
 }

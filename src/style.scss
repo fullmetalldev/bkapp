@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,11 +6,12 @@
   text-decoration: none;
   font-family: Montserrat, sans-serif;
 }
+
 button {
   cursor: pointer;
 }
 
-.navLink{
+.navLink {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -18,12 +19,13 @@ button {
   color: #393939;
   transition: 0.3s;
 }
-.navLink:hover{
+
+.navLink:hover {
   color: #FF5555;
   transition: 0.3s;
 }
 
-.container{
+.container {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
@@ -46,10 +48,23 @@ button {
   margin: 0 0 70px;
 }
 
+@media (max-width: 425px) {
+  .section__navi {
+    margin: 0 0 30px;
+  }
+}
+
 .more__hover:hover {
   color: #FF5555;
   transition: 0.3s;
   cursor: pointer;
+}
+
+.btn-hover {
+  &:hover {
+    background-color: #9d8675;
+    transition: 0.3s;
+  }
 }
 
 @media (max-width: 1800px) {
@@ -69,27 +84,35 @@ button {
     font-size: 38px;
   }
 }
+
 @media (max-width: 1200px) {
   .section__title {
     font-size: 36px;
   }
 }
+
 @media (max-width: 992px) {
   .section__title {
     font-size: 32px;
   }
 }
+
 @media (max-width: 768px) {
   .section__title {
     font-size: 28px;
   }
 }
+
 @media (max-width: 576px) {
   .section__title {
     font-size: 24px;
     line-height: 35px;
   }
+  .tablewareProduct__descr_btn, .assecoriesProduct__right_btn {
+    display: none;
+  }
 }
+
 @media (max-width: 375px) {
   .section__title {
     font-size: 20px;

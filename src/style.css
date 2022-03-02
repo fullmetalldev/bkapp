@@ -50,10 +50,20 @@ button {
   margin: 0 0 70px;
 }
 
+@media (max-width: 425px) {
+  .section__navi {
+    margin: 0 0 30px;
+  }
+}
 .more__hover:hover {
   color: #FF5555;
   transition: 0.3s;
   cursor: pointer;
+}
+
+.btn-hover:hover {
+  background-color: #9d8675;
+  transition: 0.3s;
 }
 
 @media (max-width: 1800px) {
@@ -90,6 +100,10 @@ button {
   .section__title {
     font-size: 24px;
     line-height: 35px;
+  }
+
+  .tablewareProduct__descr_btn, .assecoriesProduct__right_btn {
+    display: none;
   }
 }
 @media (max-width: 375px) {

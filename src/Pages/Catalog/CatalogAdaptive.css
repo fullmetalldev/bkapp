@@ -207,6 +207,13 @@
   }
 }
 @media (max-width: 576px) {
+  .sectionCatalog .buttonsRow {
+    margin: 20px 0 0;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+  }
+
   .section__title {
     font-size: 24px;
   }

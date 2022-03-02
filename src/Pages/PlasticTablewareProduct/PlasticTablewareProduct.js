@@ -48,7 +48,7 @@ const PlasticTablewareProduct = () => {
                                     <img src={RightImg} alt="RightImg"/>
                                 </li>
                             </ul>
-                            <button className="tablewareProduct__sort_btn">Получить прайс-лист</button>
+                            <button className="tablewareProduct__sort_btn btn-hover">Получить прайс-лист</button>
                             <p className="tablewareProduct__sort_download more__hover">Скачать каталог</p>
                         </div>
                         <div className="tablewareProduct__gallery">

@@ -25,8 +25,7 @@ const Benefits = () => {
                             </div>
                             <div className="work__card_content">
                                 <h3 className="work__card_title">Собственное производство</h3>
-                                <p className="work__card_subtitle">Всю продукцию мы производим на собственных
-                                    производственных площадках.</p>
+                                <p className="work__card_subtitle">Всю продукцию мы производим на собственных</p>
                             </div>
                         </div>
                         <div className="work__card">
@@ -36,8 +35,7 @@ const Benefits = () => {
                             <div className="work__card_content">
                                 <h3 className="work__card_title">Работаем около 20 лет</h3>
                                 <p className="work__card_subtitle">На рынке пластмасс. Мы стабильная
-                                    компания с огромным опытом производства.
-                                    производственных площадках.</p>
+                                    компания с огромным опытом производства.</p>
                             </div>
                         </div>
                         <div className="work__card">

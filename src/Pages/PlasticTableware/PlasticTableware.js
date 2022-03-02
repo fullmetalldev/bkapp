@@ -127,7 +127,10 @@ const PlasticTableware = () => {
                                         </div>
                                     </div>
 
-
+                                    <button style={{margin: "0 auto", display: "block"}} className="sectionCatalog__afterFilterButtons-button btn-hover">
+                                        Показать результат
+                                    </button>
+                                    <a style={{padding: "0", textAlign: "center"}} className="sectionCatalog__afterFilterButtons-href more__hover" href="#test">Сбросить параметры</a>
                                 </div>
                             </div>
 
@@ -150,13 +153,19 @@ const PlasticTableware = () => {
                                         className="mySwiper"
                                     >
                                         <SwiperSlide>
-                                            <img src={Supnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Supnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Containers222} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Containers222} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Sousnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Sousnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                     </Swiper>
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер
@@ -183,13 +192,19 @@ const PlasticTableware = () => {
                                         className="mySwiper"
                                     >
                                         <SwiperSlide>
-                                            <img src={Containers222} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Containers222} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Supnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Supnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Sousnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Sousnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                     </Swiper>
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер круглый</h4>
@@ -214,13 +229,19 @@ const PlasticTableware = () => {
                                         className="mySwiper"
                                     >
                                         <SwiperSlide>
-                                            <img src={Sousnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Sousnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Containers222} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Containers222} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Supnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Supnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                     </Swiper>
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер с крышкой</h4>
@@ -245,13 +266,19 @@ const PlasticTableware = () => {
                                         className="mySwiper"
                                     >
                                         <SwiperSlide>
-                                            <img src={Supnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Supnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Containers222} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Containers222} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Sousnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Sousnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                     </Swiper>
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер «Супница»</h4>
@@ -276,13 +303,19 @@ const PlasticTableware = () => {
                                         className="mySwiper"
                                     >
                                         <SwiperSlide>
-                                            <img src={Containers222} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Containers222} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Supnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Supnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Sousnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Sousnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                     </Swiper>
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер круглый</h4>
@@ -307,13 +340,19 @@ const PlasticTableware = () => {
                                         className="mySwiper"
                                     >
                                         <SwiperSlide>
-                                            <img src={Sousnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Sousnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Containers222} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Containers222} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Supnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Supnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                     </Swiper>
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер с крышкой</h4>
@@ -338,13 +377,19 @@ const PlasticTableware = () => {
                                         className="mySwiper"
                                     >
                                         <SwiperSlide>
-                                            <img src={Supnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Supnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Containers222} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Containers222} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Sousnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Sousnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                     </Swiper>
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер «Супница»</h4>
@@ -369,13 +414,19 @@ const PlasticTableware = () => {
                                         className="mySwiper"
                                     >
                                         <SwiperSlide>
-                                            <img src={Containers222} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Containers222} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Supnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Supnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Sousnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Sousnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                     </Swiper>
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер круглый</h4>
@@ -400,13 +451,19 @@ const PlasticTableware = () => {
                                         className="mySwiper"
                                     >
                                         <SwiperSlide>
-                                            <img src={Sousnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Sousnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Containers222} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Containers222} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                         <SwiperSlide>
-                                            <img src={Supnica} alt="Supnica"/>
+                                            <a href="/catalog/tableware/product">
+                                                <img src={Supnica} alt="Supnica"/>
+                                            </a>
                                         </SwiperSlide>
                                     </Swiper>
                                     <h4 className="plasticTablewareCatalog__list_item-title">Контейнер с крышкой</h4>

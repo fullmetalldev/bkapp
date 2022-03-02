@@ -23,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
     &_title {
       font-weight: 500;
@@ -185,7 +186,7 @@
       display: flex;
       flex-direction: column;
       row-gap: 20px;
-      padding: 20px 30px;
+      padding: 20px 15px;
     }
 
     &_title {
@@ -499,11 +500,13 @@
     }
     &__subtitle {
       font-size: 16px;
+      margin-bottom: 0;
     }
     .buttonsRow {
       flex-direction: column;
       align-items: center;
       row-gap: 20px;
+      margin: 15px 0 0;
       a {
         width: 80%;
         text-align: center;
@@ -513,7 +516,8 @@
       }
     }
     &__card {
-      width: 60%;
+      width: 100%;
+      height: 170px;
     }
   }
 }
