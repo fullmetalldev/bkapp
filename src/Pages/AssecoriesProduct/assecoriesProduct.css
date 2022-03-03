@@ -147,6 +147,9 @@
 .assecoriesProduct__right_stats {
   width: 100%;
 }
+.assecoriesProduct__right_stats li:last-child {
+  padding-bottom: 45px;
+}
 .assecoriesProduct .tablewareProduct__cards_item {
   background: rgba(221, 203, 181, 0.15);
 }

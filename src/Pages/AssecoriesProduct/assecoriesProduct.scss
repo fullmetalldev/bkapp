@@ -169,6 +169,9 @@
 
     &_stats {
       width: 100%;
+      & li:last-child {
+        padding-bottom: 45px;
+      }
     }
   }
 

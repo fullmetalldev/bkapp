@@ -14,7 +14,8 @@ const BurgerMenu = ({form, setForm}) => {
                             <a className="lower">Комплектующие для стеклопакетов</a>
                             <a className="lower">Комплектующие для москитных сеток</a>
                             <a className="lower">Комплектующие для окон ПВХ</a>
-                            <a  href="/catalog/assecories/product" className="lower">Комплектующие для натяжных потолков</a>
+                            <a href="/catalog/assecories/product" className="lower">Комплектующие для натяжных
+                                потолков</a>
                             <a className="lower">Другие комплектующие</a>
                         </ul>
                         <ul className="BurgerMain__row-column">
@@ -52,7 +53,7 @@ const BurgerMenu = ({form, setForm}) => {
                     </div>
                 </div>
             </div>
-            <a onClick={()=> setForm(!form)} className="BurgerMain__btn">Заказать образец</a>
+            <a onClick={() => setForm(!form)} className="BurgerMain__btn">Заказать образец</a>
         </div>
     );
 };

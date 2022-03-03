@@ -9,7 +9,7 @@
   font-family: Montserrat, sans-serif;
 }
 
-button {
+button, input {
   cursor: pointer;
 }
 
@@ -61,8 +61,48 @@ button {
   cursor: pointer;
 }
 
+.btn-hover {
+  transition: 0.3s;
+  cursor: pointer;
+}
 .btn-hover:hover {
   background-color: #9d8675;
+  transition: 0.3s;
+}
+
+.btn-hover-light {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn-hover-light:hover {
+  background-color: #DDCBB5;
+  transition: 0.3s;
+}
+
+.btn-hover-blue {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn-hover-blue:hover {
+  background-color: #a1b0c5;
+  transition: 0.3s;
+}
+
+.btn-hover-blue-light {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn-hover-blue-light:hover {
+  background-color: #CADBF1;
+  transition: 0.3s;
+}
+
+.btn-hover-blue-light-second {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn-hover-blue-light-second:hover {
+  background-color: #CADBF126;
   transition: 0.3s;
 }
 

@@ -22,10 +22,10 @@ const PlasticTablewareProduct = () => {
                         высокотехнологичное оборудование для создания уникальных свойств изделий.
                     </p>
                     <div className="tablewareProduct__category">
-                        <p className="tablewareProduct__category_item">Для супа</p>
-                        <p className="tablewareProduct__category_item">Для пикника</p>
-                        <p className="tablewareProduct__category_item">Жёлтая</p>
-                        <p className="tablewareProduct__category_item">Пластиковый контейнер</p>
+                        <p className="tablewareProduct__category_item btn-hover-blue-light-second">Для супа</p>
+                        <p className="tablewareProduct__category_item btn-hover-blue-light-second">Для пикника</p>
+                        <p className="tablewareProduct__category_item btn-hover-blue-light-second">Жёлтая</p>
+                        <p className="tablewareProduct__category_item btn-hover-blue-light-second">Пластиковый контейнер</p>
                     </div>
                     <div className="tablewareProduct__row">
                         <div className="tablewareProduct__sort">
@@ -35,15 +35,15 @@ const PlasticTablewareProduct = () => {
                                     <p className="tablewareProduct__sort_item-name">Пластиковые контейнеры</p>
                                     <img src={RightImg} alt="RightImg"/>
                                 </li>
-                                <li className="tablewareProduct__sort_item">
+                                <li className="tablewareProduct__sort_item btn-hover-light">
                                     <p className="tablewareProduct__sort_item-name">Столовые приборы</p>
                                     <img src={RightImg} alt="RightImg"/>
                                 </li>
-                                <li className="tablewareProduct__sort_item">
+                                <li className="tablewareProduct__sort_item btn-hover-light">
                                     <p className="tablewareProduct__sort_item-name">Соусник одноразовый</p>
                                     <img src={RightImg} alt="RightImg"/>
                                 </li>
-                                <li className="tablewareProduct__sort_item">
+                                <li className="tablewareProduct__sort_item btn-hover-light">
                                     <p className="tablewareProduct__sort_item-name">Укупорка</p>
                                     <img src={RightImg} alt="RightImg"/>
                                 </li>
@@ -97,14 +97,14 @@ const PlasticTablewareProduct = () => {
                                     <li>Объем 1й коробки, м3</li>
                                 </ul>
                                 <ul className="tablewareProduct__descr_stats">
-                                    <li>360 мл</li>
-                                    <li>112 мм</li>
-                                    <li>Полипропилен</li>
-                                    <li>Прозрачный</li>
-                                    <li>шт.</li>
-                                    <li>500/25</li>
-                                    <li>8,0</li>
-                                    <li>0,096</li>
+                                    <li className="btn-hover-blue-light-second">360 мл</li>
+                                    <li className="btn-hover-blue-light-second">112 мм</li>
+                                    <li className="btn-hover-blue-light-second">Полипропилен</li>
+                                    <li className="btn-hover-blue-light-second">Прозрачный</li>
+                                    <li className="btn-hover-blue-light-second">шт.</li>
+                                    <li className="btn-hover-blue-light-second">500/25</li>
+                                    <li className="btn-hover-blue-light-second">8,0</li>
+                                    <li className="btn-hover-blue-light-second">0,096</li>
                                 </ul>
                             </div>
                         </div>

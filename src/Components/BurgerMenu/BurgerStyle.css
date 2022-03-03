@@ -1,3 +1,6 @@
+.BurgerMain {
+  z-index: 55555;
+}
 .BurgerMain a {
   cursor: pointer;
 }
@@ -7,6 +10,7 @@
   padding: 80px 0;
   height: calc(100vh - 237px);
   animation: startBack 0.5s linear;
+  z-index: 55555;
 }
 .BurgerMain .headerContainer {
   position: relative;
@@ -42,6 +46,8 @@
   color: rgba(255, 255, 255, 0.7);
 }
 .BurgerMain__btn {
+  position: relative;
+  z-index: 55555;
   border: none;
   padding: 34px 0;
   display: flex;

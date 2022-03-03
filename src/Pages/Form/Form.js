@@ -30,8 +30,11 @@ const Form = ({form, setForm}) => {
                             <input className="form_inp" type="text" placeholder="Имя"/>
 
                             <div className="checkbox">
-                                <input type="checkbox" checked={true}/>
-                                <span>Ваши данные защищены и используются только для <br/> связи с вами</span>
+                                <label className="control control--checkbox">
+                                    <input type="checkbox" disabled="disabled" checked="checked"/>
+                                    <div className="control__indicator"></div>
+                                </label>
+                                <p>Ваши данные защищены и используются только для <br/>связи с вами</p>
                             </div>
 
                             <button onClick={() => contentHandler()} className="form_button">Отправить</button>

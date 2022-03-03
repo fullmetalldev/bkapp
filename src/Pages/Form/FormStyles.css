@@ -1,9 +1,9 @@
 .formBack {
   background: url("back.png") center/cover;
+  z-index: 555555555;
   width: 1206px;
   height: 656px;
   position: fixed;
-  z-index: 1000;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -99,18 +99,18 @@
   height: 100vh;
   background: #00000080;
   position: fixed;
-  z-index: 200;
+  z-index: 555555554;
   top: 0;
   left: 0;
   animation: startFormBlackLayer 0.5s linear;
 }
 
 .thanks {
+  z-index: 555555555;
   background: url("back.png") center/cover;
   width: 1206px;
   height: 656px;
   position: fixed;
-  z-index: 1000;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);

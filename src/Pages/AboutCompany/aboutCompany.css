@@ -383,6 +383,25 @@
   .aboutCompany .container {
     max-width: 768px;
   }
+  .aboutCompany .aboutCompanyHome__row {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .aboutCompany .aboutCompanyHome__card {
+    width: 100%;
+  }
+  .aboutCompany .aboutCompanyHome__card_title {
+    font-size: 28px;
+  }
+  .aboutCompany .aboutCompanyHome__card_subtitle {
+    font-size: 22px;
+  }
+  .aboutCompany .aboutCompanyHome__card_descr {
+    font-size: 20px;
+  }
+  .aboutCompany .aboutCompanyHome__item_subtitle {
+    font-size: 20px;
+  }
 
   .aboutFacts__row {
     justify-content: center;
@@ -390,26 +409,6 @@
   }
   .aboutFacts__card {
     width: 40%;
-  }
-
-  .aboutCompanyHome__row {
-    flex-direction: column;
-    row-gap: 30px;
-  }
-  .aboutCompanyHome__card {
-    width: 100%;
-  }
-  .aboutCompanyHome__card_title {
-    font-size: 28px;
-  }
-  .aboutCompanyHome__card_subtitle {
-    font-size: 22px;
-  }
-  .aboutCompanyHome__card_descr {
-    font-size: 20px;
-  }
-  .aboutCompanyHome__item_subtitle {
-    font-size: 20px;
   }
 
   .cycle__img {
@@ -486,25 +485,27 @@
   .aboutCompany .container {
     max-width: 576px;
   }
-
-  .aboutCompanyHome__row {
+  .aboutCompany .aboutCompanyHome__row {
     margin: 30px 0 0;
   }
-  .aboutCompanyHome__card_title {
+  .aboutCompany .aboutCompanyHome__card {
+    width: 100%;
+  }
+  .aboutCompany .aboutCompanyHome__card_title {
     font-size: 22px;
     margin: 0 0 20px;
   }
-  .aboutCompanyHome__card_descr {
+  .aboutCompany .aboutCompanyHome__card_descr {
     font-size: 18px;
   }
-  .aboutCompanyHome__img {
+  .aboutCompany .aboutCompanyHome__img {
     width: 80%;
   }
-  .aboutCompanyHome__item {
+  .aboutCompany .aboutCompanyHome__item {
     margin: 20px 0 0;
     padding: 20px;
   }
-  .aboutCompanyHome__item_subtitle {
+  .aboutCompany .aboutCompanyHome__item_subtitle {
     font-size: 18px;
     line-height: 170%;
   }
@@ -580,6 +581,9 @@
   .aboutCompany {
     padding: 20px 20px;
   }
+  .aboutCompany .aboutCompanyHome__card {
+    width: 100%;
+  }
   .aboutCompany .aboutCompanyHome__card_subtitle {
     line-height: 25px;
     font-size: 20px;
@@ -649,6 +653,9 @@
 @media (max-width: 425px) {
   .aboutCompany {
     padding: 0 10px;
+  }
+  .aboutCompany .aboutCompanyHome__card {
+    width: 100%;
   }
   .aboutCompany .aboutCompanyHome__card_subtitle {
     font-size: 18px;

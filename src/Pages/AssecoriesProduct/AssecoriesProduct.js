@@ -29,11 +29,11 @@ const AssecoriesProduct = () => {
                 <div className="assecoriesProduct__row">
                     <div className="assecoriesProduct__sort">
                         <div className="assecoriesProduct__sort_top">
-                            <p className="active">Комплектующие для москитных сеток</p>
-                            <p>Комплектующие для москитных сеток</p>
-                            <p>Комплектующие для стеклопакетов</p>
-                            <p>Комплектующие для окон ПВХ</p>
-                            <p>Другие комплектующие</p>
+                            <p className="active btn-hover-blue-light">Комплектующие для москитных сеток</p>
+                            <p className=" btn-hover-blue-light">Комплектующие для москитных сеток</p>
+                            <p className=" btn-hover-blue-light">Комплектующие для стеклопакетов</p>
+                            <p className=" btn-hover-blue-light">Комплектующие для окон ПВХ</p>
+                            <p className=" btn-hover-blue-light">Другие комплектующие</p>
                         </div>
                         <div className="assecoriesProduct__sort_bot">
                             <h3>Заказать образец</h3>
@@ -102,13 +102,13 @@ const AssecoriesProduct = () => {
                                 <li>Объем 1й коробки, м3</li>
                             </ul>
                             <ul className="assecoriesProduct__right_stats">
-                                <li>22 мм</li>
-                                <li>ПНД</li>
-                                <li>В ассортименте</li>
-                                <li>шт.</li>
-                                <li>2000</li>
-                                <li>8,8 кг</li>
-                                <li>0,06 м3</li>
+                                <li className="btn-hover">22 мм</li>
+                                <li className="btn-hover">ПНД</li>
+                                <li className="btn-hover">В ассортименте</li>
+                                <li className="btn-hover">шт.</li>
+                                <li className="btn-hover">2000</li>
+                                <li className="btn-hover">8,8 кг</li>
+                                <li className="btn-hover">0,06 м3</li>
                             </ul>
                         </div>
                         <button className="assecoriesProduct__right_btn" type="button">Заказать товар</button>
