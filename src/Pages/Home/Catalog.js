@@ -34,48 +34,48 @@ const Catalog = () => {
                                    <div className="catalog__card">
                                        <img src={CatalogContainer} alt="CatalogContainer"/>
                                        <h3 className="catalog__card_title">Пластиковые контейнеры</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Tableware} alt="Tableware"/>
                                        <h3 className="catalog__card_title">Одноразовая посуда</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Snacks} alt="Snacks"/>
                                        <h3 className="catalog__card_title">Посуда для хранения</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={CatalogContainer} alt="CatalogContainer"/>
                                        <h3 className="catalog__card_title">Пластиковые контейнеры</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Tableware} alt="Snacks"/>
                                        <h3 className="catalog__card_title">Посуда для хранения</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Snacks} alt="Snacks"/>
                                        <h3 className="catalog__card_title">Посуда для хранения</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                            </Swiper>
                        </div>
                    </div>
-                   <div className="tableware adaptive">
+                   <div className="adaptive">
                        <div className="container">
                            <h2 className="catalog__title">Каталог посуды</h2>
                            <Swiper
@@ -87,7 +87,7 @@ const Catalog = () => {
                                pagination={{
                                    clickable: false,
                                }}
-                               navigation={false}
+                               navigation={true}
                                modules={[Navigation]}
                                className="mySwiper"
                            >
@@ -95,42 +95,42 @@ const Catalog = () => {
                                    <div className="catalog__card">
                                        <img src={CatalogContainer} alt="CatalogContainer"/>
                                        <h3 className="catalog__card_title">Пластиковые контейнеры</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Tableware} alt="Tableware"/>
                                        <h3 className="catalog__card_title">Одноразовая посуда</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Snacks} alt="Snacks"/>
                                        <h3 className="catalog__card_title">Посуда для хранения</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={CatalogContainer} alt="CatalogContainer"/>
                                        <h3 className="catalog__card_title">Пластиковые контейнеры</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Tableware} alt="Snacks"/>
                                        <h3 className="catalog__card_title">Посуда для хранения</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Snacks} alt="Snacks"/>
                                        <h3 className="catalog__card_title">Посуда для хранения</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                            </Swiper>
@@ -156,48 +156,48 @@ const Catalog = () => {
                                    <div className="catalog__card">
                                        <img src={Ceiling} alt="Ceiling"/>
                                        <h3 className="catalog__card_title">Комплектующие для натяжных потолков</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={HardCeiling} alt="HardCeiling"/>
                                        <h3 className="catalog__card_title">Комплектующие для натяжных потолков</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Window} alt="Window"/>
                                        <h3 className="catalog__card_title">Комплектующие для окон пвх</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Ceiling} alt="Ceiling"/>
                                        <h3 className="catalog__card_title">Комплектующие для натяжных потолков</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={HardCeiling} alt="HardCeiling"/>
                                        <h3 className="catalog__card_title">Комплектующие для натяжных потолков</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Window} alt="Window"/>
                                        <h3 className="catalog__card_title">Комплектующие для окон пвх</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                            </Swiper>
                        </div>
                    </div>
-                   <div className="accessorie adaptive">
+                   <div className="adaptive">
                        <div className="container">
                            <h2 className="catalog__title">Каталог комплектующих</h2>
                            <Swiper
@@ -209,7 +209,7 @@ const Catalog = () => {
                                pagination={{
                                    clickable: false,
                                }}
-                               navigation={false}
+                               navigation={true}
                                modules={[Navigation]}
                                className="mySwiper"
                            >
@@ -217,42 +217,42 @@ const Catalog = () => {
                                    <div className="catalog__card">
                                        <img src={Ceiling} alt="Ceiling"/>
                                        <h3 className="catalog__card_title">Комплектующие для натяжных потолков</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={HardCeiling} alt="HardCeiling"/>
                                        <h3 className="catalog__card_title">Комплектующие для натяжных потолков</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Window} alt="Window"/>
                                        <h3 className="catalog__card_title">Комплектующие для окон пвх</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Ceiling} alt="Ceiling"/>
                                        <h3 className="catalog__card_title">Комплектующие для натяжных потолков</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={HardCeiling} alt="HardCeiling"/>
                                        <h3 className="catalog__card_title">Комплектующие для натяжных потолков</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                                <SwiperSlide>
                                    <div className="catalog__card">
                                        <img src={Window} alt="Window"/>
                                        <h3 className="catalog__card_title">Комплектующие для окон пвх</h3>
-                                       <button className="catalog__card_btn" type="button">Перейти в раздел</button>
+                                       <button className="catalog__card_btn btn-hover" type="button">Перейти в раздел</button>
                                    </div>
                                </SwiperSlide>
                            </Swiper>

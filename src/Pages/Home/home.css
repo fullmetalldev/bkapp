@@ -294,6 +294,24 @@
 .catalog .adaptive {
   display: none;
 }
+.catalog .adaptive .swiper {
+  position: relative;
+}
+.catalog .adaptive .swiper .swiper-button-next, .catalog .adaptive .swiper .swiper-button-prev {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  box-shadow: 0 3.90838px 3.90838px rgba(0, 0, 0, 0.05);
+}
+.catalog .adaptive .swiper .swiper-button-next::after, .catalog .adaptive .swiper .swiper-button-prev::after {
+  color: #9D8675;
+  font-weight: bold;
+  font-size: 24px;
+}
 .catalog .tableware {
   padding: 0 70px 70px;
   position: relative;
