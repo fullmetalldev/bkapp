@@ -60,8 +60,12 @@
 }
 
 @media (max-width: 500px) {
+  .BurgerMain__background{
+    padding: 10px 20px 20px 20px;
+  }
   .BurgerMain__row-column .upper{
     font-size: 20px;
+    margin-top: 10px;
   }
   .BurgerMain__row-column .lower{
     font-size: 16px;

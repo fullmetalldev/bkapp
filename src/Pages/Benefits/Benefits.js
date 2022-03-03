@@ -14,7 +14,7 @@ const Benefits = () => {
         <main>
             <section className="benefits">
                 <div className="container">
-                    <p className="section__navi"><a className="navLink" href="/">Главная</a> / Преимущества</p>
+                    <p className="section__navi"><a className="navLinktitle" href="/">Главная</a> / Преимущества</p>
                     <h1 className="section__title">Преимущества</h1>
                     <h2 className="benefits__title">Наша цель – выпускать высококачественные товары,
                         чтобы наши клиенты зарабатывали еще больше!</h2>

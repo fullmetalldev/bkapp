@@ -20,7 +20,7 @@ const CatalogSection = () => {
 
                 <section className="sectionCatalog__row">
 
-                    <h2 className="sectionCatalog__whichSection"><a className="navLink" href="/">Главная</a> / Каталог комплектующих</h2>
+                    <h2 className="sectionCatalog__whichSection"><a className="navLinktitle" href="/">Главная</a> / Каталог комплектующих</h2>
                     <h2 className="sectionCatalog__title">Каталог комплектующих</h2>
                     <h4 className="sectionCatalog__info">Используем современные безопасные материалы и добавки,
                         высокотехнологичное оборудование для создания уникальных свойств изделий.

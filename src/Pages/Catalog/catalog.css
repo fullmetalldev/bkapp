@@ -199,9 +199,6 @@
   display: flex;
   column-gap: 10px;
 }
-.sectionCatalog__form-btnAndInfo .infoAndCheckbox .box {
-  cursor: pointer;
-}
 .sectionCatalog__form-btnAndInfo .infoAndCheckbox_title {
   font-family: Montserrat, sans-serif;
   font-style: normal;

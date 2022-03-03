@@ -35,6 +35,14 @@
   }
 }
 @media (max-width: 576px) {
+  .section__navi {
+    margin-bottom: 30px;
+  }
+
+  .geography__img {
+    margin-top: 30px;
+  }
+
   .geography .container {
     max-width: 425px;
   }

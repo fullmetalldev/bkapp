@@ -14,7 +14,7 @@ const Vacancy = () => {
             <div className="container">
 
                 <div className="Vacancy__row">
-                    <h2 className="Vacancy__route">Главная / Вакансии</h2>
+                    <h2 className="Vacancy__route"><a className="navLinktitle" href="/">Главная</a> / Вакансии</h2>
                     <h2 className="section__title">Вакансии</h2>
 
                     <div className="Vacancy__twoBlocks">
