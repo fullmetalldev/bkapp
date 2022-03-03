@@ -148,7 +148,6 @@
 .tablewareProduct__descr ul {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
 }
 .tablewareProduct__descr li {
   padding: 16px 20px 25px;

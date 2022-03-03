@@ -147,7 +147,7 @@ const CatalogProducts = () => {
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
                     <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <button className="sectionCatalog__productsRow-card_btn btn-hover">Заказать</button>
                     <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
                 </div>
                 <div className="sectionCatalog__productsRow-card">
@@ -182,7 +182,7 @@ const CatalogProducts = () => {
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
                     <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <button className="sectionCatalog__productsRow-card_btn btn-hover">Заказать</button>
                     <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
                 </div>
                 <div className="sectionCatalog__productsRow-card">
@@ -217,7 +217,7 @@ const CatalogProducts = () => {
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
                     <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <button className="sectionCatalog__productsRow-card_btn btn-hover">Заказать</button>
                     <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
                 </div>
                 <div className="sectionCatalog__productsRow-card">
@@ -252,7 +252,7 @@ const CatalogProducts = () => {
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
                     <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <button className="sectionCatalog__productsRow-card_btn btn-hover">Заказать</button>
                     <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
                 </div>
                 <div className="sectionCatalog__productsRow-card">
@@ -287,7 +287,7 @@ const CatalogProducts = () => {
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
                     <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <button className="sectionCatalog__productsRow-card_btn btn-hover">Заказать</button>
                     <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
                 </div>
                 <div className="sectionCatalog__productsRow-card">
@@ -322,7 +322,7 @@ const CatalogProducts = () => {
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
                     <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <button className="sectionCatalog__productsRow-card_btn btn-hover">Заказать</button>
                     <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
                 </div>
                 <div className="sectionCatalog__productsRow-card">
@@ -357,7 +357,7 @@ const CatalogProducts = () => {
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
                     <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <button className="sectionCatalog__productsRow-card_btn btn-hover">Заказать</button>
                     <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
                 </div>
                 <div className="sectionCatalog__productsRow-card">
@@ -392,7 +392,7 @@ const CatalogProducts = () => {
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
                     <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <button className="sectionCatalog__productsRow-card_btn btn-hover">Заказать</button>
                     <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
                 </div>
                 <div className="sectionCatalog__productsRow-card">
@@ -427,7 +427,7 @@ const CatalogProducts = () => {
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
                     <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <button className="sectionCatalog__productsRow-card_btn btn-hover">Заказать</button>
                     <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
                 </div>
                 <div className="sectionCatalog__productsRow-card">
@@ -462,7 +462,7 @@ const CatalogProducts = () => {
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
                     <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <button className="sectionCatalog__productsRow-card_btn btn-hover">Заказать</button>
                     <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
                 </div>
                 <div className="sectionCatalog__productsRow-card">
@@ -497,7 +497,7 @@ const CatalogProducts = () => {
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
                     <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <button className="sectionCatalog__productsRow-card_btn btn-hover">Заказать</button>
                     <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
                 </div>
                 <div className="sectionCatalog__productsRow-card">
@@ -532,7 +532,7 @@ const CatalogProducts = () => {
                     </Swiper>
                     <h2 className="sectionCatalog__productsRow-card_name">Мост опорный Артек 530</h2>
                     <span className="sectionCatalog__productsRow-card_ml">360 мл</span>
-                    <button className="sectionCatalog__productsRow-card_btn">Заказать</button>
+                    <button className="sectionCatalog__productsRow-card_btn btn-hover">Заказать</button>
                     <a className="sectionCatalog__productsRow-card_href">Смотреть подробнее</a>
                 </div>
 

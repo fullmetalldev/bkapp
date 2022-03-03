@@ -476,6 +476,34 @@
     .container {
       max-width: 768px;
     }
+    .aboutCompanyHome {
+      &__row {
+        flex-direction: column;
+        row-gap: 30px;
+      }
+
+      &__card {
+        width: 100%;
+
+        &_title {
+          font-size: 28px;
+        }
+
+        &_subtitle {
+          font-size: 22px;
+        }
+
+        &_descr {
+          font-size: 20px;
+        }
+      }
+
+      &__item {
+        &_subtitle {
+          font-size: 20px;
+        }
+      }
+    }
   }
   .aboutFacts {
     &__row {
@@ -488,34 +516,6 @@
     }
   }
 
-  .aboutCompanyHome {
-    &__row {
-      flex-direction: column;
-      row-gap: 30px;
-    }
-
-    &__card {
-      width: 100%;
-
-      &_title {
-        font-size: 28px;
-      }
-
-      &_subtitle {
-        font-size: 22px;
-      }
-
-      &_descr {
-        font-size: 20px;
-      }
-    }
-
-    &__item {
-      &_subtitle {
-        font-size: 20px;
-      }
-    }
-  }
 
   .cycle {
     &__img {
@@ -609,37 +609,39 @@
     padding: 30px 0 30px;
   }
   .aboutCompany {
+
     .container {
       max-width: 576px;
     }
-  }
-  .aboutCompanyHome {
-    &__row {
-      margin: 30px 0 0;
-    }
-
-    &__card {
-      &_title {
-        font-size: 22px;
-        margin: 0 0 20px;
+    .aboutCompanyHome {
+      &__row {
+        margin: 30px 0 0;
       }
 
-      &_descr {
-        font-size: 18px;
+      &__card {
+        width: 100%;
+        &_title {
+          font-size: 22px;
+          margin: 0 0 20px;
+        }
+
+        &_descr {
+          font-size: 18px;
+        }
       }
-    }
 
-    &__img {
-      width: 80%;
-    }
+      &__img {
+        width: 80%;
+      }
 
-    &__item {
-      margin: 20px 0 0;
-      padding: 20px;
+      &__item {
+        margin: 20px 0 0;
+        padding: 20px;
 
-      &_subtitle {
-        font-size: 18px;
-        line-height: 170%;
+        &_subtitle {
+          font-size: 18px;
+          line-height: 170%;
+        }
       }
     }
   }
@@ -739,6 +741,7 @@
 
     .aboutCompanyHome {
       &__card {
+        width: 100%;
         &_subtitle {
           line-height: 25px;
           font-size: 20px;
@@ -818,6 +821,7 @@
     padding: 0 10px;
     .aboutCompanyHome {
       &__card {
+        width: 100%;
         &_subtitle {
           font-size: 18px;
           line-height: 22px;
