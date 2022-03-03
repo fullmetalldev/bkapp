@@ -22,7 +22,7 @@ const PlasticTableware = () => {
         <main>
             <section className="plasticTablewareHome">
                 <div className="container">
-                    <p className="section__navi"><a className="navLink" href="/">Главная</a> / Каталог комплектующих</p>
+                    <p className="section__navi"><a className="navLinktitle" href="/">Главная</a> / Каталог комплектующих</p>
                     <h1 className="section__title">Каталог пластиковой посуды</h1>
                     <p className="plasticTablewareHome__subtitle">Используем современные безопасные материалы и добавки,
                         высокотехнологичное оборудование для создания уникальных свойств изделий.</p>

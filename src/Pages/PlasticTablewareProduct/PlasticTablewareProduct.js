@@ -16,7 +16,7 @@ const PlasticTablewareProduct = () => {
         <>
             <section className="tablewareProduct">
                 <div className="container">
-                    <p className="section__navi"><a className="navLink" href="/">Главная</a> / <a className="navLink" href="/catalog/tableware">Каталог пластиковой посуды</a> / <a className="navLink" href="/catalog/tableware/product">Пластиковые контейнеры</a> / Контейнер “Плошка”, 360мл</p>
+                    <p className="section__navi"><a className="navLinktitle" href="/">Главная</a> / <a className="navLinktitle" href="/catalog/tableware">Каталог пластиковой посуды</a> / <a className="navLinktitle" href="/catalog/tableware/product">Пластиковые контейнеры</a> / Контейнер “Плошка”, 360мл</p>
                     <h1 className="section__title">Контейнер “Плошка”, 360мл</h1>
                     <p className="tablewareProduct__subtitle">Используем современные безопасные материалы и добавки,
                         высокотехнологичное оборудование для создания уникальных свойств изделий.

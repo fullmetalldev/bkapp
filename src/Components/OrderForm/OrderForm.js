@@ -18,7 +18,7 @@ const OrderForm = () => {
                     </label>
                     <div className="sectionCatalog__form-btnAndInfo">
                         <div className="infoAndCheckbox">
-                           <div className="box">
+                           <div className="cheeeckbox">
                                <label className="control control--checkbox">
                                    <input type="checkbox" disabled="disabled" checked="checked"/>
                                    <div className="control__indicator"></div>

@@ -41,8 +41,8 @@ function App() {
             {burgerMenu ? <BurgerMenu form={form} setForm={setForm}/> : ""}
             {cartScreen ? <CartScreen setCartScreen={setCartScreen}/> : ""}
             <Scroll/>
-            <Order setForm={setForm} form={form}/>
-            <Bag cartScreen={cartScreen} setCartScreen={setCartScreen}/>
+            {burgerMenu ? "" : <Order setForm={setForm} form={form}/>}
+            {burgerMenu ? "" : <Bag cartScreen={cartScreen} setCartScreen={setCartScreen}/>}
             {form ? <Form form={form} setForm={setForm}/> : ""}
             <Routes>
                 <Route path="/" element={<Home/>}/>

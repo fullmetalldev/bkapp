@@ -69,18 +69,19 @@
   .contacts{
     padding: 20px 10px;
     &__map {
+      margin-top: 40px;
       flex-direction: column;
       row-gap: 30px;
       background: none;
+      margin-bottom: 0;
     }
   }
   .contacts .section__title{
-    margin: 10px 0;
-  }
-  .contacts__map-left {
+    margin: 30px 0;
   }
   .contacts__map-right {
     background: #BCD0BD;
+    padding: 20px;
   }
   .contacts__columns {
     row-gap: 60px;

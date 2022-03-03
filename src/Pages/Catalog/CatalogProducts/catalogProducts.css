@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .sectionCatalog__filterRow {
   display: flex;
   column-gap: 40px;
@@ -32,7 +33,17 @@
   border: 1px solid #727272;
   box-sizing: border-box;
   border-radius: 2px;
+  -webkit-appearance: none;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sectionCatalog__filterRow-checkbox:checked::before {
+  content: "✓";
+  font-size: 16px;
+  color: #9D8675;
 }
 .sectionCatalog__filterRow-checkRow {
   z-index: 10;

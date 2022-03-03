@@ -19,7 +19,7 @@
 .details-box {
   position: fixed;
   right: 0;
-  z-index: 101;
+  z-index: 102;
 }
 .order {
   top: 19%;
@@ -145,10 +145,5 @@
   }
   .bag__count {
     font-size: 17px;
-  }
-}
-@media (max-width: 425px) {
-  .details-box {
-    display: none;
   }
 }

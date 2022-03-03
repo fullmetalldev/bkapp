@@ -37,7 +37,18 @@
     border: 1px solid #727272;
     box-sizing: border-box;
     border-radius: 2px;
+    -webkit-appearance: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  &-checkbox:checked::before {
+    content: "✓";
+    font-size: 16px;
+    color: #9D8675;
   }
 
   &-checkRow {
@@ -71,7 +82,8 @@
 
 .sectionCatalog__filterRow-filter {
   cursor: pointer;
-  .filterjustify{
+
+  .filterjustify {
     display: flex;
     width: 100%;
     justify-content: space-between;

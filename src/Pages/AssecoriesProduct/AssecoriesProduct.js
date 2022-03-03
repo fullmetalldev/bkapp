@@ -14,7 +14,7 @@ const AssecoriesProduct = () => {
     return (
         <section className="assecoriesProduct">
             <div className="container">
-                <p className="section__navi"><a className="navLink" href="/">Главная</a> / <a className="navLink" href="/catalog/accessories">Каталог комплектующих</a> / <a className="navLink" href="/catalog/assecories/product">Комплектующие для натяжных потолков</a> / Клин монтажный, разрезной</p>
+                <p className="section__navi"><a className="navLinktitle" href="/">Главная</a> / <a className="navLink" href="/catalog/accessories">Каталог комплектующих</a> / <a className="navLink" href="/catalog/assecories/product">Комплектующие для натяжных потолков</a> / Клин монтажный, разрезной</p>
                 <h1 className="section__title">Клин монтажный, разрезной (168х37х22)</h1>
                 <p className="tablewareProduct__subtitle">Используем современные безопасные материалы и добавки,
                     высокотехнологичное оборудование для создания уникальных свойств изделий.
